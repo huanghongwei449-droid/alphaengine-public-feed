@@ -1,0 +1,97 @@
+{
+  "schemaVersion": "alphaengine-public-feed-v1",
+  "publicSafe": true,
+  "generatedAt": "2026-08-17T13:59:10.731Z",
+  "sourceSnapshot": "2026-08-17T13:59:10.404Z",
+  "asOfDate": "2026年8月5日约22:20（盘中）",
+  "topics": 7,
+  "securities": 31,
+  "publicEvidence": 625,
+  "files": [
+    {
+      "path": "data/research-snapshot.json",
+      "bytes": 1033170,
+      "sha256": "b9e3d351eb25ef30842ecf66b366c44f07a9b8244c9627365f403582f9e8db9b"
+    },
+    {
+      "path": "data/market-recap.json",
+      "bytes": 37254,
+      "sha256": "fee21d8d59705926c497488e34eeb705394fba35ef3c5d2d360df1943982707e"
+    },
+    {
+      "path": "data/evidence-catalog.json",
+      "bytes": 792619,
+      "sha256": "1f22d7f596d0a765a25bdd353a97f335f82a892dcac058a7973a72d6657d481c"
+    },
+    {
+      "path": "data/latest-recap-delta.json",
+      "bytes": 6624,
+      "sha256": "0f150e1aed62d0e36b8f224b671afe58035c6f9b26f55cc052d63a2a017379c8"
+    },
+    {
+      "path": "data/ima-public-research-index.json",
+      "bytes": 119652,
+      "sha256": "e488d81285a7dbe0127838473e92c1cab4a81d1619073b09692ef7b1f2e8f8d2"
+    },
+    {
+      "path": "data/ima-research-coverage.json",
+      "bytes": 2853,
+      "sha256": "6fe8edc746aacd1a560892fb4eb4fdb529cc29c63abe2eaac8bef05db028ac20"
+    },
+    {
+      "path": "data/research-ontology.json",
+      "bytes": 60348,
+      "sha256": "2a01e84293d474d44e13c053faf0bb415a9da874db14e552d20b72317f38add0"
+    },
+    {
+      "path": "data/research-loop-board.json",
+      "bytes": 35750,
+      "sha256": "664d95af8d39036c991b80bb084be96c73f065bd2c8196aebb86c5f98e8c9640"
+    },
+    {
+      "path": "data/industry-research-index.json",
+      "bytes": 8923,
+      "sha256": "af4aa370ddd007cc7cf49c470c5b4b2e93888f193b8cda41188fd41db09203c7"
+    },
+    {
+      "path": "data/daily-research-handoff.json",
+      "bytes": 15055,
+      "sha256": "41fd3c9f6c4f8026c01f3cccb04a8a3e6231c0017a187a73af90ab15ebaee999"
+    },
+    {
+      "path": "data/research-evolution.json",
+      "bytes": 214727,
+      "sha256": "a3c9b6e22581031d1f752588979bdad00636c6fd308b5a82cc2eab1274278890"
+    },
+    {
+      "path": "data/research-priority-agenda.json",
+      "bytes": 65763,
+      "sha256": "7f9589f9bb92881dea9fefa67f33e8380df28b2f971176a25a67b9eaee83c8eb"
+    },
+    {
+      "path": "data/second-brain-agenda.json",
+      "bytes": 8193,
+      "sha256": "30eb8796e66bd6a5b276968d42e359fbf26e4f3fd07146c97925349244c5516d"
+    },
+    {
+      "path": "data/company-research-profiles.json",
+      "bytes": 14862,
+      "sha256": "95ca09252edecc0864694ebc2f2dc90027b3c2aa89aecac102658788f30d2081"
+    },
+    {
+      "path": "data/company-public-context.json",
+      "bytes": 41597,
+      "sha256": "77afeca7fc76b3b1d74f2cf8e280fb3461b925aa6511dbcb7cf34f647101f264"
+    },
+    {
+      "path": "data/company-public-dossiers.json",
+      "bytes": 52922,
+      "sha256": "c7c30050be967444dcba5612f939d8f64faad422d1763d83cd6f16a4b224ec9c"
+    },
+    {
+      "path": "data/company-fact-evidence.json",
+      "bytes": 102802,
+      "sha256": "9a794b54d68b0d02cd424d8c84657ba1762910e2491a2217c5221c59b98d4b8b"
+    }
+  ]
+}

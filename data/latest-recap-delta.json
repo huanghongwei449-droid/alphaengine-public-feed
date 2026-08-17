@@ -1,0 +1,250 @@
+{
+  "schemaVersion": "latest-recap-delta-v1",
+  "recapDate": "2026-08-14",
+  "source": "tmp_recap_20260814/evidence_index.json",
+  "publicEvidenceCount": 24,
+  "filteredPrivateEvidenceCount": 0,
+  "duplicatePublicEvidenceRemoved": 0,
+  "items": [
+    {
+      "id": "ev_20260814_market_01",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_market_02",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "PCB/CCL??????????????????????"
+    },
+    {
+      "id": "ev_20260814_market_03",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_market_04",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_market_05",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_01",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_02",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_03",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_04",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_05",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_06",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_07",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_08",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_09",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_10",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_11",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_12",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_13",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_macro_01",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_us_01",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "下一交易日价格、宽度与公司级事实"
+    },
+    {
+      "id": "ev_20260814_weekend_14",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "?????????/??????????????????????"
+    },
+    {
+      "id": "ev_20260814_weekend_15",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "????IDC????????????????????"
+    },
+    {
+      "id": "ev_20260814_weekend_16",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "??????????????????????????????"
+    },
+    {
+      "id": "ev_20260814_weekend_17",
+      "date": "2026-08-14",
+      "theme": "未分类",
+      "event": "",
+      "logic": "",
+      "source": "evidence",
+      "relatedStocks": [],
+      "nextWatch": "???????????????????A??????"
+    }
+  ]
+}

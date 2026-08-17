@@ -1,0 +1,258 @@
+{
+  "schemaVersion": "alphaengine-industry-research-index-v1",
+  "generatedAt": "2026-08-17T13:59:10.699Z",
+  "count": 1,
+  "studies": [
+    {
+      "schema_version": "industry-research-v1",
+      "research_id": "industry_optical_interconnect_profit_pool_20260728",
+      "research_track_id": "optical_profit_pool",
+      "title": "光互连利润池重分配：需求仍强，谁能把带宽增长留在利润表",
+      "as_of": "2026-07-28",
+      "public_safe": true,
+      "private_related": false,
+      "research_types": [
+        "产业链分层型",
+        "证伪修正型"
+      ],
+      "main_question": "当速率升级、模块扩产、供应商增加和客户降价同时发生，收入增长还能否转化为毛利、现金流和持续超额回报，利润最终留在哪一层？",
+      "current_conclusion": {
+        "industry": "部分验证：高速互连需求和交付仍增长，但ASP、客户份额、良率和现金转化尚待验证。",
+        "market_pricing": "削弱：行业贝塔与统一估值体系已被明显破坏。",
+        "short_term": "待验证：核心公司尚未形成连续止跌与相对强势。",
+        "overall": "从行业共振进入公司阿尔法重估。"
+      },
+      "profit_pool_layers": [
+        {
+          "layer": "高速光模块",
+          "earnings_driver": "客户认证、量产良率、交付规模",
+          "risks": [
+            "ASP下降",
+            "供应商扩容",
+            "客户集中",
+            "汇率"
+          ],
+          "verification": [
+            "800G/1.6T收入结构",
+            "客户份额",
+            "订单覆盖",
+            "毛利率",
+            "经营现金流"
+          ]
+        },
+        {
+          "layer": "高精密器件与光引擎",
+          "earnings_driver": "工艺、良率、客户协同、较低供给弹性",
+          "risks": [
+            "客户自研",
+            "技术路线切换",
+            "扩产摊薄"
+          ],
+          "verification": [
+            "产品结构",
+            "单价",
+            "产能利用率",
+            "现金转化"
+          ]
+        },
+        {
+          "layer": "光芯片与垂直整合",
+          "earnings_driver": "供应安全、成本协同、国产替代",
+          "risks": [
+            "研发投入",
+            "库存",
+            "规模与良率"
+          ],
+          "verification": [
+            "芯片自供比例",
+            "1.6T批量交付",
+            "库存周转"
+          ]
+        }
+      ],
+      "companies": [
+        {
+          "stock_code": "300308",
+          "stock_name": "中际旭创",
+          "research_role": "模块规模与现金兑现样本",
+          "role_status": "supported",
+          "q1_2026": {
+            "revenue_cny": 19496398083.95,
+            "revenue_yoy_pct": 192.12,
+            "net_profit_cny": 5734501526.83,
+            "net_profit_yoy_pct": 262.28,
+            "operating_cash_flow_cny": 3367573676.62,
+            "operating_cash_flow_yoy_pct": 55.58,
+            "gross_margin_est_pct": 46.06
+          },
+          "support": [
+            "收入、利润和现金流同时增长",
+            "在建工程和设备投入扩张"
+          ],
+          "risk": [
+            "应收和预付材料款快速上升",
+            "扩产后的毛利与现金转化"
+          ],
+          "next_checks": [
+            "800G/1.6T产品结构",
+            "客户份额",
+            "ASP",
+            "应收周转"
+          ]
+        },
+        {
+          "stock_code": "300502",
+          "stock_name": "新易盛",
+          "research_role": "模块增长质量样本",
+          "role_status": "supported",
+          "q1_2026": {
+            "revenue_cny": 8337902040.74,
+            "revenue_yoy_pct": 105.76,
+            "net_profit_cny": 2780222960.23,
+            "net_profit_yoy_pct": 76.8,
+            "operating_cash_flow_cny": 684071355.88,
+            "operating_cash_flow_yoy_pct": 243.71,
+            "gross_margin_est_pct": 49.16
+          },
+          "support": [
+            "收入翻倍",
+            "合同负债和现金回款增长"
+          ],
+          "risk": [
+            "利润增速慢于收入",
+            "汇兑损失和存货减值增加"
+          ],
+          "next_checks": [
+            "毛利率",
+            "库存质量",
+            "客户份额",
+            "合同负债转收入"
+          ]
+        },
+        {
+          "stock_code": "300394",
+          "stock_name": "天孚通信",
+          "research_role": "高精密器件与光电封装利润池样本",
+          "role_status": "supported",
+          "q1_2026": {
+            "revenue_cny": 1330270175.36,
+            "revenue_yoy_pct": 40.82,
+            "net_profit_cny": 492218878.05,
+            "net_profit_yoy_pct": 45.79,
+            "operating_cash_flow_cny": 182277065.44,
+            "operating_cash_flow_yoy_pct": -37.92,
+            "gross_margin_est_pct": 56.61
+          },
+          "support": [
+            "高毛利器件与封装平台",
+            "泰国产能量产和新项目扩建"
+          ],
+          "risk": [
+            "经营现金流弱于利润",
+            "扩产利用率待验证"
+          ],
+          "next_checks": [
+            "光引擎和器件收入占比",
+            "泰国产能利用率",
+            "现金流恢复"
+          ]
+        },
+        {
+          "stock_code": "002281",
+          "stock_name": "光迅科技",
+          "research_role": "国产垂直整合与1.6T交付样本",
+          "role_status": "supported",
+          "q1_2026": {
+            "revenue_cny": 2773352847.92,
+            "revenue_yoy_pct": 24.79,
+            "net_profit_cny": 239931671.46,
+            "net_profit_yoy_pct": 59.76,
+            "operating_cash_flow_cny": 195572556.55,
+            "operating_cash_flow_yoy_pct": 273.75
+          },
+          "support": [
+            "800G/1.6T产品覆盖",
+            "经营现金流转正",
+            "合同负债增长"
+          ],
+          "risk": [
+            "存货增长30.14%",
+            "DSP齐套和批量交付仍需验证"
+          ],
+          "next_checks": [
+            "1.6T批量交付",
+            "库存周转",
+            "自研芯片贡献",
+            "利润率"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "ev_20260728_optical_pricing_break",
+        "ev_20260720_late_02",
+        "ev_20260721_optical_interconnect_repair"
+      ],
+      "source_manifest": [
+        {
+          "source_type": "公司公告",
+          "title": "中际旭创2026年第一季度报告",
+          "date": "2026-04-17",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-17/1225111941.PDF"
+        },
+        {
+          "source_type": "公司公告",
+          "title": "新易盛2026年第一季度报告",
+          "date": "2026-04-24",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-24/1225172606.PDF"
+        },
+        {
+          "source_type": "公司公告",
+          "title": "天孚通信2026年第一季度报告",
+          "date": "2026-04-21",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-21/1225128020.PDF"
+        },
+        {
+          "source_type": "公司公告",
+          "title": "光迅科技2026年第一季度报告",
+          "date": "2026-04-23",
+          "url": "https://static.cninfo.com.cn/finalpage/2026-04-23/1225148224.PDF"
+        },
+        {
+          "source_type": "公司官网",
+          "title": "光迅科技2025年年度报告",
+          "date": "2026-04-27",
+          "url": "https://www.accelink.com/upload/1/cms/20260427/1777270551534.pdf"
+        },
+        {
+          "source_type": "公司官网",
+          "title": "天孚通信公司与产品信息",
+          "date": "2026-07-28",
+          "url": "https://www.tfcsz.com/"
+        }
+      ],
+      "invalidation_contracts": [
+        {
+          "layer": "industry",
+          "hypothesis": "高速互连需求仍能形成行业收入增长",
+          "strengthen": "800G/1.6T订单和交付继续上修",
+          "weaken": "ASP下降快于出货增长",
+          "falsify": "核心公司收入与订单连续转弱"
+        },
+        {
+          "layer": "profit_pool",
+          "hypothesis": "头部模块和稀缺器件仍能保留超额利润",
+          "strengthen": "毛利率稳定、现金流同步、份额不降",
+          "weaken": "毛利率或现金转化连续恶化",
+          "falsify": "放量但利润和现金流持续负增长"
+        },
+        {
+          "layer": "market_pricing",
+          "hypothesis": "行业从贝塔转向公司阿尔法重估",
+          "strengthen": "核心公司因业绩差异出现持续分化",
+          "weaken": "所有公司仍同涨同跌",
+          "falsify": "好业绩持续无法获得相对收益"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1350 @@
+{
+  "schemaVersion": "alphaengine-research-priority-agenda-v1",
+  "generatedAt": "2026-07-28T13:45:03.500Z",
+  "sourceCandidateManifest": "tmp_recap_20260728/research_candidate_manifest.json",
+  "currentRegime": {
+    "thesis": "AI行业贝塔受损以后，研究重点由行业普涨转向利润池重分配与公司阿尔法验证。",
+    "industryLayer": "AI需求尚未整体证伪，但光互连、存储、网络层和设备必须分别判断。",
+    "marketPricingLayer": "高估值、集中持仓和趋势资金共振已经破坏原有科技贝塔。",
+    "shortTermLayer": "核心尚未完成连续止跌，单日反弹不能确认趋势修复。"
+  },
+  "executionOrder": [
+    "先更新市场阶段总账",
+    "再跑行业穿透，确认利润池与产业角色",
+    "只对关键公司跑公司深研",
+    "把新证据挂回原假设并更新三层状态",
+    "周度检查预测、公司篮子和证伪结果"
+  ],
+  "imaAccess": {
+    "openApiConfirmedSubscriptionLibraries": [
+      "【基业长青】浑水调研🥈"
+    ],
+    "copilotThreeLibraryCoverage": "not_programmatically_verified",
+    "handling": "IMA Copilot的三库综合必须以带生成时间和被@知识库清单的导出/笔记作为输入；OpenAPI检索不得冒充完整三库阅读。"
+  },
+  "publicPrivateBoundary": {
+    "publicResearch": "industry_penetration与company_deep_research可以进入公开研究台，但只使用公开安全证据。",
+    "privateResearch": "position-review只在用户明确诊断持仓时执行，不进入公开研究台。"
+  },
+  "ingestionQuality": {
+    "layerCorrections": [
+      {
+        "topic": "国产设备与晶圆制造",
+        "sourceState": "风险线索",
+        "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+        "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+        "marketPricingConclusion": "核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+        "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+        "nextVerification": "观察设备核心能否先于科创50止跌，并跟踪订单、设备收入和客户资本开支。",
+        "ingestionStatus": "accepted_with_layer_correction",
+        "warnings": [
+          {
+            "evidenceId": "ev_20260728_equipment_relative_test",
+            "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+            "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+            "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+          }
+        ]
+      },
+      {
+        "topic": "大光模块与光互连",
+        "sourceState": "风险线索",
+        "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-14.01%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+        "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+        "marketPricingConclusion": "核心篮子当日均值-14.01%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+        "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+        "nextVerification": "核验800G/1.6T ASP、客户份额、订单能见度和毛利率；同时观察核心能否连续两日不创新低。",
+        "ingestionStatus": "accepted_with_layer_correction",
+        "warnings": [
+          {
+            "evidenceId": "ev_20260728_optical_pricing_break",
+            "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+            "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+            "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+          }
+        ]
+      },
+      {
+        "topic": "存储内部再分层",
+        "sourceState": "风险线索",
+        "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+        "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+        "marketPricingConclusion": "核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+        "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+        "nextVerification": "观察DRAM/NAND价格、库存、利润斜率和长鑫成交虹吸是否减弱，并区分各环节盈利影响。",
+        "ingestionStatus": "accepted_with_layer_correction",
+        "warnings": [
+          {
+            "evidenceId": "ev_20260728_storage_pricing_break",
+            "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+            "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+            "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+          }
+        ]
+      },
+      {
+        "topic": "国产交换机与网络层",
+        "sourceState": "风险线索",
+        "layerSummary": "产业层待公司基本面验证；A股核心篮子当日均值-0.87%，尚未形成持续相对强度；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日涨跌幅不足以确认方向，未来1至3个交易日仍需等待量价信号。",
+        "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+        "marketPricingConclusion": "A股核心篮子当日均值-0.87%，尚未形成持续相对强度；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+        "shortTermConclusion": "当日涨跌幅不足以确认方向，未来1至3个交易日仍需等待量价信号。",
+        "nextVerification": "观察紫光、星网、共进的相对强弱能否连续，并核验交换机订单、收入和客户导入。",
+        "ingestionStatus": "accepted_with_layer_correction",
+        "warnings": [
+          {
+            "evidenceId": "ev_20260728_network_internal_split",
+            "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+            "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+            "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+          }
+        ]
+      }
+    ],
+    "rule": "价格、成交、资金、均线和相对强弱只能直接改变市场定价层或短期交易层；产业层必须由订单、价格、客户、产能、利润或现金流事实改变。"
+  },
+  "nextExecutionBatch": {
+    "industryJobs": [
+      {
+        "trackId": "storage_layering",
+        "name": "存储产品、制造、封测与设备材料分层",
+        "method": "industry-penetration-analysis",
+        "mainQuestion": "存储需求、价格与扩产并存时，产品价格压力和设备材料需求如何同时发生，利润向哪个环节移动？",
+        "completionGate": [
+          "主问题可验证或证伪",
+          "利润池和产业角色有来源",
+          "支持与反向证据均已读取",
+          "候选公司不由单日涨跌决定"
+        ]
+      },
+      {
+        "trackId": "network_ocs",
+        "name": "交换机、网络层与OCS商业化",
+        "method": "industry-penetration-analysis",
+        "mainQuestion": "网络瓶颈是否已经从产品导入走向规模订单，哪些A股公司能够把技术路线转化为收入与利润？",
+        "completionGate": [
+          "主问题可验证或证伪",
+          "利润池和产业角色有来源",
+          "支持与反向证据均已读取",
+          "候选公司不由单日涨跌决定"
+        ]
+      },
+      {
+        "trackId": "equipment_foundry",
+        "name": "国产设备与晶圆制造兑现",
+        "method": "industry-penetration-analysis",
+        "mainQuestion": "国产扩产能否持续转化为设备订单、国产份额、收入、毛利率和现金回款？",
+        "completionGate": [
+          "主问题可验证或证伪",
+          "利润池和产业角色有来源",
+          "支持与反向证据均已读取",
+          "候选公司不由单日涨跌决定"
+        ]
+      }
+    ],
+    "companyJobs": [
+      {
+        "code": "300308",
+        "name": "中际旭创",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "容量与资金中军",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "光互连利润池重分配",
+        "researchQuestion": "中际旭创能否把“光互连利润池重分配”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "300502",
+        "name": "新易盛",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "A股基本面核心",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "光互连利润池重分配",
+        "researchQuestion": "新易盛能否把“光互连利润池重分配”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "300394",
+        "name": "天孚通信",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "产业锚",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "光互连利润池重分配",
+        "researchQuestion": "天孚通信能否把“光互连利润池重分配”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "002281",
+        "name": "光迅科技",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "跟风或风险样本",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "光互连利润池重分配",
+        "researchQuestion": "光迅科技能否把“光互连利润池重分配”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "603986",
+        "name": "兆易创新",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "容量与资金中军",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "兆易创新能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "000021",
+        "name": "深科技",
+        "currentCoverage": "research_start",
+        "researchStatus": "needs_fact_scan",
+        "industryRole": "A股基本面核心",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "深科技能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "001309",
+        "name": "德明利",
+        "currentCoverage": "research_start",
+        "researchStatus": "needs_fact_scan",
+        "industryRole": "跟风或风险样本",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "德明利能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "002156",
+        "name": "通富微电",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "待行业穿透与公司级证据确认",
+        "industryRoleStatus": "pending",
+        "marketRoleToday": "",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "通富微电能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "002185",
+        "name": "华天科技",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "待行业穿透与公司级证据确认",
+        "industryRoleStatus": "pending",
+        "marketRoleToday": "",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "华天科技能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "002371",
+        "name": "北方华创",
+        "currentCoverage": "research_start",
+        "researchStatus": "needs_fact_scan",
+        "industryRole": "A股基本面核心",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "北方华创能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "688012",
+        "name": "中微公司",
+        "currentCoverage": "research_start",
+        "researchStatus": "needs_fact_scan",
+        "industryRole": "产业锚",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "跟随",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "中微公司能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      },
+      {
+        "code": "688072",
+        "name": "拓荆科技",
+        "currentCoverage": "fact_cache",
+        "researchStatus": "needs_deep_research",
+        "industryRole": "高弹性标的",
+        "industryRoleStatus": "confirmed",
+        "marketRoleToday": "负反馈样本",
+        "route": "company_deep_research",
+        "canSelfResolve": true,
+        "sourcePlan": [
+          "既有公开evidence与公司档案",
+          "公告、财报、互动与F10事实",
+          "行业穿透结果",
+          "IMA可访问材料或Copilot综合输入",
+          "必要时补充公开一手资料"
+        ],
+        "sourceTrack": "存储产品、制造、封测与设备材料分层",
+        "researchQuestion": "拓荆科技能否把“存储产品、制造、封测与设备材料分层”的产业需求转化为订单、利润和现金流，并在行业分歧中保持相对强度？"
+      }
+    ],
+    "executionRule": "行业穿透先于公司结论；公司事实可并行补齐，但产业角色只能在行业穿透完成后确认。"
+  },
+  "researchTracks": [
+    {
+      "id": "ai_market_regime",
+      "name": "AI拥挤出清与公司阿尔法重估",
+      "priority": "S",
+      "route": "industry_penetration",
+      "method": "industry-penetration-analysis",
+      "questionTypes": [
+        "格局重塑型",
+        "证伪修正型"
+      ],
+      "mainQuestion": "AI产业需求尚未整体证伪时，行业贝塔是否已经消失，市场将按什么公司级指标重新分配估值？",
+      "transmissionChain": [
+        "产业景气形成一致预期",
+        "公募、融资、ETF与趋势资金集中",
+        "利好钝化与边际买家减少",
+        "核心股破位和行业贝塔受损",
+        "订单、毛利率、现金流与相对强度重新决定公司阿尔法"
+      ],
+      "sourceCandidateTopics": [
+        "AI科技拥挤结构阶段性顶部",
+        "国产设备与晶圆制造",
+        "大光模块与光互连",
+        "存储内部再分层",
+        "国产交换机与网络层"
+      ],
+      "sourceCandidateStates": [
+        {
+          "topic": "AI科技拥挤结构阶段性顶部",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待验证，市场定价层削弱，短期交易层削弱。",
+          "industryConclusion": "AI资本开支、国产扩产和部分公司订单业绩仍提供支持；当天没有出现足以确认行业订单、价格、利润或现金流全面反转的新增事实。",
+          "marketPricingConclusion": "机构集中、融资收缩、利好失效和核心股同步破位表明AI科技拥挤结构出现阶段性顶部，行业贝塔已经受损。",
+          "shortTermConclusion": "反弹尚未获得连续承接，短期先按出清中段处理；等待核心止跌、融资稳定和行业宽度恢复。",
+          "nextVerification": "验证三条路径：核心止跌并出现公司级订单利润确认；仅有超跌反弹而宽度与融资不改善；或ASP、毛利率和订单正式下修。",
+          "ingestionStatus": "accepted",
+          "warnings": []
+        },
+        {
+          "topic": "国产设备与晶圆制造",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "观察设备核心能否先于科创50止跌，并跟踪订单、设备收入和客户资本开支。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_equipment_relative_test",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        },
+        {
+          "topic": "大光模块与光互连",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-14.01%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-14.01%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "核验800G/1.6T ASP、客户份额、订单能见度和毛利率；同时观察核心能否连续两日不创新低。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_optical_pricing_break",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        },
+        {
+          "topic": "存储内部再分层",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "观察DRAM/NAND价格、库存、利润斜率和长鑫成交虹吸是否减弱，并区分各环节盈利影响。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_storage_pricing_break",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        },
+        {
+          "topic": "国产交换机与网络层",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；A股核心篮子当日均值-0.87%，尚未形成持续相对强度；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日涨跌幅不足以确认方向，未来1至3个交易日仍需等待量价信号。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "A股核心篮子当日均值-0.87%，尚未形成持续相对强度；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日涨跌幅不足以确认方向，未来1至3个交易日仍需等待量价信号。",
+          "nextVerification": "观察紫光、星网、共进的相对强弱能否连续，并核验交换机订单、收入和客户导入。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_network_internal_split",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        }
+      ],
+      "researchStatus": "pending",
+      "latestStudyId": null,
+      "latestStudyTitle": null,
+      "latestStudyAsOf": null,
+      "latestStudyFile": null,
+      "companyResearchQueue": [],
+      "requiredDeliverables": [
+        "行业主问题",
+        "产业链与利润池",
+        "需求到利润的完整传导",
+        "供给、价格与竞争格局",
+        "正向证据与反向证据",
+        "已验证、待验证与证伪条件",
+        "关键公司产业角色"
+      ]
+    },
+    {
+      "id": "optical_profit_pool",
+      "name": "光互连利润池重分配",
+      "priority": "A",
+      "route": "industry_penetration",
+      "method": "industry-penetration-analysis",
+      "questionTypes": [
+        "产业链分层型",
+        "格局重塑型"
+      ],
+      "mainQuestion": "800G和1.6T需求增长能否抵消ASP下降与供应商扩散，利润最终留在模块、光芯片还是关键器件？",
+      "transmissionChain": [
+        "海外AI资本开支",
+        "网络流量和互连需求",
+        "800G与1.6T出货",
+        "ASP、供应份额和良率",
+        "毛利率与经营现金流",
+        "A股公司重新定价"
+      ],
+      "sourceCandidateTopics": [
+        "大光模块与光互连"
+      ],
+      "sourceCandidateStates": [
+        {
+          "topic": "大光模块与光互连",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-14.01%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-14.01%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "核验800G/1.6T ASP、客户份额、订单能见度和毛利率；同时观察核心能否连续两日不创新低。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_optical_pricing_break",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        }
+      ],
+      "researchStatus": "completed",
+      "latestStudyId": "industry_optical_interconnect_profit_pool_20260728",
+      "latestStudyTitle": "光互连利润池重分配：需求仍强，谁能把带宽增长留在利润表",
+      "latestStudyAsOf": "2026-07-28",
+      "latestStudyFile": "data/industry-research/optical-interconnect-profit-pool-20260728.json",
+      "companyResearchQueue": [
+        {
+          "code": "300308",
+          "name": "中际旭创",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "容量与资金中军",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "300502",
+          "name": "新易盛",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "A股基本面核心",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "300394",
+          "name": "天孚通信",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "产业锚",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "002281",
+          "name": "光迅科技",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "跟风或风险样本",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        }
+      ],
+      "requiredDeliverables": [
+        "行业主问题",
+        "产业链与利润池",
+        "需求到利润的完整传导",
+        "供给、价格与竞争格局",
+        "正向证据与反向证据",
+        "已验证、待验证与证伪条件",
+        "关键公司产业角色"
+      ]
+    },
+    {
+      "id": "storage_layering",
+      "name": "存储产品、制造、封测与设备材料分层",
+      "priority": "A",
+      "route": "industry_penetration",
+      "method": "industry-penetration-analysis",
+      "questionTypes": [
+        "景气周期型",
+        "产业链分层型",
+        "证伪修正型"
+      ],
+      "mainQuestion": "存储需求、价格与扩产并存时，产品价格压力和设备材料需求如何同时发生，利润向哪个环节移动？",
+      "transmissionChain": [
+        "AI存储需求",
+        "存储价格和库存",
+        "厂商扩产",
+        "制造、封测、设备材料订单",
+        "新增供给释放",
+        "产品与资本品利润分化"
+      ],
+      "sourceCandidateTopics": [
+        "国产设备与晶圆制造",
+        "存储内部再分层"
+      ],
+      "sourceCandidateStates": [
+        {
+          "topic": "国产设备与晶圆制造",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "观察设备核心能否先于科创50止跌，并跟踪订单、设备收入和客户资本开支。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_equipment_relative_test",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        },
+        {
+          "topic": "存储内部再分层",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "观察DRAM/NAND价格、库存、利润斜率和长鑫成交虹吸是否减弱，并区分各环节盈利影响。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_storage_pricing_break",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        }
+      ],
+      "researchStatus": "pending",
+      "latestStudyId": null,
+      "latestStudyTitle": null,
+      "latestStudyAsOf": null,
+      "latestStudyFile": null,
+      "companyResearchQueue": [
+        {
+          "code": "603986",
+          "name": "兆易创新",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "容量与资金中军",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "000021",
+          "name": "深科技",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "A股基本面核心",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "001309",
+          "name": "德明利",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "跟风或风险样本",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "002156",
+          "name": "通富微电",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "002185",
+          "name": "华天科技",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "002371",
+          "name": "北方华创",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "A股基本面核心",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "产业锚",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "跟随",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "688072",
+          "name": "拓荆科技",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "高弹性标的",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "688347",
+          "name": "华虹公司",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "产业角色待公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        }
+      ],
+      "requiredDeliverables": [
+        "行业主问题",
+        "产业链与利润池",
+        "需求到利润的完整传导",
+        "供给、价格与竞争格局",
+        "正向证据与反向证据",
+        "已验证、待验证与证伪条件",
+        "关键公司产业角色"
+      ]
+    },
+    {
+      "id": "network_ocs",
+      "name": "交换机、网络层与OCS商业化",
+      "priority": "A",
+      "route": "industry_penetration",
+      "method": "industry-penetration-analysis",
+      "questionTypes": [
+        "主题验证型",
+        "技术演进型"
+      ],
+      "mainQuestion": "网络瓶颈是否已经从产品导入走向规模订单，哪些A股公司能够把技术路线转化为收入与利润？",
+      "transmissionChain": [
+        "GPU集群规模扩大",
+        "网络成为系统瓶颈",
+        "交换机与光交换需求",
+        "送样、小批量与客户认证",
+        "规模订单和收入确认",
+        "利润与现金流兑现"
+      ],
+      "sourceCandidateTopics": [
+        "国产交换机与网络层"
+      ],
+      "sourceCandidateStates": [
+        {
+          "topic": "国产交换机与网络层",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；A股核心篮子当日均值-0.87%，尚未形成持续相对强度；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日涨跌幅不足以确认方向，未来1至3个交易日仍需等待量价信号。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "A股核心篮子当日均值-0.87%，尚未形成持续相对强度；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日涨跌幅不足以确认方向，未来1至3个交易日仍需等待量价信号。",
+          "nextVerification": "观察紫光、星网、共进的相对强弱能否连续，并核验交换机订单、收入和客户导入。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_network_internal_split",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        }
+      ],
+      "researchStatus": "pending",
+      "latestStudyId": null,
+      "latestStudyTitle": null,
+      "latestStudyAsOf": null,
+      "latestStudyFile": null,
+      "companyResearchQueue": [
+        {
+          "code": "000938",
+          "name": "紫光股份",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "容量与资金中军",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "抗跌",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "002396",
+          "name": "星网锐捷",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "A股基本面核心",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "301165",
+          "name": "锐捷网络",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "603118",
+          "name": "共进股份",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "高弹性标的",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "领涨",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        }
+      ],
+      "requiredDeliverables": [
+        "行业主问题",
+        "产业链与利润池",
+        "需求到利润的完整传导",
+        "供给、价格与竞争格局",
+        "正向证据与反向证据",
+        "已验证、待验证与证伪条件",
+        "关键公司产业角色"
+      ]
+    },
+    {
+      "id": "equipment_foundry",
+      "name": "国产设备与晶圆制造兑现",
+      "priority": "A",
+      "route": "industry_penetration",
+      "method": "industry-penetration-analysis",
+      "questionTypes": [
+        "产业变化型",
+        "格局重塑型"
+      ],
+      "mainQuestion": "国产扩产能否持续转化为设备订单、国产份额、收入、毛利率和现金回款？",
+      "transmissionChain": [
+        "国产晶圆扩产",
+        "资本开支与设备采购",
+        "客户验证和国产份额",
+        "在手订单与合同负债",
+        "收入、毛利率和经营现金流"
+      ],
+      "sourceCandidateTopics": [
+        "国产设备与晶圆制造",
+        "存储内部再分层"
+      ],
+      "sourceCandidateStates": [
+        {
+          "topic": "国产设备与晶圆制造",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-7.34%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "观察设备核心能否先于科创50止跌，并跟踪订单、设备收入和客户资本开支。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_equipment_relative_test",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        },
+        {
+          "topic": "存储内部再分层",
+          "sourceState": "风险线索",
+          "layerSummary": "产业层待公司基本面验证；核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。；当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "industryConclusion": "价格和资金负反馈不能越级证伪产业；产业层等待订单、ASP、毛利率、利润、现金流或客户份额的公司级证据。",
+          "marketPricingConclusion": "核心篮子当日均值-10.00%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+          "shortTermConclusion": "当日价格处于明确负反馈；未来1至3个交易日仍需确认止跌和关键位置修复。",
+          "nextVerification": "观察DRAM/NAND价格、库存、利润斜率和长鑫成交虹吸是否减弱，并区分各环节盈利影响。",
+          "ingestionStatus": "accepted_with_layer_correction",
+          "warnings": [
+            {
+              "evidenceId": "ev_20260728_storage_pricing_break",
+              "issue": "price_or_fund_signal_misclassified_as_industry_counter",
+              "originalClaim": "单日价格变化只调整市场定价与短期交易层，不直接证伪产业",
+              "handling": "不进入产业反证；只保留在市场定价或短期交易层。"
+            }
+          ]
+        }
+      ],
+      "researchStatus": "pending",
+      "latestStudyId": null,
+      "latestStudyTitle": null,
+      "latestStudyAsOf": null,
+      "latestStudyFile": null,
+      "companyResearchQueue": [
+        {
+          "code": "002371",
+          "name": "北方华创",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "A股基本面核心",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "688012",
+          "name": "中微公司",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "产业锚",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "跟随",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "688072",
+          "name": "拓荆科技",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "高弹性标的",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "688347",
+          "name": "华虹公司",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "产业角色待公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "603986",
+          "name": "兆易创新",
+          "currentCoverage": "fact_cache",
+          "researchStatus": "needs_deep_research",
+          "industryRole": "容量与资金中军",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "000021",
+          "name": "深科技",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "A股基本面核心",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "001309",
+          "name": "德明利",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "跟风或风险样本",
+          "industryRoleStatus": "confirmed",
+          "marketRoleToday": "负反馈样本",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        }
+      ],
+      "requiredDeliverables": [
+        "行业主问题",
+        "产业链与利润池",
+        "需求到利润的完整传导",
+        "供给、价格与竞争格局",
+        "正向证据与反向证据",
+        "已验证、待验证与证伪条件",
+        "关键公司产业角色"
+      ]
+    },
+    {
+      "id": "non_ai_rotation",
+      "name": "非AI承接方向的独立性验证",
+      "priority": "B",
+      "route": "industry_penetration",
+      "method": "industry-penetration-analysis",
+      "questionTypes": [
+        "主题验证型",
+        "产业变化型"
+      ],
+      "mainQuestion": "电网和创新药是科技出清时的防御轮动，还是已经具备独立订单、业绩和资金持续性的主线？",
+      "transmissionChain": [
+        "科技拥挤资金退出",
+        "资金寻找低相关承接方向",
+        "板块相对强度与广度改善",
+        "公司订单、BD、临床或业绩验证",
+        "独立市场定价形成"
+      ],
+      "sourceCandidateTopics": [],
+      "sourceCandidateStates": [],
+      "researchStatus": "pending",
+      "latestStudyId": null,
+      "latestStudyTitle": null,
+      "latestStudyAsOf": null,
+      "latestStudyFile": null,
+      "companyResearchQueue": [
+        {
+          "code": "601179",
+          "name": "中国西电",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "002028",
+          "name": "思源电气",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "600312",
+          "name": "平高电气",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "000400",
+          "name": "许继电气",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        },
+        {
+          "code": "600406",
+          "name": "国电南瑞",
+          "currentCoverage": "research_start",
+          "researchStatus": "needs_fact_scan",
+          "industryRole": "待行业穿透与公司级证据确认",
+          "industryRoleStatus": "pending",
+          "marketRoleToday": "",
+          "route": "company_deep_research",
+          "canSelfResolve": true,
+          "sourcePlan": [
+            "既有公开evidence与公司档案",
+            "公告、财报、互动与F10事实",
+            "行业穿透结果",
+            "IMA可访问材料或Copilot综合输入",
+            "必要时补充公开一手资料"
+          ]
+        }
+      ],
+      "requiredDeliverables": [
+        "行业主问题",
+        "产业链与利润池",
+        "需求到利润的完整传导",
+        "供给、价格与竞争格局",
+        "正向证据与反向证据",
+        "已验证、待验证与证伪条件",
+        "关键公司产业角色"
+      ]
+    }
+  ]
+}

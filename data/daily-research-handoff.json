@@ -1,0 +1,410 @@
+{
+  "schemaVersion": "alphaengine-daily-research-handoff-v1",
+  "generatedAt": "2026-08-17T11:54:34.064Z",
+  "sourceDate": "2026-08-14",
+  "sourceManifest": "tmp_recap_20260814/research_candidate_manifest.json",
+  "policy": {
+    "ownership": "每日复盘生产公开研究候选；研究台负责主题归并、质量校准、长期记忆和产品呈现。",
+    "readOnly": true,
+    "privacy": "只允许public_safe=true且private_related!=true的evidence进入产品。",
+    "updateRule": "needs_calibration候选可用于公开evidence归档，但不得更新长期主题判断、稳定产业角色或置信度。"
+  },
+  "summary": {
+    "manifestsFound": 9,
+    "candidates": 9,
+    "accepted": 0,
+    "needsCalibration": 9,
+    "canonicalMatches": 0,
+    "provisionalTopics": 9
+  },
+  "accepted": [],
+  "needsCalibration": [
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "通信设备与国产网络",
+      "aliases": [
+        "通信设备与国产网络"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "重新升温",
+      "candidatePriority": "high",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "交换机、AI-RAN、CPO/NPO和超节点资料继续增加，国内网络环节的交付价值被重新讨论，但订单与收入仍需逐一核实。",
+        "marketPricing": "通信设备、通信线缆、F5G和IPv6位居横截面前列，周五已有容量与梯队响应，价格先于周末资料完成第一轮选择。",
+        "shortTerm": "观察第一次分歧后的承接，不追已连续加速的前排。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "MLCC、PCB与电子材料",
+      "aliases": [
+        "MLCC、PCB与电子材料"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "重新升温",
+      "candidatePriority": "high",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "MLCC、PCB、ABF、PTFE、电子气体和散热材料的价格、利用率与订单资料增加，但利润兑现节奏有差异。",
+        "marketPricing": "被动元件、电子化学品和PCB共同偏强，艾华集团、华正新材、中石科技提供价格验证，但连续资金尚未确认。",
+        "shortTerm": "观察材料线能否扩展到容量股和中位股，不把单日涨幅当成行业趋势。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "医药与CRO",
+      "aliases": [
+        "医药与CRO"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "重新升温",
+      "candidatePriority": "medium",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "CRO、创新药和AI4S资料显示研发服务与海外业务有改善线索，需继续核实到收入、利润和现金流。",
+        "marketPricing": "周五医药涨停梯队与容量股开始响应，当前更像独立方向启动，尚未证明全医药扩散。",
+        "shortTerm": "若容量核心和中位股继续强于指数，主题升级；若只有少数连板，按高低切处理。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "存储与系统交付",
+      "aliases": [
+        "存储与系统交付"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "延续",
+      "candidatePriority": "medium",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "Sandisk长期合同、DRAM/HBM需求和中芯扩产强化供需与系统交付，但合同额不是当期收入，融资、认证、交付和客户集中度仍是约束。",
+        "marketPricing": "存储上涨面较宽但主力流向不一致，周五市场更偏向网络、元件和医药，产业消息没有自动转化为存储权重定价权。",
+        "shortTerm": "观察存储权重与上游材料相对强度，不能用海外存储强势直接推导A股模组买点。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "光互连与光模块",
+      "aliases": [
+        "光互连与光模块"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "延续",
+      "candidatePriority": "medium",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "1.6T、CPO/NPO和硅光量产资料继续增加，产业需求没有被否定，但认证、交付和利润归属需要公司级验证。",
+        "marketPricing": "CPO与光通信概念偏强，但原有大市值光模块没有全面恢复定价权，属于产业强化与A股价格选择并存。",
+        "shortTerm": "只有大市值核心与网络设备同步走强时才考虑回流确认。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "云算力与IDC",
+      "aliases": [
+        "云算力与IDC"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "延续",
+      "candidatePriority": "medium",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "全球云资本开支和算力租赁需求仍强，但利息、折旧、客户集中和现金流压力同步上升。",
+        "marketPricing": "数据中心和通信服务出现局部价格响应，A股IDC没有形成统一容量核心，不能把云厂投入等同于所有租赁公司利润改善。",
+        "shortTerm": "观察IDC容量核心的连续相对强度和成交承接，消息高开而无承接不追。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "液冷与数据中心电力",
+      "aliases": [
+        "液冷与数据中心电力"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "新增",
+      "candidatePriority": "low",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "液冷、TIM、800V和电力设备资料将AI基础设施瓶颈扩展到供电与散热，需求线索较清楚但收入兑现尚未逐一核实。",
+        "marketPricing": "液冷概念99涨54跌，概念上涨不等于板块主线。",
+        "shortTerm": "等待容量核心和板块宽度共同出现。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "AI应用与Agent",
+      "aliases": [
+        "AI应用与Agent"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "重新升温",
+      "candidatePriority": "low",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "GLM、DeepSeek、Harness和AI4S资料显示模型与工具链继续演化，但应用收入、付费转化和利润归属未形成统一验证。",
+        "marketPricing": "AI应用概念有局部上涨但缺少统一容量梯队。",
+        "shortTerm": "只跟踪有产品、客户和价格共同验证的公司。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    },
+    {
+      "sourceDate": "2026-08-14",
+      "sourceFile": "tmp_recap_20260814/research_candidate_manifest.json",
+      "canonicalTopicName": "电力设备与电网",
+      "aliases": [
+        "电力设备与电网"
+      ],
+      "firstSeenDate": null,
+      "sourceState": "延续",
+      "candidatePriority": "low",
+      "ingestionStatus": "needs_calibration",
+      "blockingIssues": [
+        "缺少suggested_topic_key",
+        "缺少aliases",
+        "缺少research_question",
+        "缺少core_logic",
+        "缺少main_conflict",
+        "缺少representative_companies",
+        "没有关联公开evidence",
+        "核心矛盾未同时表达支持力量与反向力量"
+      ],
+      "warnings": [],
+      "researchQuestion": "",
+      "coreLogic": "",
+      "mainConflict": {
+        "supportingForce": "",
+        "opposingForce": "",
+        "summary": ""
+      },
+      "statusScope": "",
+      "sourceProductIngestionStatus": "",
+      "layers": {
+        "industry": "AI负荷和海外电网投资支持高压、输配电和供电扩容，国内公司订单与海外收入需要单独核实。",
+        "marketPricing": "周五有电网个股样本但没有形成宽度，暂时是产业观察方向。",
+        "shortTerm": "等待容量股和板块宽度共同出现。"
+      },
+      "companies": [],
+      "evidenceRelations": [],
+      "linkedEvidenceIds": [],
+      "latestDelta": "",
+      "nextVerification": "",
+      "downgradeCondition": ""
+    }
+  ]
+}
