@@ -1,6 +1,6 @@
 {
   "schemaVersion": "research-console-v2",
-  "generatedAt": "2026-08-17T13:59:10.404Z",
+  "generatedAt": "2026-08-17T14:47:27.938Z",
   "asOfDate": "2026年8月5日约22:20（盘中）",
   "topics": [
     {
@@ -15200,7 +15200,7 @@
       },
       {
         "path": "research-console/public/data/evidence-catalog.json",
-        "sha256": "1f22d7f596d0a765a25bdd353a97f335f82a892dcac058a7973a72d6657d481c",
+        "sha256": "e25efa8c9069f834a36ce291b7f97e199674773bdc54989d25fc6b8c59b410f1",
         "size": 792619
       },
       {
