@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-research-loop-v2",
-  "generatedAt": "2026-08-17T14:47:28.134Z",
+  "generatedAt": "2026-08-17T16:15:39.281Z",
   "design": {
     "inspiration": "DojoAgents 的工具化研究循环",
     "adaptation": "只消费 AlphaEngine 的公开 evidence 与公开事实缓存；不读取持仓、账户、交易动作，也不回写每日复盘。",
@@ -185,8 +185,8 @@
         "aboveMa20Share": 0,
         "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。",
         "latestSignal": null,
-        "evidenceCount": 62,
-        "newEvidenceCount": 0,
+        "evidenceCount": 63,
+        "newEvidenceCount": 1,
         "latestEvidence": {
           "date": "20260723",
           "event": "韩国综合指数上涨4.40%，半导体指数上涨3.9%；外资继续流入科技板块，而本地资金对SK海力士仍有较大卖出。"
@@ -249,8 +249,8 @@
         "aboveMa20Share": 0,
         "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。",
         "latestSignal": null,
-        "evidenceCount": 62,
-        "newEvidenceCount": 0,
+        "evidenceCount": 63,
+        "newEvidenceCount": 1,
         "latestEvidence": {
           "date": "20260723",
           "event": "韩国综合指数上涨4.40%，半导体指数上涨3.9%；外资继续流入科技板块，而本地资金对SK海力士仍有较大卖出。"
@@ -313,10 +313,10 @@
         "aboveMa20Share": 0,
         "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。",
         "latestSignal": null,
-        "evidenceCount": 41,
-        "newEvidenceCount": 0,
+        "evidenceCount": 43,
+        "newEvidenceCount": 2,
         "latestEvidence": {
-          "date": "2026-08-14",
+          "date": "2026-08-17",
           "event": ""
         }
       },
@@ -629,10 +629,10 @@
         "aboveMa20Share": 0,
         "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。",
         "latestSignal": null,
-        "evidenceCount": 41,
-        "newEvidenceCount": 0,
+        "evidenceCount": 43,
+        "newEvidenceCount": 2,
         "latestEvidence": {
-          "date": "2026-08-14",
+          "date": "2026-08-17",
           "event": ""
         }
       },
@@ -693,10 +693,10 @@
         "aboveMa20Share": 0,
         "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。",
         "latestSignal": null,
-        "evidenceCount": 41,
-        "newEvidenceCount": 0,
+        "evidenceCount": 43,
+        "newEvidenceCount": 2,
         "latestEvidence": {
-          "date": "2026-08-14",
+          "date": "2026-08-17",
           "event": ""
         }
       },

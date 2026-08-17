@@ -1,6 +1,6 @@
 {
   "schemaVersion": "research-console-v2",
-  "generatedAt": "2026-08-17T14:47:27.938Z",
+  "generatedAt": "2026-08-17T16:15:39.083Z",
   "asOfDate": "2026年8月5日约22:20（盘中）",
   "topics": [
     {
@@ -290,7 +290,7 @@
           "sourceFile": "tmp_recap_20260723/evidence_index.json"
         }
       ],
-      "evidenceCount": 173,
+      "evidenceCount": 174,
       "coreStocks": [
         {
           "name": "兆易创新",
@@ -1160,7 +1160,7 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         }
       ],
-      "evidenceCount": 115,
+      "evidenceCount": 117,
       "coreStocks": [
         {
           "name": "中际旭创",
@@ -1434,6 +1434,20 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
+          "id": "ev_20260817_material_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "sourceTitle": "PCB、电子化学品与材料",
+          "event": "",
+          "interpretation": "",
+          "funding": "",
+          "risk": "",
+          "nextWatch": "次日板块宽度、容量核心相对强度和公司级事实",
+          "reliability": "unknown",
+          "status": "待验证",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json"
+        },
+        {
           "id": "ev_20260814_weekend_03",
           "date": "2026-08-14",
           "source": "公开资料",
@@ -1572,23 +1586,9 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260729/evidence_index.json"
-        },
-        {
-          "id": "ev_20260726_electronic_fabric_price_research",
-          "date": "2026-07-26",
-          "source": "知识星球",
-          "sourceTitle": "普通电子布专家交流要点20260726",
-          "event": "专家交流称7月普通电子布已提价，8月仍可能提价，供给增量与后续产能投放是价格持续性的关键变量。",
-          "interpretation": "材料价格线索仍在，但周五材料和后排科技普跌说明产业预期尚未转化为稳定的交易承接。",
-          "funding": "周五电子布相关后排仍承压，不能把价格讨论等同于盘面确认。",
-          "risk": "专家预期的涨价节奏和供给约束仍需要公司公告、月度价格及订单验证。",
-          "nextWatch": "跟踪8月实际报价、头部企业产能投放与材料股相对强度。",
-          "reliability": "knowledge_star",
-          "status": "待验证",
-          "sourceFile": "tmp_recap_20260724/evidence_index.json"
         }
       ],
-      "evidenceCount": 92,
+      "evidenceCount": 93,
       "coreStocks": [
         {
           "name": "胜宏科技",
@@ -1708,6 +1708,11 @@
           "sourceId": "ev_20260803_03"
         },
         {
+          "date": "2026-08-17",
+          "title": "次日板块宽度、容量核心相对强度和公司级事实",
+          "sourceId": "ev_20260817_material_01"
+        },
+        {
           "date": "2026-08-14",
           "title": "下一交易日价格、宽度与公司级事实",
           "sourceId": "ev_20260814_weekend_03"
@@ -1716,11 +1721,6 @@
           "date": "2026-08-14",
           "title": "PCB/CCL??????????????????????",
           "sourceId": "ev_20260814_market_02"
-        },
-        {
-          "date": "2026-08-17",
-          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "sourceId": "product_fact_market_300476_2026-08-17"
         }
       ],
       "researchState": {
@@ -14597,7 +14597,7 @@
         "长电科技",
         "华天科技"
       ],
-      "evidenceCount": 173,
+      "evidenceCount": 174,
       "priority": 94
     },
     {
@@ -14619,7 +14619,7 @@
         "长电科技",
         "华天科技"
       ],
-      "evidenceCount": 173,
+      "evidenceCount": 174,
       "priority": 92
     },
     {
@@ -14641,7 +14641,7 @@
         "长电科技",
         "华天科技"
       ],
-      "evidenceCount": 173,
+      "evidenceCount": 174,
       "priority": 90
     },
     {
@@ -14729,7 +14729,7 @@
         "天孚通信",
         "光迅科技"
       ],
-      "evidenceCount": 115,
+      "evidenceCount": 117,
       "priority": 85
     },
     {
@@ -14751,7 +14751,7 @@
         "天孚通信",
         "光迅科技"
       ],
-      "evidenceCount": 115,
+      "evidenceCount": 117,
       "priority": 83
     },
     {
@@ -14773,7 +14773,7 @@
         "天孚通信",
         "光迅科技"
       ],
-      "evidenceCount": 115,
+      "evidenceCount": 117,
       "priority": 81
     },
     {
@@ -14839,7 +14839,7 @@
         "生益科技",
         "中国巨石"
       ],
-      "evidenceCount": 92,
+      "evidenceCount": 93,
       "priority": 75
     },
     {
@@ -14883,7 +14883,7 @@
         "生益科技",
         "中国巨石"
       ],
-      "evidenceCount": 92,
+      "evidenceCount": 93,
       "priority": 73
     },
     {
@@ -14905,7 +14905,7 @@
         "生益科技",
         "中国巨石"
       ],
-      "evidenceCount": 92,
+      "evidenceCount": 93,
       "priority": 71
     },
     {
@@ -15194,14 +15194,19 @@
         "size": 30180
       },
       {
+        "path": "tmp_recap_20260817/evidence_index.json",
+        "sha256": "418a69d48c5224eb85867a80e7b3b09c18d1a26e05547a67e57b0d120731fdaa",
+        "size": 19719
+      },
+      {
         "path": "research-console/data/company-fact-evidence.json",
         "sha256": "9a794b54d68b0d02cd424d8c84657ba1762910e2491a2217c5221c59b98d4b8b",
         "size": 102802
       },
       {
         "path": "research-console/public/data/evidence-catalog.json",
-        "sha256": "e25efa8c9069f834a36ce291b7f97e199674773bdc54989d25fc6b8c59b410f1",
-        "size": 792619
+        "sha256": "d611f313b7a2357f57c5edce728c3aa4724b47d4345d6effe13a37d3b8229c73",
+        "size": 803063
       },
       {
         "path": "tmp_recap_20260710/gbrain_hypothesis_update.json",
@@ -15294,8 +15299,8 @@
         "size": 9992
       }
     ],
-    "evidenceFiles": 32,
-    "acceptedEvidence": 625,
+    "evidenceFiles": 33,
+    "acceptedEvidence": 638,
     "rejectedPrivateEvidence": 69,
     "malformedEvidence": 0,
     "confidenceLedgerRows": 0,

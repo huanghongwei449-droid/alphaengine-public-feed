@@ -1,12 +1,12 @@
 {
   "schemaVersion": "alphaengine-research-evolution-v1",
-  "generatedAt": "2026-08-17T14:47:28.075Z",
+  "generatedAt": "2026-08-17T16:15:39.217Z",
   "policy": "只读取已完成日报中的 public_safe evidence；按稳定观察篮子归档。市场状态来自主业记忆，新增资料不自动改写产业或交易结论。",
   "summary": {
-    "recapFiles": 30,
-    "publicEvidenceScanned": 472,
-    "mappedEvidence": 420,
-    "newEvidenceSinceLastSync": 0,
+    "recapFiles": 31,
+    "publicEvidenceScanned": 485,
+    "mappedEvidence": 426,
+    "newEvidenceSinceLastSync": 6,
     "unmappedEvidence": 50,
     "dailyCandidateHandoff": {
       "sourceDate": "2026-08-14",
@@ -572,6 +572,30 @@
       },
       "evidence": [
         {
+          "id": "ev_20260817_cpo_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "title": "CPO/NPO与量产线索",
+          "event": "",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260817_network_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "title": "网络、CPO与高速连接",
+          "event": "",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260814_market_01",
           "date": "2026-08-14",
           "source": "公开资料",
@@ -786,45 +810,21 @@
           "sourceFile": "tmp_recap_20260731/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260730_03",
-          "date": "2026-07-30",
-          "source": "公开资料",
-          "title": "",
-          "event": "核心篮子均值-10.78%",
-          "logic": "",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260730/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260729_theme_02",
-          "date": "2026-07-29",
-          "source": "公开资料",
-          "title": "",
-          "event": "中际旭创上涨4.74%、新易盛上涨3.51%，核心权重在韩国科技剧烈波动日止跌修复；知识星球新增薄膜铌酸锂和高速光器件供给资料，但行业降价和竞争加剧仍是反向交易风险。",
-          "logic": "海外AI需求和高速光器件供给升级仍支持产业层，但股价需要从单日止跌升级为连续相对强度。",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260729/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 41,
-      "newEvidenceCount": 0,
+      "evidenceCount": 43,
+      "newEvidenceCount": 2,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
-        "id": "ev_20260814_market_01",
-        "date": "2026-08-14",
+        "id": "ev_20260817_cpo_01",
+        "date": "2026-08-17",
         "source": "公开资料",
-        "title": "通信设备、通信线缆、CPO和F5G位居前列；通信设备68",
+        "title": "CPO/NPO与量产线索",
         "event": "",
         "logic": "",
         "reliability": "",
-        "sourceFile": "tmp_recap_20260814/evidence_index.json",
-        "isNewSinceLastSync": false,
+        "sourceFile": "tmp_recap_20260817/evidence_index.json",
+        "isNewSinceLastSync": true,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -852,6 +852,18 @@
           "reliability": "knowledge_star",
           "sourceFile": "tmp_recap_20260723/evidence_index.json",
           "isNewSinceLastSync": false,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260817_storage_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "title": "存储与高带宽内存强势",
+          "event": "",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json",
+          "isNewSinceLastSync": true,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -1069,22 +1081,10 @@
           "sourceFile": "tmp_recap_20260727/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260726_changxin_listing_event",
-          "date": "2026-07-26",
-          "source": "exchange_or_company_qa",
-          "title": "长鑫科技科创板上市交易公告",
-          "event": "长鑫科技将于7月27日在科创板上市交易，代码688825，发行价8.66元/股。",
-          "logic": "上市提供国产DRAM产业链的定价锚和事件窗口；它不自动等同于存储产业链全面走强，仍要区分设计、制造设备、封测与模组库存质量。",
-          "reliability": "official_announcement",
-          "sourceFile": "tmp_recap_20260724/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 62,
-      "newEvidenceCount": 0,
+      "evidenceCount": 63,
+      "newEvidenceCount": 1,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
         "id": "ev_20260723_late_001",
@@ -1855,6 +1855,30 @@
       },
       "evidence": [
         {
+          "id": "ev_20260817_cpo_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "title": "CPO/NPO与量产线索",
+          "event": "",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260817_network_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "title": "网络、CPO与高速连接",
+          "event": "",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260814_market_01",
           "date": "2026-08-14",
           "source": "公开资料",
@@ -2069,45 +2093,21 @@
           "sourceFile": "tmp_recap_20260731/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260730_03",
-          "date": "2026-07-30",
-          "source": "公开资料",
-          "title": "",
-          "event": "核心篮子均值-10.78%",
-          "logic": "",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260730/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260729_theme_02",
-          "date": "2026-07-29",
-          "source": "公开资料",
-          "title": "",
-          "event": "中际旭创上涨4.74%、新易盛上涨3.51%，核心权重在韩国科技剧烈波动日止跌修复；知识星球新增薄膜铌酸锂和高速光器件供给资料，但行业降价和竞争加剧仍是反向交易风险。",
-          "logic": "海外AI需求和高速光器件供给升级仍支持产业层，但股价需要从单日止跌升级为连续相对强度。",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260729/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 41,
-      "newEvidenceCount": 0,
+      "evidenceCount": 43,
+      "newEvidenceCount": 2,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
-        "id": "ev_20260814_market_01",
-        "date": "2026-08-14",
+        "id": "ev_20260817_cpo_01",
+        "date": "2026-08-17",
         "source": "公开资料",
-        "title": "通信设备、通信线缆、CPO和F5G位居前列；通信设备68",
+        "title": "CPO/NPO与量产线索",
         "event": "",
         "logic": "",
         "reliability": "",
-        "sourceFile": "tmp_recap_20260814/evidence_index.json",
-        "isNewSinceLastSync": false,
+        "sourceFile": "tmp_recap_20260817/evidence_index.json",
+        "isNewSinceLastSync": true,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -2718,6 +2718,18 @@
           "mappingSource": "keyword_fallback"
         },
         {
+          "id": "ev_20260817_storage_01",
+          "date": "2026-08-17",
+          "source": "公开资料",
+          "title": "存储与高带宽内存强势",
+          "event": "",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260817/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260814_market_04",
           "date": "2026-08-14",
           "source": "公开资料",
@@ -2932,22 +2944,10 @@
           "sourceFile": "tmp_recap_20260727/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260726_changxin_listing_event",
-          "date": "2026-07-26",
-          "source": "exchange_or_company_qa",
-          "title": "长鑫科技科创板上市交易公告",
-          "event": "长鑫科技将于7月27日在科创板上市交易，代码688825，发行价8.66元/股。",
-          "logic": "上市提供国产DRAM产业链的定价锚和事件窗口；它不自动等同于存储产业链全面走强，仍要区分设计、制造设备、封测与模组库存质量。",
-          "reliability": "official_announcement",
-          "sourceFile": "tmp_recap_20260724/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 62,
-      "newEvidenceCount": 0,
+      "evidenceCount": 63,
+      "newEvidenceCount": 1,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
         "id": "ev_20260723_late_001",
