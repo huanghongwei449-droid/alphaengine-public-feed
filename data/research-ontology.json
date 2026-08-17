@@ -1,0 +1,1440 @@
+{
+  "schemaVersion": "alphaengine-research-state-v1",
+  "generatedAt": "2026-08-17T13:59:10.466Z",
+  "publicSafe": true,
+  "pilots": [
+    {
+      "id": "domestic-storage",
+      "name": "国产存储/封测",
+      "asOfDate": "2026-07-16",
+      "purpose": "产品侧只读试点：把每日复盘的公开证据组织为可追溯的研究状态。",
+      "summary": "产业需求尚未被单日价格压力推翻，但市场交易规则已从统一涨价叙事转向利润质量与相对强弱核验。",
+      "evidence": [
+        {
+          "id": "ev_20260716_storage_deleveraging",
+          "date": "2026-07-16",
+          "source": "user_material",
+          "sourceTitle": "用户提供的7月16日资金复盘",
+          "event": "德明利连续跌停、兆易创新跌停、华天科技与长电科技大跌，市场从同比高增转向核验Q2环比、库存效率和利润斜率。",
+          "reliability": "user_material_unverified",
+          "sourceFile": "tmp_recap_20260716/evidence_index.json"
+        },
+        {
+          "id": "ev_20260716_tsmc_guidance",
+          "date": "2026-07-16",
+          "source": "official_announcement",
+          "sourceTitle": "TSMC 2026Q2 Financial Results",
+          "event": "TSMC披露Q2营收402亿美元、毛利率67.7%，并给出Q3营收446亿至458亿美元的指引。",
+          "reliability": "official_announcement",
+          "sourceFile": "tmp_recap_20260716/evidence_index.json"
+        },
+        {
+          "id": "ev_20260716_korea_rate",
+          "date": "2026-07-16",
+          "source": "official_central_bank",
+          "sourceTitle": "韩国银行2026年7月16日货币政策方向",
+          "event": "韩国银行将基准利率从2.50%上调至2.75%，并指出美元走强、国债收益率上行与AI/半导体预期变化共同放大市场波动。",
+          "reliability": "official_announcement",
+          "sourceFile": "tmp_recap_20260716/evidence_index.json"
+        },
+        {
+          "id": "ev_20260715_longxin",
+          "date": "2026-07-15",
+          "source": "knowledge_star",
+          "sourceTitle": "CXMT implications",
+          "event": "盘后材料讨论长鑫上市及设备、材料、晶圆和设计外溢链。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260715/evidence_index.json"
+        },
+        {
+          "id": "ev_20260715_tech_deleveraging",
+          "date": "2026-07-15",
+          "source": "knowledge_star",
+          "sourceTitle": "GS中国午盘与收盘",
+          "event": "交易台口径显示卖出CPO和GPU；存储模组、封测、晶圆制造与GPU链集中下跌。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260715/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-global-ai-demand-20260716",
+          "statement": "台积电披露 2026 年第二季度营收 402 亿美元、毛利率 67.7%，并给出第三季度营收 446 亿至 458 亿美元指引。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260716_tsmc_guidance"
+          ]
+        },
+        {
+          "id": "fact-storage-pricing-weakness-20260716",
+          "statement": "7 月 16 日，德明利、兆易创新、华天科技与长电科技等存储和封测权重明显走弱。",
+          "status": "observed",
+          "evidenceIds": [
+            "ev_20260716_storage_deleveraging",
+            "ev_20260715_tech_deleveraging"
+          ]
+        },
+        {
+          "id": "fact-korea-policy-20260716",
+          "statement": "韩国银行于 7 月 16 日将基准利率从 2.50% 上调至 2.75%。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260716_korea_rate"
+          ]
+        },
+        {
+          "id": "fact-cxmt-capex-discussion-20260715",
+          "statement": "订阅材料讨论长鑫上市对设备、材料、晶圆和设计环节的潜在外溢。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260715_longxin"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-storage-profit-quality-20260716",
+          "statement": "市场正在从统一涨价叙事转向核验公司 Q2 环比、库存效率与利润斜率。",
+          "type": "market_view",
+          "author": "用户提供的7月16日资金复盘",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260716_storage_deleveraging"
+          ]
+        },
+        {
+          "id": "claim-cxmt-industrial-spillover-20260715",
+          "statement": "长鑫上市和资本开支可能强化国产 DRAM 产业链，但产业利好与交易虹吸需要分别验证。",
+          "type": "research_view",
+          "author": "CXMT implications",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260715_longxin"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-cxmt-capex-discussion-20260715",
+          "date": "2026-07-15",
+          "title": "长鑫上市影响进入产业链讨论窗口",
+          "effect": "为设备、材料、晶圆与设计链提供新的产业线索，但尚未构成交易确认。",
+          "evidenceIds": [
+            "ev_20260715_longxin"
+          ]
+        },
+        {
+          "id": "event-korea-rate-hike-20260716",
+          "date": "2026-07-16",
+          "title": "韩国加息放大存储映射资产的风险偏好压力",
+          "effect": "海外流动性与存储权重波动对 A 股存储、HBM 与先进封装形成短期估值扰动。",
+          "evidenceIds": [
+            "ev_20260716_korea_rate"
+          ]
+        },
+        {
+          "id": "event-storage-pricing-reset-20260716",
+          "date": "2026-07-16",
+          "title": "存储与封测交易从涨价叙事转向利润质量核验",
+          "effect": "模组端卖压先出现，并向封测和晶圆权重扩散；这是交易层的变化，不等同于产业景气被否定。",
+          "evidenceIds": [
+            "ev_20260716_storage_deleveraging",
+            "ev_20260715_tech_deleveraging"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-global-ai-demand-20260716",
+          "metric": "global_ai_demand",
+          "label": "全球 AI 制造需求",
+          "date": "2026-07-16",
+          "value": "韧性仍在",
+          "unit": "qualitative",
+          "direction": "stable",
+          "interpretation": "海外先进制程与 AI 计算需求没有显示总量转弱，但不能替代国产公司的订单与利润验证。",
+          "evidenceIds": [
+            "ev_20260716_tsmc_guidance"
+          ]
+        },
+        {
+          "id": "state-storage-market-pricing-20260716",
+          "metric": "relative_return_vs_semiconductor",
+          "label": "存储与封测相对半导体表现",
+          "date": "2026-07-16",
+          "value": "明显转弱",
+          "unit": "qualitative",
+          "direction": "down",
+          "interpretation": "价格与资金先交易盈利质量分化；这是市场定价状态，不直接否定存储产业假设。",
+          "evidenceIds": [
+            "ev_20260716_storage_deleveraging",
+            "ev_20260715_tech_deleveraging"
+          ]
+        },
+        {
+          "id": "state-overseas-storage-risk-20260716",
+          "metric": "overseas_storage_risk",
+          "label": "海外存储映射压力",
+          "date": "2026-07-16",
+          "value": "抬升",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "韩国加息和当地半导体资产波动提高了 A 股高估值存储、封测标的的短期折现压力。",
+          "evidenceIds": [
+            "ev_20260716_korea_rate"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-ai-demand-to-memory-capex",
+          "layer": "产业",
+          "title": "全球 AI 需求能否传导为国产存储资本开支",
+          "status": "部分成立",
+          "mechanism": "全球 AI 制造需求维持韧性，为存储、先进制程与相关设备的中期需求提供背景；国产链是否受益仍取决于产能、良率、订单和客户验证。",
+          "conditions": [
+            "长鑫招股书、扩产与客户信息持续落地",
+            "设备、材料或封测公司披露订单、收入或产能利用率改善"
+          ],
+          "falsifiers": [
+            "扩产节奏明显延后或客户验证迟滞",
+            "公司订单与产能利用率没有形成后续披露"
+          ],
+          "evidenceIds": [
+            "ev_20260716_tsmc_guidance",
+            "ev_20260715_longxin"
+          ]
+        },
+        {
+          "id": "chain-memory-price-to-profit-quality",
+          "layer": "产业到业绩",
+          "title": "涨价能否变成更高质量的利润与现金流",
+          "status": "等待验证",
+          "mechanism": "价格或景气线索只有在收入、环比毛利率、库存周转与经营现金流同步改善时，才构成公司盈利质量的验证。",
+          "conditions": [
+            "公司中报披露环比毛利率、库存周转或经营现金流改善",
+            "增长不只来自低基数或一次性项目"
+          ],
+          "falsifiers": [
+            "库存效率恶化或环比利润质量走弱",
+            "高增长公告后缺少后续利润和现金流验证"
+          ],
+          "evidenceIds": [
+            "ev_20260716_storage_deleveraging"
+          ]
+        },
+        {
+          "id": "chain-profit-quality-to-market-pricing",
+          "layer": "市场定价",
+          "title": "利润质量能否重新带来 A 股存储与封测的相对强势",
+          "status": "当前受压",
+          "mechanism": "在海外风险和融资去化背景下，市场先要求核心公司停止补跌，再观察分歧日的相对收益与持续资金承接。",
+          "conditions": [
+            "核心标的停止补跌并连续相对强于科创50",
+            "至少两条核心细分获得连续成交承接",
+            "海外存储风险偏好不再继续恶化"
+          ],
+          "falsifiers": [
+            "核心权重继续放量补跌",
+            "存储和封测同步弱于半导体指数且没有公司级反证"
+          ],
+          "evidenceIds": [
+            "ev_20260716_storage_deleveraging",
+            "ev_20260716_korea_rate",
+            "ev_20260715_tech_deleveraging"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-storage-interim-results",
+          "question": "产业景气是否已兑现为公司级利润质量？",
+          "cadence": "中报与业绩预告窗口",
+          "inspect": "收入、环比毛利率、库存周转、经营现金流、订单或产能利用率。",
+          "changes": "若至少两项利润质量指标改善，则上调“价格到业绩”链路；否则维持等待验证。"
+        },
+        {
+          "id": "action-storage-pricing",
+          "question": "市场是否重新给予国产存储和封测定价？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "核心标的相对科创50强弱、细分扩散、成交承接与海外存储风险。",
+          "changes": "若核心标的止跌并出现连续相对强势，交易层从受压升级为部分验证。"
+        }
+      ]
+    },
+    {
+      "id": "switch-ocs",
+      "name": "交换机/OCS",
+      "asOfDate": "2026-07-10",
+      "purpose": "产品侧只读研究状态：把每日复盘的公开证据组织为可追溯的判断链。",
+      "summary": "网络层的产业解释在变完整，但交易层仍须用订单、产品披露和核心股相对强度确认，不能把送样或会议预期当成收入。",
+      "evidence": [
+        {
+          "id": "ev_20260708_009",
+          "date": "2026-07-08",
+          "source": "ima_hunshui_kb",
+          "sourceTitle": "IMA OCS/Atlas/交换机语料",
+          "event": "IMA命中OCS、交换机、Atlas 950/WAIC和算力互连资料，强调AI数据中心网络层增量。",
+          "reliability": "medium",
+          "sourceFile": "tmp_recap_20260708/evidence_index.json"
+        },
+        {
+          "id": "ev_20260709_012",
+          "date": "2026-07-09",
+          "source": "IMA",
+          "sourceTitle": "IMA订阅语料：Atlas 950/OCS/网络层",
+          "event": "IMA中Atlas 950、OCS、AI数据中心互连、交换网络相关内容继续发酵，网络层被视为国产算力从芯片向系统扩展的关键瓶颈。",
+          "reliability": "ima_recap",
+          "sourceFile": "tmp_recap_20260709/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_006",
+          "date": "2026-07-10",
+          "source": "ima_subscribed_kb",
+          "sourceTitle": "IMA订阅语料：OCS/FAU/光交换周末增量",
+          "event": "订阅材料集中出现FAU/V型槽验证、OCS客户送样、试产及光开关供需线索；部分条目未见公司正式披露。",
+          "reliability": "ima_recap",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_023",
+          "date": "2026-07-10",
+          "source": "ima_recap",
+          "sourceTitle": "IMA原文：OCS，交换机的AI革命！",
+          "event": "IMA中关于OCS、Scale-Up交换机和光互连的历史研究，将网络层定位为AI集群扩容中与芯片互补的瓶颈环节。",
+          "reliability": "ima_recap",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-network-attention-20260709",
+          "statement": "订阅材料持续讨论 Atlas 950、OCS 和 AI 数据中心互连，网络层被视为算力系统扩容的候选瓶颈。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260709_012"
+          ]
+        },
+        {
+          "id": "fact-ocs-signal-quality-20260710",
+          "statement": "周末材料出现 FAU/V 型槽、客户送样、试产和光开关供需线索，但部分条目未见公司正式披露。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260710_006"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-network-bottleneck",
+          "statement": "交换与光互连可能成为 AI 集群继续扩容时、与芯片互补的系统级瓶颈。",
+          "type": "research_view",
+          "author": "IMA原文：OCS，交换机的AI革命！",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260710_023"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-network-attention-20260708",
+          "date": "2026-07-08",
+          "title": "OCS、交换机与 Atlas 950 进入订阅语料高频区",
+          "effect": "产业解释开始由芯片延展到互连和资源调度，但尚未形成订单确认。",
+          "evidenceIds": [
+            "ev_20260708_009",
+            "ev_20260709_012"
+          ]
+        },
+        {
+          "id": "event-network-sampling-20260710",
+          "date": "2026-07-10",
+          "title": "送样和试产线索增多",
+          "effect": "提高研究优先级，但不能替代产品量产、客户和收入披露。",
+          "evidenceIds": [
+            "ev_20260710_006"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-network-discussion",
+          "metric": "research_attention",
+          "label": "产业讨论热度",
+          "date": "2026-07-10",
+          "value": "持续升温",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "IMA 订阅材料连续出现网络层线索，说明研究关注在增加；这不是资金或订单数据。",
+          "evidenceIds": [
+            "ev_20260708_009",
+            "ev_20260709_012"
+          ]
+        },
+        {
+          "id": "state-network-company-validation",
+          "metric": "company_validation",
+          "label": "公司级验证",
+          "date": "2026-07-10",
+          "value": "尚未充分确认",
+          "unit": "qualitative",
+          "direction": "flat",
+          "interpretation": "送样、试产和交流可以构成跟踪线索，尚不能证明批量交付或业绩。",
+          "evidenceIds": [
+            "ev_20260710_006"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-network-demand-to-product",
+          "layer": "产业",
+          "title": "AI 集群扩容能否带来网络层产品需求",
+          "status": "部分成立",
+          "mechanism": "网络层的重要性随算力集群规模上升而提高，但需要以产品规格、客户导入和系统架构变化确认需求是否落在 A 股公司。",
+          "conditions": [
+            "Atlas/WAIC 后出现产品、客户或系统方案的公司披露",
+            "核心公司对产品节奏、客户导入或收入贡献作出可核验说明"
+          ],
+          "falsifiers": [
+            "事件后没有任何产品或客户信息落地",
+            "核心公司将相关业务明确为非主营或未形成收入"
+          ],
+          "evidenceIds": [
+            "ev_20260709_012",
+            "ev_20260710_023"
+          ]
+        },
+        {
+          "id": "chain-network-product-to-order",
+          "layer": "产业到业绩",
+          "title": "送样和试产能否变成批量订单",
+          "status": "等待验证",
+          "mechanism": "送样说明技术路线进入验证阶段，只有量产、订单、产能利用率或收入披露才能将其升级为业绩链条。",
+          "conditions": [
+            "公司确认批量供货、订单或收入贡献",
+            "连续报告期体现网络相关收入、毛利或交付改善"
+          ],
+          "falsifiers": [
+            "送样长期停留在交流层面",
+            "量产节奏或客户验证明显延后"
+          ],
+          "evidenceIds": [
+            "ev_20260710_006"
+          ]
+        },
+        {
+          "id": "chain-network-order-to-pricing",
+          "layer": "市场定价",
+          "title": "网络层能否从事件线变成持续定价方向",
+          "status": "等待验证",
+          "mechanism": "市场需要看到核心篮子相对泛科技的连续强势，而不是单一公司或会前抢跑。",
+          "conditions": [
+            "交换机、光互连至少两类核心股连续相对强于科创50",
+            "分歧日仍有成交承接并出现公司级新增证据"
+          ],
+          "falsifiers": [
+            "会前冲高后核心股同步走弱",
+            "只有单票脉冲、没有产业链扩散"
+          ],
+          "evidenceIds": [
+            "ev_20260708_009",
+            "ev_20260710_006"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-network-company-proof",
+          "question": "网络层线索是否进入公司级验证？",
+          "cadence": "公告、互动与中报窗口",
+          "inspect": "产品名称、客户导入、批量供货、收入占比、订单和产能利用率。",
+          "changes": "出现至少一项公司正式披露后，才把“送样/试产”从研究线索升级为产业验证。"
+        },
+        {
+          "id": "action-network-market-proof",
+          "question": "资金是否把网络层作为独立方向定价？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "核心公司相对科创50、细分扩散、成交承接与会后表现。",
+          "changes": "连续相对强势且非单票脉冲时，市场定价层从等待验证升级为部分成立。"
+        }
+      ]
+    },
+    {
+      "id": "optical-cpo",
+      "name": "光模块/CPO",
+      "asOfDate": "2026-07-10",
+      "purpose": "产品侧只读研究状态：把每日复盘的公开证据组织为可追溯的判断链。",
+      "summary": "海外 AI 需求和产品路线仍提供产业背景，但高位拥挤与外盘波动没有消失；必须把长期需求、订单兑现和短线定价分开看。",
+      "evidence": [
+        {
+          "id": "ev_20260707_013",
+          "date": "2026-07-07",
+          "source": "knowledge_star",
+          "sourceTitle": "浑水调研Plus CPO/光模块语料",
+          "event": "CPO和光模块语料仍强调800G、1.6T、NPO/CPO、海外CSP需求和龙头份额，但7月7日海外高预期链整体承压，中际旭创相对抗跌。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260707/evidence_index.json"
+        },
+        {
+          "id": "ev_20260709_014",
+          "date": "2026-07-09",
+          "source": "IMA",
+          "sourceTitle": "IMA订阅语料：OPEN NPO/CPO",
+          "event": "NPO、CPO、可插拔光模块等内容仍有产业讨论，但7月以来海外beta和高位拥挤让资金更挑剔。",
+          "reliability": "ima_recap",
+          "sourceFile": "tmp_recap_20260709/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_009",
+          "date": "2026-07-10",
+          "source": "authoritative_media",
+          "sourceTitle": "NVIDIA Rubin公开时间表交叉核验",
+          "event": "公开报道显示Rubin基础平台仍按2026年下半年推进、Rubin Ultra对应更后续的机架级节奏；周末关于具体机架延期的说法未获得公司级完整披露支持。",
+          "reliability": "authoritative_media",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_019",
+          "date": "2026-07-10",
+          "source": "authoritative_media",
+          "sourceTitle": "7月10日晚美股收盘与SK海力士ADR首日",
+          "event": "标普500涨0.4%、道指涨0.3%、纳指涨0.3%；英伟达涨4%。SK海力士ADR首日收168.01美元，较149美元发行价涨12.76%。",
+          "reliability": "authoritative_media",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_020",
+          "date": "2026-07-10",
+          "source": "knowledge_star",
+          "sourceTitle": "交易台-高盛中国市场综述",
+          "event": "交易台反馈卖方集中在CPO和PCB，买方偏建筑材料、CRO和公用事业，周末前主动降低风险敞口。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-rubin-timeline-20260710",
+          "statement": "公开交叉核验显示 Rubin 基础平台仍按 2026 年下半年推进；关于特定机架延期的传闻未获得完整公司级披露支持。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260710_009"
+          ]
+        },
+        {
+          "id": "fact-overseas-optical-close-20260710",
+          "statement": "7 月 10 日晚，英伟达上涨 4%，SK 海力士 ADR 首日较发行价上涨 12.76%。",
+          "status": "observed",
+          "evidenceIds": [
+            "ev_20260710_019"
+          ]
+        },
+        {
+          "id": "fact-cpo-risk-reduction-20260710",
+          "statement": "交易台材料显示，周末前市场卖方集中于 CPO 和 PCB，反映高位科技资金降低风险敞口。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260710_020"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-cpo-long-term-demand",
+          "statement": "800G、1.6T、NPO/CPO 与海外 CSP 需求仍构成长期产业讨论的核心。",
+          "type": "research_view",
+          "author": "浑水调研Plus CPO/光模块语料",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260707_013"
+          ]
+        },
+        {
+          "id": "claim-cpo-crowding",
+          "statement": "产业讨论持续不等于交易层安全，海外 beta 与高位拥挤令资金对光通信更挑剔。",
+          "type": "market_view",
+          "author": "IMA订阅语料：OPEN NPO/CPO",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260709_014"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-cpo-demand-20260707",
+          "date": "2026-07-07",
+          "title": "海外需求与高速率技术路线继续被讨论",
+          "effect": "延续长期产业逻辑，但尚未免除短期高估值和外盘映射压力。",
+          "evidenceIds": [
+            "ev_20260707_013",
+            "ev_20260709_014"
+          ]
+        },
+        {
+          "id": "event-rubin-check-20260710",
+          "date": "2026-07-10",
+          "title": "Rubin 时间表传闻得到交叉核验",
+          "effect": "弱化了笼统的延期叙事，但不能替代订单、交付与公司指引。",
+          "evidenceIds": [
+            "ev_20260710_009"
+          ]
+        },
+        {
+          "id": "event-cpo-risk-reduction-20260710",
+          "date": "2026-07-10",
+          "title": "高位科技出现主动降风险",
+          "effect": "交易层仍在消化拥挤筹码，外盘反弹也不能自动修复 A 股定价。",
+          "evidenceIds": [
+            "ev_20260710_019",
+            "ev_20260710_020"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-cpo-industrial-demand",
+          "metric": "overseas_ai_demand",
+          "label": "海外 AI 需求背景",
+          "date": "2026-07-10",
+          "value": "未被推翻",
+          "unit": "qualitative",
+          "direction": "stable",
+          "interpretation": "产品路线和海外需求讨论仍在，但需要公司订单和交付逐级验证。",
+          "evidenceIds": [
+            "ev_20260707_013",
+            "ev_20260710_009"
+          ]
+        },
+        {
+          "id": "state-cpo-market-pricing",
+          "metric": "high_valuation_pricing",
+          "label": "高位交易压力",
+          "date": "2026-07-10",
+          "value": "仍然存在",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "资金降低 CPO 风险敞口，说明市场在区分产业趋势与短期定价。",
+          "evidenceIds": [
+            "ev_20260709_014",
+            "ev_20260710_020"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-cpo-demand-to-order",
+          "layer": "产业",
+          "title": "海外 AI 资本开支能否传导为光模块订单",
+          "status": "部分成立",
+          "mechanism": "产品迭代和海外需求提供需求背景，能否兑现取决于客户资本开支、供应商份额、交期与公司订单披露。",
+          "conditions": [
+            "核心公司披露订单、交付或客户需求延续",
+            "高速率产品收入和毛利率继续改善"
+          ],
+          "falsifiers": [
+            "海外客户下修资本开支或供应链指引",
+            "高端产品交付延后且库存压力上升"
+          ],
+          "evidenceIds": [
+            "ev_20260707_013",
+            "ev_20260710_009"
+          ]
+        },
+        {
+          "id": "chain-cpo-order-to-pricing",
+          "layer": "市场定价",
+          "title": "订单景气能否抵消高位拥挤",
+          "status": "当前受压",
+          "mechanism": "即使产业需求存在，A 股仍须先消化高位筹码；外盘与订单只能提供背景，不能替代相对强弱和资金承接。",
+          "conditions": [
+            "中际、新易盛等核心权重停止补跌并带动细分扩散",
+            "外盘稳定后 A 股核心仍相对科创50走强"
+          ],
+          "falsifiers": [
+            "外盘改善而 A 股核心继续弱于科技指数",
+            "核心股放量下跌且没有新的订单或业绩对冲"
+          ],
+          "evidenceIds": [
+            "ev_20260709_014",
+            "ev_20260710_019",
+            "ev_20260710_020"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-cpo-order-proof",
+          "question": "产业需求是否真正兑现到订单和利润？",
+          "cadence": "业绩预告与海外客户指引窗口",
+          "inspect": "客户资本开支、交期、订单、收入、毛利率与库存。",
+          "changes": "订单和利润质量同时改善，才上调产业到业绩链路。"
+        },
+        {
+          "id": "action-cpo-pricing-proof",
+          "question": "A 股光通信是否重新获得持续定价？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "核心权重相对科创50、细分扩散、量能与外盘同步性。",
+          "changes": "外盘稳定且核心股连续相对强势时，短期交易层才从受压升级。"
+        }
+      ]
+    },
+    {
+      "id": "pcb-ccl",
+      "name": "PCB/CCL上游材料",
+      "asOfDate": "2026-07-14",
+      "purpose": "产品侧只读研究状态：把每日复盘的公开证据组织为可追溯的判断链。",
+      "summary": "涨价、交期与供给约束的产业线索持续存在，但市场已要求用订单、毛利率和现金流判断谁能把涨价变成盈利，而非继续按概念统一定价。",
+      "evidence": [
+        {
+          "id": "ev_20260706_010",
+          "date": "2026-07-06",
+          "source": "knowledge_star",
+          "sourceTitle": "国联民生电子PCB涨价系统调研",
+          "event": "知识星球7月6日新增国联民生电子PCB涨价系统调研，认为PCB涨价仍有预期差，高端AI产品成本压力可传导，非AI产品进入超额涨价，Q3毛利率有望明显上行。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260706/evidence_index.json"
+        },
+        {
+          "id": "ev_20260708_011",
+          "date": "2026-07-08",
+          "source": "knowledge_star_hunshui_plus",
+          "sourceTitle": "浑水调研Plus PCB/CCL语料",
+          "event": "PCB/CCL语料仍强调高端PCB短缺、CCL/电子布涨价和成本传导。",
+          "reliability": "medium",
+          "sourceFile": "tmp_recap_20260708/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_007",
+          "date": "2026-07-10",
+          "source": "ima_subscribed_kb",
+          "sourceTitle": "IMA订阅语料：PCB/CCL/电子布价格线索",
+          "event": "订阅材料延续电子布、CCL、钻针与高端材料供给约束、交期和提价讨论。",
+          "reliability": "ima_recap",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        },
+        {
+          "id": "ev_20260714_pcb_chain",
+          "date": "2026-07-14",
+          "source": "ima_recap",
+          "sourceTitle": "每日订阅知识库信息汇总_2026-07-14：广发电子持续推荐PCB产业链",
+          "event": "订阅材料指向AI服务器PCB订单高于产能、交期拉长，CCL和电子布紧平衡并有涨价传导；核心公司为生益、沪电、东山、胜宏、广合、巨石。",
+          "reliability": "ima_recap",
+          "sourceFile": "tmp_recap_20260714/evidence_index.json"
+        },
+        {
+          "id": "ev_20260714_zsxq_pcb",
+          "date": "2026-07-14",
+          "source": "knowledge_star",
+          "sourceTitle": "浑水调研Plus：交易台-高盛中国市场综述",
+          "event": "交易台观察到午后反弹与韩国盘中修复同步；PCB/CCL高波动，生益、同业及中际获得关注。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260714/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-pcb-price-research-20260706",
+          "statement": "订阅调研提出高端 AI PCB 成本压力可以传导，非 AI 产品也可能进入超额涨价阶段。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260706_010"
+          ]
+        },
+        {
+          "id": "fact-pcb-material-constraints-20260710",
+          "statement": "订阅材料持续出现电子布、CCL、钻针与高端材料供给约束、交期和提价讨论。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260708_011",
+            "ev_20260710_007"
+          ]
+        },
+        {
+          "id": "fact-pcb-market-volatility-20260714",
+          "statement": "交易台材料显示 PCB/CCL 在韩国市场修复背景下仍保持高波动。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260714_zsxq_pcb"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-pcb-margin-upside",
+          "statement": "若提价和订单延续，Q3 毛利率存在改善预期。",
+          "type": "research_view",
+          "author": "国联民生电子PCB涨价系统调研",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260706_010"
+          ]
+        },
+        {
+          "id": "claim-pcb-order-tightness",
+          "statement": "AI 服务器 PCB 订单高于产能、交期拉长，CCL 和电子布紧平衡可能形成价格传导。",
+          "type": "research_view",
+          "author": "每日订阅知识库信息汇总_2026-07-14：广发电子持续推荐PCB产业链",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260714_pcb_chain"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-pcb-price-20260706",
+          "date": "2026-07-06",
+          "title": "PCB 涨价研究进入订阅源",
+          "effect": "提供产业线索，但涨价本身尚未等于公司利润兑现。",
+          "evidenceIds": [
+            "ev_20260706_010"
+          ]
+        },
+        {
+          "id": "event-pcb-material-20260710",
+          "date": "2026-07-10",
+          "title": "材料紧平衡与交期线索延续",
+          "effect": "把研究重点从单一报价扩展到交期、订单和供给约束。",
+          "evidenceIds": [
+            "ev_20260708_011",
+            "ev_20260710_007"
+          ]
+        },
+        {
+          "id": "event-pcb-profit-check-20260714",
+          "date": "2026-07-14",
+          "title": "订单与涨价进入业绩验证窗口",
+          "effect": "核心公司中报、毛利率与持续承接成为判断涨价能否落地的下一关。",
+          "evidenceIds": [
+            "ev_20260714_pcb_chain"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-pcb-industrial-signal",
+          "metric": "pricing_and_lead_time",
+          "label": "涨价与交期线索",
+          "date": "2026-07-14",
+          "value": "持续存在",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "语料持续出现供给约束和提价讨论，属于产业观察，不等于每家公司都能受益。",
+          "evidenceIds": [
+            "ev_20260708_011",
+            "ev_20260710_007",
+            "ev_20260714_pcb_chain"
+          ]
+        },
+        {
+          "id": "state-pcb-market-pricing",
+          "metric": "market_pricing",
+          "label": "市场定价状态",
+          "date": "2026-07-14",
+          "value": "高波动、待业绩确认",
+          "unit": "qualitative",
+          "direction": "flat",
+          "interpretation": "资金会区分有订单和业绩基础的公司与单纯涨价叙事，交易台观点不能替代全市场资金统计。",
+          "evidenceIds": [
+            "ev_20260714_zsxq_pcb",
+            "ev_20260706_010"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-pcb-price-to-order",
+          "layer": "产业",
+          "title": "供给约束和涨价能否延续到订单",
+          "status": "部分成立",
+          "mechanism": "报价、交期和材料紧平衡提供产业背景，需由客户订单、交付和产能利用率验证需求的持续性。",
+          "conditions": [
+            "核心公司披露订单、交期或产能利用率改善",
+            "上游材料与下游 PCB 的价格传导得到多点确认"
+          ],
+          "falsifiers": [
+            "交期缩短或订单没有延续",
+            "提价无法传导且下游开始压价"
+          ],
+          "evidenceIds": [
+            "ev_20260706_010",
+            "ev_20260710_007",
+            "ev_20260714_pcb_chain"
+          ]
+        },
+        {
+          "id": "chain-pcb-order-to-margin",
+          "layer": "产业到业绩",
+          "title": "订单与涨价能否改善毛利率和现金流",
+          "status": "等待验证",
+          "mechanism": "市场真正需要验证的是利润率、库存效率和经营现金流，而非单一涨价函或行业传闻。",
+          "conditions": [
+            "中报显示环比毛利率、周转或现金流改善",
+            "增长不主要来自低基数或一次性项目"
+          ],
+          "falsifiers": [
+            "订单增长未带来毛利或现金流改善",
+            "库存和应收抬升侵蚀盈利质量"
+          ],
+          "evidenceIds": [
+            "ev_20260706_010",
+            "ev_20260714_pcb_chain"
+          ]
+        },
+        {
+          "id": "chain-pcb-margin-to-pricing",
+          "layer": "市场定价",
+          "title": "业绩能否让板块获得持续资金承接",
+          "status": "等待验证",
+          "mechanism": "高波动环境下，只有核心公司业绩兑现并在分歧日保持相对强势，才说明资金认可而非短线轮动。",
+          "conditions": [
+            "核心股在业绩窗口后保持相对强势",
+            "上游材料和下游 PCB 至少两端同步扩散"
+          ],
+          "falsifiers": [
+            "业绩披露后高开回落且核心股继续弱于科创50",
+            "只剩小票情绪，容量核心没有承接"
+          ],
+          "evidenceIds": [
+            "ev_20260714_zsxq_pcb",
+            "ev_20260714_pcb_chain"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-pcb-profit-proof",
+          "question": "涨价是否变成了公司利润质量？",
+          "cadence": "中报与业绩预告窗口",
+          "inspect": "环比毛利率、库存周转、经营现金流、交期与订单。",
+          "changes": "至少两项盈利质量指标改善，才把涨价链从等待验证上调为部分成立。"
+        },
+        {
+          "id": "action-pcb-pricing-proof",
+          "question": "市场是否认可业绩而非只交易涨价？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "容量核心相对科创50、上下游扩散、成交承接与业绩后表现。",
+          "changes": "分歧日仍能扩散并保持相对强势，才上调市场定价层。"
+        }
+      ]
+    },
+    {
+      "id": "ai-software",
+      "name": "AI应用/软件",
+      "asOfDate": "2026-07-13",
+      "purpose": "产品侧只读研究状态：把每日复盘的公开证据组织为可追溯的判断链。",
+      "summary": "推理调用、模型商业化和边缘资源的研究关注在增加，但 A 股软件、IDC 与 CDN 能否获得独立订单、利用率和现金流验证，仍不能由海外云平台轮动直接推出。",
+      "evidence": [
+        {
+          "id": "ev_20260708_004",
+          "date": "2026-07-08",
+          "source": "a_stock_data",
+          "sourceTitle": "同花顺涨停揭秘",
+          "event": "涨停揭秘55条，浪潮信息为中报预增+AI服务器+液冷，网宿科技为CDN/边缘算力，星网锐捷/锐捷链映射交换机。",
+          "reliability": "high",
+          "sourceFile": "tmp_recap_20260708/evidence_index.json"
+        },
+        {
+          "id": "ev_20260708_005",
+          "date": "2026-07-08",
+          "source": "a_stock_data",
+          "sourceTitle": "龙虎榜全市场",
+          "event": "浪潮信息龙虎榜净买约7.31亿，另有一条普通席位净买约5.01亿；网宿科技净买约5.87亿；深信服净买约3.88亿。",
+          "reliability": "high",
+          "sourceFile": "tmp_recap_20260708/evidence_index.json"
+        },
+        {
+          "id": "ev_20260713_008",
+          "date": "2026-07-13",
+          "source": "ima_subscription_summary",
+          "sourceTitle": "订阅库：Token商业化与AI应用",
+          "event": "订阅语料集中讨论Token需求、模型商业化、推理成本与CDN/边缘资源。",
+          "reliability": "medium",
+          "sourceFile": "tmp_recap_20260713/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-edge-computing-board-20260708",
+          "statement": "7 月 8 日涨停题材归因中，网宿科技对应 CDN/边缘算力；同日龙虎榜出现网宿科技和深信服的净买线索。",
+          "status": "observed",
+          "evidenceIds": [
+            "ev_20260708_004",
+            "ev_20260708_005"
+          ]
+        },
+        {
+          "id": "fact-token-research-20260713",
+          "statement": "订阅材料集中讨论 Token 需求、模型商业化、推理成本与 CDN/边缘资源。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260713_008"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-ai-service-validation",
+          "statement": "AI 需求正从训练硬件延展到调用量、网络与推理基础设施，但 A 股 IDC/CDN 仍要以订单、价格和现金流独立验证。",
+          "type": "research_view",
+          "author": "订阅库：Token商业化与AI应用",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260713_008"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-edge-computing-board-20260708",
+          "date": "2026-07-08",
+          "title": "CDN/边缘算力获得题材与席位承接",
+          "effect": "说明市场曾出现关注，但龙虎榜只代表当日交易结果。",
+          "evidenceIds": [
+            "ev_20260708_004",
+            "ev_20260708_005"
+          ]
+        },
+        {
+          "id": "event-token-commercialization-20260713",
+          "date": "2026-07-13",
+          "title": "推理商业化进入订阅语料高频区",
+          "effect": "补全了从模型调用到网络和边缘资源的产业解释，尚未构成公司收入事实。",
+          "evidenceIds": [
+            "ev_20260713_008"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-ai-software-attention",
+          "metric": "research_attention",
+          "label": "推理商业化讨论",
+          "date": "2026-07-13",
+          "value": "升温",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "语料关注从训练硬件延展到调用量和资源调度，属于研究发现而非交易确认。",
+          "evidenceIds": [
+            "ev_20260713_008"
+          ]
+        },
+        {
+          "id": "state-ai-software-pricing",
+          "metric": "market_pricing",
+          "label": "A股独立定价",
+          "date": "2026-07-13",
+          "value": "尚未充分确认",
+          "unit": "qualitative",
+          "direction": "flat",
+          "interpretation": "曾有题材和席位承接，但缺少订单、利用率、价格与现金流的连续验证。",
+          "evidenceIds": [
+            "ev_20260708_004",
+            "ev_20260708_005"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-ai-software-demand-to-revenue",
+          "layer": "产业",
+          "title": "推理调用增长能否形成软件与边缘资源收入",
+          "status": "等待验证",
+          "mechanism": "Token 调用和推理成本变化提供需求方向，真正的公司收益要由客户、利用率、服务价格和现金流确认。",
+          "conditions": [
+            "公司披露新增客户、合同、利用率或收入贡献",
+            "服务价格与毛利率在连续报告期改善"
+          ],
+          "falsifiers": [
+            "只有行业讨论，没有公司订单和收入",
+            "资源投入增加但利用率和现金流没有改善"
+          ],
+          "evidenceIds": [
+            "ev_20260713_008"
+          ]
+        },
+        {
+          "id": "chain-ai-software-revenue-to-pricing",
+          "layer": "市场定价",
+          "title": "公司级兑现能否让软件摆脱纯题材轮动",
+          "status": "等待验证",
+          "mechanism": "市场需要看到核心公司在科技分歧日保持相对强势，并由业绩或订单而非单日龙虎榜解释。",
+          "conditions": [
+            "核心公司连续相对强于软件或成长指数",
+            "新增订单或业绩与成交承接同时出现"
+          ],
+          "falsifiers": [
+            "只有单日脉冲后快速回落",
+            "板块热但核心公司没有业绩、订单或现金流支持"
+          ],
+          "evidenceIds": [
+            "ev_20260708_004",
+            "ev_20260708_005",
+            "ev_20260713_008"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-ai-software-company-proof",
+          "question": "推理需求是否已变成公司收入？",
+          "cadence": "公告、互动与财报窗口",
+          "inspect": "合同、客户、利用率、服务价格、收入、毛利率与经营现金流。",
+          "changes": "出现至少一项公司级硬证据后，才上调产业到业绩链路。"
+        },
+        {
+          "id": "action-ai-software-pricing-proof",
+          "question": "市场是否给予应用与资源层独立定价？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "相对软件指数、核心公司强弱、成交承接与同行扩散。",
+          "changes": "核心公司连续相对强势且有经营证据，才从语料升温升级为市场确认。"
+        }
+      ]
+    },
+    {
+      "id": "commercial-space",
+      "name": "商业航天",
+      "asOfDate": "2026-07-10",
+      "purpose": "产品侧只读研究状态：把每日复盘的公开证据组织为可追溯的判断链。",
+      "summary": "可回收火箭工程突破带来清晰事件催化，周五也出现独立承接；但上市公司能否受益仍要穿透到订单、交付和组网节奏，不能把发射成功直接写成公司收入。",
+      "evidence": [
+        {
+          "id": "ev_20260709_017",
+          "date": "2026-07-09",
+          "source": "knowledge_star",
+          "sourceTitle": "浑水调研Plus：商业航天/机器人/锂电光伏反内卷",
+          "event": "商业航天、机器人、锂电光伏反内卷仍有语料，但7/9盘面验证弱于国产半导体；锂电相关标的仍有较大负反馈。",
+          "reliability": "knowledge_star",
+          "sourceFile": "tmp_recap_20260709/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_005",
+          "date": "2026-07-10",
+          "source": "a_stock_data",
+          "sourceTitle": "7月10日商业航天盘面映射",
+          "event": "长征十号乙一子级可控回收的事件催化下，航天装备、航海装备等方向活跃，成为周五最强事件线之一。",
+          "reliability": "fund_flow_data",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        },
+        {
+          "id": "ev_20260710_024",
+          "date": "2026-07-10",
+          "source": "official_company_and_web",
+          "sourceTitle": "中国航天科技集团：长十乙首飞成功并完成一级可控回收",
+          "event": "长征十号乙首飞并完成我国首次入轨运载火箭一级可控回收。",
+          "reliability": "high",
+          "sourceFile": "tmp_recap_20260710/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-space-recovery-20260710",
+          "statement": "长征十号乙首飞并完成我国首次入轨运载火箭一级可控回收。",
+          "status": "reported",
+          "evidenceIds": [
+            "ev_20260710_024"
+          ]
+        },
+        {
+          "id": "fact-space-market-reaction-20260710",
+          "statement": "7 月 10 日商业航天和航天装备在科技权重调整时逆势活跃，成为当日较强事件线。",
+          "status": "observed",
+          "evidenceIds": [
+            "ev_20260710_005"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-space-economics",
+          "statement": "可回收工程突破可能改善低成本、高频次发射和组网效率。",
+          "type": "research_view",
+          "author": "7月10日商业航天盘面映射",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260710_005"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-space-weak-prior-20260709",
+          "date": "2026-07-09",
+          "title": "事件前语料热度高于盘面验证",
+          "effect": "商业航天此前不是资金主线，提示不能把政策与事件预期直接等同于交易确认。",
+          "evidenceIds": [
+            "ev_20260709_017"
+          ]
+        },
+        {
+          "id": "event-space-recovery-20260710",
+          "date": "2026-07-10",
+          "title": "可回收火箭工程突破与逆势承接同时出现",
+          "effect": "事件和盘面形成一次交叉验证，但仍需观察核心中军和连续成交。",
+          "evidenceIds": [
+            "ev_20260710_024",
+            "ev_20260710_005"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-space-event",
+          "metric": "engineering_event",
+          "label": "工程事件",
+          "date": "2026-07-10",
+          "value": "已落地",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "发射与可控回收是可确认事件，但其产业化速度和上市公司映射仍未完成。",
+          "evidenceIds": [
+            "ev_20260710_024"
+          ]
+        },
+        {
+          "id": "state-space-pricing",
+          "metric": "market_pricing",
+          "label": "市场承接",
+          "date": "2026-07-10",
+          "value": "首日验证，待持续",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "逆势活跃说明事件资金承接出现，是否从小票情绪扩展到产业中军仍待观察。",
+          "evidenceIds": [
+            "ev_20260710_005"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-space-event-to-industry",
+          "layer": "产业",
+          "title": "工程突破能否传导为组网和产业链需求",
+          "status": "部分成立",
+          "mechanism": "可回收技术改善长期经济性，但卫星制造、地面设备和回收装备的实际受益需要组网计划、采购和交付验证。",
+          "conditions": [
+            "后续组网节奏、采购或订单信息披露",
+            "核心公司披露产品、交付或收入关联"
+          ],
+          "falsifiers": [
+            "工程事件后缺少后续组网与采购进展",
+            "相关公司确认业务关联有限或未形成收入"
+          ],
+          "evidenceIds": [
+            "ev_20260710_024"
+          ]
+        },
+        {
+          "id": "chain-space-industry-to-pricing",
+          "layer": "市场定价",
+          "title": "事件线能否升级为持续产业主线",
+          "status": "等待验证",
+          "mechanism": "首日逆势强度只代表事件承接；要成为主线，需要容量核心、连续成交和产业链扩散共同出现。",
+          "conditions": [
+            "核心标的放量但不出现大面积炸板",
+            "从小票扩散到卫星制造、装备或地面环节的容量公司"
+          ],
+          "falsifiers": [
+            "周末热度后高开兑现",
+            "只剩小市值情绪股、容量中军没有承接"
+          ],
+          "evidenceIds": [
+            "ev_20260710_005",
+            "ev_20260709_017"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-space-industrial-proof",
+          "question": "工程事件是否开始形成公司级产业验证？",
+          "cadence": "后续公告与行业节点",
+          "inspect": "组网节奏、采购、订单、交付、产品和收入关联。",
+          "changes": "出现公司正式披露后，才上调工程到产业链的传导强度。"
+        },
+        {
+          "id": "action-space-market-proof",
+          "question": "商业航天是否摆脱一次性事件交易？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "容量核心、板块扩散、炸板率、成交与相对强弱。",
+          "changes": "持续承接并扩散到中军时，市场定价层从首日验证升级为部分成立。"
+        }
+      ]
+    },
+    {
+      "id": "innovative-drug",
+      "name": "创新药",
+      "asOfDate": "2026-07-15",
+      "purpose": "产品侧只读研究状态：把每日复盘的公开证据组织为可追溯的判断链。",
+      "summary": "CRO 的宽度与涨停表现说明低位业绩和资产重估获得了盘面承接；但全市场主力资金仍在净流出，能否从局部修复升级为持续方向，还要看容量核心与经营兑现。",
+      "evidence": [
+        {
+          "id": "ev_20260715_cro_inflow",
+          "date": "2026-07-15",
+          "source": "a_stock_data",
+          "sourceTitle": "行业宽度与涨停揭秘",
+          "event": "医疗研发外包板块上涨7.56%，26涨2跌；昭衍新药、凯莱英等涨停。",
+          "reliability": "fund_flow_data",
+          "sourceFile": "tmp_recap_20260715/evidence_index.json"
+        },
+        {
+          "id": "ev_20260715_market_main_fund_trend",
+          "date": "2026-07-15",
+          "source": "a_stock_data",
+          "sourceTitle": "东方财富大盘资金流历史",
+          "event": "近5日主力资金累计-1186.76亿元，当日位列近5日第4位",
+          "reliability": "fund_flow_data",
+          "sourceFile": "tmp_recap_20260715/evidence_index.json"
+        }
+      ],
+      "facts": [
+        {
+          "id": "fact-cro-breadth-20260715",
+          "statement": "7 月 15 日医疗研发外包板块上涨 7.56%，26 家上涨、2 家下跌；昭衍新药、凯莱英等涨停。",
+          "status": "observed",
+          "evidenceIds": [
+            "ev_20260715_cro_inflow"
+          ]
+        },
+        {
+          "id": "fact-market-main-fund-20260715",
+          "statement": "截至 7 月 15 日，近 5 日全市场主力资金累计净流出 1186.76 亿元；当日主力净流出延续。",
+          "status": "observed",
+          "evidenceIds": [
+            "ev_20260715_market_main_fund_trend"
+          ]
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-cro-defensive-rotation",
+          "statement": "低位、业绩和实验动物资产重估叠加，使 CRO 具备阶段性承接资金的条件；是否发生持续风格切换仍待验证。",
+          "type": "market_view",
+          "author": "行业宽度与涨停揭秘",
+          "status": "reported_view",
+          "evidenceIds": [
+            "ev_20260715_cro_inflow"
+          ]
+        }
+      ],
+      "events": [
+        {
+          "id": "event-cro-breadth-20260715",
+          "date": "2026-07-15",
+          "title": "CRO 出现宽度和涨停同步改善",
+          "effect": "盘面已出现资金承接，但需要区分资产重估情绪与订单业绩逻辑。",
+          "evidenceIds": [
+            "ev_20260715_cro_inflow"
+          ]
+        },
+        {
+          "id": "event-cro-market-context-20260715",
+          "date": "2026-07-15",
+          "title": "全市场资金环境仍偏谨慎",
+          "effect": "CRO 的局部走强发生在主力资金继续净流出的环境中，不能仅凭单日表现认定为全面风格切换。",
+          "evidenceIds": [
+            "ev_20260715_market_main_fund_trend"
+          ]
+        }
+      ],
+      "states": [
+        {
+          "id": "state-cro-breadth",
+          "metric": "breadth",
+          "label": "板块宽度",
+          "date": "2026-07-15",
+          "value": "明显改善",
+          "unit": "qualitative",
+          "direction": "up",
+          "interpretation": "上涨家数和涨停核心同步出现，是盘面确认，不等同于所有公司基本面同步改善。",
+          "evidenceIds": [
+            "ev_20260715_cro_inflow"
+          ]
+        },
+        {
+          "id": "state-cro-market-context",
+          "metric": "market_risk_appetite",
+          "label": "市场风险偏好",
+          "date": "2026-07-15",
+          "value": "偏谨慎",
+          "unit": "qualitative",
+          "direction": "down",
+          "interpretation": "全市场主力资金仍为净流出；CRO 的局部强势需要在后续分歧日继续确认。",
+          "evidenceIds": [
+            "ev_20260715_market_main_fund_trend"
+          ]
+        }
+      ],
+      "chains": [
+        {
+          "id": "chain-cro-asset-to-earnings",
+          "layer": "产业到业绩",
+          "title": "资产重估和低位逻辑能否转化为经营验证",
+          "status": "等待验证",
+          "mechanism": "资产价值或低估值只能提供背景，持续定价需要订单、项目数、收入和利润质量改善。",
+          "conditions": [
+            "核心公司披露订单、收入或利润质量改善",
+            "资产重估之外出现经营层面的持续催化"
+          ],
+          "falsifiers": [
+            "上涨主要靠一次性估值或资产因素",
+            "订单和收入没有改善，核心公司冲高回落"
+          ],
+          "evidenceIds": [
+            "ev_20260715_cro_inflow"
+          ]
+        },
+        {
+          "id": "chain-cro-earnings-to-pricing",
+          "layer": "市场定价",
+          "title": "CRO 能否从局部修复升级为持续方向",
+          "status": "等待验证",
+          "mechanism": "必须看容量核心的连续相对强势，而不是只用单日涨停或一个资金口径解释趋势。",
+          "conditions": [
+            "药明、康龙、凯莱英等容量核心连续两日强于沪深300",
+            "板块宽度与成交承接在分歧日仍保持"
+          ],
+          "falsifiers": [
+            "高位科技止跌后 CRO 快速失去承接",
+            "只有小票连板、容量核心走弱"
+          ],
+          "evidenceIds": [
+            "ev_20260715_cro_inflow",
+            "ev_20260715_market_main_fund_trend"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "id": "action-cro-company-proof",
+          "question": "医药承接是否有经营层面的持续性？",
+          "cadence": "公告与业绩窗口",
+          "inspect": "订单、项目数、收入、利润、资产重估的可持续性。",
+          "changes": "经营指标改善后，才从轮动承接上调为产业与业绩共同驱动。"
+        },
+        {
+          "id": "action-cro-market-proof",
+          "question": "资金是否持续选择创新药与 CRO？",
+          "cadence": "每个交易日收盘后",
+          "inspect": "容量核心相对沪深300、板块宽度、成交和高位科技修复后的相对表现。",
+          "changes": "连续承接且容量核心走强时，市场定价层才上调。"
+        }
+      ]
+    }
+  ],
+  "audit": {
+    "source": "research-console/public/data/evidence-catalog.json",
+    "pilotCount": 7,
+    "evidenceCount": 27,
+    "factCount": 18,
+    "claimCount": 10,
+    "eventCount": 17,
+    "stateCount": 15,
+    "chainCount": 17,
+    "actionCount": 14,
+    "note": "只读消费现有公开 evidence；不写回日报、假设账本或私密文件。"
+  }
+}

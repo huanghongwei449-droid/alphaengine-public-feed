@@ -1,0 +1,155 @@
+{
+  "schema_version": "alphaengine-second-brain-agenda-v1",
+  "generated_at": "2026-07-29T12:03:09.621Z",
+  "source_candidate_manifest": "tmp_recap_20260728/research_candidate_manifest.json",
+  "status": "comparison_only_no_forced_queue",
+  "current_question": "当前市场的下跌与分化更接近趋势终结、拥挤出清还是新旧主线切换；哪些方向具备产业兑现、市场验证与预期差的共同条件？",
+  "time_horizon": {
+    "market_and_trading": "未来1至5个交易日",
+    "industry_and_company": "未来一个季度至一个产业验证窗口"
+  },
+  "market_regime": {
+    "working_judgment": "先把拥挤出清视为市场阶段假设，不预设所有科技方向同时修复，也不预设非科技承接自动升级为新主线。",
+    "regime_signals": [
+      {
+        "topic": "AI科技拥挤结构阶段性顶部",
+        "conclusion": "产业长期需求尚未整体证伪，但机构集中、融资收缩、利好失效和核心破位已破坏行业贝塔；后续存在公司阿尔法、仅超跌反弹和产业盈利下修三条路径。",
+        "market_status": "削弱",
+        "short_term_status": "削弱",
+        "next_verification": "验证三条路径：核心止跌并出现公司级订单利润确认；仅有超跌反弹而宽度与融资不改善；或ASP、毛利率和订单正式下修。"
+      }
+    ],
+    "required_next_evidence": [
+      "成交、融资与核心指数是否停止负反馈",
+      "旧主线核心是否出现连续相对强度",
+      "承接方向是否出现产业事实与资金持续性共振"
+    ]
+  },
+  "primary_conflict": {
+    "supporting_force": "部分产业需求与公司兑现逻辑仍在。",
+    "opposing_force": "高位拥挤、估值压缩和边际买家不足正在破坏原有行业贝塔。",
+    "decision_implication": "研究重点从证明某个长期故事正确，转向比较谁能率先完成产业兑现和市场重新定价。"
+  },
+  "horizontal_comparison": [
+    {
+      "topic": "医药防御",
+      "first_seen_date": "2026-07-21",
+      "source_state": "延续",
+      "current_state": "候选",
+      "new_information": "核心篮子均值+1.77%",
+      "industry_realization": {
+        "status": "待验证",
+        "conclusion": "当天没有足以改变订单、价格、产能、收入或利润判断的公司级新增证据。"
+      },
+      "market_validation": {
+        "status": "部分验证",
+        "conclusion": "核心篮子当日均值+1.77%，价格层获得单日确认；但仍需板块广度、容量核心相对强度和资金持续性确认。"
+      },
+      "expectation_gap": "尚未形成足以确认预期差的正向证据。",
+      "catalyst_window": "观察哈药股份在市场分歧时能否继续强于对应指数，并用与“仍需板块广度、容量核心相对强度和资金持续性确认。”直接相关的订单、价格、产能或业绩数据确认。",
+      "opposing_force": "仍需板块广度、容量核心相对强度和资金持续性确认。",
+      "falsifiability": "若哈药股份连续失去相对强度，仅下调短期交易层；只有订单、价格、产能、利润或现金流出现反向事实，才下调产业层。",
+      "evidence_delta": {
+        "support": [
+          "ev_20260728_07"
+        ],
+        "counter": [],
+        "verification_gap": [
+          "ev_20260728_07"
+        ]
+      },
+      "confirmed_company_roles": [],
+      "selection_result": "保留比较，不自动启动行业或公司深研。",
+      "selection_reason": "尚未同时满足产业支持、市场验证、公司事实与明确预期差。"
+    },
+    {
+      "topic": "资源与锂电轮动",
+      "first_seen_date": "2026-07-21",
+      "source_state": "延续",
+      "current_state": "候选",
+      "new_information": "核心篮子均值-1.65%",
+      "industry_realization": {
+        "status": "待验证",
+        "conclusion": "当天没有足以改变订单、价格、产能、收入或利润判断的公司级新增证据。"
+      },
+      "market_validation": {
+        "status": "待验证",
+        "conclusion": "核心篮子当日均值-1.65%，当日价格表现与持续定价假设方向相反；仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。"
+      },
+      "expectation_gap": "尚未形成足以确认预期差的正向证据。",
+      "catalyst_window": "观察盛屯矿业、盛新锂能在市场分歧时能否继续强于对应指数，并用与“仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。”直接相关的订单、价格、产能或业绩数据确认。",
+      "opposing_force": "仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。",
+      "falsifiability": "若盛屯矿业、盛新锂能连续失去相对强度，仅下调短期交易层；只有订单、价格、产能、利润或现金流出现反向事实，才下调产业层。",
+      "evidence_delta": {
+        "support": [],
+        "counter": [
+          "ev_20260728_06"
+        ],
+        "verification_gap": [
+          "ev_20260728_06"
+        ]
+      },
+      "confirmed_company_roles": [],
+      "selection_result": "保留比较，不自动启动行业或公司深研。",
+      "selection_reason": "尚未同时满足产业支持、市场验证、公司事实与明确预期差。"
+    }
+  ],
+  "selection_and_elimination": {
+    "selected_for_deep_research": [],
+    "monitoring_or_downgraded": [
+      {
+        "topic": "国产设备与晶圆制造",
+        "state": "降级",
+        "reason": "当前主要是风险或负反馈，保留跟踪但不消耗深研名额。",
+        "next_verification": "观察设备核心能否先于科创50止跌，并跟踪订单、设备收入和客户资本开支。"
+      },
+      {
+        "topic": "大光模块与光互连",
+        "state": "降级",
+        "reason": "当前主要是风险或负反馈，保留跟踪但不消耗深研名额。",
+        "next_verification": "核验800G/1.6T ASP、客户份额、订单能见度和毛利率；同时观察核心能否连续两日不创新低。"
+      },
+      {
+        "topic": "存储内部再分层",
+        "state": "降级",
+        "reason": "当前主要是风险或负反馈，保留跟踪但不消耗深研名额。",
+        "next_verification": "观察DRAM/NAND价格、库存、利润斜率和长鑫成交虹吸是否减弱，并区分各环节盈利影响。"
+      },
+      {
+        "topic": "电网与算电协同",
+        "state": "降级",
+        "reason": "当前主要是风险或负反馈，保留跟踪但不消耗深研名额。",
+        "next_verification": "观察中国西电、思源电气、平高电气在市场分歧时能否继续强于对应指数，并用与“仍需连续交易日的核心篮子相对强度、成交和资金扩散确认。”直接相关的订单、价格、产能或业绩数据确认。"
+      },
+      {
+        "topic": "国产交换机与网络层",
+        "state": "降级",
+        "reason": "当前主要是风险或负反馈，保留跟踪但不消耗深研名额。",
+        "next_verification": "观察紫光、星网、共进的相对强弱能否连续，并核验交换机订单、收入和客户导入。"
+      }
+    ],
+    "rule": "没有方向同时满足产业支持、市场验证、公司事实和明确预期差时，深研队列允许为空。",
+    "why_not_more": "研究资源用于淘汰和验证，不用于把所有每日候选扩成完整行业与公司任务。"
+  },
+  "company_research_queue": [],
+  "next_update_contract": {
+    "required": [
+      "新增证据对应原假设和具体层级",
+      "说明为什么升级、降级或不调整",
+      "比较方向之间的相对变化",
+      "记录下一验证条件"
+    ],
+    "forbidden": [
+      "无新增证据重复改写",
+      "用verification_gap冒充反证",
+      "用单日涨跌改变产业结论",
+      "用主题热度自动创建公司深研"
+    ]
+  },
+  "boundaries": {
+    "daily_recap_unchanged": true,
+    "web_expansion_paused": true,
+    "public_only": true,
+    "private_holdings_used": false
+  }
+}

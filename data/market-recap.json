@@ -1,0 +1,747 @@
+{
+  "schemaVersion": "market-recap-v1",
+  "generatedAt": "2026-08-17T13:59:10.657Z",
+  "asOfDate": "2026-07-20",
+  "overview": {
+    "summary": "7月20日的收盘不能按上证翻红来理解。上证上涨0.85%、创业板上涨0.42%，但全A下跌2.36%，中位数下跌1.92%，下跌家数超过3700家；正式情绪池记录涨停33家、跌停211家、炸板38家。指数得到承接，绝大多数个股并没有止跌。当天的交易核心是高位科技继续去杠杆，而电力、煤炭、金融等低估值权重承担了稳定指数和吸收避险资金的角色。",
+    "latestIndexPct": -2.36,
+    "latestTurnover": null,
+    "latestEmotion": {
+      "limit_up_count": 53,
+      "broken_limit_count": 38,
+      "limit_down_count": 211,
+      "yesterday_limit_up_count": 33,
+      "bomb_rate": 0.4176
+    },
+    "mainFund5d": -1676.52,
+    "mainFundPositiveDays": 0,
+    "financing5d": -1913.02,
+    "leverageStress": "watch",
+    "leverageWatch": "上证收盘有效跌破近20日低点，同时融资净偿还继续低于近60日10%分位、融资余额延续下降且跌停/炸板未收缩，才确认杠杆踩踏继续扩散。"
+  },
+  "timeline": [
+    {
+      "dir": "tmp_recap_20260714",
+      "date": "2026-07-14",
+      "summary": "7月14日的交易并不顺畅。早盘，韩国存储链走弱、韩股波动加大，美债收益率与美元维持高位，对高估值科技形成估值压力；A股半导体权重先被带低，中芯国际、长电科技、通富微电一度承压，商业航天的中国卫星也延续了事件兑现后的弱势。午后，韩股跌势收敛，国内中报预告集中落地，资金没有回到所有科技方向，而是集中选择利润表已经给出答案的细分：PCB、光通信、电子布和部分封测。",
+      "turnover": 2.72,
+      "indexPct": 1.36,
+      "emotion": null,
+      "mainFundNet": -11.61,
+      "financingNet": -110.15
+    },
+    {
+      "dir": "tmp_recap_20260715",
+      "date": "2026-07-15",
+      "summary": "7月15日的主要变化发生在科技内部。外盘条件已经改善：前一晚纳指上涨0.90%、英伟达上涨4.06%，10年期美债收益率回落至约4.58%；A股开盘后却仍然出现存储模组、封测、晶圆制造和算力权重的连续卖压。这个反差说明，影响当天定价的首要变量不是海外利空，而是A股科技持仓拥挤、杠杆持续收缩，以及中报披露后对利润质量的重新筛选。",
+      "turnover": 2.59,
+      "indexPct": -0.29,
+      "emotion": null,
+      "mainFundNet": -291.24,
+      "financingNet": -117.64
+    },
+    {
+      "dir": "tmp_recap_20260716",
+      "date": "2026-07-16",
+      "summary": "成交与融资同步收缩后的风险释放日。市场尚未给出全面反转信号，资金流入低位端侧、mSAP和防御容量，资金流出存储模组、封测和高位材料；次日先看流出端是否止跌，再看流入端能否扩散。",
+      "turnover": 2.42,
+      "indexPct": -1.85,
+      "emotion": {
+        "limitUp": 42,
+        "limitDown": 33,
+        "brokenLimit": 25
+      },
+      "mainFundNet": -475.24,
+      "financingNet": -286.53
+    },
+    {
+      "dir": "tmp_recap_20260717",
+      "date": "2026-07-17",
+      "summary": "周五的下跌有两个层面，不能混为一谈。第一个层面是全球AI硬件资产的短期定价回撤：费半、美股科技与韩国存储链同步承压，A股中海外映射较重、前期涨幅较大的存储、封测、光模块和电子材料首先被卖出。第二个层面是A股自身的流动性收缩：连续回落的成交额、融资资金降杠杆和高位股承接不足，使本来属于业绩兑现期的分化演变成集中出清。",
+      "turnover": null,
+      "indexPct": -3.05,
+      "emotion": null,
+      "mainFundNet": -676.55,
+      "financingNet": -800.78
+    },
+    {
+      "dir": "tmp_recap_20260720",
+      "date": "2026-07-20",
+      "summary": "7月20日的收盘不能按上证翻红来理解。上证上涨0.85%、创业板上涨0.42%，但全A下跌2.36%，中位数下跌1.92%，下跌家数超过3700家；正式情绪池记录涨停33家、跌停211家、炸板38家。指数得到承接，绝大多数个股并没有止跌。当天的交易核心是高位科技继续去杠杆，而电力、煤炭、金融等低估值权重承担了稳定指数和吸收避险资金的角色。",
+      "turnover": null,
+      "indexPct": -2.36,
+      "emotion": null,
+      "mainFundNet": -221.89,
+      "financingNet": -597.91
+    }
+  ],
+  "topics": [
+    {
+      "id": "domestic-storage",
+      "name": "国产存储/封测",
+      "status": "发酵",
+      "confidence": 66,
+      "summary": "价格、国产扩产与封测设备能否共同转化为业绩和独立定价。",
+      "coreStocks": [
+        "兆易创新",
+        "江波龙",
+        "长电科技",
+        "华天科技"
+      ],
+      "marketPerformance": "待次日价格与板块广度验证。",
+      "narrative": "存储模组、封测和部分设备遭集中抛售",
+      "currentState": "强化：全球先进制程与AI需求仍有订单和资本开支证据。 / 弱化：A股不再给高估值硬件统一溢价，开始审视环比、库存和盈利质量。 / 弱化：资金、杠杆和价格尚未止跌。",
+      "nextWatch": "存储和封测核心篮子连续两日相对科创50止跌，同时主力净流出明显收敛；若核心公司再出现环比下滑，则继续降级。",
+      "latestEvidenceCount": 20,
+      "snapshotLastUpdated": "2026-07-13",
+      "snapshotLayers": {
+        "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
+        "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
+        "shortTermTrading": "核心中军承接不补跌，中报接力确认"
+      },
+      "snapshotEvidence": {
+        "id": "ev_20260805_browser_domestic_compute",
+        "date": "2026年8月5日 16:08",
+        "source": "browser fulltext",
+        "sourceTitle": "未命名来源",
+        "event": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
+        "interpretation": "",
+        "funding": "",
+        "risk": "",
+        "nextWatch": "核验公司级设备订单、先进封装产能利用率、晶圆厂收入和国产芯片批量交付，避免把产业链名录当成业绩证据。",
+        "reliability": "unknown",
+        "status": "待验证",
+        "sourceFile": "tmp_recap_20260805/evidence_index.json"
+      },
+      "researchUpdatedAt": "2026-07-17",
+      "weekOpen": 74,
+      "confidenceChanges": [
+        {
+          "points": 4,
+          "evidence": "台积电Q2业绩和Q3营收指引",
+          "source": "official"
+        },
+        {
+          "points": 2,
+          "evidence": "模拟与电源管理局部调价交流",
+          "source": "knowledge_star"
+        },
+        {
+          "points": -4,
+          "evidence": "存储模组利润斜率和库存质量分歧",
+          "source": "company_announcement"
+        },
+        {
+          "points": -3,
+          "evidence": "韩国存储链冲击放大外部定价扰动",
+          "source": "market_data"
+        },
+        {
+          "points": -4,
+          "evidence": "五日主力持续流出且周五半导体领跌",
+          "source": "fund_flow_data"
+        },
+        {
+          "points": -3,
+          "evidence": "融资余额连续回落，拥挤交易去杠杆",
+          "source": "margin_data"
+        }
+      ],
+      "layers": {
+        "industry": "强化：全球先进制程与AI需求仍有订单和资本开支证据。",
+        "market_pricing": "弱化：A股不再给高估值硬件统一溢价，开始审视环比、库存和盈利质量。",
+        "short_term_trading": "弱化：资金、杠杆和价格尚未止跌。"
+      }
+    },
+    {
+      "id": "pcb-ccl",
+      "name": "PCB/CCL上游材料",
+      "status": "发酵",
+      "confidence": 47,
+      "summary": "涨价能否从报价传播到订单、毛利率和板块持续资金承接。",
+      "coreStocks": [
+        "胜宏科技",
+        "深南电路",
+        "生益科技",
+        "中国巨石"
+      ],
+      "marketPerformance": "连板情绪与板块中军修复同时出现。",
+      "narrative": "订阅材料指向AI服务器PCB订单高于产能、交期拉长，CCL和电子布紧平衡并有涨价传导；核心公司为生益、沪电、东山、胜宏、广合、巨石。",
+      "currentState": "维持：需求和材料升级没有被证伪。 / 弱化：市场要求业绩兑现，单纯涨价叙事不足。 / 弱化：高位筹码未完成出清。",
+      "nextWatch": "核心材料和PCB公司中报兑现后，至少两只相对科创50连续走强；若业绩兑现后继续放量下跌，市场定价层进一步降级。",
+      "latestEvidenceCount": 20,
+      "snapshotLastUpdated": "2026-07-13",
+      "snapshotLayers": {
+        "industry": "电子布供给刚性3-5年（织布机排至2031），涨价从PCB向CCL/玻纤上游传导",
+        "marketPricing": "公众号提到电子布出现年内较大的月度涨幅，并列出覆铜板、铜箔、低介电材料和高频高速PCB的公司线索。知识星球同时出现MLCC供需偏紧与提价讨论，说明材料涨价仍是产业线索，但价格向利润表传导尚需公司披露。",
+        "shortTermTrading": "中材/生益缩量企稳不补跌，3环节至少2同步强"
+      },
+      "snapshotEvidence": {
+        "id": "ev_20260810_008",
+        "source": "公开资料",
+        "sourceTitle": "短评&信息：mSAP、CCL、SST、反制材料与资源",
+        "event": "",
+        "interpretation": "",
+        "funding": "",
+        "risk": "",
+        "nextWatch": "",
+        "reliability": "market_commentary_crosscheck_required",
+        "status": "待验证",
+        "sourceFile": "tmp_recap_20260810/evidence_index.json"
+      },
+      "researchUpdatedAt": "2026-07-17",
+      "weekOpen": 55,
+      "confidenceChanges": [
+        {
+          "points": 3,
+          "evidence": "台积电指引维持AI基础设施需求预期",
+          "source": "official"
+        },
+        {
+          "points": 2,
+          "evidence": "高端材料涨价与产品升级线索延续",
+          "source": "industry_sources"
+        },
+        {
+          "points": -5,
+          "evidence": "周五PCB与高估值硬件同为杀跌中心",
+          "source": "market_data"
+        },
+        {
+          "points": -4,
+          "evidence": "五日资金和融资趋势未给高位材料承接",
+          "source": "fund_flow_and_margin"
+        },
+        {
+          "points": -4,
+          "evidence": "涨价已从主题催化转为利润兑现压力测试",
+          "source": "system_inference"
+        }
+      ],
+      "layers": {
+        "industry": "维持：需求和材料升级没有被证伪。",
+        "market_pricing": "弱化：市场要求业绩兑现，单纯涨价叙事不足。",
+        "short_term_trading": "弱化：高位筹码未完成出清。"
+      }
+    },
+    {
+      "id": "optical-cpo",
+      "name": "光模块/CPO",
+      "status": "发酵",
+      "confidence": 54,
+      "summary": "海外需求和订单能见度能否抵消高位拥挤与外盘波动。",
+      "coreStocks": [
+        "中际旭创",
+        "新易盛",
+        "天孚通信",
+        "光迅科技"
+      ],
+      "marketPerformance": "7月20日科技二线仍在补跌，紫光股份与端侧AI相对承接。",
+      "narrative": "光迅交流材料称订单饱满、Q2受DSP不齐套拖累，G2厂房7月投产，Q3/Q4有修复预期，海外1.6T批量供货目标在Q4。",
+      "currentState": "维持。 / 明显弱化。 / 未通过。",
+      "nextWatch": "海外AI资产止跌、核心A股光模块股相对通信指数连续两日跑赢，并有订单或业绩超预期支撑。",
+      "latestEvidenceCount": 19,
+      "snapshotLastUpdated": "2026-07-13",
+      "snapshotLayers": {
+        "industry": "光通信占AI IT投资比例从5-6%数倍增长，2026年340亿→2027更大",
+        "marketPricing": "盘面全文记录了光模块受政策传闻低开后修复、国产芯片和半导体设备走强、午后AI硬件扩散后炸板率上升的日内路径；这是市场观点材料，对价格路径有参考价值，但不替代行情统计。",
+        "shortTermTrading": "隔夜美股SOX反弹→A股光模块次日跟随"
+      },
+      "snapshotEvidence": {
+        "id": "ev_20260805_overseas_snapshot",
+        "date": "2026年8月5日约22:20（盘中）",
+        "source": "market data",
+        "sourceTitle": "未命名来源",
+        "event": "北京时间约22:20的盘中快照显示：纳指100ETF约涨0.40%，费城半导体ETF约跌0.45%，英伟达约涨4.45%，美光约涨3.26%，Coherent约涨4.05%，Lumentum约涨0.30%，美元指数ETF约跌0.25%，长久期美债ETF约涨0.25%。海外AI龙头偏强但半导体指数未全面扩散，A股光模块走弱与国产设备走强形成分化。",
+        "interpretation": "",
+        "funding": "",
+        "risk": "",
+        "nextWatch": "明早补看美股收盘及半导体指数广度；若海外AI继续强、A股光模块仍弱，继续区分需求逻辑与A股筹码定价。",
+        "reliability": "unknown",
+        "status": "待验证",
+        "sourceFile": "tmp_recap_20260805/evidence_index.json"
+      },
+      "researchUpdatedAt": "2026-07-17",
+      "weekOpen": 65,
+      "confidenceChanges": [
+        {
+          "points": 3,
+          "evidence": "全球AI资本开支和先进制程指引未下修",
+          "source": "official"
+        },
+        {
+          "points": 2,
+          "evidence": "800G和1.6T需求逻辑仍有产业跟踪",
+          "source": "industry_sources"
+        },
+        {
+          "points": -4,
+          "evidence": "周五CPO和算力硬件成为估值去压缩中心",
+          "source": "market_data"
+        },
+        {
+          "points": -5,
+          "evidence": "海外科技资产走弱，估值分母压力未解除",
+          "source": "macro_market_data"
+        },
+        {
+          "points": -7,
+          "evidence": "供给扩张和高拥挤筹码使价格验证弱于产业叙事",
+          "source": "system_inference"
+        }
+      ],
+      "layers": {
+        "industry": "维持。",
+        "market_pricing": "明显弱化。",
+        "short_term_trading": "未通过。"
+      }
+    },
+    {
+      "id": "innovative-drug",
+      "name": "创新药",
+      "status": "发酵",
+      "confidence": 50,
+      "summary": "授权交易质量和业绩兑现能否支撑从防御轮动走向持续定价。",
+      "coreStocks": [
+        "百利天恒",
+        "甘李药业",
+        "美诺华",
+        "东山精密"
+      ],
+      "marketPerformance": "待验证",
+      "narrative": "德明利连续跌停、兆易创新跌停、华天科技与长电科技大跌，市场从同比高增转向核验Q2环比、库存效率和利润斜率。",
+      "currentState": "BD从\"量\"向\"质\"切换，恒瑞co-co模式标志转折 / IMA与知识星球新增DeepSeek V4 Flash、腾讯WorkBuddy、AI实施与游戏出海材料；游戏上半年收入和海外收入保持增长。 / 石药/恒瑞/百济突破关键均线",
+      "nextWatch": "周一光通信相对强度和成交扩散",
+      "latestEvidenceCount": 7,
+      "snapshotLastUpdated": "2026-07-13",
+      "snapshotLayers": {
+        "industry": "BD从\"量\"向\"质\"切换，恒瑞co-co模式标志转折",
+        "marketPricing": "IMA与知识星球新增DeepSeek V4 Flash、腾讯WorkBuddy、AI实施与游戏出海材料；游戏上半年收入和海外收入保持增长。",
+        "shortTermTrading": "石药/恒瑞/百济突破关键均线"
+      },
+      "snapshotEvidence": {
+        "id": "ev_20260810_005",
+        "source": "公开资料",
+        "sourceTitle": "药石科技中报与创新药BD材料",
+        "event": "",
+        "interpretation": "",
+        "funding": "",
+        "risk": "",
+        "nextWatch": "",
+        "reliability": "company_disclosure_and_public_material",
+        "status": "待验证",
+        "sourceFile": "tmp_recap_20260810/evidence_index.json"
+      },
+      "researchUpdatedAt": "2026-07-13",
+      "weekOpen": null,
+      "confidenceChanges": [],
+      "layers": {
+        "industry": "BD从\"量\"向\"质\"切换，恒瑞co-co模式标志转折",
+        "marketPricing": "IMA与知识星球新增DeepSeek V4 Flash、腾讯WorkBuddy、AI实施与游戏出海材料；游戏上半年收入和海外收入保持增长。",
+        "shortTermTrading": "石药/恒瑞/百济突破关键均线"
+      }
+    },
+    {
+      "id": "switch-ocs",
+      "name": "交换机/OCS",
+      "status": "发酵",
+      "confidence": 61,
+      "summary": "AI集群瓶颈是否从芯片扩散到交换、光互连和资源调度。",
+      "coreStocks": [
+        "锐捷网络",
+        "紫光股份",
+        "星网锐捷",
+        "光迅科技"
+      ],
+      "marketPerformance": "紫光炸板而非封板，说明资金认可度尚不稳定。",
+      "narrative": "紫光股份盘中接近涨停后回落，盛科通信逆势大涨；WAIC与国产算力网络层仍是订阅语料的重点。",
+      "currentState": "维持：网络带宽和互联复杂度提升的产业解释更完整。 / 观察：个股有承接但板块没有形成独立定价。 / 未验证：必须先证明不是逆势孤点。",
+      "nextWatch": "星网锐捷、紫光股份、共进股份等至少两只连续两日跑赢通信指数，并出现订单、产品导入或业绩信息之一。",
+      "latestEvidenceCount": 3,
+      "snapshotLastUpdated": "2026-07-13",
+      "snapshotLayers": {
+        "industry": "AI集群瓶颈从芯片扩展到交换机/OCS/光互连，Atlas 950+超节点成明确线索",
+        "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
+        "shortTermTrading": "WAIC/Atlas事件前不冲高回落，锐捷/星网/紫光承接"
+      },
+      "snapshotEvidence": {
+        "id": "ev_20260805_flow_out",
+        "date": "2026年8月5日收盘",
+        "source": "market data",
+        "sourceTitle": "未命名来源",
+        "event": "8月5日中际旭创约跌7.27%、新易盛约跌5.29%，光迅跌幅较小；在英伟达、迈威尔等海外AI标的盘中仍偏强的背景下，A股光模块没有同步修复，说明当日资金首先定价的是政策传闻、估值和筹码压力，而非海外需求突然消失。",
+        "interpretation": "",
+        "funding": "",
+        "risk": "",
+        "nextWatch": "下一交易日观察光模块核心股能否相对科创50止跌；若海外AI继续强而A股光模块仍弱，优先按A股内部定价问题处理。",
+        "reliability": "unknown",
+        "status": "待验证",
+        "sourceFile": "tmp_recap_20260805/evidence_index.json"
+      },
+      "researchUpdatedAt": "2026-07-17",
+      "weekOpen": 70,
+      "confidenceChanges": [
+        {
+          "points": 3,
+          "evidence": "订阅语料持续讨论推理、网络和资源调度需求",
+          "source": "ima_and_knowledge_star"
+        },
+        {
+          "points": 2,
+          "evidence": "星网锐捷、共进股份在周五极端盘面仍出现主力净流入",
+          "source": "fund_flow_data"
+        },
+        {
+          "points": -4,
+          "evidence": "通信和计算机行业总体仍是资金流出端",
+          "source": "fund_flow_data"
+        },
+        {
+          "points": -5,
+          "evidence": "核心公司未出现可验证的订单、价格或交付连续数据",
+          "source": "system_inference"
+        },
+        {
+          "points": -5,
+          "evidence": "周五科技普跌，孤立个股承接未扩散为板块确认",
+          "source": "market_data"
+        }
+      ],
+      "layers": {
+        "industry": "维持：网络带宽和互联复杂度提升的产业解释更完整。",
+        "market_pricing": "观察：个股有承接但板块没有形成独立定价。",
+        "short_term_trading": "未验证：必须先证明不是逆势孤点。"
+      }
+    },
+    {
+      "id": "ai-software",
+      "name": "AI应用/软件",
+      "status": "发酵",
+      "confidence": 42,
+      "summary": "推理商业化能否形成A股订单、利用率、价格和现金流验证。",
+      "coreStocks": [
+        "网宿科技",
+        "深信服",
+        "润泽科技",
+        "汉得信息"
+      ],
+      "marketPerformance": "7月20日科技二线仍在补跌，紫光股份与端侧AI相对承接。",
+      "narrative": "国内模型、推理基础设施和国产算力讨论增加",
+      "currentState": "候选：全球需求背景成立。 / 未确认。 / 未确认。",
+      "nextWatch": "IDC/CDN核心公司连续相对走强，并至少出现利用率、订单、价格或业绩中的一项公司级验证。",
+      "latestEvidenceCount": 2,
+      "snapshotLastUpdated": "2026-07-13",
+      "snapshotLayers": {
+        "industry": "Anthropic Fable恐慌被消化，软件7/1首次6个月来跑赢半导体",
+        "marketPricing": "群聊围观材料把资金线索概括为国产替代、上游定价权和AI应用落地三条路径，并要求应用项目复用、付费客户、订单和毛利率验证。它用于发现候选和分歧，不把群聊提及的公司直接视作核心标的。",
+        "shortTermTrading": "NOW/CRM/SNOW突破6/10恐慌前高点"
+      },
+      "snapshotEvidence": {
+        "id": "ev_20260810_003",
+        "source": "公开资料",
+        "sourceTitle": "模块化AIDC交付与全球产能信息",
+        "event": "",
+        "interpretation": "",
+        "funding": "",
+        "risk": "",
+        "nextWatch": "",
+        "reliability": "company_and_media_claim_with_gap",
+        "status": "待验证",
+        "sourceFile": "tmp_recap_20260810/evidence_index.json"
+      },
+      "researchUpdatedAt": "2026-07-17",
+      "weekOpen": 47,
+      "confidenceChanges": [
+        {
+          "points": 3,
+          "evidence": "全球超大规模云厂商资本开支逻辑延续",
+          "source": "official_and_media"
+        },
+        {
+          "points": -4,
+          "evidence": "美股高估值科技回撤，不能直接映射为A股云服务接棒",
+          "source": "macro_market_data"
+        },
+        {
+          "points": -4,
+          "evidence": "A股缺少利用率、租赁价格、订单和现金流的新增验证",
+          "source": "system_inference"
+        }
+      ],
+      "layers": {
+        "industry": "候选：全球需求背景成立。",
+        "market_pricing": "未确认。",
+        "short_term_trading": "未确认。"
+      }
+    }
+  ],
+  "risks": [
+    {
+      "theme": "市场资金",
+      "text": "主力资金口径为数据源算法分类，需与成交、宽度和龙虎榜交叉验证。",
+      "nextWatch": "观察主力净流出是否收窄并出现连续回流。"
+    },
+    {
+      "theme": "杠杆资金",
+      "text": "账户级强平线取决于券商合同与担保品结构。",
+      "nextWatch": "观察融资净偿还是否进入60日极端分位、融资余额5日回撤及市场是否跌破近20日低点。"
+    },
+    {
+      "theme": "板块宽度",
+      "text": "行业/概念是聚合口径，不能完全等同全市场涨跌家数。",
+      "nextWatch": "若全市场宽度失败，下一层使用行业/概念宽度，再到打板池。"
+    },
+    {
+      "theme": "打板结构",
+      "text": "push2ex端点可能受交易日、参数或网络影响，失败时须进入下一层fallback。",
+      "nextWatch": "次日观察涨停数量、跌停数量、炸板率、昨日涨停晋级率是否改善。"
+    },
+    {
+      "theme": "风险释放",
+      "text": "若风险池失败，使用龙虎榜、板块强弱、指数成交额交叉验证。",
+      "nextWatch": "次日看炸板率是否下降、跌停数量是否收敛。"
+    }
+  ],
+  "external": [
+    {
+      "title": "电力、煤炭、金融承接，海外映射AI硬件继续出清；端侧和国产算力保留局部活口。",
+      "implication": "这是风险偏好从高杠杆海外硬件转向低估值权重与低位科技的分流，不等于任何一端已形成新主线。",
+      "nextWatch": "观察承接方向广度、核心科技止跌和成交额能否同步改善。"
+    },
+    {
+      "title": "资金流出海外映射高位AI硬件，流入电力、煤炭、金融及局部国产算力和端侧方向。",
+      "implication": "总量仍为净流出时，局部流入只能解释结构承接，不能替代风险偏好修复。",
+      "nextWatch": "观察流入是否扩散到科技核心并带动市场宽度修复。"
+    },
+    {
+      "title": "KOSPI下跌4.46%、KOSDAQ下跌5.33%，SK海力士和三星均下跌逾4%；外资与个人净买入而本土机构继续卖出科技。",
+      "implication": "外部筹码压力尚未解除，海外映射不宜因单一美股时点反弹而直接升级；存储产业供给紧张的中期叙事仍待公司数据验证。",
+      "nextWatch": "看韩股能否停止本土机构主导的卖出，以及A股模组跌停是否收敛。"
+    }
+  ],
+  "macroEvents": [
+    {
+      "date": "2026-07-20",
+      "category": "domestic",
+      "title": "证监会召开投资者座谈会；国新、诚通披露继续增持央企、科技股及ETF的安排。",
+      "implication": "政策与国有资本动作能改善极端流动性和宽基承接预期，但不能替代主线盈利与价格验证。",
+      "nextWatch": "观察宽基ETF成交、跌停家数与电力金融承接是否同步延续。"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "external",
+      "title": "电力、煤炭、金融承接，海外映射AI硬件继续出清；端侧和国产算力保留局部活口。",
+      "implication": "这是风险偏好从高杠杆海外硬件转向低估值权重与低位科技的分流，不等于任何一端已形成新主线。",
+      "nextWatch": "观察承接方向广度、核心科技止跌和成交额能否同步改善。"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "external",
+      "title": "资金流出海外映射高位AI硬件，流入电力、煤炭、金融及局部国产算力和端侧方向。",
+      "implication": "总量仍为净流出时，局部流入只能解释结构承接，不能替代风险偏好修复。",
+      "nextWatch": "观察流入是否扩散到科技核心并带动市场宽度修复。"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "external",
+      "title": "KOSPI下跌4.46%、KOSDAQ下跌5.33%，SK海力士和三星均下跌逾4%；外资与个人净买入而本土机构继续卖出科技。",
+      "implication": "外部筹码压力尚未解除，海外映射不宜因单一美股时点反弹而直接升级；存储产业供给紧张的中期叙事仍待公司数据验证。",
+      "nextWatch": "看韩股能否停止本土机构主导的卖出，以及A股模组跌停是否收敛。"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "external",
+      "title": "光迅交流材料称订单饱满、Q2受DSP不齐套拖累，G2厂房7月投产，Q3/Q4有修复预期，海外1.6T批量供货目标在Q4。",
+      "implication": "光通信的核心矛盾从泛化需求担忧进一步收敛到DSP供应、海外认证和产能爬坡；订单叙事更具体，但尚非公司正式公告。",
+      "nextWatch": "光迅及光模块核心能否在周二相对科创/创业板止跌，并由成交改善确认。"
+    },
+    {
+      "date": "2026-07-20",
+      "category": "external",
+      "title": "产业交流称海外氮化铝价格较去年上行、相关公司Q2同环比改善，但股价已大幅调整。",
+      "implication": "先进陶瓷出现价格与盈利线索，值得从泛材料篮子中单列观察；尚未形成可替代主线的资金宽度。",
+      "nextWatch": "核验公司公告、价格持续性和核心标的成交承接。"
+    }
+  ],
+  "regime": {
+    "researchUpdatedAt": "2026-07-17",
+    "label": "硬科技去杠杆，市场进入业绩与筹码再定价",
+    "conclusion": "产业需求并未被单日行情否定，但高估值硬件的交易层正在同时面对主力流出、融资收缩和利润质量筛选。低位方向出现承接，不等于已经完成主线切换。",
+    "cycle": [
+      {
+        "label": "流动性",
+        "value": "收缩",
+        "detail": "五日主力累计流出1676.52亿；融资资金同步回落。"
+      },
+      {
+        "label": "产业",
+        "value": "未被证伪",
+        "detail": "先进制程、AI资本开支和部分材料升级仍有产业证据，但需要逐家公司兑现到订单、利润和现金流。"
+      },
+      {
+        "label": "盘面",
+        "value": "高低切换",
+        "detail": "高位硬科技承压，医药/CRO、内容传媒和端侧AI出现局部承接；目前尚未形成替代主线的统一扩散。"
+      },
+      {
+        "label": "下一阶段",
+        "value": "等待确认",
+        "detail": "先看主力流出和融资净偿还是否收敛，再看核心方向能否连续两日跑赢对应指数并扩散到容量股。"
+      }
+    ],
+    "upgrade": "成交与融资止缩、主力流出收敛，并出现至少一条产业线的核心股和板块宽度同步改善。",
+    "downgrade": "融资净偿还、跌停/炸板和高位硬件补跌继续扩大，且低位承接方向也不能形成连续成交。",
+    "historyLens": {
+      "title": "历史对照只帮助识别阶段，不替代当下验证",
+      "similar": "当前更接近外部波动、融资收缩和高位拥挤同时出现的回撤样本，而不是已经确认的产业逻辑破坏。",
+      "difference": "是否只是回撤而非趋势反转，仍要由成交、融资、板块宽度和盈利核心的相对强度回答。"
+    }
+  },
+  "marketDrivers": [
+    {
+      "rank": 1,
+      "role": "主因",
+      "title": "流动性与杠杆同步收缩",
+      "conclusion": "五日主力累计净流出1676.52亿，融资累计净偿还1913.02亿；高估值方向先承受估值和筹码压力。",
+      "marketEffect": "先压制高位、拥挤和融资参与度较高的方向；反弹需要先看到卖压收敛。",
+      "nextWatch": "看主力净流出是否从5/5日收敛，以及融资净偿还是否从5/5日收敛。"
+    },
+    {
+      "rank": 2,
+      "role": "放大器",
+      "title": "海外利率与半导体风险偏好仍在扰动",
+      "conclusion": "美债、美元、韩国半导体与海外AI表现影响高估值科技的折现与情绪，但不能替代A股自身资金和业绩判断。",
+      "marketEffect": "外部走弱会放大科技补跌；外部转强但A股仍弱，则应优先检查内部筹码和资金选择。",
+      "nextWatch": "把美债收益率、美元、韩股半导体和A股核心权重拆开看，不用单一外盘涨跌替代结论。"
+    },
+    {
+      "rank": 3,
+      "role": "产业底线",
+      "title": "产业需求尚未被盘面回撤直接证伪",
+      "conclusion": "先进制程、AI资本开支与部分材料升级仍有公开产业证据；真正的分水岭是订单、利润和现金流能否逐家公司兑现。",
+      "marketEffect": "产业底线决定回撤后哪些公司有承接价值，但不能自动消除短期交易层的估值与筹码压力。",
+      "nextWatch": "重点看中报、订单、价格和产能利用率，而不是只看主题热度。"
+    },
+    {
+      "rank": 4,
+      "role": "盘面结果",
+      "title": "低位承接出现，但尚未形成替代主线",
+      "conclusion": "医药/CRO、内容传媒和端侧AI出现局部承接；交换机与OCS仍是产业线索，尚缺板块扩散和订单验证。",
+      "marketEffect": "这更像风险释放后的资金分流，不等同于市场已经完成主线切换。",
+      "nextWatch": "至少观察一条承接线的核心股、成交和板块宽度同步改善，再讨论升级为新主线。"
+    }
+  ],
+  "rotationLanes": [
+    {
+      "id": "hardware-repricing",
+      "name": "AI硬件与半导体",
+      "role": "原主线再定价",
+      "updatedAt": "2026-07-20",
+      "state": "业绩可见度支持产业假设，但A股资金仍需由核心光通信和国产算力容量股的止跌、相对强度和成交确认。",
+      "market": "7月20日科技二线仍在补跌，紫光股份与端侧AI相对承接。",
+      "coreStocks": [
+        "兆易创新",
+        "长电科技",
+        "华天科技",
+        "中际旭创",
+        "沪电股份"
+      ],
+      "nextWatch": "看光通信核心能否缩量止跌、国产算力是否出现连续相对强势。",
+      "evidenceCount": 38
+    },
+    {
+      "id": "medical-cro",
+      "name": "医药与CRO",
+      "role": "低位承接候选",
+      "updatedAt": "2026-07-16",
+      "state": "科技风险释放时，资金进入医药与传媒等低位方向，但两者性质不同：医药偏防御与资产重估，传媒偏暑期档与内容催化。",
+      "market": "行业上涨家数和涨停池均验证局部承接。",
+      "coreStocks": [
+        "昭衍新药",
+        "凯莱英",
+        "药明康德",
+        "哈药股份"
+      ],
+      "nextWatch": "看医药容量核心能否保持强度，传媒是否有成交深度而非仅首日脉冲。",
+      "evidenceCount": 3
+    },
+    {
+      "id": "media-games",
+      "name": "影视与游戏",
+      "role": "事件与业绩承接",
+      "updatedAt": "2026-07-16",
+      "state": "科技风险释放时，资金进入医药与传媒等低位方向，但两者性质不同：医药偏防御与资产重估，传媒偏暑期档与内容催化。",
+      "market": "行业上涨家数和涨停池均验证局部承接。",
+      "coreStocks": [
+        "儒意电影",
+        "幸福蓝海",
+        "巨人网络",
+        "恺英网络",
+        "世纪华通"
+      ],
+      "nextWatch": "看医药容量核心能否保持强度，传媒是否有成交深度而非仅首日脉冲。",
+      "evidenceCount": 3
+    },
+    {
+      "id": "terminal-ai",
+      "name": "端侧AI",
+      "role": "新品催化候选",
+      "updatedAt": "2026-07-16",
+      "state": "备案解决公开上线的合规入口，给端侧芯片、散热、结构件和终端应用提供新增催化；它解释了端侧方向在科技通杀中仍有资金承接。",
+      "market": "道明光学收盘涨停，瑞芯微逆势走强。",
+      "coreStocks": [
+        "瑞芯微",
+        "道明光学",
+        "福蓉科技"
+      ],
+      "nextWatch": "看瑞芯微等容量核心能否继续放量并带动芯片、散热、结构件同步扩散。",
+      "evidenceCount": 3
+    },
+    {
+      "id": "network-ocs",
+      "name": "交换机与OCS",
+      "role": "产业线索待定价",
+      "updatedAt": "2026-07-16",
+      "state": "网络层具备产业解释，但今天只出现局部承接，没有形成板块扩散，准确状态仍是候选而非主线。",
+      "market": "紫光炸板而非封板，说明资金认可度尚不稳定。",
+      "coreStocks": [
+        "紫光股份",
+        "星网锐捷",
+        "锐捷网络",
+        "光迅科技"
+      ],
+      "nextWatch": "观察紫光、星网、锐捷是否有至少两只连续两日强于科创50并出现成交放大。",
+      "evidenceCount": 1
+    },
+    {
+      "id": "commercial-space",
+      "name": "商业航天",
+      "role": "事件线已转分歧",
+      "updatedAt": "",
+      "state": "工程突破不能替代持续资金确认。",
+      "market": "暂无盘面验证。",
+      "coreStocks": [
+        "中国卫星",
+        "航天电子",
+        "中信重工"
+      ],
+      "nextWatch": "看核心公司是否重新获得成交和板块扩散。",
+      "evidenceCount": 0
+    },
+    {
+      "id": "new-energy",
+      "name": "光伏与锂电",
+      "role": "超跌观察，不是主线",
+      "updatedAt": "2026-07-14",
+      "state": "这说明新能源产业语料仍有增量，但当日A股资金并未把锂电推为主导方向。",
+      "market": "当日盘面缺少与PCB同等级的主力资金和板块扩散。",
+      "coreStocks": [
+        "融捷股份",
+        "天齐锂业",
+        "龙蟠科技"
+      ],
+      "nextWatch": "看锂价、核心股相对强弱和订单/产能证据。",
+      "evidenceCount": 2
+    }
+  ]
+}
