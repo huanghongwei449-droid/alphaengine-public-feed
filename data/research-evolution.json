@@ -1,12 +1,12 @@
 {
   "schemaVersion": "alphaengine-research-evolution-v1",
-  "generatedAt": "2026-08-17T16:15:39.217Z",
+  "generatedAt": "2026-08-17T16:30:17.109Z",
   "policy": "只读取已完成日报中的 public_safe evidence；按稳定观察篮子归档。市场状态来自主业记忆，新增资料不自动改写产业或交易结论。",
   "summary": {
     "recapFiles": 31,
     "publicEvidenceScanned": 485,
     "mappedEvidence": 426,
-    "newEvidenceSinceLastSync": 6,
+    "newEvidenceSinceLastSync": 0,
     "unmappedEvidence": 50,
     "dailyCandidateHandoff": {
       "sourceDate": "2026-08-14",
@@ -580,7 +580,7 @@
           "logic": "",
           "reliability": "",
           "sourceFile": "tmp_recap_20260817/evidence_index.json",
-          "isNewSinceLastSync": true,
+          "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -592,7 +592,7 @@
           "logic": "",
           "reliability": "",
           "sourceFile": "tmp_recap_20260817/evidence_index.json",
-          "isNewSinceLastSync": true,
+          "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -813,7 +813,7 @@
         }
       ],
       "evidenceCount": 43,
-      "newEvidenceCount": 2,
+      "newEvidenceCount": 0,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
         "id": "ev_20260817_cpo_01",
@@ -824,7 +824,7 @@
         "logic": "",
         "reliability": "",
         "sourceFile": "tmp_recap_20260817/evidence_index.json",
-        "isNewSinceLastSync": true,
+        "isNewSinceLastSync": false,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -863,7 +863,7 @@
           "logic": "",
           "reliability": "",
           "sourceFile": "tmp_recap_20260817/evidence_index.json",
-          "isNewSinceLastSync": true,
+          "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -1084,7 +1084,7 @@
         }
       ],
       "evidenceCount": 63,
-      "newEvidenceCount": 1,
+      "newEvidenceCount": 0,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
         "id": "ev_20260723_late_001",
@@ -1863,7 +1863,7 @@
           "logic": "",
           "reliability": "",
           "sourceFile": "tmp_recap_20260817/evidence_index.json",
-          "isNewSinceLastSync": true,
+          "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -1875,7 +1875,7 @@
           "logic": "",
           "reliability": "",
           "sourceFile": "tmp_recap_20260817/evidence_index.json",
-          "isNewSinceLastSync": true,
+          "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -2096,7 +2096,7 @@
         }
       ],
       "evidenceCount": 43,
-      "newEvidenceCount": 2,
+      "newEvidenceCount": 0,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
         "id": "ev_20260817_cpo_01",
@@ -2107,7 +2107,7 @@
         "logic": "",
         "reliability": "",
         "sourceFile": "tmp_recap_20260817/evidence_index.json",
-        "isNewSinceLastSync": true,
+        "isNewSinceLastSync": false,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -2726,7 +2726,7 @@
           "logic": "",
           "reliability": "",
           "sourceFile": "tmp_recap_20260817/evidence_index.json",
-          "isNewSinceLastSync": true,
+          "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -2947,7 +2947,7 @@
         }
       ],
       "evidenceCount": 63,
-      "newEvidenceCount": 1,
+      "newEvidenceCount": 0,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
         "id": "ev_20260723_late_001",
