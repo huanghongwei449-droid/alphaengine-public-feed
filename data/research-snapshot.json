@@ -1,7 +1,7 @@
 {
   "schemaVersion": "research-console-v2",
-  "generatedAt": "2026-08-17T16:48:12.584Z",
-  "asOfDate": "2026-08-17",
+  "generatedAt": "2026-08-18T05:10:56.162Z",
+  "asOfDate": "2026-08-18",
   "topics": [
     {
       "id": "domestic-storage",
@@ -10,7 +10,7 @@
       "status": "发酵",
       "confidence": 74,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-17",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -38,12 +38,12 @@
       ],
       "evidence": [
         {
-          "id": "product_fact_market_688981_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_688981_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中芯国际：收盘 136.76，当日 +2.93%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.03%、60日变化 4.13%。这不单独构成基本面或交易结论。",
+          "event": "中芯国际：收盘 133.76，当日 -2.19%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -16.4%、60日变化 -14.26%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +1.66亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -52,12 +52,12 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_603986_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_603986_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "兆易创新：收盘 444，当日 +6.35%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.71%、60日变化 -5.13%。这不单独构成基本面或交易结论。",
+          "event": "兆易创新：收盘 436，当日 -1.8%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.31%、60日变化 -15.32%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +18.66亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -66,13 +66,55 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_002185_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_600584_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "华天科技：收盘 19，当日 +5.67%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 12.76%、60日变化 23.31%。这不单独构成基本面或交易结论。",
+          "event": "长电科技：收盘 85.28，当日 -0.66%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.7%、60日变化 6.51%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +28.37亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_301308_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "江波龙：收盘 412.5，当日 -1.61%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -2.22%、60日变化 -26.93%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -3亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_002185_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "华天科技：收盘 18.77，当日 -1.21%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.29%、60日变化 10.75%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +9.06亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_002156_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "通富微电：收盘 70.25，当日 +1.43%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.37%、60日变化 0.79%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +25.76亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -234,34 +276,6 @@
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
         },
         {
-          "id": "product_fact_market_301308_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "江波龙：收盘 414.3，当日 -0.77%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -15.1%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +19.42亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_002156_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "通富微电：收盘 62.86，当日 +1.29%",
-          "interpretation": "公开行情事实：价格已落入中期调整结构；20日变化 -20.14%、60日变化 6.94%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -19.9亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
           "id": "ev_20260812_breadth_005",
           "date": "2026-08-12",
           "source": "A股数据",
@@ -274,20 +288,6 @@
           "reliability": "fund_flow_data",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260812/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_600584_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "长电科技：收盘 77.67，当日 -1.08%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -24.37%、60日变化 33.38%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -12.65亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         }
       ],
       "evidenceCount": 181,
@@ -296,37 +296,37 @@
           "name": "兆易创新",
           "role": "高频验证锚",
           "mentions": 48,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "江波龙",
           "role": "产业核心",
           "mentions": null,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "长电科技",
           "role": "产业链映射",
           "mentions": 28,
-          "lastSeen": "2026-08-11"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "华天科技",
           "role": "高频验证锚",
           "mentions": 33,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "通富微电",
           "role": "产业链映射",
           "mentions": 18,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "中芯国际",
           "role": "产业核心",
           "mentions": null,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "中际旭创",
@@ -406,6 +406,11 @@
       ],
       "nextCatalysts": [
         {
+          "date": "2026-08-18",
+          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "sourceId": "product_fact_market_688981_2026-08-18"
+        },
+        {
           "date": "2026-08-17",
           "title": "次日板块宽度、容量核心相对强度和公司级事实",
           "sourceId": "ev_20260817_storage_01"
@@ -424,16 +429,11 @@
           "date": "2026-08-13",
           "title": "观察存储设计、模组和设备之间是否重新分层",
           "sourceId": "ev_20260813_api_storage"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "只对能落到公告、业绩、价格的部分升级",
-          "sourceId": "ev_20260813_api_foundry"
         }
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.03%、60日变化 4.13%。这不单独构成基本面或交易结论。",
+        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -16.4%、60日变化 -14.26%。这不单独构成基本面或交易结论。",
         "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
@@ -445,7 +445,7 @@
       "status": "发酵",
       "confidence": 70,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-17",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "AI集群瓶颈从芯片扩展到交换机/OCS/光互连，Atlas 950+超节点成明确线索",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -479,12 +479,26 @@
       ],
       "evidence": [
         {
-          "id": "product_fact_market_002396_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_301165_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "星网锐捷：收盘 33.91，当日 +3.8%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 17.99%、60日变化 40.1%。这不单独构成基本面或交易结论。",
+          "event": "锐捷网络：收盘 143.01，当日 -3.37%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 29%、60日变化 98.62%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +4.25亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_002396_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "星网锐捷：收盘 32.49，当日 -4.19%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.78%、60日变化 35.94%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +11.38亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -493,12 +507,26 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_000938_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002281_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "紫光股份：收盘 41.03，当日 +2.7%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 8.86%、60日变化 37.71%。这不单独构成基本面或交易结论。",
+          "event": "光迅科技：收盘 196.63，当日 -1.56%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 5.15%、60日变化 -12.21%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +22.14亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_000938_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "紫光股份：收盘 39.29，当日 -4.24%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -5.23%、60日变化 26.84%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 -4.95亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -605,34 +633,6 @@
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
         },
         {
-          "id": "product_fact_market_301165_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "锐捷网络：收盘 126.23，当日 -1.15%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 25.35%、60日变化 78.59%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +3.27亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_002281_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "光迅科技：收盘 185.03，当日 +0.52%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.93%、60日变化 -19.86%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +12.14亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
           "id": "ev_20260811_007",
           "date": "2026-08-11",
           "source": "browser harness",
@@ -737,25 +737,25 @@
           "name": "锐捷网络",
           "role": "高频验证锚",
           "mentions": 36,
-          "lastSeen": "2026-08-13"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "紫光股份",
           "role": "高频验证锚",
           "mentions": 45,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "星网锐捷",
           "role": "产业链映射",
           "mentions": 23,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "光迅科技",
           "role": "产业链映射",
           "mentions": 18,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "新易盛",
@@ -841,6 +841,11 @@
       "historyCases": [],
       "nextCatalysts": [
         {
+          "date": "2026-08-18",
+          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "sourceId": "product_fact_market_301165_2026-08-18"
+        },
+        {
           "date": "2026-08-17",
           "title": "次日板块宽度、容量核心相对强度和公司级事实",
           "sourceId": "ev_20260817_network_01"
@@ -856,11 +861,6 @@
           "sourceId": "ev_20260813_cloud_network_power"
         },
         {
-          "date": "2026-08-17",
-          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "sourceId": "product_fact_market_002396_2026-08-17"
-        },
-        {
           "date": "2026-08-11",
           "title": "容量核心与弹性标的同时站回均价并连续强于指数。",
           "sourceId": "ev_20260811_007"
@@ -868,7 +868,7 @@
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "公开行情事实：价格仍在中期上行结构内；20日变化 17.99%、60日变化 40.1%。这不单独构成基本面或交易结论。",
+        "rationale": "公开行情事实：价格仍在中期上行结构内；20日变化 29%、60日变化 98.62%。这不单独构成基本面或交易结论。",
         "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
@@ -880,7 +880,7 @@
       "status": "发酵",
       "confidence": 65,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-17",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "光通信占AI IT投资比例从5-6%数倍增长，2026年340亿→2027更大",
         "marketPricing": "盘面全文记录了光模块受政策传闻低开后修复、国产芯片和半导体设备走强、午后AI硬件扩散后炸板率上升的日内路径；这是市场观点材料，对价格路径有参考价值，但不替代行情统计。",
@@ -908,12 +908,12 @@
       ],
       "evidence": [
         {
-          "id": "product_fact_market_300502_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_300502_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "新易盛：收盘 466.68，当日 +4.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.49%、60日变化 7.85%。这不单独构成基本面或交易结论。",
+          "event": "新易盛：收盘 453.5，当日 -2.82%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.81%、60日变化 -3.51%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +33.94亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -922,13 +922,41 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_300308_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_300394_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中际旭创：收盘 1001.03，当日 +6.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.3%、60日变化 -3.56%。这不单独构成基本面或交易结论。",
+          "event": "天孚通信：收盘 291.86，当日 +1.85%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 26.35%、60日变化 3.17%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +77.39亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_300308_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "中际旭创：收盘 985.01，当日 -1.6%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.33%、60日变化 -9.88%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 -30.18亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_002281_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "光迅科技：收盘 196.63，当日 -1.56%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 5.15%、60日变化 -12.21%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +22.14亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -1090,34 +1118,6 @@
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
         },
         {
-          "id": "product_fact_market_300394_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "天孚通信：收盘 240.05，当日 +7.89%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.46%、60日变化 -7.24%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +48.23亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_002281_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "光迅科技：收盘 185.03，当日 +0.52%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.93%、60日变化 -19.86%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +12.14亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
           "id": "ev_20260812_breadth_007",
           "date": "2026-08-12",
           "source": "same day secondary cross section",
@@ -1166,25 +1166,25 @@
           "name": "中际旭创",
           "role": "高频验证锚",
           "mentions": 52,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "新易盛",
           "role": "高频验证锚",
           "mentions": 47,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "天孚通信",
           "role": "产业链映射",
           "mentions": 24,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "光迅科技",
           "role": "产业链映射",
           "mentions": 12,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "东山精密",
@@ -1270,6 +1270,11 @@
       "historyCases": [],
       "nextCatalysts": [
         {
+          "date": "2026-08-18",
+          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "sourceId": "product_fact_market_300502_2026-08-18"
+        },
+        {
           "date": "2026-08-17",
           "title": "次日板块宽度、容量核心相对强度和公司级事实",
           "sourceId": "ev_20260817_network_01"
@@ -1288,16 +1293,11 @@
           "date": "2026-08-13",
           "title": "等待设备股出现容量核心与板块宽度共同走强",
           "sourceId": "ev_20260813_optical_equipment"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "网络和800V方向能否在分歧中守住容量核心",
-          "sourceId": "ev_20260813_cloud_network_power"
         }
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.49%、60日变化 7.85%。这不单独构成基本面或交易结论。",
+        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.81%、60日变化 -3.51%。这不单独构成基本面或交易结论。",
         "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
@@ -1309,7 +1309,7 @@
       "status": "发酵",
       "confidence": 55,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-17",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "电子布供给刚性3-5年（织布机排至2031），涨价从PCB向CCL/玻纤上游传导",
         "marketPricing": "公众号提到电子布出现年内较大的月度涨幅，并列出覆铜板、铜箔、低介电材料和高频高速PCB的公司线索。知识星球同时出现MLCC供需偏紧与提价讨论，说明材料涨价仍是产业线索，但价格向利润表传导尚需公司披露。",
@@ -1337,12 +1337,40 @@
       ],
       "evidence": [
         {
-          "id": "product_fact_market_300476_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_600183_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "胜宏科技：收盘 276，当日 +2.48%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 23.15%、60日变化 -26.5%。这不单独构成基本面或交易结论。",
+          "event": "生益科技：收盘 139.15，当日 -3.7%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.57%、60日变化 20.25%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +28.59亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_600176_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "中国巨石：收盘 44.77，当日 -3.35%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 4.12%、60日变化 14.12%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +7.74亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_300476_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "胜宏科技：收盘 267.5，当日 -3.08%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.33%、60日变化 -30.25%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +14.11亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -1351,12 +1379,12 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_002916_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002916_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "深南电路：收盘 392.9，当日 +3.94%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 21.13%、60日变化 4.53%。这不单独构成基本面或交易结论。",
+          "event": "深南电路：收盘 380.88，当日 -3.06%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.82%、60日变化 -4.21%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +13.15亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -1365,12 +1393,12 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_002463_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002463_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "沪电股份：收盘 125.09，当日 +3.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.75%、60日变化 9.66%。这不单独构成基本面或交易结论。",
+          "event": "沪电股份：收盘 122.69，当日 -1.92%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.07%、60日变化 0.12%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +1.86亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -1379,12 +1407,12 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_002384_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002384_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "东山精密：收盘 217.66，当日 +6.08%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.03%、60日变化 -1.31%。这不单独构成基本面或交易结论。",
+          "event": "东山精密：收盘 212.9，当日 -2.19%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.84%、60日变化 -5.9%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +37.2亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -1505,34 +1533,6 @@
           "sourceFile": "tmp_recap_20260814/evidence_index.json"
         },
         {
-          "id": "product_fact_market_600183_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "生益科技：收盘 135.3，当日 -2.36%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.52%、60日变化 37.85%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +34.71亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_600176_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中国巨石：收盘 42.69，当日 -1.36%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -21.7%、60日变化 25.74%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +9.72亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
           "id": "ev_20260811_008",
           "date": "2026-08-11",
           "source": "browser harness",
@@ -1595,37 +1595,37 @@
           "name": "胜宏科技",
           "role": "产业核心",
           "mentions": null,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "深南电路",
           "role": "产业链映射",
           "mentions": 19,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "生益科技",
           "role": "高频验证锚",
           "mentions": 29,
-          "lastSeen": "2026-08-11"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "中国巨石",
           "role": "高频验证锚",
           "mentions": 30,
-          "lastSeen": "2026-08-11"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "沪电股份",
           "role": "产业链映射",
           "mentions": 21,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "东山精密",
           "role": "产业链映射",
           "mentions": 22,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "中际旭创",
@@ -1699,6 +1699,11 @@
       "historyCases": [],
       "nextCatalysts": [
         {
+          "date": "2026-08-18",
+          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "sourceId": "product_fact_market_600183_2026-08-18"
+        },
+        {
           "date": "2026-08-17",
           "title": "次日板块宽度、容量核心相对强度和公司级事实",
           "sourceId": "ev_20260817_network_01"
@@ -1714,11 +1719,6 @@
           "sourceId": "ev_20260814_market_02"
         },
         {
-          "date": "2026-08-17",
-          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "sourceId": "product_fact_market_300476_2026-08-17"
-        },
-        {
           "date": "2026-08-11",
           "title": "胜宏、深南与材料端是否出现至少两个交易日的同步强度。",
           "sourceId": "ev_20260811_008"
@@ -1726,7 +1726,7 @@
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 23.15%、60日变化 -26.5%。这不单独构成基本面或交易结论。",
+        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.57%、60日变化 20.25%。这不单独构成基本面或交易结论。",
         "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
@@ -1738,7 +1738,7 @@
       "status": "发酵",
       "confidence": 45,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-17",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "Anthropic Fable恐慌被消化，软件7/1首次6个月来跑赢半导体",
         "marketPricing": "群聊围观材料把资金线索概括为国产替代、上游定价权和AI应用落地三条路径，并要求应用项目复用、付费客户、订单和毛利率验证。它用于发现候选和分歧，不把群聊提及的公司直接视作核心标的。",
@@ -1765,6 +1765,62 @@
         }
       ],
       "evidence": [
+        {
+          "id": "product_fact_market_300454_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "深信服：收盘 119.5，当日 -2.95%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.49%、60日变化 3.3%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -5.61亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_300442_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "润泽科技：收盘 69.61，当日 -4.11%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.31%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +0.54亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_300353_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "东土科技：收盘 18.98，当日 -1.2%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.16%、60日变化 -8.62%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +0.15亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_300017_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "网宿科技：收盘 16.85，当日 -4.1%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 12.63%、60日变化 -0.47%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +7.11亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
         {
           "id": "ev_20260817_robot_01",
           "date": "2026-08-17",
@@ -1878,62 +1934,6 @@
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
         },
         {
-          "id": "product_fact_market_300353_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "东土科技：收盘 19.47，当日 -0.56%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.57%、60日变化 -3.66%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +0.05亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_300454_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "深信服：收盘 125.55，当日 +1.2%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 18.48%、60日变化 5.34%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -2.03亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_300442_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "润泽科技：收盘 67.85，当日 +0.25%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.24%、60日变化 -31.57%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -6.19亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_300017_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "网宿科技：收盘 14.81，当日 +0.07%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 3.78%、60日变化 -18.76%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -3.76亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
           "id": "ev_20260811_010",
           "date": "2026-08-11",
           "source": "public market data",
@@ -2024,37 +2024,37 @@
           "name": "网宿科技",
           "role": "高频验证锚",
           "mentions": 19,
-          "lastSeen": "2026-08-11"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "深信服",
           "role": "产业链映射",
           "mentions": 13,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "润泽科技",
           "role": "产业链映射",
           "mentions": 9,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "汉得信息",
           "role": "产业核心",
           "mentions": null,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "东土科技",
           "role": "产业核心",
           "mentions": null,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "300442",
           "role": "高频验证锚",
           "mentions": 19,
-          "lastSeen": "2026-08-11"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "锐捷网络",
@@ -2128,6 +2128,11 @@
       "historyCases": [],
       "nextCatalysts": [
         {
+          "date": "2026-08-18",
+          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "sourceId": "product_fact_market_300454_2026-08-18"
+        },
+        {
           "date": "2026-08-17",
           "title": "次日板块宽度、容量核心相对强度和公司级事实",
           "sourceId": "ev_20260817_robot_01"
@@ -2146,18 +2151,13 @@
           "date": "2026-08-14",
           "title": "下一交易日价格、宽度与公司级事实",
           "sourceId": "ev_20260814_weekend_09"
-        },
-        {
-          "date": "2026-08-13",
-          "title": "观察美股收盘后存储/网络/AI应用的相对强弱是否延续",
-          "sourceId": "ev_20260813_external_us"
         }
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "事件热度存在，尚未证明为当日核心资金方向",
-        "validation": "次日板块宽度、容量核心相对强度和公司级事实",
-        "invalidation": "多数映射来自二手资料，产业收入和公司级订单待核验"
+        "rationale": "公开行情事实：价格仍在中期上行结构内；20日变化 2.49%、60日变化 3.3%。这不单独构成基本面或交易结论。",
+        "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+        "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
     },
     {
@@ -2167,7 +2167,7 @@
       "status": "发酵",
       "confidence": 58,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-12",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "尚未形成可审计产业假设",
         "marketPricing": "资金不是简单从科技流向某一新主线，而是先降低海外映射和高估值科技风险，同时保留设备、封测、商业航天等具有公司事件或产业验证的少量观察点。",
@@ -2201,13 +2201,13 @@
       ],
       "evidence": [
         {
-          "id": "product_fact_market_600879_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_600879_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "航天电子：收盘 15.88，当日 +2.25%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.63%、60日变化 -32.16%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -3.43亿元",
+          "event": "航天电子：收盘 16.25，当日 -1.22%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 7.33%、60日变化 -27.03%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -2.88亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -2215,13 +2215,13 @@
           "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
-          "id": "product_fact_market_600118_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_600118_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中国卫星：收盘 65.57，当日 +3.23%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.28%、60日变化 -24.82%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -2.01亿元",
+          "event": "中国卫星：收盘 68.55，当日 -0.45%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.87%、60日变化 -21.95%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -0.82亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -2459,13 +2459,13 @@
           "name": "中国卫星",
           "role": "高频验证锚",
           "mentions": 11,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "航天电子",
           "role": "产业核心",
           "mentions": null,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "兆易创新",
@@ -2539,7 +2539,7 @@
           "expected": "等待盘面或数据确认",
           "failure": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "progress": "无法量化",
-          "sourceId": "product_fact_market_600118_2026-08-12"
+          "sourceId": "product_fact_market_600118_2026-08-18"
         }
       ],
       "historyCases": [
@@ -2551,9 +2551,9 @@
       ],
       "nextCatalysts": [
         {
-          "date": "2026-08-12",
+          "date": "2026-08-18",
           "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "sourceId": "product_fact_market_600879_2026-08-12"
+          "sourceId": "product_fact_market_600879_2026-08-18"
         },
         {
           "date": "2026-07-14",
@@ -2578,7 +2578,7 @@
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.63%、60日变化 -32.16%。这不单独构成基本面或交易结论。",
+        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 7.33%、60日变化 -27.03%。这不单独构成基本面或交易结论。",
         "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
@@ -2590,7 +2590,7 @@
       "status": "发酵",
       "confidence": 50,
       "confidenceNote": "启发式研究置信度，不是统计校准概率。",
-      "lastUpdated": "2026-08-17",
+      "lastUpdated": "2026-08-18",
       "layers": {
         "industry": "BD从\"量\"向\"质\"切换，恒瑞co-co模式标志转折",
         "marketPricing": "IMA与知识星球新增DeepSeek V4 Flash、腾讯WorkBuddy、AI实施与游戏出海材料；游戏上半年收入和海外收入保持增长。",
@@ -2618,13 +2618,41 @@
       ],
       "evidence": [
         {
-          "id": "product_fact_market_688506_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_688506_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "百利天恒：收盘 299.4，当日 -0.86%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -10.95%、60日变化 24.72%。这不单独构成基本面或交易结论。",
+          "event": "百利天恒：收盘 303.93，当日 +1.51%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.05%、60日变化 30.44%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 -0.36亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_603538_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "美诺华：收盘 31.03，当日 -0.35%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.98%、60日变化 -5.24%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +1.38亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
+          "id": "product_fact_market_603087_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "甘李药业：收盘 72.99，当日 -1.66%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.73%、60日变化 38.9%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -2.18亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -2658,34 +2686,6 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_603538_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "美诺华：收盘 33.33，当日 +10%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -14.54%、60日变化 -7.83%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +6.93亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
-        },
-        {
-          "id": "product_fact_market_603087_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "甘李药业：收盘 77.2，当日 +3.67%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.78%、60日变化 43.71%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -1.8亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
           "id": "ev_20260811_009",
@@ -2875,19 +2875,19 @@
           "name": "百利天恒",
           "role": "产业链映射",
           "mentions": 2,
-          "lastSeen": "2026-08-17"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "甘李药业",
           "role": "高频验证锚",
           "mentions": 3,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "美诺华",
           "role": "产业链映射",
           "mentions": 2,
-          "lastSeen": "2026-08-12"
+          "lastSeen": "2026-08-18"
         },
         {
           "name": "东山精密",
@@ -2940,31 +2940,13 @@
           "sourceId": "ev_20260805_07"
         },
         {
-          "id": "contract-19a603ee095c0eab",
-          "layer": "交易",
-          "title": "观察医药中军成交与前排分歧后的承接",
-          "expected": "等待盘面或数据确认",
-          "failure": "中军持续性和订单/利润验证尚不足",
-          "progress": "无法量化",
-          "sourceId": "ev_20260813_cro_rotation"
-        },
-        {
-          "id": "contract-cfdcaf8ea605a4eb",
-          "layer": "交易",
-          "title": "下一交易日价格、宽度与公司级事实",
-          "expected": "等待盘面或数据确认",
-          "failure": "容量核心和中后排扩散未确认。",
-          "progress": "无法量化",
-          "sourceId": "ev_20260814_weekend_05"
-        },
-        {
           "id": "contract-8ee65e8e5d078ea5",
           "layer": "交易",
           "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "expected": "等待盘面或数据确认",
           "failure": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "progress": "无法量化",
-          "sourceId": "product_fact_market_688506_2026-08-17"
+          "sourceId": "product_fact_market_603087_2026-08-18"
         }
       ],
       "historyCases": [
@@ -2976,6 +2958,11 @@
       ],
       "nextCatalysts": [
         {
+          "date": "2026-08-18",
+          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "sourceId": "product_fact_market_688506_2026-08-18"
+        },
+        {
           "date": "2026-08-14",
           "title": "下一交易日价格、宽度与公司级事实",
           "sourceId": "ev_20260814_weekend_05"
@@ -2984,11 +2971,6 @@
           "date": "2026-08-13",
           "title": "观察医药中军成交与前排分歧后的承接",
           "sourceId": "ev_20260813_cro_rotation"
-        },
-        {
-          "date": "2026-08-17",
-          "title": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "sourceId": "product_fact_market_688506_2026-08-17"
         },
         {
           "date": "2026-08-11",
@@ -3003,7 +2985,7 @@
       ],
       "researchState": {
         "label": "等待证据",
-        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -10.95%、60日变化 24.72%。这不单独构成基本面或交易结论。",
+        "rationale": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.05%、60日变化 30.44%。这不单独构成基本面或交易结论。",
         "validation": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。"
       }
@@ -3022,16 +3004,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.71%、60日变化 -5.13%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.31%、60日变化 -15.32%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "兆易创新：收盘 444，当日 +6.35%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.71%、60日变化 -5.13%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_603986_2026-08-17"
+        "date": "2026-08-18",
+        "event": "兆易创新：收盘 436，当日 -1.8%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.31%、60日变化 -15.32%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_603986_2026-08-18"
       },
-      "latestEvidenceCount": 3,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -3039,11 +3021,18 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "兆易创新：收盘 444，当日 +6.35%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.71%、60日变化 -5.13%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "兆易创新：收盘 436，当日 -1.8%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.31%、60日变化 -15.32%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_603986_2026-08-17"
+          "sourceId": "product_fact_market_603986_2026-08-18"
+        },
+        {
+          "date": "2026-08-17",
+          "event": "高带宽内存上涨5.73%，28家上涨0家下跌；存储芯片上涨4.81%，126家上涨5家下跌，概念净流向约201.8亿元。",
+          "interpretation": "存储内部重新出现价格共振，长鑫科技上涨12%成为市场价格锚",
+          "status": "待验证",
+          "sourceId": "ev_20260817_storage_01"
         },
         {
           "date": "2026-08-11",
@@ -3086,13 +3075,6 @@
           "interpretation": "海外半导体与韩国存储价格锚会压制A股高估值硬件的开盘风险偏好，但不能替代对国内订单和业绩的判断。",
           "status": "待验证",
           "sourceId": "ev_20260724_overseas_semis_korea_pressure"
-        },
-        {
-          "date": "2026-07-21",
-          "event": "德明利收涨5.20%，兆易创新与深科技涨停。",
-          "interpretation": "极端流动性压力暂缓，设计和封测的国产替代代表股获得强修复；模组链基本面分歧尚未消失。",
-          "status": "待验证",
-          "sourceId": "ev_20260721_storage_state_transition"
         }
       ],
       "sourceMix": [
@@ -3218,12 +3200,12 @@
       "sourceDiversity": 22,
       "evidence": [
         {
-          "id": "product_fact_market_603986_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_603986_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "兆易创新：收盘 444，当日 +6.35%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.71%、60日变化 -5.13%。这不单独构成基本面或交易结论。",
+          "event": "兆易创新：收盘 436，当日 -1.8%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.31%、60日变化 -15.32%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +18.66亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -3493,16 +3475,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.3%、60日变化 -3.56%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.33%、60日变化 -9.88%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "中际旭创：收盘 1001.03，当日 +6.15%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.3%、60日变化 -3.56%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_300308_2026-08-17"
+        "date": "2026-08-18",
+        "event": "中际旭创：收盘 985.01，当日 -1.6%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.33%、60日变化 -9.88%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300308_2026-08-18"
       },
-      "latestEvidenceCount": 4,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "光通信占AI IT投资比例从5-6%数倍增长，2026年340亿→2027更大",
         "marketPricing": "盘面全文记录了光模块受政策传闻低开后修复、国产芯片和半导体设备走强、午后AI硬件扩散后炸板率上升的日内路径；这是市场观点材料，对价格路径有参考价值，但不替代行情统计。",
@@ -3510,11 +3492,18 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "中际旭创：收盘 1001.03，当日 +6.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.3%、60日变化 -3.56%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "中际旭创：收盘 985.01，当日 -1.6%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.33%、60日变化 -9.88%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_300308_2026-08-17"
+          "sourceId": "product_fact_market_300308_2026-08-18"
+        },
+        {
+          "date": "2026-08-17",
+          "event": "CPO概念上涨4.50%，光通信模块上涨4.11%，铜缆高速连接上涨4.05%；中际旭创上涨6.15%、新易盛上涨4.15%、天孚通信上涨7.04%，共进股份涨停。",
+          "interpretation": "网络与光互连形成容量和弹性共振，仍需观察是否能超越半导体主线持续领涨",
+          "status": "待验证",
+          "sourceId": "ev_20260817_network_01"
         },
         {
           "date": "2026-08-13",
@@ -3557,13 +3546,6 @@
           "interpretation": "",
           "status": "待验证",
           "sourceId": "ev_20260805_flow_out"
-        },
-        {
-          "date": "2026-08-04",
-          "event": "正式热榜可用：同花顺日榜100条，东财人气榜50条。",
-          "interpretation": "热榜用于检验IMA/知识星球主题是否同步升温，不能单独替代成交、资金和公告验证。",
-          "status": "待验证",
-          "sourceId": "ev_20260804_breadth_005"
         }
       ],
       "sourceMix": [
@@ -3685,12 +3667,12 @@
       "sourceDiversity": 21,
       "evidence": [
         {
-          "id": "product_fact_market_300308_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_300308_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中际旭创：收盘 1001.03，当日 +6.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.3%、60日变化 -3.56%。这不单独构成基本面或交易结论。",
+          "event": "中际旭创：收盘 985.01，当日 -1.6%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.33%、60日变化 -9.88%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 -30.18亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -3960,14 +3942,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 8.86%、60日变化 37.71%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 -5.23%、60日变化 26.84%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "紫光股份：收盘 41.03，当日 +2.7%",
-        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 8.86%、60日变化 37.71%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_000938_2026-08-17"
+        "date": "2026-08-18",
+        "event": "紫光股份：收盘 39.29，当日 -4.24%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -5.23%、60日变化 26.84%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_000938_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -3977,11 +3959,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "紫光股份：收盘 41.03，当日 +2.7%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 8.86%、60日变化 37.71%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "紫光股份：收盘 39.29，当日 -4.24%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -5.23%、60日变化 26.84%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_000938_2026-08-17"
+          "sourceId": "product_fact_market_000938_2026-08-18"
         },
         {
           "date": "2026-08-13",
@@ -4152,12 +4134,12 @@
       "sourceDiversity": 22,
       "evidence": [
         {
-          "id": "product_fact_market_000938_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_000938_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "紫光股份：收盘 41.03，当日 +2.7%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 8.86%、60日变化 37.71%。这不单独构成基本面或交易结论。",
+          "event": "紫光股份：收盘 39.29，当日 -4.24%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -5.23%、60日变化 26.84%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 -4.95亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -4427,16 +4409,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.49%、60日变化 7.85%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.81%、60日变化 -3.51%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "新易盛：收盘 466.68，当日 +4.15%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.49%、60日变化 7.85%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_300502_2026-08-17"
+        "date": "2026-08-18",
+        "event": "新易盛：收盘 453.5，当日 -2.82%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.81%、60日变化 -3.51%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300502_2026-08-18"
       },
-      "latestEvidenceCount": 3,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "光通信占AI IT投资比例从5-6%数倍增长，2026年340亿→2027更大",
         "marketPricing": "盘面全文记录了光模块受政策传闻低开后修复、国产芯片和半导体设备走强、午后AI硬件扩散后炸板率上升的日内路径；这是市场观点材料，对价格路径有参考价值，但不替代行情统计。",
@@ -4444,11 +4426,18 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "新易盛：收盘 466.68，当日 +4.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.49%、60日变化 7.85%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "新易盛：收盘 453.5，当日 -2.82%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.81%、60日变化 -3.51%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_300502_2026-08-17"
+          "sourceId": "product_fact_market_300502_2026-08-18"
+        },
+        {
+          "date": "2026-08-17",
+          "event": "CPO概念上涨4.50%，光通信模块上涨4.11%，铜缆高速连接上涨4.05%；中际旭创上涨6.15%、新易盛上涨4.15%、天孚通信上涨7.04%，共进股份涨停。",
+          "interpretation": "网络与光互连形成容量和弹性共振，仍需观察是否能超越半导体主线持续领涨",
+          "status": "待验证",
+          "sourceId": "ev_20260817_network_01"
         },
         {
           "date": "2026-08-13",
@@ -4491,13 +4480,6 @@
           "interpretation": "海外AI需求和高速光器件供给升级仍支持产业层，但股价需要从单日止跌升级为连续相对强度。",
           "status": "待验证",
           "sourceId": "ev_20260729_theme_02"
-        },
-        {
-          "date": "2026-07-24",
-          "event": "纳斯达克跌0.64%，费城半导体指数跌4.25%；韩国KOSPI跌5.72%，SK海力士跌8.34%。",
-          "interpretation": "海外半导体与韩国存储价格锚会压制A股高估值硬件的开盘风险偏好，但不能替代对国内订单和业绩的判断。",
-          "status": "待验证",
-          "sourceId": "ev_20260724_overseas_semis_korea_pressure"
         }
       ],
       "sourceMix": [
@@ -4599,12 +4581,12 @@
       "sourceDiversity": 16,
       "evidence": [
         {
-          "id": "product_fact_market_300502_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_300502_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "新易盛：收盘 466.68，当日 +4.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.49%、60日变化 7.85%。这不单独构成基本面或交易结论。",
+          "event": "新易盛：收盘 453.5，当日 -2.82%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.81%、60日变化 -3.51%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +33.94亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -4874,14 +4856,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 12.76%、60日变化 23.31%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.29%、60日变化 10.75%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "华天科技：收盘 19，当日 +5.67%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 12.76%、60日变化 23.31%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002185_2026-08-17"
+        "date": "2026-08-18",
+        "event": "华天科技：收盘 18.77，当日 -1.21%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.29%、60日变化 10.75%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002185_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -4891,11 +4873,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "华天科技：收盘 19，当日 +5.67%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 12.76%、60日变化 23.31%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "华天科技：收盘 18.77，当日 -1.21%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.29%、60日变化 10.75%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002185_2026-08-17"
+          "sourceId": "product_fact_market_002185_2026-08-18"
         },
         {
           "date": "2026-07-17",
@@ -5038,12 +5020,12 @@
       "sourceDiversity": 14,
       "evidence": [
         {
-          "id": "product_fact_market_002185_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002185_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "华天科技：收盘 19，当日 +5.67%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 12.76%、60日变化 23.31%。这不单独构成基本面或交易结论。",
+          "event": "华天科技：收盘 18.77，当日 -1.21%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.29%、60日变化 10.75%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +9.06亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -5313,16 +5295,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-13",
-      "thesis": "早盘扩散、午后回落，说明价格先响应但持续性不足",
-      "coreQuestion": "网络和800V方向能否在分歧中守住容量核心",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 29%、60日变化 98.62%。这不单独构成基本面或交易结论。",
+      "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-13",
-        "event": "腾讯资本开支、海外光通信和英伟达800V供电叠加，市场把算力链从光模块扩展到交换网络、服务器、电源架构和机房配套；午后回落使订单、交付和利润重新成为约束。",
-        "interpretation": "早盘扩散、午后回落，说明价格先响应但持续性不足",
-        "sourceId": "ev_20260813_cloud_network_power"
+        "date": "2026-08-18",
+        "event": "锐捷网络：收盘 143.01，当日 -3.37%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 29%、60日变化 98.62%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_301165_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "AI集群瓶颈从芯片扩展到交换机/OCS/光互连，Atlas 950+超节点成明确线索",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -5330,18 +5312,18 @@
       },
       "evolution": [
         {
+          "date": "2026-08-18",
+          "event": "锐捷网络：收盘 143.01，当日 -3.37%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 29%、60日变化 98.62%。这不单独构成基本面或交易结论。",
+          "status": "待验证",
+          "sourceId": "product_fact_market_301165_2026-08-18"
+        },
+        {
           "date": "2026-08-13",
           "event": "腾讯资本开支、海外光通信和英伟达800V供电叠加，市场把算力链从光模块扩展到交换网络、服务器、电源架构和机房配套；午后回落使订单、交付和利润重新成为约束。",
           "interpretation": "早盘扩散、午后回落，说明价格先响应但持续性不足",
           "status": "待验证",
           "sourceId": "ev_20260813_cloud_network_power"
-        },
-        {
-          "date": "2026-08-12",
-          "event": "锐捷网络：收盘 126.23，当日 -1.15%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 25.35%、60日变化 78.59%。这不单独构成基本面或交易结论。",
-          "status": "待验证",
-          "sourceId": "product_fact_market_301165_2026-08-12"
         },
         {
           "date": "2026-07-29",
@@ -5444,11 +5426,11 @@
           "count": 1
         },
         {
-          "source": "product public fact",
+          "source": "browser",
           "count": 1
         },
         {
-          "source": "browser",
+          "source": "product public fact",
           "count": 1
         }
       ],
@@ -5485,6 +5467,20 @@
       "sourceDiversity": 17,
       "evidence": [
         {
+          "id": "product_fact_market_301165_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "锐捷网络：收盘 143.01，当日 -3.37%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 29%、60日变化 98.62%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +4.25亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
           "id": "ev_20260813_cloud_network_power",
           "date": "2026-08-13",
           "source": "browser",
@@ -5497,20 +5493,6 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_301165_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "锐捷网络：收盘 126.23，当日 -1.15%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 25.35%、60日变化 78.59%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +3.27亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
           "id": "ev_20260729_theme_06",
@@ -5710,24 +5692,24 @@
         }
       ],
       "catalysts": [
-        "网络和800V方向能否在分歧中守住容量核心",
         "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+        "网络和800V方向能否在分歧中守住容量核心",
         "观察紫光股份止跌、盛科通信和锐捷网络相对强度，以及公司级交换机订单。",
         "网络层和IDC公司是否给出订单、利用率或相对强度",
         "观察紫光、星网、锐捷是否有至少两只连续两日强于科创50并出现成交放大。",
         "分别验证交换机/光互连核心篮子与工业网络标的的公司级增量和相对强弱。"
       ],
       "risks": [
-        "用户群体解读部分为市场评论，不能替代订单证据",
         "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+        "用户群体解读部分为市场评论，不能替代订单证据",
         "容量核心跌停说明资金未认可当日网络层扩散，继续追高会承受补跌风险。",
         "主题热度可能先于订单和现金流",
         "不能用送样、产品规划或题材材料替代订单与价格验证。",
         "东土科技属于工业网络/工业操作系统，不能仅因OCS叙事升温而视作OCS直接映射。"
       ],
       "fundingSignals": [
+        "近10日主力净流 +4.25亿元",
         "早盘扩散、午后回落，说明价格先响应但持续性不足",
-        "近10日主力净流 +3.27亿元",
         "待验证",
         "紫光炸板而非封板，说明资金认可度尚不稳定。",
         "周五网络层热度仍在但未形成完整扩散。",
@@ -5735,7 +5717,7 @@
       ],
       "scenarios": {
         "bull": {
-          "trigger": "网络和800V方向能否在分歧中守住容量核心",
+          "trigger": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "action": "提高研究优先级，补充估值与订单兑现核验"
         },
         "base": {
@@ -5743,7 +5725,7 @@
           "action": "保留观察，等待下一催化或公告验证"
         },
         "bear": {
-          "trigger": "用户群体解读部分为市场评论，不能替代订单证据",
+          "trigger": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "action": "降低研究优先级，记录证伪链"
         }
       }
@@ -5760,16 +5742,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-11",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -21.7%、60日变化 25.74%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 4.12%、60日变化 14.12%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-11",
-        "event": "中国巨石：收盘 42.69，当日 -1.36%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -21.7%、60日变化 25.74%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_600176_2026-08-11"
+        "date": "2026-08-18",
+        "event": "中国巨石：收盘 44.77，当日 -3.35%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 4.12%、60日变化 14.12%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_600176_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "电子布供给刚性3-5年（织布机排至2031），涨价从PCB向CCL/玻纤上游传导",
         "marketPricing": "公众号提到电子布出现年内较大的月度涨幅，并列出覆铜板、铜箔、低介电材料和高频高速PCB的公司线索。知识星球同时出现MLCC供需偏紧与提价讨论，说明材料涨价仍是产业线索，但价格向利润表传导尚需公司披露。",
@@ -5777,11 +5759,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-11",
-          "event": "中国巨石：收盘 42.69，当日 -1.36%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -21.7%、60日变化 25.74%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "中国巨石：收盘 44.77，当日 -3.35%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 4.12%、60日变化 14.12%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_600176_2026-08-11"
+          "sourceId": "product_fact_market_600176_2026-08-18"
         },
         {
           "date": "2026-07-26",
@@ -5912,13 +5894,13 @@
       "sourceDiversity": 11,
       "evidence": [
         {
-          "id": "product_fact_market_600176_2026-08-11",
-          "date": "2026-08-11",
+          "id": "product_fact_market_600176_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中国巨石：收盘 42.69，当日 -1.36%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -21.7%、60日变化 25.74%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +9.72亿元",
+          "event": "中国巨石：收盘 44.77，当日 -3.35%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 4.12%、60日变化 14.12%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +7.74亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -6153,7 +6135,7 @@
         "用户材料中的部分公司级价格与交易席位需继续交叉核验。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +9.72亿元",
+        "近10日主力净流 +7.74亿元",
         "周五电子布相关后排仍承压，不能把价格讨论等同于盘面确认。",
         "等待下一交易日价格与成交验证",
         "跌停/炸板数据用于校验盘面是否只是指数稳定、情绪实际走弱。",
@@ -6187,14 +6169,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.03%、60日变化 -1.31%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.84%、60日变化 -5.9%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "东山精密：收盘 217.66，当日 +6.08%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.03%、60日变化 -1.31%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002384_2026-08-17"
+        "date": "2026-08-18",
+        "event": "东山精密：收盘 212.9，当日 -2.19%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.84%、60日变化 -5.9%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002384_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -6204,11 +6186,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "东山精密：收盘 217.66，当日 +6.08%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.03%、60日变化 -1.31%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "东山精密：收盘 212.9，当日 -2.19%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.84%、60日变化 -5.9%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002384_2026-08-17"
+          "sourceId": "product_fact_market_002384_2026-08-18"
         },
         {
           "date": "2026-07-20",
@@ -6339,12 +6321,12 @@
       "sourceDiversity": 11,
       "evidence": [
         {
-          "id": "product_fact_market_002384_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002384_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "东山精密：收盘 217.66，当日 +6.08%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.03%、60日变化 -1.31%。这不单独构成基本面或交易结论。",
+          "event": "东山精密：收盘 212.9，当日 -2.19%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.84%、60日变化 -5.9%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +37.2亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -6614,16 +6596,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-11",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.52%、60日变化 37.85%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.57%、60日变化 20.25%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-11",
-        "event": "生益科技：收盘 135.3，当日 -2.36%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.52%、60日变化 37.85%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_600183_2026-08-11"
+        "date": "2026-08-18",
+        "event": "生益科技：收盘 139.15，当日 -3.7%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.57%、60日变化 20.25%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_600183_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "电子布供给刚性3-5年（织布机排至2031），涨价从PCB向CCL/玻纤上游传导",
         "marketPricing": "公众号提到电子布出现年内较大的月度涨幅，并列出覆铜板、铜箔、低介电材料和高频高速PCB的公司线索。知识星球同时出现MLCC供需偏紧与提价讨论，说明材料涨价仍是产业线索，但价格向利润表传导尚需公司披露。",
@@ -6631,11 +6613,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-11",
-          "event": "生益科技：收盘 135.3，当日 -2.36%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.52%、60日变化 37.85%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "生益科技：收盘 139.15，当日 -3.7%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.57%、60日变化 20.25%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_600183_2026-08-11"
+          "sourceId": "product_fact_market_600183_2026-08-18"
         },
         {
           "date": "2026-07-15",
@@ -6758,13 +6740,13 @@
       "sourceDiversity": 9,
       "evidence": [
         {
-          "id": "product_fact_market_600183_2026-08-11",
-          "date": "2026-08-11",
+          "id": "product_fact_market_600183_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "生益科技：收盘 135.3，当日 -2.36%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.52%、60日变化 37.85%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +34.71亿元",
+          "event": "生益科技：收盘 139.15，当日 -3.7%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 2.57%、60日变化 20.25%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +28.59亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -6999,7 +6981,7 @@
         "单日净流入不能替代连续性；高开低走会削弱结论。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +34.71亿元",
+        "近10日主力净流 +28.59亿元",
         "7月15日科技整体回落，新增项目尚未获得即时价格溢价。",
         "中际、新易盛、PCB核心同时出现资金净流入。",
         "沪电、生益、东山进入主力净流入前列，形成语料与盘面的交叉验证。",
@@ -7033,14 +7015,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 17.99%、60日变化 40.1%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 2.78%、60日变化 35.94%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "星网锐捷：收盘 33.91，当日 +3.8%",
-        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 17.99%、60日变化 40.1%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002396_2026-08-17"
+        "date": "2026-08-18",
+        "event": "星网锐捷：收盘 32.49，当日 -4.19%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.78%、60日变化 35.94%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002396_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -7050,11 +7032,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "星网锐捷：收盘 33.91，当日 +3.8%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 17.99%、60日变化 40.1%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "星网锐捷：收盘 32.49，当日 -4.19%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.78%、60日变化 35.94%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002396_2026-08-17"
+          "sourceId": "product_fact_market_002396_2026-08-18"
         },
         {
           "date": "2026-08-11",
@@ -7201,12 +7183,12 @@
       "sourceDiversity": 16,
       "evidence": [
         {
-          "id": "product_fact_market_002396_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002396_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "星网锐捷：收盘 33.91，当日 +3.8%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 17.99%、60日变化 40.1%。这不单独构成基本面或交易结论。",
+          "event": "星网锐捷：收盘 32.49，当日 -4.19%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.78%、60日变化 35.94%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +11.38亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -7476,16 +7458,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-11",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -24.37%、60日变化 33.38%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.7%、60日变化 6.51%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-11",
-        "event": "长电科技：收盘 77.67，当日 -1.08%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -24.37%、60日变化 33.38%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_600584_2026-08-11"
+        "date": "2026-08-18",
+        "event": "长电科技：收盘 85.28，当日 -0.66%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.7%、60日变化 6.51%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_600584_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -7493,11 +7475,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-11",
-          "event": "长电科技：收盘 77.67，当日 -1.08%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -24.37%、60日变化 33.38%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "长电科技：收盘 85.28，当日 -0.66%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.7%、60日变化 6.51%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_600584_2026-08-11"
+          "sourceId": "product_fact_market_600584_2026-08-18"
         },
         {
           "date": "2026-08-06",
@@ -7628,13 +7610,13 @@
       "sourceDiversity": 11,
       "evidence": [
         {
-          "id": "product_fact_market_600584_2026-08-11",
-          "date": "2026-08-11",
+          "id": "product_fact_market_600584_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "长电科技：收盘 77.67，当日 -1.08%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -24.37%、60日变化 33.38%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -12.65亿元",
+          "event": "长电科技：收盘 85.28，当日 -0.66%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.7%、60日变化 6.51%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +28.37亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -7869,7 +7851,7 @@
         "交易台买卖方向不是全市场主力资金总量。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -12.65亿元",
+        "近10日主力净流 +28.37亿元",
         "高位半导体权重大幅走弱",
         "属于盘后产业硬证据，尚未经历A股下一交易日定价。",
         "多个存储、封测和电子布权重同步走弱，验证风险并非单一公司事件。",
@@ -7903,16 +7885,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.43%、60日变化 3.92%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 -10.46%、60日变化 14.73%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "浪潮信息：收盘 75.02，当日 -0.12%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.43%、60日变化 3.92%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_000977_2026-08-12"
+        "date": "2026-08-18",
+        "event": "浪潮信息：收盘 79.39，当日 -1.6%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -10.46%、60日变化 14.73%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_000977_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "尚未形成公司级产业假设",
         "marketPricing": "尚未形成公司级市场定价假设",
@@ -7920,11 +7902,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "浪潮信息：收盘 75.02，当日 -0.12%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.43%、60日变化 3.92%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "浪潮信息：收盘 79.39，当日 -1.6%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -10.46%、60日变化 14.73%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_000977_2026-08-12"
+          "sourceId": "product_fact_market_000977_2026-08-18"
         },
         {
           "date": "2026-07-12",
@@ -8028,13 +8010,13 @@
       "sourceDiversity": 11,
       "evidence": [
         {
-          "id": "product_fact_market_000977_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_000977_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "浪潮信息：收盘 75.02，当日 -0.12%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.43%、60日变化 3.92%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -6.44亿元",
+          "event": "浪潮信息：收盘 79.39，当日 -1.6%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -10.46%、60日变化 14.73%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +12.2亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -8269,7 +8251,7 @@
         "元宝语料本身未验证，不能替代正式数据。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -6.44亿元",
+        "近10日主力净流 +12.2亿元",
         "A股周五科技权重回落，与美股并非同向，说明A股内部资金选择更重要。",
         "成交额回升但成长指数明显弱于权重，资金结构是高位科技兑现与低位事件承接并存。",
         "事件窗口会决定资金是继续抱国产硬锚，还是转去商业航天/机器人等支线。",
@@ -8303,22 +8285,29 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "网络与光互连形成容量和弹性共振，仍需观察是否能超越半导体主线持续领涨",
-      "coreQuestion": "次日板块宽度、容量核心相对强度和公司级事实",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 26.35%、60日变化 3.17%。这不单独构成基本面或交易结论。",
+      "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "CPO概念上涨4.50%，光通信模块上涨4.11%，铜缆高速连接上涨4.05%；中际旭创上涨6.15%、新易盛上涨4.15%、天孚通信上涨7.04%，共进股份涨停。",
-        "interpretation": "网络与光互连形成容量和弹性共振，仍需观察是否能超越半导体主线持续领涨",
-        "sourceId": "ev_20260817_network_01"
+        "date": "2026-08-18",
+        "event": "天孚通信：收盘 291.86，当日 +1.85%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 26.35%、60日变化 3.17%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300394_2026-08-18"
       },
-      "latestEvidenceCount": 2,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "光通信占AI IT投资比例从5-6%数倍增长，2026年340亿→2027更大",
         "marketPricing": "盘面全文记录了光模块受政策传闻低开后修复、国产芯片和半导体设备走强、午后AI硬件扩散后炸板率上升的日内路径；这是市场观点材料，对价格路径有参考价值，但不替代行情统计。",
         "shortTermTrading": "隔夜美股SOX反弹→A股光模块次日跟随"
       },
       "evolution": [
+        {
+          "date": "2026-08-18",
+          "event": "天孚通信：收盘 291.86，当日 +1.85%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 26.35%、60日变化 3.17%。这不单独构成基本面或交易结论。",
+          "status": "待验证",
+          "sourceId": "product_fact_market_300394_2026-08-18"
+        },
         {
           "date": "2026-08-17",
           "event": "CPO概念上涨4.50%，光通信模块上涨4.11%，铜缆高速连接上涨4.05%；中际旭创上涨6.15%、新易盛上涨4.15%、天孚通信上涨7.04%，共进股份涨停。",
@@ -8332,13 +8321,6 @@
           "interpretation": "光模块早盘受海外催化、午后转弱，产业叙事未直接转成A股持续价格",
           "status": "待验证",
           "sourceId": "ev_20260813_optical_supply"
-        },
-        {
-          "date": "2026-08-12",
-          "event": "天孚通信：收盘 240.05，当日 +7.89%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.46%、60日变化 -7.24%。这不单独构成基本面或交易结论。",
-          "status": "待验证",
-          "sourceId": "product_fact_market_300394_2026-08-12"
         },
         {
           "date": "2026-07-29",
@@ -8410,10 +8392,6 @@
           "count": 1
         },
         {
-          "source": "product public fact",
-          "count": 1
-        },
-        {
           "source": "browser",
           "count": 1
         },
@@ -8423,6 +8401,10 @@
         },
         {
           "source": "腾讯个股行情 + 东方财富概念横截面",
+          "count": 1
+        },
+        {
+          "source": "product public fact",
           "count": 1
         }
       ],
@@ -8458,6 +8440,20 @@
       "evidenceCount": 26,
       "sourceDiversity": 12,
       "evidence": [
+        {
+          "id": "product_fact_market_300394_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "天孚通信：收盘 291.86，当日 +1.85%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 26.35%、60日变化 3.17%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +77.39亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
         {
           "id": "ev_20260817_network_01",
           "date": "2026-08-17",
@@ -8499,20 +8495,6 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_300394_2026-08-12",
-          "date": "2026-08-12",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "天孚通信：收盘 240.05，当日 +7.89%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -7.46%、60日变化 -7.24%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +48.23亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
           "id": "ev_20260729_theme_02",
@@ -8684,32 +8666,32 @@
         }
       ],
       "catalysts": [
+        "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "次日板块宽度、容量核心相对强度和公司级事实",
         "观察海外强势能否传导为A股光模块连续相对强度",
-        "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "观察中际旭创、新易盛和天孚通信能否连续两日跑赢创业板并出现成交承接。",
         "下一个交易日看中际旭创、新易盛、天孚通信等是否在海外Capex利好下形成放量相对强势；若利好仍不能带来价格确认，继续按估值消化处理。",
         "大光模块在海外利率压力下维持相对强势，且光迅等二线不再补跌。"
       ],
       "risks": [
+        "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
         "当前更像修复共振，不能直接等同于旧光模块主升回归",
         "量产规模、客户和利润归属需要公司级资料",
         "预付款和客户线索缺少公司级公开确认",
-        "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
         "竞争扩散和降价传闻容易在高拥挤结构中放大，尚不能确认行业贝塔恢复。",
         "海外AI资本开支仍支撑产业需求，但A股海外映射链的交易层承压。"
       ],
       "fundingSignals": [
+        "近10日主力净流 +77.39亿元",
         "网络与光互连形成容量和弹性共振，仍需观察是否能超越半导体主线持续领涨",
         "当日CPO、光通信模块和核心公司价格同步增强",
         "光模块早盘受海外催化、午后转弱，产业叙事未直接转成A股持续价格",
-        "近10日主力净流 +48.23亿元",
         "等待下一交易日价格与成交验证",
         "7月20日科技二线仍在补跌，紫光股份与端侧AI相对承接。"
       ],
       "scenarios": {
         "bull": {
-          "trigger": "次日板块宽度、容量核心相对强度和公司级事实",
+          "trigger": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "action": "提高研究优先级，补充估值与订单兑现核验"
         },
         "base": {
@@ -8717,7 +8699,7 @@
           "action": "保留观察，等待下一催化或公告验证"
         },
         "bear": {
-          "trigger": "当前更像修复共振，不能直接等同于旧光模块主升回归",
+          "trigger": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "action": "降低研究优先级，记录证伪链"
         }
       }
@@ -8734,14 +8716,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.75%、60日变化 9.66%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.07%、60日变化 0.12%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "沪电股份：收盘 125.09，当日 +3.15%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.75%、60日变化 9.66%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002463_2026-08-17"
+        "date": "2026-08-18",
+        "event": "沪电股份：收盘 122.69，当日 -1.92%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.07%、60日变化 0.12%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002463_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -8751,11 +8733,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "沪电股份：收盘 125.09，当日 +3.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.75%、60日变化 9.66%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "沪电股份：收盘 122.69，当日 -1.92%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.07%、60日变化 0.12%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002463_2026-08-17"
+          "sourceId": "product_fact_market_002463_2026-08-18"
         },
         {
           "date": "2026-08-11",
@@ -8894,12 +8876,12 @@
       "sourceDiversity": 13,
       "evidence": [
         {
-          "id": "product_fact_market_002463_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002463_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "沪电股份：收盘 125.09，当日 +3.15%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.75%、60日变化 9.66%。这不单独构成基本面或交易结论。",
+          "event": "沪电股份：收盘 122.69，当日 -1.92%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.07%、60日变化 0.12%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +1.86亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -9169,14 +9151,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "云算力主题仍有产业催化，但A股IDC没有形成当日统一板块效应",
-      "coreQuestion": "次日板块宽度、容量核心相对强度和公司级事实",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.31%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+      "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "关于NVIDIA、OpenAI、SB Energy和Ohio算力项目的资料显示，AI基础设施需求继续扩张，但融资结构、信用支持和客户集中度成为现金流与估值约束。",
-        "interpretation": "云算力主题仍有产业催化，但A股IDC没有形成当日统一板块效应",
-        "sourceId": "ev_20260817_cloud_01"
+        "date": "2026-08-18",
+        "event": "润泽科技：收盘 69.61，当日 -4.11%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.31%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300442_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -9185,6 +9167,13 @@
         "shortTermTrading": "NOW/CRM/SNOW突破6/10恐慌前高点"
       },
       "evolution": [
+        {
+          "date": "2026-08-18",
+          "event": "润泽科技：收盘 69.61，当日 -4.11%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.31%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+          "status": "待验证",
+          "sourceId": "product_fact_market_300442_2026-08-18"
+        },
         {
           "date": "2026-08-17",
           "event": "关于NVIDIA、OpenAI、SB Energy和Ohio算力项目的资料显示，AI基础设施需求继续扩张，但融资结构、信用支持和客户集中度成为现金流与估值约束。",
@@ -9201,10 +9190,10 @@
         },
         {
           "date": "2026-08-11",
-          "event": "润泽科技：收盘 67.85，当日 +0.25%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.24%、60日变化 -31.57%。这不单独构成基本面或交易结论。",
+          "event": "模块化数据中心缩短交付周期，云厂商资本开支和电力、液冷、配电约束仍是研究重点。",
+          "interpretation": "资料说明云基础设施需求仍有支撑，但美股云平台当晚偏弱，A股润泽科技仅上涨0.25%，当天没有形成IDC容量股的板块共振。",
           "status": "待验证",
-          "sourceId": "product_fact_market_300442_2026-08-11"
+          "sourceId": "ev_20260811_004"
         },
         {
           "date": "2026-08-04",
@@ -9233,13 +9222,6 @@
           "interpretation": "这条线解释算力基础设施为什么仍被讨论，但7/9资金主攻不在AIDC电源，而在存储、晶圆、封测。",
           "status": "待验证",
           "sourceId": "ev_20260709_013"
-        },
-        {
-          "date": "2026-06-30",
-          "event": "300442：润泽科技:2025年年度权益分派实施公告",
-          "interpretation": "润泽科技:2025年年度权益分派实施公告",
-          "status": "待验证",
-          "sourceId": "product_fact_company_300442_2026-06-30_1"
         }
       ],
       "sourceMix": [
@@ -9280,15 +9262,15 @@
           "count": 1
         },
         {
-          "source": "product public fact",
-          "count": 1
-        },
-        {
           "source": "browser",
           "count": 1
         },
         {
           "source": "知识星球API topic 14422824458228452 + 浏览器来源",
+          "count": 1
+        },
+        {
+          "source": "product public fact",
           "count": 1
         }
       ],
@@ -9325,6 +9307,20 @@
       "sourceDiversity": 12,
       "evidence": [
         {
+          "id": "product_fact_market_300442_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "润泽科技：收盘 69.61，当日 -4.11%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.31%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +0.54亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
           "id": "ev_20260817_cloud_01",
           "date": "2026-08-17",
           "source": "知识星球API topic 14422824458228452 + 浏览器来源",
@@ -9351,20 +9347,6 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260813/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_300442_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "润泽科技：收盘 67.85，当日 +0.25%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.24%、60日变化 -31.57%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -6.19亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
           "id": "ev_20260811_004",
@@ -9550,32 +9532,32 @@
         }
       ],
       "catalysts": [
+        "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "次日板块宽度、容量核心相对强度和公司级事实",
         "网络和800V方向能否在分歧中守住容量核心",
-        "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
         "IDC运营、供电和液冷是否出现连续价格强度。",
         "8月4日成交额较8月3日回升，但仍低于7月31日高点；指数涨幅差异很大，不能用创业板大涨代表全市场普涨。",
         "明早复核美股收盘、光通信受益股是否高开回落，以及A股应用/电力是否承接。"
       ],
       "risks": [
+        "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
         "资料多为二手解读，项目融资安排和A股公司映射需要原始核验",
         "用户群体解读部分为市场评论，不能替代订单证据",
-        "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
         "模块化方案的订单、利用率、回款和毛利率需要公司级证据。",
         "反弹若要延续，需看成交额能否连续站上近五日均值，并观察应用、光通信和算力基础设施是否同时有容量股承接。",
         "美股为盘中数据，收盘后可能变化；不把单时点涨幅写成完整日线结论。"
       ],
       "fundingSignals": [
+        "近10日主力净流 +0.54亿元",
         "云算力主题仍有产业催化，但A股IDC没有形成当日统一板块效应",
         "早盘扩散、午后回落，说明价格先响应但持续性不足",
-        "近10日主力净流 -6.19亿元",
         "需求逻辑延续，A股价格验证不足。",
         "仅语料发酵，今天市场并未给IDC/CDN明确强验证。",
         "周五A股IDC/CDN没有形成连续跑赢科技指数的独立验证。"
       ],
       "scenarios": {
         "bull": {
-          "trigger": "次日板块宽度、容量核心相对强度和公司级事实",
+          "trigger": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "action": "提高研究优先级，补充估值与订单兑现核验"
         },
         "base": {
@@ -9583,7 +9565,7 @@
           "action": "保留观察，等待下一催化或公告验证"
         },
         "bear": {
-          "trigger": "资料多为二手解读，项目融资安排和A股公司映射需要原始核验",
+          "trigger": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "action": "降低研究优先级，记录证伪链"
         }
       }
@@ -9600,22 +9582,29 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "设备、晶圆和芯片设计同时走强，价格验证比单一公司拉升更完整",
-      "coreQuestion": "次日板块宽度、容量核心相对强度和公司级事实",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 -3.25%、60日变化 46.79%。这不单独构成基本面或交易结论。",
+      "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "半导体行业上涨4.90%，数字芯片设计上涨5.00%，半导体设备上涨5.08%；主要行业净流向分别约195.5亿元、101.9亿元和13.1亿元。",
-        "interpretation": "设备、晶圆和芯片设计同时走强，价格验证比单一公司拉升更完整",
-        "sourceId": "ev_20260817_semiconductor_01"
+        "date": "2026-08-18",
+        "event": "拓荆科技：收盘 739.59，当日 +2.86%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -3.25%、60日变化 46.79%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_688072_2026-08-18"
       },
-      "latestEvidenceCount": 3,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "尚未形成公司级产业假设",
         "marketPricing": "尚未形成公司级市场定价假设",
         "shortTermTrading": "尚未形成公司级短期交易假设"
       },
       "evolution": [
+        {
+          "date": "2026-08-18",
+          "event": "拓荆科技：收盘 739.59，当日 +2.86%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -3.25%、60日变化 46.79%。这不单独构成基本面或交易结论。",
+          "status": "待验证",
+          "sourceId": "product_fact_market_688072_2026-08-18"
+        },
         {
           "date": "2026-08-17",
           "event": "半导体行业上涨4.90%，数字芯片设计上涨5.00%，半导体设备上涨5.08%；主要行业净流向分别约195.5亿元、101.9亿元和13.1亿元。",
@@ -9625,10 +9614,10 @@
         },
         {
           "date": "2026-08-11",
-          "event": "拓荆科技：收盘 700，当日 -3.85%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.65%、60日变化 65.35%。这不单独构成基本面或交易结论。",
+          "event": "设备瓶颈从整机逐渐向零部件、耗材和验证环节传导，国产替代仍有产业研究线索。",
+          "interpretation": "这强化设备产业层，但8月11日中微公司下跌6.90%、拓荆科技下跌3.85%、北方华创下跌1.83%，说明产业事实没有立即转化为交易强度。",
           "status": "待验证",
-          "sourceId": "product_fact_market_688072_2026-08-11"
+          "sourceId": "ev_20260811_003"
         },
         {
           "date": "2026-08-06",
@@ -9664,13 +9653,6 @@
           "interpretation": "屹唐提供国产设备出海与低估值候选，但订单增速和目标市值属于机构推演。",
           "status": "待验证",
           "sourceId": "ev_20260715_ima_yitang"
-        },
-        {
-          "date": "2026-07-14",
-          "event": "语料指出存储受韩国波动与模组盈利质量扰动，封测内部通富与华天分化，设备端仍受高位筹码制约。",
-          "interpretation": "半导体不能整体化：存储、封测、设备和材料的交易证据强度不同。",
-          "status": "待验证",
-          "sourceId": "ev_20260714_storage_split"
         }
       ],
       "sourceMix": [
@@ -9727,10 +9709,6 @@
           "count": 1
         },
         {
-          "source": "product public fact",
-          "count": 1
-        },
-        {
           "source": "知识星球API topics 14422824452841212/14422824452841212/82255152518481822",
           "count": 1
         },
@@ -9741,6 +9719,10 @@
         {
           "source": "东方财富行业横截面",
           "count": 1
+        },
+        {
+          "source": "product public fact",
+          "count": 1
         }
       ],
       "relatedCoreStocks": [],
@@ -9748,6 +9730,20 @@
       "evidenceCount": 23,
       "sourceDiversity": 17,
       "evidence": [
+        {
+          "id": "product_fact_market_688072_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "拓荆科技：收盘 739.59，当日 +2.86%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 -3.25%、60日变化 46.79%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -11.82亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
         {
           "id": "ev_20260817_semiconductor_01",
           "date": "2026-08-17",
@@ -9789,20 +9785,6 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260817/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_688072_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "拓荆科技：收盘 700，当日 -3.85%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -17.65%、60日变化 65.35%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -5.25亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
           "id": "ev_20260811_003",
@@ -9974,32 +9956,32 @@
         }
       ],
       "catalysts": [
-        "次日板块宽度、容量核心相对强度和公司级事实",
         "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+        "次日板块宽度、容量核心相对强度和公司级事实",
         "核心设备能否在指数分歧中止跌并重新跑赢。",
         "继续跟踪设备核心相对科创50的强弱，以及订单向收入和利润表的兑现。",
         "关注设备订单、产能利用率和存储公司环比盈利，而非只看同比预增。",
         "看设备、设计与封测是否继续强于模组，并观察成交额是否支持分化扩散。"
       ],
       "risks": [
+        "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
         "资金数据是单日口径，连续性尚待确认",
         "行业内仍存在领涨集中和后排分化",
         "部分数据为卖方或市场转述，不能直接写成公告事实",
-        "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
         "零部件公司订单、验证周期和收入占比尚未完全核实。",
         "订单来源为订阅材料摘要，尚未在本次运行中取得公司公告原文；需继续核对公告或调研纪要。"
       ],
       "fundingSignals": [
+        "近10日主力净流 -11.82亿元",
         "设备、晶圆和芯片设计同时走强，价格验证比单一公司拉升更完整",
         "价格和宽度支持科技内部重新聚焦，但未证明所有环节都有持续性",
         "资料与价格同日共振，但公司级收入、订单和现金流仍需后续验证",
-        "近10日主力净流 -5.25亿元",
         "产业证据偏正，价格验证偏负。",
         "8月6日北方华创、华虹、中微、拓荆均保持正收益，价格对产业线索给出首次分歧后的承接。"
       ],
       "scenarios": {
         "bull": {
-          "trigger": "次日板块宽度、容量核心相对强度和公司级事实",
+          "trigger": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "action": "提高研究优先级，补充估值与订单兑现核验"
         },
         "base": {
@@ -10007,7 +9989,7 @@
           "action": "保留观察，等待下一催化或公告验证"
         },
         "bear": {
-          "trigger": "资金数据是单日口径，连续性尚待确认",
+          "trigger": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "action": "降低研究优先级，记录证伪链"
         }
       }
@@ -10024,16 +10006,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格已落入中期调整结构；20日变化 -20.14%、60日变化 6.94%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.37%、60日变化 0.79%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "通富微电：收盘 62.86，当日 +1.29%",
-        "interpretation": "公开行情事实：价格已落入中期调整结构；20日变化 -20.14%、60日变化 6.94%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002156_2026-08-12"
+        "date": "2026-08-18",
+        "event": "通富微电：收盘 70.25，当日 +1.43%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.37%、60日变化 0.79%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002156_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -10041,11 +10023,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "通富微电：收盘 62.86，当日 +1.29%",
-          "interpretation": "公开行情事实：价格已落入中期调整结构；20日变化 -20.14%、60日变化 6.94%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "通富微电：收盘 70.25，当日 +1.43%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.37%、60日变化 0.79%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002156_2026-08-12"
+          "sourceId": "product_fact_market_002156_2026-08-18"
         },
         {
           "date": "2026-07-29",
@@ -10176,13 +10158,13 @@
       "sourceDiversity": 11,
       "evidence": [
         {
-          "id": "product_fact_market_002156_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_002156_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "通富微电：收盘 62.86，当日 +1.29%",
-          "interpretation": "公开行情事实：价格已落入中期调整结构；20日变化 -20.14%、60日变化 6.94%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -19.9亿元",
+          "event": "通富微电：收盘 70.25，当日 +1.43%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 1.37%、60日变化 0.79%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +25.76亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -10417,7 +10399,7 @@
         "该语料须以后续公告、资金和市场表现继续核验。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -19.9亿元",
+        "近10日主力净流 +25.76亿元",
         "跌停/炸板数据用于校验盘面是否只是指数稳定、情绪实际走弱。",
         "属于盘后产业硬证据，尚未经历A股下一交易日定价。",
         "当天国产存储交易层仍明显弱于端侧和防御。",
@@ -10451,14 +10433,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 21.13%、60日变化 4.53%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.82%、60日变化 -4.21%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "深南电路：收盘 392.9，当日 +3.94%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 21.13%、60日变化 4.53%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002916_2026-08-17"
+        "date": "2026-08-18",
+        "event": "深南电路：收盘 380.88，当日 -3.06%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.82%、60日变化 -4.21%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002916_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -10468,11 +10450,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "深南电路：收盘 392.9，当日 +3.94%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 21.13%、60日变化 4.53%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "深南电路：收盘 380.88，当日 -3.06%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.82%、60日变化 -4.21%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002916_2026-08-17"
+          "sourceId": "product_fact_market_002916_2026-08-18"
         },
         {
           "date": "2026-08-11",
@@ -10595,12 +10577,12 @@
       "sourceDiversity": 9,
       "evidence": [
         {
-          "id": "product_fact_market_002916_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_002916_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "深南电路：收盘 392.9，当日 +3.94%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 21.13%、60日变化 4.53%。这不单独构成基本面或交易结论。",
+          "event": "深南电路：收盘 380.88，当日 -3.06%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 8.82%、60日变化 -4.21%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +13.15亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -10870,16 +10852,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.03%、60日变化 4.13%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -16.4%、60日变化 -14.26%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "中芯国际：收盘 136.76，当日 +2.93%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.03%、60日变化 4.13%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_688981_2026-08-17"
+        "date": "2026-08-18",
+        "event": "中芯国际：收盘 133.76，当日 -2.19%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -16.4%、60日变化 -14.26%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_688981_2026-08-18"
       },
-      "latestEvidenceCount": 2,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -10887,11 +10869,18 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "中芯国际：收盘 136.76，当日 +2.93%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.03%、60日变化 4.13%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "中芯国际：收盘 133.76，当日 -2.19%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -16.4%、60日变化 -14.26%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_688981_2026-08-17"
+          "sourceId": "product_fact_market_688981_2026-08-18"
+        },
+        {
+          "date": "2026-08-17",
+          "event": "知识星球资料继续讨论中芯国际、国产网络、先进封装、电子材料和国产服务器的扩产与交付，新增价值在于市场当天确实同时买入这些环节，而非只停留在语料热度。",
+          "interpretation": "资料与价格同日共振，但公司级收入、订单和现金流仍需后续验证",
+          "status": "待验证",
+          "sourceId": "ev_20260817_data_01"
         },
         {
           "date": "2026-08-14",
@@ -10934,13 +10923,6 @@
           "interpretation": "2026-07-10 盘面复盘 v4（修订版）一、市场全景：A股的放量分歧，与收盘后的外盘修复并存指数7月10日收盘当日结构上证指数-1.00%相对抗跌，低位与事件方向仍有承接深证成指-2.29%成长资产回撤扩大创业板指-4.37%高估值科技风险释放集中科创50-5.53%7月9日硬科技强修复后的获利盘兑现两市成交约3.39万亿元，较7月9日增加约4748亿元。近5日成交额依次为3.09、2.58、2.56、2.91、3.39万亿元：市场已经离开缩量冰点，但增量首先用于高位科技的分歧交易，而非推动科技权重继续上攻。上涨3770家、下跌1672家；最终涨停92家、跌停4家、炸板91家，封板率约50.27%。因此周五不是全面退潮：广度尚可、跌停很少，但短线封板稳定性不够，说明机会收敛于事件催化和低位分支。二、海外收盘补充：外部beta从压力转为中性偏正，但不能替代A股自身确认A股收盘后，美股周五走强：标普500涨0.4%、道指涨0.3%、纳指涨0.3%；英伟达涨4%。SK海力士ADR首日收于168.01美元，较149美元发行价涨12.76%。这意味着周一开盘面对的海外AI/存储环境，较周五盘中“海外继续施压”的担忧更友好。但外盘",
           "status": "待验证",
           "sourceId": "ima_7482088345324888"
-        },
-        {
-          "date": "2026-07-10",
-          "event": "标普上涨0.4%、道指上涨0.3%、纳指上涨0.3%；美债收益率上行，SK hynix ADR首日交易强。",
-          "interpretation": "海外AI景气没有被直接证伪，但高估值成长仍受利率分母约束；A股半导体回调主要还需从本地拥挤和获利兑现解释。",
-          "status": "待验证",
-          "sourceId": "ev_20260710_027"
         }
       ],
       "sourceMix": [
@@ -11026,12 +11008,12 @@
       "sourceDiversity": 12,
       "evidence": [
         {
-          "id": "product_fact_market_688981_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_688981_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中芯国际：收盘 136.76，当日 +2.93%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -5.03%、60日变化 4.13%。这不单独构成基本面或交易结论。",
+          "event": "中芯国际：收盘 133.76，当日 -2.19%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -16.4%、60日变化 -14.26%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +1.66亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -11301,16 +11283,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.93%、60日变化 -19.86%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 5.15%、60日变化 -12.21%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "光迅科技：收盘 185.03，当日 +0.52%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.93%、60日变化 -19.86%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_002281_2026-08-12"
+        "date": "2026-08-18",
+        "event": "光迅科技：收盘 196.63，当日 -1.56%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 5.15%、60日变化 -12.21%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_002281_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "AI集群瓶颈从芯片扩展到交换机/OCS/光互连，Atlas 950+超节点成明确线索",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -11318,11 +11300,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "光迅科技：收盘 185.03，当日 +0.52%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.93%、60日变化 -19.86%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "光迅科技：收盘 196.63，当日 -1.56%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 5.15%、60日变化 -12.21%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_002281_2026-08-12"
+          "sourceId": "product_fact_market_002281_2026-08-18"
         },
         {
           "date": "2026-08-11",
@@ -11468,13 +11450,13 @@
       "sourceDiversity": 9,
       "evidence": [
         {
-          "id": "product_fact_market_002281_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_002281_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "光迅科技：收盘 185.03，当日 +0.52%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -13.93%、60日变化 -19.86%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +12.14亿元",
+          "event": "光迅科技：收盘 196.63，当日 -1.56%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 5.15%、60日变化 -12.21%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +22.14亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -11709,7 +11691,7 @@
         "东土科技属于工业网络/工业操作系统，不能仅因OCS叙事升温而视作OCS直接映射。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +12.14亿元",
+        "近10日主力净流 +22.14亿元",
         "核心股价格响应，订单公告和持续宽度仍待核验。",
         "当天高位科技整体弱，未形成CPO独立资金验证。",
         "GS收盘口径仍卖出CPO，7月15日交易层未验证。",
@@ -11743,16 +11725,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 23.15%、60日变化 -26.5%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.33%、60日变化 -30.25%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "胜宏科技：收盘 276，当日 +2.48%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 23.15%、60日变化 -26.5%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_300476_2026-08-17"
+        "date": "2026-08-18",
+        "event": "胜宏科技：收盘 267.5，当日 -3.08%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.33%、60日变化 -30.25%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300476_2026-08-18"
       },
-      "latestEvidenceCount": 2,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "电子布供给刚性3-5年（织布机排至2031），涨价从PCB向CCL/玻纤上游传导",
         "marketPricing": "公众号提到电子布出现年内较大的月度涨幅，并列出覆铜板、铜箔、低介电材料和高频高速PCB的公司线索。知识星球同时出现MLCC供需偏紧与提价讨论，说明材料涨价仍是产业线索，但价格向利润表传导尚需公司披露。",
@@ -11760,11 +11742,18 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "胜宏科技：收盘 276，当日 +2.48%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 23.15%、60日变化 -26.5%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "胜宏科技：收盘 267.5，当日 -3.08%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.33%、60日变化 -30.25%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_300476_2026-08-17"
+          "sourceId": "product_fact_market_300476_2026-08-18"
+        },
+        {
+          "date": "2026-08-17",
+          "event": "印制电路板上涨4.70%，47家上涨1家下跌，行业净流向约23.5亿元；电子化学品上涨5.13%，36家上涨1家下跌，净流向约30.6亿元；概念PCB上涨4.11%。",
+          "interpretation": "价格、宽度与净流向共同支持材料线从研究线索转向板块候选",
+          "status": "待验证",
+          "sourceId": "ev_20260817_material_01"
         },
         {
           "date": "2026-08-11",
@@ -11807,13 +11796,6 @@
           "interpretation": "PCB/CCL长期逻辑仍在，但7/9资金从电子布/高位材料更多切回半导体硬锚，说明涨价链需要新的订单或中报验证。",
           "status": "待验证",
           "sourceId": "ev_20260709_016"
-        },
-        {
-          "date": "2026-07-06",
-          "event": "2026-07-06 A股盘面复盘：缩量3.09万亿下的业绩...",
-          "interpretation": "2026-07-06 A股盘面复盘：缩量3.09万亿下的业绩线分层，国产底座接棒但尚未反攻一、市场全景：指数没崩，但风险偏好继续下降上周五缩量修复后，周一资金没有继续放大进攻，而是在3.09万亿成交额里做更苛刻的筛选。科技权重连调后的修复只留在少数国产底座、业绩预告、半导体软件和防御业绩线里，泛科技、机器人高低切、海外链和前期材料高位都出现不同程度降温。指数收盘涨跌幅成交额结构含义上证指数4041.24-0.06%14321亿主板被权重、红利、煤炭和防御方向托住深证成指15416.80-1.16%16590亿成长弹性继续承压，题材分化明显创业板指3948.86-1.77%7640亿高位成长和新能源/科技权重拖累更重科创501996.10+1.04%1735亿少数国产半导体、EDA、业绩线支撑上证502957.97+0.91%2477亿权重稳定器作用明显，但不是题材主攻沪深合计--约3.09万亿较7月3日约3.18万亿继续缩量元宝语料给出的涨跌比约876:3541，虽未被本轮宽度接口二次验证，但和深成指、创业板下跌以及行业轮动结构一致：指数表面温和，个股广度偏弱；资金不是离场，而是从“能讲故事就买”继续切到“有业绩、有公告、有",
-          "status": "待验证",
-          "sourceId": "ima_7479937543985028"
         }
       ],
       "sourceMix": [
@@ -11891,12 +11873,12 @@
       "sourceDiversity": 10,
       "evidence": [
         {
-          "id": "product_fact_market_300476_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_300476_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "胜宏科技：收盘 276，当日 +2.48%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 23.15%、60日变化 -26.5%。这不单独构成基本面或交易结论。",
+          "event": "胜宏科技：收盘 267.5，当日 -3.08%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.33%、60日变化 -30.25%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 +14.11亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -12166,16 +12148,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-11",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 3.78%、60日变化 -18.76%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 12.63%、60日变化 -0.47%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-11",
-        "event": "网宿科技：收盘 14.81，当日 +0.07%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 3.78%、60日变化 -18.76%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_300017_2026-08-11"
+        "date": "2026-08-18",
+        "event": "网宿科技：收盘 16.85，当日 -4.1%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 12.63%、60日变化 -0.47%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300017_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "Anthropic Fable恐慌被消化，软件7/1首次6个月来跑赢半导体",
         "marketPricing": "群聊围观材料把资金线索概括为国产替代、上游定价权和AI应用落地三条路径，并要求应用项目复用、付费客户、订单和毛利率验证。它用于发现候选和分歧，不把群聊提及的公司直接视作核心标的。",
@@ -12183,11 +12165,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-11",
-          "event": "网宿科技：收盘 14.81，当日 +0.07%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 3.78%、60日变化 -18.76%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "网宿科技：收盘 16.85，当日 -4.1%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 12.63%、60日变化 -0.47%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_300017_2026-08-11"
+          "sourceId": "product_fact_market_300017_2026-08-18"
         },
         {
           "date": "2026-07-13",
@@ -12302,13 +12284,13 @@
       "sourceDiversity": 7,
       "evidence": [
         {
-          "id": "product_fact_market_300017_2026-08-11",
-          "date": "2026-08-11",
+          "id": "product_fact_market_300017_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "网宿科技：收盘 14.81，当日 +0.07%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 3.78%、60日变化 -18.76%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -3.76亿元",
+          "event": "网宿科技：收盘 16.85，当日 -4.1%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 12.63%、60日变化 -0.47%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +7.11亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -12543,7 +12525,7 @@
         "龙虎榜为当日交易结果，不能替代持续性验证。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -3.76亿元",
+        "近10日主力净流 +7.11亿元",
         "仅语料发酵，今天市场并未给IDC/CDN明确强验证。",
         "周五A股IDC/CDN没有形成连续跑赢科技指数的独立验证。",
         "A股周五并未出现云计算全面跑赢科技指数的独立验证。",
@@ -12577,14 +12559,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-17",
-      "thesis": "事件热度存在，尚未证明为当日核心资金方向",
-      "coreQuestion": "次日板块宽度、容量核心相对强度和公司级事实",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 2.49%、60日变化 3.3%。这不单独构成基本面或交易结论。",
+      "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "宇树上市、机器人大会和人形机器人供应链资料提高了机器人事件热度，但当日板块是否形成独立梯队仍需从价格和容量核心继续确认。",
-        "interpretation": "事件热度存在，尚未证明为当日核心资金方向",
-        "sourceId": "ev_20260817_robot_01"
+        "date": "2026-08-18",
+        "event": "深信服：收盘 119.5，当日 -2.95%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.49%、60日变化 3.3%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300454_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -12594,18 +12576,18 @@
       },
       "evolution": [
         {
+          "date": "2026-08-18",
+          "event": "深信服：收盘 119.5，当日 -2.95%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.49%、60日变化 3.3%。这不单独构成基本面或交易结论。",
+          "status": "待验证",
+          "sourceId": "product_fact_market_300454_2026-08-18"
+        },
+        {
           "date": "2026-08-17",
           "event": "宇树上市、机器人大会和人形机器人供应链资料提高了机器人事件热度，但当日板块是否形成独立梯队仍需从价格和容量核心继续确认。",
           "interpretation": "事件热度存在，尚未证明为当日核心资金方向",
           "status": "待验证",
           "sourceId": "ev_20260817_robot_01"
-        },
-        {
-          "date": "2026-08-11",
-          "event": "深信服：收盘 125.55，当日 +1.2%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 18.48%、60日变化 5.34%。这不单独构成基本面或交易结论。",
-          "status": "待验证",
-          "sourceId": "product_fact_market_300454_2026-08-11"
         },
         {
           "date": "2026-08-04",
@@ -12676,11 +12658,11 @@
           "count": 1
         },
         {
-          "source": "product public fact",
+          "source": "浏览器来源‘宇树上市敲定’ + 知识星球API topic 14422824524454422",
           "count": 1
         },
         {
-          "source": "浏览器来源‘宇树上市敲定’ + 知识星球API topic 14422824524454422",
+          "source": "product public fact",
           "count": 1
         }
       ],
@@ -12717,6 +12699,20 @@
       "sourceDiversity": 8,
       "evidence": [
         {
+          "id": "product_fact_market_300454_2026-08-18",
+          "date": "2026-08-18",
+          "source": "product public fact",
+          "sourceTitle": "公开行情与资金事实缓存",
+          "event": "深信服：收盘 119.5，当日 -2.95%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 2.49%、60日变化 3.3%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -5.61亿元",
+          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+          "reliability": "public_market_data",
+          "status": "待验证",
+          "sourceFile": "research-console/data/company-fact-evidence.json"
+        },
+        {
           "id": "ev_20260817_robot_01",
           "date": "2026-08-17",
           "source": "浏览器来源‘宇树上市敲定’ + 知识星球API topic 14422824524454422",
@@ -12729,20 +12725,6 @@
           "reliability": "unknown",
           "status": "待验证",
           "sourceFile": "tmp_recap_20260817/evidence_index.json"
-        },
-        {
-          "id": "product_fact_market_300454_2026-08-11",
-          "date": "2026-08-11",
-          "source": "product public fact",
-          "sourceTitle": "公开行情与资金事实缓存",
-          "event": "深信服：收盘 125.55，当日 +1.2%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 18.48%、60日变化 5.34%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -2.03亿元",
-          "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
-          "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
-          "reliability": "public_market_data",
-          "status": "待验证",
-          "sourceFile": "research-console/data/company-fact-evidence.json"
         },
         {
           "id": "ev_20260804_market_snapshot",
@@ -12942,31 +12924,31 @@
         }
       ],
       "catalysts": [
-        "次日板块宽度、容量核心相对强度和公司级事实",
         "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
+        "次日板块宽度、容量核心相对强度和公司级事实",
         "8月4日成交额较8月3日回升，但仍低于7月31日高点；指数涨幅差异很大，不能用创业板大涨代表全市场普涨。",
         "等待订单、订阅收入、续费率、毛利率或现金流改善，并观察核心股连续相对强度。",
         "若硬锚单点断板且无扩散，说明仍是缩量轮动。",
         "看7/9国产算力能否在海外扰动缓和时继续强。"
       ],
       "risks": [
-        "多数映射来自二手资料，产业收入和公司级订单待核验",
         "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
+        "多数映射来自二手资料，产业收入和公司级订单待核验",
         "反弹若要延续，需看成交额能否连续站上近五日均值，并观察应用、光通信和算力基础设施是否同时有容量股承接。",
         "A股应用公司的收入、现金流与利润验证不足。",
         "没有硬证据的泛AI和高位机器人继续被抽血。",
         "元宝为用户语料，海外熔断和传闻需后续公开源验证。"
       ],
       "fundingSignals": [
+        "近10日主力净流 -5.61亿元",
         "事件热度存在，尚未证明为当日核心资金方向",
-        "近10日主力净流 -2.03亿元",
         "盘面强点均有中报、龙虎榜或事件催化。",
         "与科创50逆势、浪潮涨停、网宿/深信服龙虎买入交叉验证。",
         "龙虎榜显示机构和活跃资金集中买入硬证据方向。"
       ],
       "scenarios": {
         "bull": {
-          "trigger": "次日板块宽度、容量核心相对强度和公司级事实",
+          "trigger": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "action": "提高研究优先级，补充估值与订单兑现核验"
         },
         "base": {
@@ -12974,7 +12956,7 @@
           "action": "保留观察，等待下一催化或公告验证"
         },
         "bear": {
-          "trigger": "多数映射来自二手资料，产业收入和公司级订单待核验",
+          "trigger": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "action": "降低研究优先级，记录证伪链"
         }
       }
@@ -12991,16 +12973,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -15.1%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -2.22%、60日变化 -26.93%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "江波龙：收盘 414.3，当日 -0.77%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -15.1%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_301308_2026-08-12"
+        "date": "2026-08-18",
+        "event": "江波龙：收盘 412.5，当日 -1.61%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -2.22%、60日变化 -26.93%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_301308_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "DRAM Q3涨价20%+长鑫IPO申购7/16+封测设备同步受益",
         "marketPricing": "公众号整理了CoWoS产能紧张、国产设备被海外存储厂测试，以及国产算力芯片、晶圆厂和超节点的新增线索；这些内容支持供给受限与国产替代的产业研究方向，但原文多数仍是线索汇总，不能替代公司订单、收入和毛利确认。",
@@ -13008,11 +12990,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "江波龙：收盘 414.3，当日 -0.77%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -15.1%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "江波龙：收盘 412.5，当日 -1.61%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -2.22%、60日变化 -26.93%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_301308_2026-08-12"
+          "sourceId": "product_fact_market_301308_2026-08-18"
         },
         {
           "date": "2026-08-11",
@@ -13127,13 +13109,13 @@
       "sourceDiversity": 7,
       "evidence": [
         {
-          "id": "product_fact_market_301308_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_301308_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "江波龙：收盘 414.3，当日 -0.77%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -15.1%、60日变化 -26.21%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +19.42亿元",
+          "event": "江波龙：收盘 412.5，当日 -1.61%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -2.22%、60日变化 -26.93%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -3亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -13326,7 +13308,7 @@
         "江波龙硬数字未在本轮公开接口中独立验证为正式公告，且高开后回落显示业绩线也会被兑现。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +19.42亿元",
+        "近10日主力净流 -3亿元",
         "需求线索与今日价格没有形成新的共振。",
         "KOSPI事件与A股存储映射走弱同步。",
         "外盘AI龙头与存储ADR走强，提供下周一海外映射的正向背景。",
@@ -13360,16 +13342,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "高频验证锚",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.28%、60日变化 -24.82%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.87%、60日变化 -21.95%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "中国卫星：收盘 65.57，当日 +3.23%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.28%、60日变化 -24.82%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_600118_2026-08-12"
+        "date": "2026-08-18",
+        "event": "中国卫星：收盘 68.55，当日 -0.45%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.87%、60日变化 -21.95%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_600118_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "尚未形成可审计产业假设",
         "marketPricing": "资金不是简单从科技流向某一新主线，而是先降低海外映射和高估值科技风险，同时保留设备、封测、商业航天等具有公司事件或产业验证的少量观察点。",
@@ -13377,11 +13359,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "中国卫星：收盘 65.57，当日 +3.23%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.28%、60日变化 -24.82%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "中国卫星：收盘 68.55，当日 -0.45%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.87%、60日变化 -21.95%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_600118_2026-08-12"
+          "sourceId": "product_fact_market_600118_2026-08-18"
         },
         {
           "date": "2026-07-14",
@@ -13475,13 +13457,13 @@
       "sourceDiversity": 7,
       "evidence": [
         {
-          "id": "product_fact_market_600118_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_600118_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "中国卫星：收盘 65.57，当日 +3.23%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.28%、60日变化 -24.82%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -2.01亿元",
+          "event": "中国卫星：收盘 68.55，当日 -0.45%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 11.87%、60日变化 -21.95%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -0.82亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -13646,7 +13628,7 @@
         "把阶段性修复表述为全面反转会高估持续性。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -2.01亿元",
+        "近10日主力净流 -0.82亿元",
         "机构买沪电、东山；PCB与光通信午后相对强，存储映射、设备和商业航天未同步修复。",
         "正式宽度数据、题材热度与订阅交易台观察方向一致；机构席位仅作为设备承接线索，不外推为全市场净流入。",
         "高热度与价格表现发生分化。",
@@ -13680,16 +13662,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "主题核心映射",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.57%、60日变化 -3.66%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.16%、60日变化 -8.62%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "东土科技：收盘 19.47，当日 -0.56%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.57%、60日变化 -3.66%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_300353_2026-08-12"
+        "date": "2026-08-18",
+        "event": "东土科技：收盘 18.98，当日 -1.2%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.16%、60日变化 -8.62%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_300353_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "Anthropic Fable恐慌被消化，软件7/1首次6个月来跑赢半导体",
         "marketPricing": "群聊围观材料把资金线索概括为国产替代、上游定价权和AI应用落地三条路径，并要求应用项目复用、付费客户、订单和毛利率验证。它用于发现候选和分歧，不把群聊提及的公司直接视作核心标的。",
@@ -13697,11 +13679,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "东土科技：收盘 19.47，当日 -0.56%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.57%、60日变化 -3.66%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "东土科技：收盘 18.98，当日 -1.2%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.16%、60日变化 -8.62%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_300353_2026-08-12"
+          "sourceId": "product_fact_market_300353_2026-08-18"
         },
         {
           "date": "2026-08-04",
@@ -13790,13 +13772,13 @@
       "sourceDiversity": 4,
       "evidence": [
         {
-          "id": "product_fact_market_300353_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_300353_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "东土科技：收盘 19.47，当日 -0.56%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 0.57%、60日变化 -3.66%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +0.05亿元",
+          "event": "东土科技：收盘 18.98，当日 -1.2%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -0.16%、60日变化 -8.62%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +0.15亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -13913,7 +13895,7 @@
         "东土科技属于工业网络/工业操作系统，不能仅因OCS叙事升温而视作OCS直接映射。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +0.05亿元",
+        "近10日主力净流 +0.15亿元",
         "周五网络层热度仍在但未形成完整扩散。"
       ],
       "scenarios": {
@@ -13943,16 +13925,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "发酵",
       "role": "主题核心映射",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -20.33%、60日变化 4.64%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.27%、60日变化 -9.33%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "概伦电子：收盘 36.77，当日 +1.83%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -20.33%、60日变化 4.64%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_688206_2026-08-12"
+        "date": "2026-08-18",
+        "event": "概伦电子：收盘 40.91，当日 -1.59%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.27%、60日变化 -9.33%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_688206_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "尚未形成公司级产业假设",
         "marketPricing": "尚未形成公司级市场定价假设",
@@ -13960,11 +13942,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "概伦电子：收盘 36.77，当日 +1.83%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -20.33%、60日变化 4.64%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "概伦电子：收盘 40.91，当日 -1.59%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.27%、60日变化 -9.33%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_688206_2026-08-12"
+          "sourceId": "product_fact_market_688206_2026-08-18"
         },
         {
           "date": "2026-07-06",
@@ -14005,13 +13987,13 @@
       "sourceDiversity": 4,
       "evidence": [
         {
-          "id": "product_fact_market_688206_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_688206_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "概伦电子：收盘 36.77，当日 +1.83%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -20.33%、60日变化 4.64%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +0.53亿元",
+          "event": "概伦电子：收盘 40.91，当日 -1.59%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.27%、60日变化 -9.33%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +0.32亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -14088,7 +14070,7 @@
         "很多强势方向偏低位轮动，缺少主线级产业共识，若7月7日不能放量延续，容易一日游。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +0.53亿元",
+        "近10日主力净流 +0.32亿元",
         "EDA概念+2.88%，在科技整体分歧日逆势居前。",
         "锐捷网络继续大涨，中国长城涨停，EDA概念强，机器人周五强势后周一熄火。",
         "行业和概念涨幅前列与元宝语料的医药、红利、低位轮动判断一致。"
@@ -14120,16 +14102,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "新增",
       "role": "候选映射",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.63%、60日变化 -32.16%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 7.33%、60日变化 -27.03%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "航天电子：收盘 15.88，当日 +2.25%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.63%、60日变化 -32.16%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_600879_2026-08-12"
+        "date": "2026-08-18",
+        "event": "航天电子：收盘 16.25，当日 -1.22%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 7.33%、60日变化 -27.03%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_600879_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "尚未形成可审计产业假设",
         "marketPricing": "资金不是简单从科技流向某一新主线，而是先降低海外映射和高估值科技风险，同时保留设备、封测、商业航天等具有公司事件或产业验证的少量观察点。",
@@ -14137,11 +14119,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "航天电子：收盘 15.88，当日 +2.25%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.63%、60日变化 -32.16%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "航天电子：收盘 16.25，当日 -1.22%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 7.33%、60日变化 -27.03%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_600879_2026-08-12"
+          "sourceId": "product_fact_market_600879_2026-08-18"
         },
         {
           "date": "2026-07-10",
@@ -14198,13 +14180,13 @@
       "sourceDiversity": 3,
       "evidence": [
         {
-          "id": "product_fact_market_600879_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_600879_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "航天电子：收盘 15.88，当日 +2.25%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -8.63%、60日变化 -32.16%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -3.43亿元",
+          "event": "航天电子：收盘 16.25，当日 -1.22%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 7.33%、60日变化 -27.03%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -2.88亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -14251,7 +14233,7 @@
         "周末讨论热度过高、板块若缺乏容量中军和连续成交，容易成为周一兑现交易。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -3.43亿元",
+        "近10日主力净流 -2.88亿元",
         "7月10日商业航天/航天装备逆势活跃；需观察周一核心成交扩散。",
         "在科技权重调整时逆势活跃，说明有独立事件资金承接。"
       ],
@@ -14282,16 +14264,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "新增",
       "role": "候选映射",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 10.78%、60日变化 43.71%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格仍在中期上行结构内；20日变化 10.73%、60日变化 38.9%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "甘李药业：收盘 77.2，当日 +3.67%",
-        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.78%、60日变化 43.71%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_603087_2026-08-12"
+        "date": "2026-08-18",
+        "event": "甘李药业：收盘 72.99，当日 -1.66%",
+        "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.73%、60日变化 38.9%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_603087_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "BD从\"量\"向\"质\"切换，恒瑞co-co模式标志转折",
         "marketPricing": "IMA与知识星球新增DeepSeek V4 Flash、腾讯WorkBuddy、AI实施与游戏出海材料；游戏上半年收入和海外收入保持增长。",
@@ -14299,11 +14281,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "甘李药业：收盘 77.2，当日 +3.67%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.78%、60日变化 43.71%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "甘李药业：收盘 72.99，当日 -1.66%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.73%、60日变化 38.9%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_603087_2026-08-12"
+          "sourceId": "product_fact_market_603087_2026-08-18"
         },
         {
           "date": "2026-07-06",
@@ -14356,13 +14338,13 @@
       "sourceDiversity": 2,
       "evidence": [
         {
-          "id": "product_fact_market_603087_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_603087_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "甘李药业：收盘 77.2，当日 +3.67%",
-          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.78%、60日变化 43.71%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 -1.8亿元",
+          "event": "甘李药业：收盘 72.99，当日 -1.66%",
+          "interpretation": "公开行情事实：价格仍在中期上行结构内；20日变化 10.73%、60日变化 38.9%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 -2.18亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -14409,7 +14391,7 @@
         "很多强势方向偏低位轮动，缺少主线级产业共识，若7月7日不能放量延续，容易一日游。"
       ],
       "fundingSignals": [
-        "近10日主力净流 -1.8亿元",
+        "近10日主力净流 -2.18亿元",
         "减肥药、CAR-T、青蒿素概念涨幅居前，说明资金在科技外寻找业绩和防御出口。",
         "行业和概念涨幅前列与元宝语料的医药、红利、低位轮动判断一致。"
       ],
@@ -14440,16 +14422,16 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "新增",
       "role": "候选映射",
-      "lastUpdated": "2026-08-12",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -14.54%、60日变化 -7.83%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.98%、60日变化 -5.24%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-12",
-        "event": "美诺华：收盘 33.33，当日 +10%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -14.54%、60日变化 -7.83%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_603538_2026-08-12"
+        "date": "2026-08-18",
+        "event": "美诺华：收盘 31.03，当日 -0.35%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.98%、60日变化 -5.24%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_603538_2026-08-18"
       },
-      "latestEvidenceCount": 0,
+      "latestEvidenceCount": 1,
       "layers": {
         "industry": "BD从\"量\"向\"质\"切换，恒瑞co-co模式标志转折",
         "marketPricing": "IMA与知识星球新增DeepSeek V4 Flash、腾讯WorkBuddy、AI实施与游戏出海材料；游戏上半年收入和海外收入保持增长。",
@@ -14457,11 +14439,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-12",
-          "event": "美诺华：收盘 33.33，当日 +10%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -14.54%、60日变化 -7.83%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "美诺华：收盘 31.03，当日 -0.35%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.98%、60日变化 -5.24%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_603538_2026-08-12"
+          "sourceId": "product_fact_market_603538_2026-08-18"
         },
         {
           "date": "2026-07-06",
@@ -14514,13 +14496,13 @@
       "sourceDiversity": 2,
       "evidence": [
         {
-          "id": "product_fact_market_603538_2026-08-12",
-          "date": "2026-08-12",
+          "id": "product_fact_market_603538_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "美诺华：收盘 33.33，当日 +10%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -14.54%、60日变化 -7.83%。这不单独构成基本面或交易结论。",
-          "funding": "近10日主力净流 +6.93亿元",
+          "event": "美诺华：收盘 31.03，当日 -0.35%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 10.98%、60日变化 -5.24%。这不单独构成基本面或交易结论。",
+          "funding": "近10日主力净流 +1.38亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
           "reliability": "public_market_data",
@@ -14551,7 +14533,7 @@
         "如果科技硬锚7月7日回流，医药避险资金可能回吐。"
       ],
       "fundingSignals": [
-        "近10日主力净流 +6.93亿元",
+        "近10日主力净流 +1.38亿元",
         "减肥药、CAR-T、青蒿素概念涨幅居前，说明资金在科技外寻找业绩和防御出口。"
       ],
       "scenarios": {
@@ -14581,14 +14563,14 @@
       "thesisProbabilityNote": "关联主题启发式置信度均值，不是市场成交赔率。",
       "status": "新增",
       "role": "候选映射",
-      "lastUpdated": "2026-08-17",
-      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -10.95%、60日变化 24.72%。这不单独构成基本面或交易结论。",
+      "lastUpdated": "2026-08-18",
+      "thesis": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.05%、60日变化 30.44%。这不单独构成基本面或交易结论。",
       "coreQuestion": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "latestChange": {
-        "date": "2026-08-17",
-        "event": "百利天恒：收盘 299.4，当日 -0.86%",
-        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -10.95%、60日变化 24.72%。这不单独构成基本面或交易结论。",
-        "sourceId": "product_fact_market_688506_2026-08-17"
+        "date": "2026-08-18",
+        "event": "百利天恒：收盘 303.93，当日 +1.51%",
+        "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.05%、60日变化 30.44%。这不单独构成基本面或交易结论。",
+        "sourceId": "product_fact_market_688506_2026-08-18"
       },
       "latestEvidenceCount": 1,
       "layers": {
@@ -14598,11 +14580,11 @@
       },
       "evolution": [
         {
-          "date": "2026-08-17",
-          "event": "百利天恒：收盘 299.4，当日 -0.86%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -10.95%、60日变化 24.72%。这不单独构成基本面或交易结论。",
+          "date": "2026-08-18",
+          "event": "百利天恒：收盘 303.93，当日 +1.51%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.05%、60日变化 30.44%。这不单独构成基本面或交易结论。",
           "status": "待验证",
-          "sourceId": "product_fact_market_688506_2026-08-17"
+          "sourceId": "product_fact_market_688506_2026-08-18"
         },
         {
           "date": "2026-07-06",
@@ -14655,12 +14637,12 @@
       "sourceDiversity": 2,
       "evidence": [
         {
-          "id": "product_fact_market_688506_2026-08-17",
-          "date": "2026-08-17",
+          "id": "product_fact_market_688506_2026-08-18",
+          "date": "2026-08-18",
           "source": "product public fact",
           "sourceTitle": "公开行情与资金事实缓存",
-          "event": "百利天恒：收盘 299.4，当日 -0.86%",
-          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -10.95%、60日变化 24.72%。这不单独构成基本面或交易结论。",
+          "event": "百利天恒：收盘 303.93，当日 +1.51%",
+          "interpretation": "公开行情事实：价格处于趋势重新选择阶段；20日变化 -11.05%、60日变化 30.44%。这不单独构成基本面或交易结论。",
           "funding": "近10日主力净流 -0.36亿元",
           "risk": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
@@ -15109,8 +15091,8 @@
       "priority": 65
     },
     {
-      "id": "innovative-drug-contract-19a603ee095c0eab",
-      "question": "观察医药中军成交与前排分歧后的承接",
+      "id": "innovative-drug-contract-8ee65e8e5d078ea5",
+      "question": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。",
       "topicId": "innovative-drug",
       "topicName": "创新药",
       "layer": "交易",
@@ -15118,9 +15100,9 @@
       "probabilityNote": "研究置信度，不是可交易市场价格。",
       "status": "发酵",
       "resolution": "等待盘面或数据确认",
-      "invalidation": "中军持续性和订单/利润验证尚不足",
+      "invalidation": "行情和资金数据仅作为市场定价层事实，不能替代公司公告、订单和业绩验证。",
       "progress": "无法量化",
-      "sourceId": "ev_20260813_cro_rotation",
+      "sourceId": "product_fact_market_603087_2026-08-18",
       "coreStocks": [
         "百利天恒",
         "甘李药业",
@@ -15334,12 +15316,12 @@
       },
       {
         "path": "research-console/data/company-fact-evidence.json",
-        "sha256": "9a794b54d68b0d02cd424d8c84657ba1762910e2491a2217c5221c59b98d4b8b",
-        "size": 102802
+        "sha256": "6501207d1a22d0ace2334fc02690efd27facf920cdb26e9c825dbe56494f3039",
+        "size": 102790
       },
       {
         "path": "research-console/public/data/evidence-catalog.json",
-        "sha256": "2ab0be6e0f9713003cf2167a5157f1950f78d7a91bbb12b5f4da9e8cff64b1c6",
+        "sha256": "39eb13cd272a0ae081e53c22d8840843348433681ffe68bc8d0acf639c65995f",
         "size": 833523
       },
       {
