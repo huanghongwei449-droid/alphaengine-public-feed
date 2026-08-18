@@ -1,8 +1,9 @@
 import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
-const root = path.resolve(new URL(".", import.meta.url).pathname, "..");
+const root = path.resolve(fileURLToPath(new URL(".", import.meta.url)), "..");
 const USER_AGENT = "AlphaEngine-Public-Feed/1.0";
 const indexCodes = ["sh000001", "sz399001", "sz399006", "sh000688", "sh000300"];
 const indexNames = { "000001": "上证指数", "399001": "深证成指", "399006": "创业板指", "000688": "科创50", "000300": "沪深300" };

@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-18T08:44:35.183Z",
+  "generatedAt": "2026-08-18T08:46:18.934Z",
   "sourceSnapshot": "2026-08-18T08:44:34.591Z",
   "asOfDate": "2026-08-18",
   "topics": 7,
@@ -17,11 +17,6 @@
       "path": "data/market-recap.json",
       "bytes": 41779,
       "sha256": "fbd178d978384b94bb3d6aa413da3df26514dbc14b5f51f6a409210f1418258f"
-    },
-    {
-      "path": "data/live-market.json",
-      "bytes": 2059,
-      "sha256": "ab501eafbf6efbc8107acfab2e3a26a161837cbff6a8bf3fd6c287ba9849285e"
     },
     {
       "path": "data/evidence-catalog.json",
@@ -97,6 +92,11 @@
       "path": "data/company-fact-evidence.json",
       "bytes": 102790,
       "sha256": "6501207d1a22d0ace2334fc02690efd27facf920cdb26e9c825dbe56494f3039"
+    },
+    {
+      "path": "data/live-market.json",
+      "bytes": 2031,
+      "sha256": "d9fd7dc1bb1af153f40ea1d47432b13ed3bf3d3eb416d9d117a2511a4bb603d4"
     }
   ]
 }
