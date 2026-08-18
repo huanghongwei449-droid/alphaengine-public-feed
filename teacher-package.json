@@ -1,14 +1,14 @@
 {
   "product": "AlphaEngine 投研研究台",
-  "version": "teacher-demo-v9-online-public-data",
+  "version": "teacher-demo-v11-online-public-data",
   "publicSafe": true,
-  "downloadUrl": "https://media.githubusercontent.com/media/huanghongwei449-droid/alphaengine-public-feed/teacher-package-v9/AlphaEngine-Teacher-v9-online-public-data.zip",
+  "downloadUrl": "https://media.githubusercontent.com/media/huanghongwei449-droid/alphaengine-public-feed/teacher-package-v11/AlphaEngine-Teacher-v11-online-public-data.zip",
   "packageMode": "Windows portable app with bundled Node runtime",
   "dataMode": "GitHub public feed + runtime public HTTP fetch + packaged public snapshot fallback",
   "dataAsOf": "2026-08-18",
   "notes": [
-    "解压整个文件夹后双击 start-alphaengine.bat。",
-    "每台电脑在本机启动自己的只读服务；GitHub 提供公开研究和市场快照，查询公司时在线补抓公开数据。",
+    "解压整个文件夹后先双击 diagnose-alphaengine.bat；诊断通过后双击 start-alphaengine.bat。",
+    "每台电脑在本机启动自己的只读服务；GitHub 提供公开研究和市场快照，查询公司时在线补抓公开 F10、公开研报、行情与市场信息。",
     "在线查询只发送公司名或六位股票代码，不发送持仓、账户或 API Key。",
     "没有开发机路径、IMA 凭证、持仓、仓位、成本、盈亏或交易计划。"
   ]
