@@ -1,67 +1,72 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-18T15:46:36.731Z",
-  "sourceSnapshot": "2026-08-18T09:26:49.706Z",
+  "generatedAt": "2026-08-18T16:20:30.583Z",
+  "sourceSnapshot": "2026-08-18T16:20:29.047Z",
   "asOfDate": "2026-08-18",
   "topics": 7,
   "securities": 31,
-  "publicEvidence": 638,
+  "publicEvidence": 657,
   "files": [
     {
       "path": "data/research-snapshot.json",
-      "bytes": 1037663,
-      "sha256": "fd3a99b8b9664c66e293b1c0a7966871c2f140fcb9797025aabf3f272985c66b"
+      "bytes": 1042452,
+      "sha256": "4b1073eaad41592bbbb6e55627c7cc24e52a0024e5f44ec05a728e9d644a56a1"
     },
     {
       "path": "data/market-recap.json",
-      "bytes": 41796,
-      "sha256": "95d2b5186c451ddf49a29a1c0e61f8b2c93f87f6ebbcccc8097c40e846aa0b3b"
+      "bytes": 45885,
+      "sha256": "612e81cc279d63163c17620b59e4708c143997cafbb77e3bb4e79a59cdc63fa8"
+    },
+    {
+      "path": "data/live-market.json",
+      "bytes": 2699,
+      "sha256": "b1c203517b837bb63e9296b544bd59e436c758c96388df690a5bdd2f2c10da17"
     },
     {
       "path": "data/evidence-catalog.json",
-      "bytes": 833523,
-      "sha256": "0c5da4bb551785ab314f681f660532640e37627dbe32240fa6269573073e3839"
+      "bytes": 860806,
+      "sha256": "71eaa4800b379235f54783ae2f46768add345be6c61dd4e797ef3026d416d1b3"
     },
     {
       "path": "data/latest-recap-delta.json",
-      "bytes": 8847,
-      "sha256": "069502f8f42feb8e4989bdb3909d640dc38d3fba65386080cfbeaa2e11bdcae7"
+      "bytes": 17658,
+      "sha256": "dd170512f459e97f5de5b03032d78c0ec7ba22b65aaa2202f0e325c6f8348e2d"
     },
     {
       "path": "data/ima-public-research-index.json",
       "bytes": 119652,
-      "sha256": "44eb56ef13d9bafde3950a38e51ef357cfac2fc065a84e25c279493f2f2eba0b"
+      "sha256": "7d1761f4122ebe215271f3f3c916da5d624b1322c661921df507cc7be9ccdc7c"
     },
     {
       "path": "data/ima-research-coverage.json",
       "bytes": 2853,
-      "sha256": "42cff8a2eb886e63f95ebf1c07377ae2373582271a10e6f51a1c27df3a95d2ca"
+      "sha256": "5f71f6bd37ca390f50952b5869583f502964d35294924d5ba1c53fcf6a2b2e27"
     },
     {
       "path": "data/research-ontology.json",
       "bytes": 60348,
-      "sha256": "e6f559ff860018131a0c1d5d04e681238a475245b64f2fe076b849176e809373"
+      "sha256": "18bbd2867ef2fb29aa8428ff07e7ace18bfdd93bf5338acc4a360cd43b1e60ab"
     },
     {
       "path": "data/research-loop-board.json",
-      "bytes": 34249,
-      "sha256": "bf2005713b0b1033f87e217915b2b0c4f92bd472d9f5b8973a67603cb8e3f199"
+      "bytes": 37884,
+      "sha256": "4e2665c46b4fa65329bad0168ced8de14c90b6be24044affa4c1d6d41095d386"
     },
     {
       "path": "data/industry-research-index.json",
       "bytes": 8923,
-      "sha256": "8f58fc699300c496dd7fb1e485147f6795ee120896a7f8ea356bff0af8e822a8"
+      "sha256": "c85109ad075d5aecea5161c19296a2e34fcefeb714ba56bf1e35a439b16aa4eb"
     },
     {
       "path": "data/daily-research-handoff.json",
       "bytes": 15055,
-      "sha256": "b7795c2d8b4b20f5f104e569d3a9b44963e2680cd32f34db8153a68c2a59b7d3"
+      "sha256": "b6a6ea0cccfbd2a698b5ed099c80686158d426fd6c51eec8233b6502d1680873"
     },
     {
       "path": "data/research-evolution.json",
-      "bytes": 213337,
-      "sha256": "1abc1e78d5fbbce5d81f23299d7f7aef52c9bfca34e927edb38d1deda31637a9"
+      "bytes": 221147,
+      "sha256": "aaf51f126bafa84fe104183b21ef40febfaa8a00972e39d76ca99382398ebdac"
     },
     {
       "path": "data/research-priority-agenda.json",
@@ -80,8 +85,8 @@
     },
     {
       "path": "data/company-public-context.json",
-      "bytes": 41099,
-      "sha256": "c41e0f1b0358fb87ca7be4d6a8789a11ca03a8a69c02145829226e81a1393b29"
+      "bytes": 41279,
+      "sha256": "ca63c5df4f4f62576afaf0cdf86e6aeac1d041c7669c44950a1ebb138b64aa4c"
     },
     {
       "path": "data/company-public-dossiers.json",
@@ -90,13 +95,8 @@
     },
     {
       "path": "data/company-fact-evidence.json",
-      "bytes": 102862,
-      "sha256": "89264df5e05b6540253ad5b7727c0ff522440133b475ea7a3dbb87836cd2ca0d"
-    },
-    {
-      "path": "data/live-market.json",
-      "bytes": 2431,
-      "sha256": "88441e569bf4781f3dcf77c91a01e53bcd7cf0492ba1009ae2aab71834cf99d4"
+      "bytes": 102865,
+      "sha256": "1140a8a2049aaf261feff996310c48aadb97066b985967ee916314e7879a417d"
     }
   ]
 }
