@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-18T18:04:07.847Z",
+  "fetchedAt": "2026-08-18T18:56:49.473Z",
   "asOfDate": "2026-08-18",
   "sourceStatus": {
     "399001": {
@@ -29,8 +29,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
       "status": "failed",
@@ -97,9 +97,100 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-08-18",
-    "industry": [],
+    "industry": [
+      {
+        "code": "BK0433",
+        "name": "农林牧渔",
+        "pctChange": 4.81,
+        "mainNetBillion": 36.34,
+        "mainPct": 9.99,
+        "advanceCount": 102,
+        "declineCount": 12
+      },
+      {
+        "code": "BK1038",
+        "name": "光学光电子",
+        "pctChange": 1.18,
+        "mainNetBillion": 19.58,
+        "mainPct": 2.39,
+        "advanceCount": 56,
+        "declineCount": 42
+      },
+      {
+        "code": "BK1261",
+        "name": "种植业",
+        "pctChange": 11.83,
+        "mainNetBillion": 16.15,
+        "mainPct": 13.41,
+        "advanceCount": 21,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1335",
+        "name": "面板",
+        "pctChange": 1.93,
+        "mainNetBillion": 15.96,
+        "mainPct": 3.78,
+        "advanceCount": 28,
+        "declineCount": 14
+      },
+      {
+        "code": "BK1019",
+        "name": "化学原料",
+        "pctChange": 0.53,
+        "mainNetBillion": 11.93,
+        "mainPct": 6.02,
+        "advanceCount": 35,
+        "declineCount": 24
+      },
+      {
+        "code": "BK1611",
+        "name": "国有大型银行Ⅲ",
+        "pctChange": 1.51,
+        "mainNetBillion": 10.13,
+        "mainPct": 9.27,
+        "advanceCount": 6,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1518",
+        "name": "种子",
+        "pctChange": 14.55,
+        "mainNetBillion": 9.24,
+        "mainPct": 13.9,
+        "advanceCount": 10,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1326",
+        "name": "半导体设备",
+        "pctChange": 1.56,
+        "mainNetBillion": 8.68,
+        "mainPct": 1.55,
+        "advanceCount": 18,
+        "declineCount": 7
+      },
+      {
+        "code": "BK1256",
+        "name": "农产品加工",
+        "pctChange": 3.9,
+        "mainNetBillion": 7.34,
+        "mainPct": 11.49,
+        "advanceCount": 26,
+        "declineCount": 2
+      },
+      {
+        "code": "BK1408",
+        "name": "机器人",
+        "pctChange": 3.44,
+        "mainNetBillion": 7.33,
+        "mainPct": 4.19,
+        "advanceCount": 17,
+        "declineCount": 4
+      }
+    ],
     "concept": [],
-    "source": ""
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
