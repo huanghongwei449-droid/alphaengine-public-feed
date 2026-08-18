@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-research-loop-v2",
-  "generatedAt": "2026-08-18T16:22:34.620Z",
+  "generatedAt": "2026-08-18T16:23:35.267Z",
   "design": {
     "inspiration": "DojoAgents 的工具化研究循环",
     "adaptation": "只消费 AlphaEngine 的公开 evidence 与公开事实缓存；不读取持仓、账户、交易动作，也不回写每日复盘。",
