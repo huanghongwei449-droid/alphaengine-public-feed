@@ -1,8 +1,8 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-18T08:46:18.934Z",
-  "sourceSnapshot": "2026-08-18T08:44:34.591Z",
+  "generatedAt": "2026-08-18T09:07:42.746Z",
+  "sourceSnapshot": "2026-08-18T09:07:42.008Z",
   "asOfDate": "2026-08-18",
   "topics": 7,
   "securities": 31,
@@ -10,18 +10,23 @@
   "files": [
     {
       "path": "data/research-snapshot.json",
-      "bytes": 1037452,
-      "sha256": "4914d15cba9578a6f25d722ae6959879041e2c3a20e960f714f4853dca6de8cd"
+      "bytes": 1037701,
+      "sha256": "f3e800613fdb69a4deecd47991b3e97eff75e339dec0a9456158840eac78ec23"
     },
     {
       "path": "data/market-recap.json",
-      "bytes": 41779,
-      "sha256": "fbd178d978384b94bb3d6aa413da3df26514dbc14b5f51f6a409210f1418258f"
+      "bytes": 41796,
+      "sha256": "29b3078517e0d2de22f0d50ccddae69f0f78d36806c99f73e2d1df9d2413928d"
+    },
+    {
+      "path": "data/live-market.json",
+      "bytes": 2699,
+      "sha256": "3422613299ab1a83c975ee6bd9d1e9cc3af1879de70d0a3df5609c7484bd5d6b"
     },
     {
       "path": "data/evidence-catalog.json",
       "bytes": 833523,
-      "sha256": "4708d6c80192c6be899b0dca541f701826416a46545b40531e601301db16cc6b"
+      "sha256": "d62cebc1e512cdb11057c982f16d900cec7c8b6b5f5f221476da55794df0c92f"
     },
     {
       "path": "data/latest-recap-delta.json",
@@ -31,37 +36,37 @@
     {
       "path": "data/ima-public-research-index.json",
       "bytes": 119652,
-      "sha256": "9a3289de22db647c16e59752035dd63afef3d8e0ba239a8d50b3562ed73f3eaa"
+      "sha256": "06611ee6856dd2c2c0a05bb6cb413c94525713a3896b02228abbb14c0fc6a79f"
     },
     {
       "path": "data/ima-research-coverage.json",
       "bytes": 2853,
-      "sha256": "5d135b7fcda571ccbee3e871b27feebed5d8f6493daaa7f765228de8261fa8d5"
+      "sha256": "2b5fba00a74cdb8e8a8881937656b1a27f56f7f20d88da3b4f4e30e4c3da1321"
     },
     {
       "path": "data/research-ontology.json",
       "bytes": 60348,
-      "sha256": "28015330c3ecd67f40fa420c4396a1ed83f6ac1828e73b70ab3d4e40b1e1453b"
+      "sha256": "3a934c6e120b9440e2b44986da994d8cf7a85d41557580baa19cf5a53551a328"
     },
     {
       "path": "data/research-loop-board.json",
-      "bytes": 34249,
-      "sha256": "67a9a76fc4b230068a45a127a875e0cd0c9559f942d603f11def6e19b0760a66"
+      "bytes": 34248,
+      "sha256": "27d59071e72104dbbbb55a2585022c9c21d33f474f67cd9a70ea49cc36dc22d9"
     },
     {
       "path": "data/industry-research-index.json",
       "bytes": 8923,
-      "sha256": "8bc60c8834d91df66c02ee337fc91926fb49c9b85edaba193203acc2c2feafa9"
+      "sha256": "e287eddbcee3a9658f298c3a21e418c7b933f1007bffe790808a0f5af2cc3ca3"
     },
     {
       "path": "data/daily-research-handoff.json",
       "bytes": 15055,
-      "sha256": "a06b75026ace215cfbd8cab16a9971a3dcff5dcdae436e3f9e5c6a675220d097"
+      "sha256": "bb4c9eabe8d0da87fb90d97b78e37df422b92d6101711fa827bd95b3cdb94434"
     },
     {
       "path": "data/research-evolution.json",
       "bytes": 213337,
-      "sha256": "cea4e08ead33b8234b35339570ace8f56b773f5f74af22a7a14327c43104944b"
+      "sha256": "be215d1746e34022c3fce47e63e6e92983b379e15bc3523f51817a27c41cf9ad"
     },
     {
       "path": "data/research-priority-agenda.json",
@@ -80,8 +85,8 @@
     },
     {
       "path": "data/company-public-context.json",
-      "bytes": 41582,
-      "sha256": "c42f321243e5ab4f9f7937b89ec83d8e8ef0ef263f957db3a694855e5bd275fb"
+      "bytes": 41195,
+      "sha256": "1ba15a0ea4b0e56e4b3d9fae262035bcf2e7f7ea274524b9d4bb95f774f5c169"
     },
     {
       "path": "data/company-public-dossiers.json",
@@ -90,13 +95,8 @@
     },
     {
       "path": "data/company-fact-evidence.json",
-      "bytes": 102790,
-      "sha256": "6501207d1a22d0ace2334fc02690efd27facf920cdb26e9c825dbe56494f3039"
-    },
-    {
-      "path": "data/live-market.json",
-      "bytes": 2031,
-      "sha256": "d9fd7dc1bb1af153f40ea1d47432b13ed3bf3d3eb416d9d117a2511a4bb603d4"
+      "bytes": 102869,
+      "sha256": "15a8cff7266fd87a825cf18ec0b504224d2add0d828529747f318e405078d6d5"
     }
   ]
 }

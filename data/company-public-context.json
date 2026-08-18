@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "generatedAt": "2026-08-18T03:44:40.695Z",
+  "generatedAt": "2026-08-18T09:05:32.326Z",
   "companies": [
     {
       "code": "000938",
       "name": "紫光股份",
-      "generatedAt": "2026-08-18T03:43:44.742Z",
+      "generatedAt": "2026-08-18T08:48:11.053Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 39.29,
-        "quoteClose": 39.29,
-        "dailyPct": -4.24,
-        "marketCap": 1123.73,
-        "peTtm": 3566,
-        "turnover": 701
+        "close": 39.25,
+        "quoteClose": 0,
+        "dailyPct": -4.34,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
@@ -24,24 +24,24 @@
         "high60": 45.8,
         "low60": 24.96,
         "position60": 69,
-        "change20": -5.23,
-        "change60": 26.84,
-        "volumeRatio20": 0.6
+        "change20": -5.33,
+        "change60": 26.72,
+        "volumeRatio20": 0.81
       },
       "flow": {
         "days": 10,
-        "mainNet10": -4.95,
+        "mainNet10": -21.14,
         "status": "net_outflow"
       },
       "market": {
         "trend": "价格仍在中期上行结构内",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
         "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": -5.23,
-        "change60": 26.84
+        "change20": -5.33,
+        "change60": 26.72
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -137,45 +137,45 @@
     {
       "code": "002185",
       "name": "华天科技",
-      "generatedAt": "2026-08-18T03:43:44.791Z",
+      "generatedAt": "2026-08-18T09:05:30.901Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 18.77,
-        "quoteClose": 18.77,
-        "dailyPct": -1.21,
-        "marketCap": 623.81,
-        "peTtm": 17970,
-        "turnover": 691
+        "close": 18.7,
+        "quoteClose": 18.7,
+        "dailyPct": -1.58,
+        "marketCap": 621.48,
+        "peTtm": 17903,
+        "turnover": 958
       },
       "price": {
         "rows": 181,
-        "ma5": 18.39,
-        "ma20": 17.39,
+        "ma5": 18.37,
+        "ma20": 17.38,
         "ma60": 19.17,
         "high60": 26.81,
         "low60": 14.7,
-        "position60": 34,
-        "change20": 2.29,
-        "change60": 10.75,
-        "volumeRatio20": 0.6
+        "position60": 33,
+        "change20": 1.91,
+        "change60": 10.34,
+        "volumeRatio20": 0.82
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 9.06,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 2.29,
-        "change60": 10.75
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 1.91,
+        "change60": 10.34
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
@@ -225,87 +225,87 @@
     {
       "code": "002281",
       "name": "光迅科技",
-      "generatedAt": "2026-08-18T03:40:15.566Z",
+      "generatedAt": "2026-08-18T08:48:09.574Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 196.63,
-        "quoteClose": 196.63,
-        "dailyPct": -1.56,
-        "marketCap": 1627.8,
-        "peTtm": 16961,
-        "turnover": 330
+        "close": 197.64,
+        "quoteClose": 0,
+        "dailyPct": -1.06,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 191.56,
-        "ma20": 180.4,
-        "ma60": 209.08,
+        "ma5": 191.76,
+        "ma20": 180.45,
+        "ma60": 209.09,
         "high60": 279,
         "low60": 152.33,
-        "position60": 35,
-        "change20": 5.15,
-        "change60": -12.21,
-        "volumeRatio20": 0.56
+        "position60": 36,
+        "change20": 5.69,
+        "change60": -11.76,
+        "volumeRatio20": 0.75
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 22.14,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 5.15,
-        "change60": -12.21
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 5.69,
+        "change60": -11.76
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "002384",
       "name": "东山精密",
-      "generatedAt": "2026-08-18T03:40:15.668Z",
+      "generatedAt": "2026-08-18T08:48:09.837Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 212.9,
-        "quoteClose": 212.9,
-        "dailyPct": -2.19,
-        "marketCap": 3899.49,
-        "peTtm": 8783,
-        "turnover": 287
+        "close": 213.82,
+        "quoteClose": 0,
+        "dailyPct": -1.76,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 207.61,
-        "ma20": 193.53,
-        "ma60": 223.04,
+        "ma5": 207.79,
+        "ma20": 193.57,
+        "ma60": 223.06,
         "high60": 280.08,
         "low60": 161.8,
-        "position60": 43,
-        "change20": -7.84,
-        "change60": -5.9,
-        "volumeRatio20": 0.43
+        "position60": 44,
+        "change20": -7.44,
+        "change60": -5.49,
+        "volumeRatio20": 0.59
       },
       "flow": {
         "days": 10,
-        "mainNet10": 37.2,
-        "status": "net_inflow"
+        "mainNet10": -19.63,
+        "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": -7.84,
-        "change60": -5.9
+        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
+        "change20": -7.44,
+        "change60": -5.49
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -313,43 +313,43 @@
     {
       "code": "002396",
       "name": "星网锐捷",
-      "generatedAt": "2026-08-18T03:40:15.729Z",
+      "generatedAt": "2026-08-18T08:48:09.970Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 32.49,
-        "quoteClose": 32.49,
-        "dailyPct": -4.19,
-        "marketCap": 247.1,
-        "peTtm": 3315,
-        "turnover": 1071
+        "close": 32.76,
+        "quoteClose": 0,
+        "dailyPct": -3.39,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 32.18,
-        "ma20": 29.86,
+        "ma5": 32.23,
+        "ma20": 29.87,
         "ma60": 25.16,
         "high60": 36.98,
         "low60": 16.88,
-        "position60": 78,
-        "change20": 2.78,
-        "change60": 35.94,
-        "volumeRatio20": 0.75
+        "position60": 79,
+        "change20": 3.64,
+        "change60": 37.07,
+        "volumeRatio20": 0.96
       },
       "flow": {
         "days": 10,
-        "mainNet10": 11.38,
+        "mainNet10": 9.87,
         "status": "net_inflow"
       },
       "market": {
         "trend": "价格仍在中期上行结构内",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
         "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 2.78,
-        "change60": 35.94
+        "change20": 3.64,
+        "change60": 37.07
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -401,43 +401,43 @@
     {
       "code": "002463",
       "name": "沪电股份",
-      "generatedAt": "2026-08-18T03:40:15.885Z",
+      "generatedAt": "2026-08-18T08:48:10.365Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 122.69,
-        "quoteClose": 122.69,
-        "dailyPct": -1.92,
-        "marketCap": 2361,
-        "peTtm": 4752,
-        "turnover": 137
+        "close": 123.59,
+        "quoteClose": 0,
+        "dailyPct": -1.2,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 122.54,
-        "ma20": 114.97,
-        "ma60": 128.37,
+        "ma5": 122.72,
+        "ma20": 115.02,
+        "ma60": 128.38,
         "high60": 158.2,
         "low60": 94.73,
-        "position60": 44,
-        "change20": 0.07,
-        "change60": 0.12,
-        "volumeRatio20": 0.47
+        "position60": 45,
+        "change20": 0.81,
+        "change60": 0.86,
+        "volumeRatio20": 0.64
       },
       "flow": {
         "days": 10,
-        "mainNet10": 1.86,
-        "status": "net_inflow"
+        "mainNet10": -12.19,
+        "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 0.07,
-        "change60": 0.12
+        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
+        "change20": 0.81,
+        "change60": 0.86
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -489,43 +489,43 @@
     {
       "code": "002916",
       "name": "深南电路",
-      "generatedAt": "2026-08-18T03:43:44.560Z",
+      "generatedAt": "2026-08-18T08:48:10.488Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 380.88,
-        "quoteClose": 380.88,
-        "dailyPct": -3.06,
-        "marketCap": 2594.43,
-        "peTtm": 7629,
-        "turnover": 83
+        "close": 381.85,
+        "quoteClose": 0,
+        "dailyPct": -2.81,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 383.11,
-        "ma20": 348.88,
-        "ma60": 387.09,
+        "ma5": 383.31,
+        "ma20": 348.93,
+        "ma60": 387.11,
         "high60": 484.57,
         "low60": 284.41,
-        "position60": 48,
-        "change20": 8.82,
-        "change60": -4.21,
-        "volumeRatio20": 0.52
+        "position60": 49,
+        "change20": 9.1,
+        "change60": -3.96,
+        "volumeRatio20": 0.75
       },
       "flow": {
         "days": 10,
-        "mainNet10": 13.15,
+        "mainNet10": 2.52,
         "status": "net_inflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
         "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 8.82,
-        "change60": -4.21
+        "change20": 9.1,
+        "change60": -3.96
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -533,7 +533,7 @@
     {
       "code": "300017",
       "name": "网宿科技",
-      "generatedAt": "2026-08-18T03:43:44.917Z",
+      "generatedAt": "2026-08-18T09:05:31.266Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
@@ -542,7 +542,7 @@
         "dailyPct": -4.1,
         "marketCap": 420.52,
         "peTtm": 6044,
-        "turnover": 737
+        "turnover": 1037
       },
       "price": {
         "rows": 181,
@@ -554,66 +554,66 @@
         "position60": 87,
         "change20": 12.63,
         "change60": -0.47,
-        "volumeRatio20": 0.84
+        "volumeRatio20": 1.16
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 7.11,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格仍在中期上行结构内",
         "position": "接近近60日高位，继续上行需要更强的公司级验证",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
         "change20": 12.63,
         "change60": -0.47
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "300308",
       "name": "中际旭创",
-      "generatedAt": "2026-08-18T03:43:44.602Z",
+      "generatedAt": "2026-08-18T08:48:10.631Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 985.01,
-        "quoteClose": 985.01,
-        "dailyPct": -1.6,
-        "marketCap": 11522,
-        "peTtm": 5023,
-        "turnover": 135
+        "close": 988.1,
+        "quoteClose": 0,
+        "dailyPct": -1.29,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 954.22,
-        "ma20": 957.58,
-        "ma60": 1109.34,
+        "ma5": 954.83,
+        "ma20": 957.73,
+        "ma60": 1109.39,
         "high60": 1416.88,
         "low60": 793.03,
         "position60": 31,
-        "change20": -13.33,
-        "change60": -9.88,
-        "volumeRatio20": 0.37
+        "change20": -13.06,
+        "change60": -9.6,
+        "volumeRatio20": 0.54
       },
       "flow": {
         "days": 10,
-        "mainNet10": -30.18,
+        "mainNet10": -108.25,
         "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
         "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": -13.33,
-        "change60": -9.88
+        "change20": -13.06,
+        "change60": -9.6
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -665,175 +665,175 @@
     {
       "code": "300394",
       "name": "天孚通信",
-      "generatedAt": "2026-08-18T03:44:40.382Z",
+      "generatedAt": "2026-08-18T09:05:32.325Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 291.86,
-        "quoteClose": 291.86,
-        "dailyPct": 1.85,
-        "marketCap": 3183.68,
-        "peTtm": 16170,
-        "turnover": 323
+        "close": 291.44,
+        "quoteClose": 291.44,
+        "dailyPct": 1.7,
+        "marketCap": 3179.1,
+        "peTtm": 16147,
+        "turnover": 503
       },
       "price": {
         "rows": 181,
-        "ma5": 268.67,
-        "ma20": 219.56,
-        "ma60": 267.29,
+        "ma5": 268.58,
+        "ma20": 219.54,
+        "ma60": 267.28,
         "high60": 374.5,
         "low60": 155.55,
         "position60": 62,
-        "change20": 26.35,
-        "change60": 3.17,
-        "volumeRatio20": 0.69
+        "change20": 26.16,
+        "change60": 3.02,
+        "volumeRatio20": 1.05
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 77.39,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 26.35,
-        "change60": 3.17
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 26.16,
+        "change60": 3.02
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "300442",
       "name": "润泽科技",
-      "generatedAt": "2026-08-18T03:43:44.877Z",
+      "generatedAt": "2026-08-18T09:05:31.133Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 69.61,
-        "quoteClose": 69.61,
-        "dailyPct": -4.11,
-        "marketCap": 1142.33,
-        "peTtm": 4905,
-        "turnover": 187
+        "close": 69.93,
+        "quoteClose": 69.93,
+        "dailyPct": -3.66,
+        "marketCap": 1147.58,
+        "peTtm": 4928,
+        "turnover": 249
       },
       "price": {
         "rows": 181,
-        "ma5": 69.87,
-        "ma20": 66.84,
+        "ma5": 69.93,
+        "ma20": 66.86,
         "ma60": 75.05,
         "high60": 93.09,
         "low60": 57.34,
-        "position60": 34,
-        "change20": 1.31,
-        "change60": -26.21,
-        "volumeRatio20": 0.85
+        "position60": 35,
+        "change20": 1.78,
+        "change60": -25.87,
+        "volumeRatio20": 1.11
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 0.54,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 1.31,
-        "change60": -26.21
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 1.78,
+        "change60": -25.87
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "300454",
       "name": "深信服",
-      "generatedAt": "2026-08-18T03:43:44.966Z",
+      "generatedAt": "2026-08-18T09:05:31.382Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 119.5,
-        "quoteClose": 119.5,
-        "dailyPct": -2.95,
-        "marketCap": 515.71,
-        "peTtm": -19988,
-        "turnover": 256
+        "close": 120.84,
+        "quoteClose": 120.84,
+        "dailyPct": -1.86,
+        "marketCap": 521.5,
+        "peTtm": -20212,
+        "turnover": 439
       },
       "price": {
         "rows": 181,
-        "ma5": 121.32,
-        "ma20": 116.64,
-        "ma60": 107.97,
+        "ma5": 121.59,
+        "ma20": 116.71,
+        "ma60": 107.99,
         "high60": 131.58,
         "low60": 88.25,
-        "position60": 72,
-        "change20": 2.49,
-        "change60": 3.3,
-        "volumeRatio20": 0.35
+        "position60": 75,
+        "change20": 3.64,
+        "change60": 4.46,
+        "volumeRatio20": 0.59
       },
       "flow": {
-        "days": 10,
-        "mainNet10": -5.61,
-        "status": "net_outflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格仍在中期上行结构内",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": 2.49,
-        "change60": 3.3
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 3.64,
+        "change60": 4.46
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "300476",
       "name": "胜宏科技",
-      "generatedAt": "2026-08-18T03:43:44.648Z",
+      "generatedAt": "2026-08-18T08:48:10.768Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 267.5,
-        "quoteClose": 267.5,
-        "dailyPct": -3.08,
-        "marketCap": 2628.95,
-        "peTtm": 5101,
-        "turnover": 253
+        "close": 269.4,
+        "quoteClose": 0,
+        "dailyPct": -2.39,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 272.7,
-        "ma20": 240.62,
-        "ma60": 295.21,
+        "ma5": 273.08,
+        "ma20": 240.72,
+        "ma60": 295.24,
         "high60": 402.6,
         "low60": 177.88,
-        "position60": 40,
-        "change20": 11.33,
-        "change60": -30.25,
-        "volumeRatio20": 0.51
+        "position60": 41,
+        "change20": 12.12,
+        "change60": -29.75,
+        "volumeRatio20": 0.72
       },
       "flow": {
         "days": 10,
-        "mainNet10": 14.11,
-        "status": "net_inflow"
+        "mainNet10": -6.53,
+        "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 11.33,
-        "change60": -30.25
+        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
+        "change20": 12.12,
+        "change60": -29.75
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -841,43 +841,43 @@
     {
       "code": "300502",
       "name": "新易盛",
-      "generatedAt": "2026-08-18T03:43:44.694Z",
+      "generatedAt": "2026-08-18T08:48:10.907Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 453.5,
-        "quoteClose": 453.5,
-        "dailyPct": -2.82,
-        "marketCap": 6322.95,
-        "peTtm": 5686,
-        "turnover": 229
+        "close": 452.21,
+        "quoteClose": 0,
+        "dailyPct": -3.1,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 445.27,
-        "ma20": 435.94,
-        "ma60": 504.04,
+        "ma5": 445.01,
+        "ma20": 435.87,
+        "ma60": 504.02,
         "high60": 618.87,
         "low60": 347,
         "position60": 39,
-        "change20": -17.81,
-        "change60": -3.51,
-        "volumeRatio20": 0.51
+        "change20": -18.04,
+        "change60": -3.79,
+        "volumeRatio20": 0.68
       },
       "flow": {
         "days": 10,
-        "mainNet10": 33.94,
-        "status": "net_inflow"
+        "mainNet10": -29.24,
+        "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": -17.81,
-        "change60": -3.51
+        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
+        "change20": -18.04,
+        "change60": -3.79
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -885,43 +885,43 @@
     {
       "code": "301165",
       "name": "锐捷网络",
-      "generatedAt": "2026-08-18T03:40:15.614Z",
+      "generatedAt": "2026-08-18T08:48:09.712Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 143.01,
-        "quoteClose": 143.01,
-        "dailyPct": -3.37,
-        "marketCap": 1592.61,
-        "peTtm": 11471,
-        "turnover": 189
+        "close": 136.99,
+        "quoteClose": 0,
+        "dailyPct": -7.44,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 140.89,
-        "ma20": 123.83,
-        "ma60": 93.13,
+        "ma5": 139.68,
+        "ma20": 123.53,
+        "ma60": 93.03,
         "high60": 149.3,
         "low60": 55.85,
-        "position60": 93,
-        "change20": 29,
-        "change60": 98.62,
-        "volumeRatio20": 0.63
+        "position60": 87,
+        "change20": 23.57,
+        "change60": 90.26,
+        "volumeRatio20": 0.87
       },
       "flow": {
         "days": 10,
-        "mainNet10": 4.25,
-        "status": "net_inflow"
+        "mainNet10": -0.32,
+        "status": "net_outflow"
       },
       "market": {
         "trend": "价格仍在中期上行结构内",
         "position": "接近近60日高位，继续上行需要更强的公司级验证",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 29,
-        "change60": 98.62
+        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
+        "change20": 23.57,
+        "change60": 90.26
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -929,221 +929,221 @@
     {
       "code": "301308",
       "name": "江波龙",
-      "generatedAt": "2026-08-18T03:44:40.334Z",
+      "generatedAt": "2026-08-18T09:05:32.196Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 412.5,
-        "quoteClose": 412.5,
-        "dailyPct": -1.61,
-        "marketCap": 1772.38,
-        "peTtm": 838,
-        "turnover": 489
+        "close": 412.18,
+        "quoteClose": 412.18,
+        "dailyPct": -1.69,
+        "marketCap": 1771.01,
+        "peTtm": 837,
+        "turnover": 635
       },
       "price": {
         "rows": 181,
-        "ma5": 409.9,
-        "ma20": 375.34,
+        "ma5": 409.84,
+        "ma20": 375.33,
         "ma60": 498.51,
         "high60": 749.88,
         "low60": 308,
         "position60": 24,
-        "change20": -2.22,
-        "change60": -26.93,
-        "volumeRatio20": 0.65
+        "change20": -2.29,
+        "change60": -26.98,
+        "volumeRatio20": 0.83
       },
       "flow": {
-        "days": 10,
-        "mainNet10": -3,
-        "status": "net_outflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "处于近60日低位，先看是否止跌而不是把低位等同于机会",
-        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": -2.22,
-        "change60": -26.93
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": -2.29,
+        "change60": -26.98
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "600118",
       "name": "中国卫星",
-      "generatedAt": "2026-08-18T03:44:40.293Z",
+      "generatedAt": "2026-08-18T09:05:32.065Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 68.55,
-        "quoteClose": 68.55,
-        "dailyPct": -0.45,
-        "marketCap": 810.6,
-        "peTtm": -47470,
-        "turnover": 131
+        "close": 69,
+        "quoteClose": 69,
+        "dailyPct": 0.2,
+        "marketCap": 815.92,
+        "peTtm": -47781,
+        "turnover": 293
       },
       "price": {
         "rows": 181,
-        "ma5": 67.18,
-        "ma20": 62.67,
-        "ma60": 72.89,
+        "ma5": 67.27,
+        "ma20": 62.69,
+        "ma60": 72.9,
         "high60": 98.99,
         "low60": 54.7,
-        "position60": 31,
-        "change20": 11.87,
-        "change60": -21.95,
-        "volumeRatio20": 0.41
+        "position60": 32,
+        "change20": 12.6,
+        "change60": -21.44,
+        "volumeRatio20": 0.9
       },
       "flow": {
-        "days": 10,
-        "mainNet10": -0.82,
-        "status": "net_outflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": 11.87,
-        "change60": -21.95
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 12.6,
+        "change60": -21.44
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "600176",
       "name": "中国巨石",
-      "generatedAt": "2026-08-18T03:43:45.009Z",
+      "generatedAt": "2026-08-18T09:05:31.518Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 44.77,
-        "quoteClose": 44.77,
-        "dailyPct": -3.35,
-        "marketCap": 1792.2,
-        "peTtm": 3536,
-        "turnover": 435
+        "close": 44.91,
+        "quoteClose": 44.91,
+        "dailyPct": -3.04,
+        "marketCap": 1797.81,
+        "peTtm": 3547,
+        "turnover": 603
       },
       "price": {
         "rows": 181,
-        "ma5": 44.14,
-        "ma20": 40.36,
-        "ma60": 47.83,
+        "ma5": 44.17,
+        "ma20": 40.37,
+        "ma60": 47.84,
         "high60": 77.2,
         "low60": 33.72,
-        "position60": 25,
-        "change20": 4.12,
-        "change60": 14.12,
-        "volumeRatio20": 0.64
+        "position60": 26,
+        "change20": 4.44,
+        "change60": 14.48,
+        "volumeRatio20": 0.88
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 7.74,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
-        "position": "处于近60日低位，先看是否止跌而不是把低位等同于机会",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 4.12,
-        "change60": 14.12
+        "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 4.44,
+        "change60": 14.48
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "600183",
       "name": "生益科技",
-      "generatedAt": "2026-08-18T03:43:45.053Z",
+      "generatedAt": "2026-08-18T09:05:31.640Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 139.15,
-        "quoteClose": 139.15,
-        "dailyPct": -3.7,
-        "marketCap": 3379.96,
-        "peTtm": 5141,
-        "turnover": 205
+        "close": 139.41,
+        "quoteClose": 139.41,
+        "dailyPct": -3.52,
+        "marketCap": 3386.27,
+        "peTtm": 5151,
+        "turnover": 305
       },
       "price": {
         "rows": 181,
-        "ma5": 142.36,
-        "ma20": 125.65,
+        "ma5": 142.42,
+        "ma20": 125.67,
         "ma60": 143.82,
         "high60": 191.88,
         "low60": 97.51,
         "position60": 44,
-        "change20": 2.57,
-        "change60": 20.25,
-        "volumeRatio20": 0.69
+        "change20": 2.76,
+        "change60": 20.47,
+        "volumeRatio20": 1.02
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 28.59,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 2.57,
-        "change60": 20.25
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 2.76,
+        "change60": 20.47
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "600584",
       "name": "长电科技",
-      "generatedAt": "2026-08-18T03:44:40.206Z",
+      "generatedAt": "2026-08-18T09:05:31.766Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 85.28,
-        "quoteClose": 85.28,
-        "dailyPct": -0.66,
-        "marketCap": 1526.01,
-        "peTtm": 13143,
-        "turnover": 635
+        "close": 85.42,
+        "quoteClose": 85.42,
+        "dailyPct": -0.5,
+        "marketCap": 1528.52,
+        "peTtm": 13164,
+        "turnover": 843
       },
       "price": {
         "rows": 181,
-        "ma5": 81.17,
-        "ma20": 76.08,
+        "ma5": 81.2,
+        "ma20": 76.09,
         "ma60": 83.69,
         "high60": 113.87,
         "low60": 60.84,
         "position60": 46,
-        "change20": 0.7,
-        "change60": 6.51,
-        "volumeRatio20": 0.7
+        "change20": 0.86,
+        "change60": 6.68,
+        "volumeRatio20": 0.92
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 28.37,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": 0.7,
-        "change60": 6.51
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": 0.86,
+        "change60": 6.68
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
@@ -1281,89 +1281,89 @@
     {
       "code": "603986",
       "name": "兆易创新",
-      "generatedAt": "2026-08-18T03:43:44.833Z",
+      "generatedAt": "2026-08-18T09:05:31.012Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 436,
-        "quoteClose": 436,
-        "dailyPct": -1.8,
-        "marketCap": 3059.61,
-        "peTtm": 5235,
-        "turnover": 705
+        "close": 436.74,
+        "quoteClose": 436.74,
+        "dailyPct": -1.64,
+        "marketCap": 3064.8,
+        "peTtm": 5243,
+        "turnover": 909
       },
       "price": {
         "rows": 181,
-        "ma5": 423.03,
-        "ma20": 406.1,
-        "ma60": 522.94,
+        "ma5": 423.18,
+        "ma20": 406.14,
+        "ma60": 522.95,
         "high60": 846.66,
         "low60": 337.1,
-        "position60": 19,
-        "change20": -8.31,
-        "change60": -15.32,
-        "volumeRatio20": 0.75
+        "position60": 20,
+        "change20": -8.16,
+        "change60": -15.17,
+        "volumeRatio20": 0.96
       },
       "flow": {
-        "days": 10,
-        "mainNet10": 18.66,
-        "status": "net_inflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "处于近60日低位，先看是否止跌而不是把低位等同于机会",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": -8.31,
-        "change60": -15.32
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": -8.16,
+        "change60": -15.17
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
       "code": "688072",
       "name": "拓荆科技",
-      "generatedAt": "2026-08-18T03:44:40.250Z",
+      "generatedAt": "2026-08-18T09:05:31.914Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 739.59,
-        "quoteClose": 739.59,
-        "dailyPct": 2.86,
-        "marketCap": 2149.83,
-        "peTtm": 9419,
-        "turnover": 162
+        "close": 755.46,
+        "quoteClose": 755.46,
+        "dailyPct": 5.07,
+        "marketCap": 2195.96,
+        "peTtm": 9621,
+        "turnover": 248
       },
       "price": {
         "rows": 181,
-        "ma5": 706.99,
-        "ma20": 702.23,
-        "ma60": 677.15,
+        "ma5": 710.16,
+        "ma20": 703.03,
+        "ma60": 677.42,
         "high60": 945,
         "low60": 471.73,
-        "position60": 57,
-        "change20": -3.25,
-        "change60": 46.79,
-        "volumeRatio20": 0.57
+        "position60": 60,
+        "change20": -1.18,
+        "change60": 49.94,
+        "volumeRatio20": 0.86
       },
       "flow": {
-        "days": 10,
-        "mainNet10": -11.82,
-        "status": "net_outflow"
+        "days": 0,
+        "mainNet10": null,
+        "status": "unavailable"
       },
       "market": {
         "trend": "价格仍在中期上行结构内",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": -3.25,
-        "change60": 46.79
+        "flow": "近十日资金流尚无有效读取，不据此下判断",
+        "change20": -1.18,
+        "change60": 49.94
       },
       "sources": {
         "quote": "东方财富公开行情",
         "kline": "腾讯财经复权日线",
-        "fundFlow": "东方财富近十日资金流"
+        "fundFlow": "未取得"
       }
     },
     {
@@ -1413,43 +1413,43 @@
     {
       "code": "688506",
       "name": "百利天恒",
-      "generatedAt": "2026-08-18T03:40:15.832Z",
+      "generatedAt": "2026-08-18T08:48:10.242Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 303.93,
-        "quoteClose": 303.93,
-        "dailyPct": 1.51,
-        "marketCap": 1254.85,
-        "peTtm": -4050,
-        "turnover": 25
+        "close": 301.24,
+        "quoteClose": 0,
+        "dailyPct": 0.61,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 304.21,
-        "ma20": 307.19,
-        "ma60": 280.35,
+        "ma5": 303.67,
+        "ma20": 307.06,
+        "ma60": 280.31,
         "high60": 355.28,
         "low60": 200.1,
-        "position60": 67,
-        "change20": -11.05,
-        "change60": 30.44,
-        "volumeRatio20": 0.51
+        "position60": 65,
+        "change20": -11.84,
+        "change60": 29.29,
+        "volumeRatio20": 0.71
       },
       "flow": {
         "days": 10,
-        "mainNet10": -0.36,
+        "mainNet10": -0.52,
         "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
         "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
-        "change20": -11.05,
-        "change60": 30.44
+        "change20": -11.84,
+        "change60": 29.29
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
@@ -1457,43 +1457,43 @@
     {
       "code": "688981",
       "name": "中芯国际",
-      "generatedAt": "2026-08-18T03:40:15.782Z",
+      "generatedAt": "2026-08-18T08:48:10.108Z",
       "publicOnly": true,
       "quote": {
         "asOfDate": "2026-08-18",
-        "close": 133.76,
-        "quoteClose": 133.76,
-        "dailyPct": -2.19,
-        "marketCap": 11451.27,
-        "peTtm": 21031,
-        "turnover": 210
+        "close": 134.98,
+        "quoteClose": 0,
+        "dailyPct": -1.3,
+        "marketCap": null,
+        "peTtm": null,
+        "turnover": null
       },
       "price": {
         "rows": 181,
-        "ma5": 132.16,
-        "ma20": 131.55,
-        "ma60": 139.81,
+        "ma5": 132.4,
+        "ma20": 131.61,
+        "ma60": 139.83,
         "high60": 176.34,
         "low60": 115.21,
-        "position60": 30,
-        "change20": -16.4,
-        "change60": -14.26,
-        "volumeRatio20": 0.68
+        "position60": 32,
+        "change20": -15.64,
+        "change60": -13.47,
+        "volumeRatio20": 0.92
       },
       "flow": {
         "days": 10,
-        "mainNet10": 1.66,
-        "status": "net_inflow"
+        "mainNet10": -5.33,
+        "status": "net_outflow"
       },
       "market": {
         "trend": "价格处于趋势重新选择阶段",
         "position": "位于近60日中间区间，方向更多取决于后续信息与资金承接",
-        "flow": "近十日主力净流向为正，资金面有初步承接",
-        "change20": -16.4,
-        "change60": -14.26
+        "flow": "近十日主力净流向为负，资金面尚未给出连续确认",
+        "change20": -15.64,
+        "change60": -13.47
       },
       "sources": {
-        "quote": "东方财富公开行情",
+        "quote": "腾讯日线回退",
         "kline": "腾讯财经复权日线",
         "fundFlow": "东方财富近十日资金流"
       }
