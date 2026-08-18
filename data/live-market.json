@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-18T17:42:55.007Z",
+  "fetchedAt": "2026-08-18T18:04:07.847Z",
   "asOfDate": "2026-08-18",
   "sourceStatus": {
     "399001": {
@@ -33,8 +33,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
   "indices": [
@@ -98,99 +98,8 @@
   "sectorFlows": {
     "date": "2026-08-18",
     "industry": [],
-    "concept": [
-      {
-        "code": "BK0888",
-        "name": "农业种植",
-        "pctChange": 4.81,
-        "mainNetBillion": 26.32,
-        "mainPct": 10.12,
-        "advanceCount": 67,
-        "declineCount": 15
-      },
-      {
-        "code": "BK0834",
-        "name": "乡村振兴",
-        "pctChange": 1.3,
-        "mainNetBillion": 18.55,
-        "mainPct": 4.12,
-        "advanceCount": 73,
-        "declineCount": 72
-      },
-      {
-        "code": "BK1086",
-        "name": "粮食概念",
-        "pctChange": 7.45,
-        "mainNetBillion": 16.25,
-        "mainPct": 12.6,
-        "advanceCount": 29,
-        "declineCount": 1
-      },
-      {
-        "code": "BK1100",
-        "name": "减速器",
-        "pctChange": 0.97,
-        "mainNetBillion": 13.73,
-        "mainPct": 3.17,
-        "advanceCount": 50,
-        "declineCount": 35
-      },
-      {
-        "code": "BK0632",
-        "name": "土地流转",
-        "pctChange": 2.82,
-        "mainNetBillion": 12.86,
-        "mainPct": 9.5,
-        "advanceCount": 30,
-        "declineCount": 15
-      },
-      {
-        "code": "BK0948",
-        "name": "MicroLED",
-        "pctChange": 1.21,
-        "mainNetBillion": 12.41,
-        "mainPct": 2.51,
-        "advanceCount": 17,
-        "declineCount": 17
-      },
-      {
-        "code": "BK1145",
-        "name": "机器人执行器",
-        "pctChange": 1.63,
-        "mainNetBillion": 11.93,
-        "mainPct": 4.14,
-        "advanceCount": 25,
-        "declineCount": 8
-      },
-      {
-        "code": "BK0492",
-        "name": "煤化工概念",
-        "pctChange": 0.89,
-        "mainNetBillion": 10.92,
-        "mainPct": 4.34,
-        "advanceCount": 43,
-        "declineCount": 27
-      },
-      {
-        "code": "BK0882",
-        "name": "猪肉概念",
-        "pctChange": 3.09,
-        "mainNetBillion": 10.45,
-        "mainPct": 7.98,
-        "advanceCount": 33,
-        "declineCount": 3
-      },
-      {
-        "code": "BK1641",
-        "name": "红利股",
-        "pctChange": 0.33,
-        "mainNetBillion": 9.64,
-        "mainPct": 2.37,
-        "advanceCount": 55,
-        "declineCount": 41
-      }
-    ],
-    "source": "东方财富公开板块资金"
+    "concept": [],
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
