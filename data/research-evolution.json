@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-research-evolution-v1",
-  "generatedAt": "2026-08-18T16:20:29.366Z",
+  "generatedAt": "2026-08-18T16:22:34.559Z",
   "policy": "只读取已完成日报中的 public_safe evidence；按稳定观察篮子归档。市场状态来自主业记忆，新增资料不自动改写产业或交易结论。",
   "summary": {
     "recapFiles": 32,
