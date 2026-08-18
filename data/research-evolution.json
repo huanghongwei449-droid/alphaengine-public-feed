@@ -1,12 +1,12 @@
 {
   "schemaVersion": "alphaengine-research-evolution-v1",
-  "generatedAt": "2026-08-18T09:26:49.863Z",
+  "generatedAt": "2026-08-18T16:19:03.182Z",
   "policy": "只读取已完成日报中的 public_safe evidence；按稳定观察篮子归档。市场状态来自主业记忆，新增资料不自动改写产业或交易结论。",
   "summary": {
-    "recapFiles": 31,
-    "publicEvidenceScanned": 485,
-    "mappedEvidence": 426,
-    "newEvidenceSinceLastSync": 0,
+    "recapFiles": 32,
+    "publicEvidenceScanned": 504,
+    "mappedEvidence": 438,
+    "newEvidenceSinceLastSync": 12,
     "unmappedEvidence": 50,
     "dailyCandidateHandoff": {
       "sourceDate": "2026-08-14",
@@ -301,6 +301,18 @@
       },
       "evidence": [
         {
+          "id": "ev_20260818_semiconductor_supply",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "公众号与订阅材料把大硅片稼动率、晶圆载具调价、功率器件交期和小金属供应放在同一条供给约束链上，并明确区分现货涨价、长协、库存、扩产设备和客户验证。",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260814_weekend_07",
           "date": "2026-08-14",
           "source": "公开资料",
@@ -527,33 +539,21 @@
           "sourceFile": "tmp_recap_20260715/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260713_012",
-          "date": "2026-07-13",
-          "source": "company_announcement",
-          "title": "拓荆科技机构买入线索",
-          "event": "龙虎榜线索显示机构逆势参与拓荆科技。",
-          "logic": "设备的订单与国产替代属性较少依赖韩国存储股的短线beta，是通杀日中应重点复核的反向样本。",
-          "reliability": "medium",
-          "sourceFile": "tmp_recap_20260713/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 23,
-      "newEvidenceCount": 0,
+      "evidenceCount": 24,
+      "newEvidenceCount": 1,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
-        "id": "ev_20260814_weekend_07",
-        "date": "2026-08-14",
+        "id": "ev_20260818_semiconductor_supply",
+        "date": "2026-08-18",
         "source": "公开资料",
-        "title": "中芯国际收入和扩产资料支持国内晶圆景气，但产能、折旧、产",
-        "event": "",
+        "title": "",
+        "event": "公众号与订阅材料把大硅片稼动率、晶圆载具调价、功率器件交期和小金属供应放在同一条供给约束链上，并明确区分现货涨价、长协、库存、扩产设备和客户验证。",
         "logic": "",
         "reliability": "",
-        "sourceFile": "tmp_recap_20260814/evidence_index.json",
-        "isNewSinceLastSync": false,
+        "sourceFile": "tmp_recap_20260818/evidence_index.json",
+        "isNewSinceLastSync": true,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -571,6 +571,18 @@
         "aboveMa20Share": 0
       },
       "evidence": [
+        {
+          "id": "ev_20260818_api_2ad8e0f9",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "20260818今日段子汇总 1、诚迈科技：公司推出了高性能信创电脑产品，基于多种架构自主芯片并搭载统信UOS等操作系统，具有安全可控、高性能等特性，适用于党政、金融等行业 2、瑞丰高材：公司CSR增韧剂产于2025年取得突破，并实现小批量出货，主要用于汽车、覆铜板、风电、封装等领域环氧树脂等树脂材料或复合材料的增韧改性 3、沃格光电：公司光模块/CPO玻璃基封装载板已批量送样，与北极雄芯战略合作开发AI芯片玻璃基先进封装 4、中国软件：中国电子信息产业集团旗下，中国电子软件板块的龙头核心企业，中国软件业国家队核心成员；公司拥有完整的从操作系统等基础软件、中间件、安全产品到应用系统的业务链条，参股的麒麟软件在政务内网份额高 5、航天电器：1、国内光通信器件行业的重点骨干…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
         {
           "id": "ev_20260817_cpo_01",
           "date": "2026-08-17",
@@ -798,33 +810,21 @@
           "sourceFile": "tmp_recap_20260731/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260731_late_3291d1d797",
-          "date": "2026-07-31",
-          "source": "公开资料",
-          "title": "周末订阅知识库信息汇总_2026-08-01_2026-08-02",
-          "event": "海外云投入、先进封装、MLCC涨价与国产算力材料仍提供产业增量。",
-          "logic": "产业支持存在，市场定价未升级。",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260731/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 43,
-      "newEvidenceCount": 0,
+      "evidenceCount": 44,
+      "newEvidenceCount": 1,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
-        "id": "ev_20260817_cpo_01",
-        "date": "2026-08-17",
+        "id": "ev_20260818_api_2ad8e0f9",
+        "date": "2026-08-18",
         "source": "公开资料",
-        "title": "CPO/NPO与量产线索",
-        "event": "",
+        "title": "",
+        "event": "20260818今日段子汇总 1、诚迈科技：公司推出了高性能信创电脑产品，基于多种架构自主芯片并搭载统信UOS等操作系统，具有安全可控、高性能等特性，适用于党政、金融等行业 2、瑞丰高材：公司CSR增韧剂产于2025年取得突破，并实现小批量出货，主要用于汽车、覆铜板、风电、封装等领域环氧树脂等树脂材料或复合材料的增韧改性 3、沃格光电：公司光模块/CPO玻璃基封装载板已批量送样，与北极雄芯战略合作开发AI芯片玻璃基先进封装 4、中国软件：中国电子信息产业集团旗下，中国电子软件板块的龙头核心企业，中国软件业国家队核心成员；公司拥有完整的从操作系统等基础软件、中间件、安全产品到应用系统的业务链条，参股的麒麟软件在政务内网份额高 5、航天电器：1、国内光通信器件行业的重点骨干…",
         "logic": "",
         "reliability": "",
-        "sourceFile": "tmp_recap_20260817/evidence_index.json",
-        "isNewSinceLastSync": false,
+        "sourceFile": "tmp_recap_20260818/evidence_index.json",
+        "isNewSinceLastSync": true,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -852,6 +852,54 @@
           "reliability": "knowledge_star",
           "sourceFile": "tmp_recap_20260723/evidence_index.json",
           "isNewSinceLastSync": false,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_api_22cbd26c",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "小金属锆 0818 更新 东曹的影响还在扩大， MLCC 和 SOFC 甚至存储的增量需求又跟上来了。 #超预期：CYJT排产已经到27年春节后了，上次问还是26年11月份，需求太好了，严重供不应求， <e type=\"hashtag\" hid=\"88212441258852\" title=\"%23%E6%B6%A8%E4%BB%B7%E5%87%BD%EF%BC%88%E2%89%A520%25%EF%BC%89%E5%9C%A8%E8%B7%AF%E4%B8%8A%23\" />",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_api_cc0f8197",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "【华鑫新材料】8月PI膜再次大涨！缺货至2028年以后，国内尤甚 价格：PI膜在Q2上涨20-30%的情况下，<e type=\"hashtag\" hid=\"28212412485881\" title=\"%237-8%E6%9C%88%E5%86%8D%E5%BA%A6%E6%8F%90%E4%BB%B720%25%2B%23\" /> 紧缺品种：最紧张的是#PSPI和MPI，其中PSPI主要用于存储DRAM和HBM中，MPI主要用于存储封装和光模块 #缺货预计至少持续到2028年以后，中国大陆货源最为紧张：PSPI2026年需求在400吨，主要是日系厂家和钟渊化学，MPI2026年实际需求约3000-4000吨，杜邦、钟渊、宇部厂家供货；预计，到2027年，PSPI和MP…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_api_edbbf548",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "瑞银——亚太科技：2026 OCP亚太峰会——AI基础设施进入全栈系统级竞赛 瑞银基于8月10-11日台北OCP（开放计算项目）亚太峰会的现场调研，核心结论是AI算力竞争已从单一GPU性能比拼，升级为覆盖计算、存储、网络、供电、散热、先进封装、安全与机架/数据中心架构的全栈系统级优化竞赛。头部超大规模云厂商（Hyperscalers）正通过垂直整合与开放标准，重塑AI基础设施的价值分配格局。核心要点如下： 1. 供电架构：400V/800V HVDC（高压直流）成为必选项，2027年起加速渗透 为应对单机柜功率向数百千瓦乃至兆瓦级跃升，传统48V低压交流供电已触及物理极限。行业共识是采用“Power Sidecar（电源侧柜）”方案，将电源转换与电池备份移出IT机柜，2…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_source_32d08c24",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "——盘面拆解—— 早盘开局，消费与农业两条防御主线率先带动盘面人气，大消费板块桂发祥三连板，一鸣食品涨超2%再创趋势新高；农业板块金健米业二连板，天山生物20cm二连板。 但科技赛道开盘即呈现明显分化，AI硬件博敏电子二连板，但权重中际旭创，芯片（存储）昨日大涨的长鑫科技等水下震荡，与强势的消费、农业形成鲜明反差。 短线情绪同样呈现分化格局，连板天洋新材大幅回落，但金螳螂回封五连板，复牌的高位股爱丽家居触及涨停，一鸣食品、传智教育趋势新高，高位抱团内部冷热不均。 随后农业板块进一步走强，华绿生物20cm涨停，神农种业涨超10%，叠加此前涨停的金健米业等多只标的，板块赚钱效应持续扩散，成为早盘弱势中最确定的结构性方向。 但盘面整体承压的态势很快显现，三大指数震荡走弱，创业…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -1033,58 +1081,10 @@
           "sourceFile": "tmp_recap_20260729/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260729_theme_04",
-          "date": "2026-07-29",
-          "source": "公开资料",
-          "title": "",
-          "event": "长鑫科技上涨12.66%，但兆易创新下跌6.81%、通富微电跌停，国产存储当日表现从整体贝塔转为新股定价与老链条筹码分化。",
-          "logic": "长鑫上市强化产业地位，但虹吸效应和旧持仓筹码压力使产业利好没有转化为全链条上涨。",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260729/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260728_04",
-          "date": "2026-07-28",
-          "source": "公开资料",
-          "title": "",
-          "event": "核心篮子均值-10.00%",
-          "logic": "",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260728/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260728_storage_pricing_break",
-          "date": "2026-07-28",
-          "source": "a_stock_data+public_market",
-          "title": "7月28日A股收盘行情、腾讯日K与公开资金统计",
-          "event": "长鑫上市强化国产DRAM战略价值，但兆易、深科技和德明利同步跌停，影子映射、产品供给和库存质量被重新定价。",
-          "logic": "国产扩产对设备是需求，对产品价格可能形成供给；设计、制造、封测和模组不能共用一个结论。",
-          "reliability": "cross_validated_market_data",
-          "sourceFile": "tmp_recap_20260728/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260727_04",
-          "date": "2026-07-27",
-          "source": "公开资料",
-          "title": "",
-          "event": "NAND涨价斜率放缓、供给扩张和杠杆交易被同时讨论；存储不再适合用单一涨价叙事覆盖全部子环节。",
-          "logic": "",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260727/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 63,
-      "newEvidenceCount": 0,
+      "evidenceCount": 67,
+      "newEvidenceCount": 4,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
         "id": "ev_20260723_late_001",
@@ -1855,6 +1855,18 @@
       },
       "evidence": [
         {
+          "id": "ev_20260818_api_2ad8e0f9",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "20260818今日段子汇总 1、诚迈科技：公司推出了高性能信创电脑产品，基于多种架构自主芯片并搭载统信UOS等操作系统，具有安全可控、高性能等特性，适用于党政、金融等行业 2、瑞丰高材：公司CSR增韧剂产于2025年取得突破，并实现小批量出货，主要用于汽车、覆铜板、风电、封装等领域环氧树脂等树脂材料或复合材料的增韧改性 3、沃格光电：公司光模块/CPO玻璃基封装载板已批量送样，与北极雄芯战略合作开发AI芯片玻璃基先进封装 4、中国软件：中国电子信息产业集团旗下，中国电子软件板块的龙头核心企业，中国软件业国家队核心成员；公司拥有完整的从操作系统等基础软件、中间件、安全产品到应用系统的业务链条，参股的麒麟软件在政务内网份额高 5、航天电器：1、国内光通信器件行业的重点骨干…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260817_cpo_01",
           "date": "2026-08-17",
           "source": "公开资料",
@@ -2081,33 +2093,21 @@
           "sourceFile": "tmp_recap_20260731/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260731_late_3291d1d797",
-          "date": "2026-07-31",
-          "source": "公开资料",
-          "title": "周末订阅知识库信息汇总_2026-08-01_2026-08-02",
-          "event": "海外云投入、先进封装、MLCC涨价与国产算力材料仍提供产业增量。",
-          "logic": "产业支持存在，市场定价未升级。",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260731/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 43,
-      "newEvidenceCount": 0,
+      "evidenceCount": 44,
+      "newEvidenceCount": 1,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
-        "id": "ev_20260817_cpo_01",
-        "date": "2026-08-17",
+        "id": "ev_20260818_api_2ad8e0f9",
+        "date": "2026-08-18",
         "source": "公开资料",
-        "title": "CPO/NPO与量产线索",
-        "event": "",
+        "title": "",
+        "event": "20260818今日段子汇总 1、诚迈科技：公司推出了高性能信创电脑产品，基于多种架构自主芯片并搭载统信UOS等操作系统，具有安全可控、高性能等特性，适用于党政、金融等行业 2、瑞丰高材：公司CSR增韧剂产于2025年取得突破，并实现小批量出货，主要用于汽车、覆铜板、风电、封装等领域环氧树脂等树脂材料或复合材料的增韧改性 3、沃格光电：公司光模块/CPO玻璃基封装载板已批量送样，与北极雄芯战略合作开发AI芯片玻璃基先进封装 4、中国软件：中国电子信息产业集团旗下，中国电子软件板块的龙头核心企业，中国软件业国家队核心成员；公司拥有完整的从操作系统等基础软件、中间件、安全产品到应用系统的业务链条，参股的麒麟软件在政务内网份额高 5、航天电器：1、国内光通信器件行业的重点骨干…",
         "logic": "",
         "reliability": "",
-        "sourceFile": "tmp_recap_20260817/evidence_index.json",
-        "isNewSinceLastSync": false,
+        "sourceFile": "tmp_recap_20260818/evidence_index.json",
+        "isNewSinceLastSync": true,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -2435,6 +2435,18 @@
       },
       "evidence": [
         {
+          "id": "ev_20260818_semiconductor_supply",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "公众号与订阅材料把大硅片稼动率、晶圆载具调价、功率器件交期和小金属供应放在同一条供给约束链上，并明确区分现货涨价、长协、库存、扩产设备和客户验证。",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260814_weekend_07",
           "date": "2026-08-14",
           "source": "公开资料",
@@ -2661,33 +2673,21 @@
           "sourceFile": "tmp_recap_20260715/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260713_012",
-          "date": "2026-07-13",
-          "source": "company_announcement",
-          "title": "拓荆科技机构买入线索",
-          "event": "龙虎榜线索显示机构逆势参与拓荆科技。",
-          "logic": "设备的订单与国产替代属性较少依赖韩国存储股的短线beta，是通杀日中应重点复核的反向样本。",
-          "reliability": "medium",
-          "sourceFile": "tmp_recap_20260713/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 23,
-      "newEvidenceCount": 0,
+      "evidenceCount": 24,
+      "newEvidenceCount": 1,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
-        "id": "ev_20260814_weekend_07",
-        "date": "2026-08-14",
+        "id": "ev_20260818_semiconductor_supply",
+        "date": "2026-08-18",
         "source": "公开资料",
-        "title": "中芯国际收入和扩产资料支持国内晶圆景气，但产能、折旧、产",
-        "event": "",
+        "title": "",
+        "event": "公众号与订阅材料把大硅片稼动率、晶圆载具调价、功率器件交期和小金属供应放在同一条供给约束链上，并明确区分现货涨价、长协、库存、扩产设备和客户验证。",
         "logic": "",
         "reliability": "",
-        "sourceFile": "tmp_recap_20260814/evidence_index.json",
-        "isNewSinceLastSync": false,
+        "sourceFile": "tmp_recap_20260818/evidence_index.json",
+        "isNewSinceLastSync": true,
         "mappingSource": "keyword_fallback"
       },
       "nextVerification": "核心篮子至少60%站在20日线上，且5日相对上证不转负；满足后只视为价格确认，不替代产业兑现。"
@@ -2715,6 +2715,54 @@
           "reliability": "knowledge_star",
           "sourceFile": "tmp_recap_20260723/evidence_index.json",
           "isNewSinceLastSync": false,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_api_22cbd26c",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "小金属锆 0818 更新 东曹的影响还在扩大， MLCC 和 SOFC 甚至存储的增量需求又跟上来了。 #超预期：CYJT排产已经到27年春节后了，上次问还是26年11月份，需求太好了，严重供不应求， <e type=\"hashtag\" hid=\"88212441258852\" title=\"%23%E6%B6%A8%E4%BB%B7%E5%87%BD%EF%BC%88%E2%89%A520%25%EF%BC%89%E5%9C%A8%E8%B7%AF%E4%B8%8A%23\" />",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_api_cc0f8197",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "【华鑫新材料】8月PI膜再次大涨！缺货至2028年以后，国内尤甚 价格：PI膜在Q2上涨20-30%的情况下，<e type=\"hashtag\" hid=\"28212412485881\" title=\"%237-8%E6%9C%88%E5%86%8D%E5%BA%A6%E6%8F%90%E4%BB%B720%25%2B%23\" /> 紧缺品种：最紧张的是#PSPI和MPI，其中PSPI主要用于存储DRAM和HBM中，MPI主要用于存储封装和光模块 #缺货预计至少持续到2028年以后，中国大陆货源最为紧张：PSPI2026年需求在400吨，主要是日系厂家和钟渊化学，MPI2026年实际需求约3000-4000吨，杜邦、钟渊、宇部厂家供货；预计，到2027年，PSPI和MP…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_api_edbbf548",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "瑞银——亚太科技：2026 OCP亚太峰会——AI基础设施进入全栈系统级竞赛 瑞银基于8月10-11日台北OCP（开放计算项目）亚太峰会的现场调研，核心结论是AI算力竞争已从单一GPU性能比拼，升级为覆盖计算、存储、网络、供电、散热、先进封装、安全与机架/数据中心架构的全栈系统级优化竞赛。头部超大规模云厂商（Hyperscalers）正通过垂直整合与开放标准，重塑AI基础设施的价值分配格局。核心要点如下： 1. 供电架构：400V/800V HVDC（高压直流）成为必选项，2027年起加速渗透 为应对单机柜功率向数百千瓦乃至兆瓦级跃升，传统48V低压交流供电已触及物理极限。行业共识是采用“Power Sidecar（电源侧柜）”方案，将电源转换与电池备份移出IT机柜，2…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
+          "mappingSource": "keyword_fallback"
+        },
+        {
+          "id": "ev_20260818_source_32d08c24",
+          "date": "2026-08-18",
+          "source": "公开资料",
+          "title": "",
+          "event": "——盘面拆解—— 早盘开局，消费与农业两条防御主线率先带动盘面人气，大消费板块桂发祥三连板，一鸣食品涨超2%再创趋势新高；农业板块金健米业二连板，天山生物20cm二连板。 但科技赛道开盘即呈现明显分化，AI硬件博敏电子二连板，但权重中际旭创，芯片（存储）昨日大涨的长鑫科技等水下震荡，与强势的消费、农业形成鲜明反差。 短线情绪同样呈现分化格局，连板天洋新材大幅回落，但金螳螂回封五连板，复牌的高位股爱丽家居触及涨停，一鸣食品、传智教育趋势新高，高位抱团内部冷热不均。 随后农业板块进一步走强，华绿生物20cm涨停，神农种业涨超10%，叠加此前涨停的金健米业等多只标的，板块赚钱效应持续扩散，成为早盘弱势中最确定的结构性方向。 但盘面整体承压的态势很快显现，三大指数震荡走弱，创业…",
+          "logic": "",
+          "reliability": "",
+          "sourceFile": "tmp_recap_20260818/evidence_index.json",
+          "isNewSinceLastSync": true,
           "mappingSource": "keyword_fallback"
         },
         {
@@ -2896,58 +2944,10 @@
           "sourceFile": "tmp_recap_20260729/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260729_theme_04",
-          "date": "2026-07-29",
-          "source": "公开资料",
-          "title": "",
-          "event": "长鑫科技上涨12.66%，但兆易创新下跌6.81%、通富微电跌停，国产存储当日表现从整体贝塔转为新股定价与老链条筹码分化。",
-          "logic": "长鑫上市强化产业地位，但虹吸效应和旧持仓筹码压力使产业利好没有转化为全链条上涨。",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260729/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260728_04",
-          "date": "2026-07-28",
-          "source": "公开资料",
-          "title": "",
-          "event": "核心篮子均值-10.00%",
-          "logic": "",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260728/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260728_storage_pricing_break",
-          "date": "2026-07-28",
-          "source": "a_stock_data+public_market",
-          "title": "7月28日A股收盘行情、腾讯日K与公开资金统计",
-          "event": "长鑫上市强化国产DRAM战略价值，但兆易、深科技和德明利同步跌停，影子映射、产品供给和库存质量被重新定价。",
-          "logic": "国产扩产对设备是需求，对产品价格可能形成供给；设计、制造、封测和模组不能共用一个结论。",
-          "reliability": "cross_validated_market_data",
-          "sourceFile": "tmp_recap_20260728/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260727_04",
-          "date": "2026-07-27",
-          "source": "公开资料",
-          "title": "",
-          "event": "NAND涨价斜率放缓、供给扩张和杠杆交易被同时讨论；存储不再适合用单一涨价叙事覆盖全部子环节。",
-          "logic": "",
-          "reliability": "",
-          "sourceFile": "tmp_recap_20260727/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 63,
-      "newEvidenceCount": 0,
+      "evidenceCount": 67,
+      "newEvidenceCount": 4,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {
         "id": "ev_20260723_late_001",
