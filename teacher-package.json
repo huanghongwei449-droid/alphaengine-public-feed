@@ -1,8 +1,8 @@
 {
   "product": "AlphaEngine 投研研究台",
-  "version": "teacher-demo-v13-online-public-data",
+  "version": "teacher-demo-v15-online-public-data",
   "publicSafe": true,
-  "downloadUrl": "https://media.githubusercontent.com/media/huanghongwei449-droid/alphaengine-public-feed/teacher-package-v13/AlphaEngine-Teacher-v13-online-public-data.zip",
+  "downloadUrl": "https://media.githubusercontent.com/media/huanghongwei449-droid/alphaengine-public-feed/teacher-package-v15/AlphaEngine-Teacher-v15-online-public-data.zip",
   "packageMode": "Windows portable app with bundled Node runtime",
   "dataMode": "GitHub public feed + runtime public HTTP fetch + packaged public snapshot fallback",
   "dataAsOf": "2026-08-18",
