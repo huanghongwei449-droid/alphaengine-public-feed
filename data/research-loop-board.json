@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-research-loop-v2",
-  "generatedAt": "2026-08-18T09:16:45.973Z",
+  "generatedAt": "2026-08-18T09:26:49.927Z",
   "design": {
     "inspiration": "DojoAgents 的工具化研究循环",
     "adaptation": "只消费 AlphaEngine 的公开 evidence 与公开事实缓存；不读取持仓、账户、交易动作，也不回写每日复盘。",
@@ -116,7 +116,7 @@
       "latestEvidence": [
         {
           "date": "2026-08-18",
-          "event": "浪潮信息：收盘 79.39，当日 -1.6%",
+          "event": "浪潮信息：收盘 80.97，当日 +0.36%",
           "source": "公开行情与资金事实缓存",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。"
         },
@@ -163,7 +163,7 @@
       "latestEvidence": [
         {
           "date": "2026-08-18",
-          "event": "通富微电：收盘 70.25，当日 +1.43%",
+          "event": "通富微电：收盘 70.66，当日 +2.02%",
           "source": "公开行情与资金事实缓存",
           "nextWatch": "下一次扫描只比较新增公告、业绩、互动和相对强弱；出现新公司级证据后再更新研究判断。"
         },

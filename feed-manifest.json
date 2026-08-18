@@ -1,8 +1,8 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-18T09:24:50.634Z",
-  "sourceSnapshot": "2026-08-18T09:16:45.736Z",
+  "generatedAt": "2026-08-18T09:26:50.414Z",
+  "sourceSnapshot": "2026-08-18T09:26:49.706Z",
   "asOfDate": "2026-08-18",
   "topics": 7,
   "securities": 31,
@@ -10,18 +10,23 @@
   "files": [
     {
       "path": "data/research-snapshot.json",
-      "bytes": 1037701,
-      "sha256": "eb2c82fff0984e8b45db3c842481556b6ff4f3d55c690830598f2a924811c64c"
+      "bytes": 1037663,
+      "sha256": "fd3a99b8b9664c66e293b1c0a7966871c2f140fcb9797025aabf3f272985c66b"
     },
     {
       "path": "data/market-recap.json",
       "bytes": 41796,
-      "sha256": "20c02dd8320e087a45babb170bf3b2bbc0f821dd51a9125e61812630ce65d91c"
+      "sha256": "95d2b5186c451ddf49a29a1c0e61f8b2c93f87f6ebbcccc8097c40e846aa0b3b"
+    },
+    {
+      "path": "data/live-market.json",
+      "bytes": 2699,
+      "sha256": "3021b6e4ae9691c454d6084831b6756418dc5b2b9a4f618aa2a9692664dadcaf"
     },
     {
       "path": "data/evidence-catalog.json",
       "bytes": 833523,
-      "sha256": "0500bc4b6873f383479afa50ed1cd04f6d76182b346504a478193915ca52b3fc"
+      "sha256": "0c5da4bb551785ab314f681f660532640e37627dbe32240fa6269573073e3839"
     },
     {
       "path": "data/latest-recap-delta.json",
@@ -31,37 +36,37 @@
     {
       "path": "data/ima-public-research-index.json",
       "bytes": 119652,
-      "sha256": "729d22e37b8469712cfd0a84ed949116c95473083e0bbffcb7cdeb49cfbf38b6"
+      "sha256": "44eb56ef13d9bafde3950a38e51ef357cfac2fc065a84e25c279493f2f2eba0b"
     },
     {
       "path": "data/ima-research-coverage.json",
       "bytes": 2853,
-      "sha256": "fc884f51f1096f6ae7cb5618b3f9df41f58f26608b8989821d94880794194b06"
+      "sha256": "42cff8a2eb886e63f95ebf1c07377ae2373582271a10e6f51a1c27df3a95d2ca"
     },
     {
       "path": "data/research-ontology.json",
       "bytes": 60348,
-      "sha256": "3af3896045c786527cb4bb335ae0034ccc377040a0dda109df878d5885c8b52d"
+      "sha256": "e6f559ff860018131a0c1d5d04e681238a475245b64f2fe076b849176e809373"
     },
     {
       "path": "data/research-loop-board.json",
-      "bytes": 34248,
-      "sha256": "4237e905587467b435a2798236820ffc1ad978b76d5639c4fd9ca1d133180fcd"
+      "bytes": 34249,
+      "sha256": "bf2005713b0b1033f87e217915b2b0c4f92bd472d9f5b8973a67603cb8e3f199"
     },
     {
       "path": "data/industry-research-index.json",
       "bytes": 8923,
-      "sha256": "fa0f839b9ac5d8b279a003e57104a4e0a8b3e5dc1b9da1163b2fc843dc2151e9"
+      "sha256": "8f58fc699300c496dd7fb1e485147f6795ee120896a7f8ea356bff0af8e822a8"
     },
     {
       "path": "data/daily-research-handoff.json",
       "bytes": 15055,
-      "sha256": "bb4c9eabe8d0da87fb90d97b78e37df422b92d6101711fa827bd95b3cdb94434"
+      "sha256": "b7795c2d8b4b20f5f104e569d3a9b44963e2680cd32f34db8153a68c2a59b7d3"
     },
     {
       "path": "data/research-evolution.json",
       "bytes": 213337,
-      "sha256": "bffc5df757f55a1d981abfeee4a34d86ccab2c2dce241c05ee0c2b61204ab33f"
+      "sha256": "1abc1e78d5fbbce5d81f23299d7f7aef52c9bfca34e927edb38d1deda31637a9"
     },
     {
       "path": "data/research-priority-agenda.json",
@@ -80,8 +85,8 @@
     },
     {
       "path": "data/company-public-context.json",
-      "bytes": 41195,
-      "sha256": "1ba15a0ea4b0e56e4b3d9fae262035bcf2e7f7ea274524b9d4bb95f774f5c169"
+      "bytes": 41099,
+      "sha256": "c41e0f1b0358fb87ca7be4d6a8789a11ca03a8a69c02145829226e81a1393b29"
     },
     {
       "path": "data/company-public-dossiers.json",
@@ -90,13 +95,8 @@
     },
     {
       "path": "data/company-fact-evidence.json",
-      "bytes": 102869,
-      "sha256": "15a8cff7266fd87a825cf18ec0b504224d2add0d828529747f318e405078d6d5"
-    },
-    {
-      "path": "data/live-market.json",
-      "bytes": 2425,
-      "sha256": "24024dfe524790e40f6f64515745146770af761682936a1409fb67abf7480191"
+      "bytes": 102862,
+      "sha256": "89264df5e05b6540253ad5b7727c0ff522440133b475ea7a3dbb87836cd2ca0d"
     }
   ]
 }
