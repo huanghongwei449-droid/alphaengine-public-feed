@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-18T09:07:42.651Z",
+  "fetchedAt": "2026-08-18T09:16:46.363Z",
   "asOfDate": "2026-08-18",
   "source": "腾讯指数 + 东方财富公开市场数据",
   "indices": [
