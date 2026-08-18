@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "alphaengine-public-market-live-v1",
+  "publicSafe": true,
+  "fetchedAt": "2026-08-18T08:44:35.084Z",
+  "source": "腾讯公开行情",
+  "indices": [
+    {
+      "code": "000001",
+      "name": "��ָ֤��",
+      "close": 3990.3,
+      "previousClose": 3982.65,
+      "dailyPct": 0.19,
+      "open": 3979.49,
+      "high": 3994.18,
+      "low": 3955.6,
+      "volume": 511234287,
+      "amount": 113518767,
+      "asOfDate": "2026-08-18",
+      "asOfTime": "20260818161402",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "399001",
+      "name": "��֤��ָ",
+      "close": 14622.5,
+      "previousClose": 14704.27,
+      "dailyPct": -0.56,
+      "open": 14692.03,
+      "high": 14733.9,
+      "low": 14459.72,
+      "volume": 674616023,
+      "amount": 126558702,
+      "asOfDate": "2026-08-18",
+      "asOfTime": "20260818161412",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "399006",
+      "name": "��ҵ��ָ",
+      "close": 3705.56,
+      "previousClose": 3740.16,
+      "dailyPct": -0.93,
+      "open": 3730.99,
+      "high": 3747.53,
+      "low": 3662.45,
+      "volume": 196213815,
+      "amount": 60608277,
+      "asOfDate": "2026-08-18",
+      "asOfTime": "20260818161427",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "000688",
+      "name": "�ƴ�50",
+      "close": 1790.87,
+      "previousClose": 1788.85,
+      "dailyPct": 0.11,
+      "open": 1786.37,
+      "high": 1798.78,
+      "low": 1753.97,
+      "volume": 11179921,
+      "amount": 12252579,
+      "asOfDate": "2026-08-18",
+      "asOfTime": "20260818161414",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "000300",
+      "name": "����300",
+      "close": 4725.81,
+      "previousClose": 4741.1,
+      "dailyPct": -0.32,
+      "open": 4734.07,
+      "high": 4744.01,
+      "low": 4687.53,
+      "volume": 204245514,
+      "amount": 61982873,
+      "asOfDate": "2026-08-18",
+      "asOfTime": "20260818161414",
+      "source": "腾讯 qt.gtimg.cn"
+    }
+  ]
+}
