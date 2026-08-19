@@ -1,28 +1,28 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-19T15:12:49.825Z",
+  "fetchedAt": "2026-08-19T15:48:30.677Z",
   "asOfDate": "2026-08-19",
   "sourceStatus": {
-    "399001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
-    },
     "399006": {
       "status": "ok",
       "source": "腾讯 qt.gtimg.cn"
     },
-    "000001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000688": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sz399001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000300": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000688": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
+    },
+    "sh000300": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "market": {
       "status": "failed",
@@ -33,33 +33,11 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "close": 3894.42,
-      "previousClose": 3990.3,
-      "dailyPct": -2.4,
-      "high": 3961.14,
-      "low": 3879.58,
-      "asOfDate": "2026-08-19",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "close": 13890.15,
-      "previousClose": 14622.5,
-      "dailyPct": -5.01,
-      "high": 14367.37,
-      "low": 13842.32,
-      "asOfDate": "2026-08-19",
-      "source": "腾讯 qt.gtimg.cn"
-    },
     {
       "code": "399006",
       "name": "创业板指",
@@ -70,36 +48,105 @@
       "low": 3455.48,
       "asOfDate": "2026-08-19",
       "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000688",
-      "name": "科创50",
-      "close": 1667.52,
-      "previousClose": 1790.87,
-      "dailyPct": -6.89,
-      "high": 1748.52,
-      "low": 1653.67,
-      "asOfDate": "2026-08-19",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000300",
-      "name": "沪深300",
-      "close": 4588.7,
-      "previousClose": 4725.81,
-      "dailyPct": -2.9,
-      "high": 4674.38,
-      "low": 4568.07,
-      "asOfDate": "2026-08-19",
-      "source": "腾讯 qt.gtimg.cn"
     }
   ],
   "market": null,
   "sectorFlows": {
     "date": "2026-08-19",
     "industry": [],
-    "concept": [],
-    "source": ""
+    "concept": [
+      {
+        "code": "BK0492",
+        "name": "煤化工概念",
+        "pctChange": -1.09,
+        "mainNetBillion": 2.99,
+        "mainPct": 0.97,
+        "advanceCount": 16,
+        "declineCount": 58
+      },
+      {
+        "code": "BK1068",
+        "name": "净水概念",
+        "pctChange": -2,
+        "mainNetBillion": 1.73,
+        "mainPct": 1.99,
+        "advanceCount": 5,
+        "declineCount": 16
+      },
+      {
+        "code": "BK0993",
+        "name": "宠物经济",
+        "pctChange": -2.84,
+        "mainNetBillion": 1.6,
+        "mainPct": 1.48,
+        "advanceCount": 6,
+        "declineCount": 64
+      },
+      {
+        "code": "BK0822",
+        "name": "租售同权",
+        "pctChange": -1.06,
+        "mainNetBillion": 1,
+        "mainPct": 1.98,
+        "advanceCount": 3,
+        "declineCount": 14
+      },
+      {
+        "code": "BK1073",
+        "name": "啤酒概念",
+        "pctChange": -1.47,
+        "mainNetBillion": 0.26,
+        "mainPct": 0.57,
+        "advanceCount": 2,
+        "declineCount": 16
+      },
+      {
+        "code": "BK0938",
+        "name": "代糖概念",
+        "pctChange": -2.62,
+        "mainNetBillion": -0.03,
+        "mainPct": -0.07,
+        "advanceCount": 3,
+        "declineCount": 12
+      },
+      {
+        "code": "BK0636",
+        "name": "B股",
+        "pctChange": -0.72,
+        "mainNetBillion": -0.12,
+        "mainPct": -13.11,
+        "advanceCount": 8,
+        "declineCount": 61
+      },
+      {
+        "code": "BK1074",
+        "name": "托育服务",
+        "pctChange": -2.58,
+        "mainNetBillion": -0.15,
+        "mainPct": -2.64,
+        "advanceCount": 0,
+        "declineCount": 6
+      },
+      {
+        "code": "BK0994",
+        "name": "空间站概念",
+        "pctChange": -5.53,
+        "mainNetBillion": -0.22,
+        "mainPct": -0.15,
+        "advanceCount": 0,
+        "declineCount": 20
+      },
+      {
+        "code": "BK1644",
+        "name": "微盘精选",
+        "pctChange": -2.15,
+        "mainNetBillion": -0.24,
+        "mainPct": -0.93,
+        "advanceCount": 5,
+        "declineCount": 49
+      }
+    ],
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
