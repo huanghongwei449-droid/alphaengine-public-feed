@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-19T16:30:24.537Z",
+  "fetchedAt": "2026-08-19T17:03:05.586Z",
   "asOfDate": "2026-08-19",
   "sourceStatus": {
     "399001": {
@@ -29,8 +29,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
       "status": "failed",
@@ -97,9 +97,100 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-08-19",
-    "industry": [],
+    "industry": [
+      {
+        "code": "BK0437",
+        "name": "煤炭",
+        "pctChange": 1.66,
+        "mainNetBillion": 11.79,
+        "mainPct": 6.93,
+        "advanceCount": 21,
+        "declineCount": 13
+      },
+      {
+        "code": "BK1492",
+        "name": "焦炭Ⅲ",
+        "pctChange": 6.53,
+        "mainNetBillion": 6.81,
+        "mainPct": 24.48,
+        "advanceCount": 7,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1249",
+        "name": "焦炭Ⅱ",
+        "pctChange": 6.53,
+        "mainNetBillion": 6.81,
+        "mainPct": 24.48,
+        "advanceCount": 7,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1569",
+        "name": "炼油化工",
+        "pctChange": 3.04,
+        "mainNetBillion": 6.56,
+        "mainPct": 5.93,
+        "advanceCount": 7,
+        "declineCount": 3
+      },
+      {
+        "code": "BK0450",
+        "name": "航运港口",
+        "pctChange": 0.36,
+        "mainNetBillion": 5.74,
+        "mainPct": 4.42,
+        "advanceCount": 17,
+        "declineCount": 17
+      },
+      {
+        "code": "BK1032",
+        "name": "风电设备",
+        "pctChange": -4.1,
+        "mainNetBillion": 5.48,
+        "mainPct": 3.21,
+        "advanceCount": 2,
+        "declineCount": 29
+      },
+      {
+        "code": "BK1274",
+        "name": "炼化及贸易",
+        "pctChange": -1.11,
+        "mainNetBillion": 5.3,
+        "mainPct": 3.94,
+        "advanceCount": 7,
+        "declineCount": 23
+      },
+      {
+        "code": "BK1250",
+        "name": "煤炭开采",
+        "pctChange": 0.4,
+        "mainNetBillion": 4.98,
+        "mainPct": 3.5,
+        "advanceCount": 14,
+        "declineCount": 13
+      },
+      {
+        "code": "BK1482",
+        "name": "航运",
+        "pctChange": 0.12,
+        "mainNetBillion": 4.84,
+        "mainPct": 4.63,
+        "advanceCount": 9,
+        "declineCount": 10
+      },
+      {
+        "code": "BK1314",
+        "name": "风电整机",
+        "pctChange": -3.64,
+        "mainNetBillion": 4.62,
+        "mainPct": 4.39,
+        "advanceCount": 1,
+        "declineCount": 4
+      }
+    ],
     "concept": [],
-    "source": ""
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
