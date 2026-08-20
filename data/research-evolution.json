@@ -1,11 +1,11 @@
 {
   "schemaVersion": "alphaengine-research-evolution-v1",
-  "generatedAt": "2026-08-18T16:23:35.205Z",
+  "generatedAt": "2026-08-20T08:16:19.156Z",
   "policy": "只读取已完成日报中的 public_safe evidence；按稳定观察篮子归档。市场状态来自主业记忆，新增资料不自动改写产业或交易结论。",
   "summary": {
-    "recapFiles": 32,
-    "publicEvidenceScanned": 504,
-    "mappedEvidence": 438,
+    "recapFiles": 34,
+    "publicEvidenceScanned": 511,
+    "mappedEvidence": 440,
     "newEvidenceSinceLastSync": 0,
     "unmappedEvidence": 50,
     "dailyCandidateHandoff": {
@@ -855,6 +855,18 @@
           "mappingSource": "keyword_fallback"
         },
         {
+          "id": "ev_20260819_breadth_005",
+          "date": "2026-08-19",
+          "source": "a_stock_data",
+          "title": "data_source_health 宽度/情绪端点",
+          "event": "正式热榜可用：同花顺日榜100条，东财人气榜50条。",
+          "logic": "热榜用于检验IMA/知识星球主题是否同步升温，不能单独替代成交、资金和公告验证。",
+          "reliability": "fund_flow_data",
+          "sourceFile": "tmp_recap_20260819/evidence_index.json",
+          "isNewSinceLastSync": false,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260818_api_22cbd26c",
           "date": "2026-08-18",
           "source": "公开资料",
@@ -1069,21 +1081,9 @@
           "sourceFile": "tmp_recap_20260730/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260729_breadth_002",
-          "date": "2026-07-29",
-          "source": "a_stock_data",
-          "title": "data_source_health 宽度/情绪端点",
-          "event": "涨停池81条、跌停池9条、炸板池14条、昨日涨停池61条。",
-          "logic": "用涨停/跌停/炸板/昨日涨停池补充市场情绪，比单纯指数涨跌更能解释短线赚钱效应和亏钱效应。",
-          "reliability": "fund_flow_data",
-          "sourceFile": "tmp_recap_20260729/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 67,
+      "evidenceCount": 68,
       "newEvidenceCount": 0,
       "directlyLinkedEvidenceCount": 1,
       "latestEvidence": {
@@ -2718,6 +2718,18 @@
           "mappingSource": "keyword_fallback"
         },
         {
+          "id": "ev_20260819_breadth_005",
+          "date": "2026-08-19",
+          "source": "a_stock_data",
+          "title": "data_source_health 宽度/情绪端点",
+          "event": "正式热榜可用：同花顺日榜100条，东财人气榜50条。",
+          "logic": "热榜用于检验IMA/知识星球主题是否同步升温，不能单独替代成交、资金和公告验证。",
+          "reliability": "fund_flow_data",
+          "sourceFile": "tmp_recap_20260819/evidence_index.json",
+          "isNewSinceLastSync": false,
+          "mappingSource": "keyword_fallback"
+        },
+        {
           "id": "ev_20260818_api_22cbd26c",
           "date": "2026-08-18",
           "source": "公开资料",
@@ -2932,21 +2944,9 @@
           "sourceFile": "tmp_recap_20260730/evidence_index.json",
           "isNewSinceLastSync": false,
           "mappingSource": "keyword_fallback"
-        },
-        {
-          "id": "ev_20260729_breadth_002",
-          "date": "2026-07-29",
-          "source": "a_stock_data",
-          "title": "data_source_health 宽度/情绪端点",
-          "event": "涨停池81条、跌停池9条、炸板池14条、昨日涨停池61条。",
-          "logic": "用涨停/跌停/炸板/昨日涨停池补充市场情绪，比单纯指数涨跌更能解释短线赚钱效应和亏钱效应。",
-          "reliability": "fund_flow_data",
-          "sourceFile": "tmp_recap_20260729/evidence_index.json",
-          "isNewSinceLastSync": false,
-          "mappingSource": "keyword_fallback"
         }
       ],
-      "evidenceCount": 67,
+      "evidenceCount": 68,
       "newEvidenceCount": 0,
       "directlyLinkedEvidenceCount": 0,
       "latestEvidence": {

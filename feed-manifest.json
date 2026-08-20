@@ -1,72 +1,72 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-18T16:23:35.783Z",
-  "sourceSnapshot": "2026-08-18T16:23:35.039Z",
-  "asOfDate": "2026-08-18",
+  "generatedAt": "2026-08-20T08:16:19.707Z",
+  "sourceSnapshot": "2026-08-20T08:16:19.014Z",
+  "asOfDate": "2026-08-19",
   "topics": 7,
   "securities": 31,
-  "publicEvidence": 657,
+  "publicEvidence": 663,
   "files": [
     {
       "path": "data/research-snapshot.json",
-      "bytes": 1042452,
-      "sha256": "d775485d2f242d90417f1201e74c98a9906c413f0522eb2f08bde247a81d3987"
+      "bytes": 1043472,
+      "sha256": "e3c76b5fc884ee2147a9abf1664a58da09a53580a0e1957c7b74357d73c12001"
     },
     {
       "path": "data/market-recap.json",
-      "bytes": 45885,
-      "sha256": "1873ce89a8b97e7d3f315e1b0d1d75fdfce81ea8ba64018915060b4087c0406a"
+      "bytes": 45713,
+      "sha256": "e30847f3e10d80191490905bd2977f90c8c391b555e434386cbe2c886fb9d21f"
     },
     {
       "path": "data/live-market.json",
-      "bytes": 2699,
-      "sha256": "038348bedd4a0ed18d781ed561b11989cc20fad913427c4ce4c43c1d00425bfd"
+      "bytes": 2697,
+      "sha256": "360bf388cdc0652f0a731eaff617975c1f0cf337a24d323461e7ed61fa07aa00"
     },
     {
       "path": "data/evidence-catalog.json",
-      "bytes": 860806,
-      "sha256": "10ab65e799285dd3bf6ec526a9b365106fb790abf4c76f72311eee685f0e88ad"
+      "bytes": 868410,
+      "sha256": "275dd1c87b37becbce711ca699a485043af9c05bf182c4042d91c4ebb1ad3543"
     },
     {
       "path": "data/latest-recap-delta.json",
-      "bytes": 17658,
-      "sha256": "dd170512f459e97f5de5b03032d78c0ec7ba22b65aaa2202f0e325c6f8348e2d"
+      "bytes": 779,
+      "sha256": "d9e49551f440ca432cbad8587587613fae2ef2def9e17a93543c8a4c25697740"
     },
     {
       "path": "data/ima-public-research-index.json",
       "bytes": 119652,
-      "sha256": "a359229e9d5715c5e55dbb627693ed5b1395d1077ddfbdfefe68e1fd6ed33934"
+      "sha256": "f0f69fb06cbb8230b161e538316e89f47b1e3fae68a2ddaa5dfa396b1ba26ed0"
     },
     {
       "path": "data/ima-research-coverage.json",
       "bytes": 2853,
-      "sha256": "6e12d9353a479c186e352180a3e1cf1daabe50055ae38a5611a2dfa11b98029e"
+      "sha256": "4ca031daa524b742a4a62cdc0f897f6b046bddc77ea14115ad51ecc177fe677e"
     },
     {
       "path": "data/research-ontology.json",
       "bytes": 60348,
-      "sha256": "e50e8cb6c4d1a506ccdf323f416641a30eac222d60dcc9dfb279804388244901"
+      "sha256": "3a7cfb488c5570ceda8e5788ec991616e6d4c1c45e7fbf5537eec519ee20d81b"
     },
     {
       "path": "data/research-loop-board.json",
-      "bytes": 37884,
-      "sha256": "a1565c3044609a6544eb4b97c329d00bcc370741c24b3802a9f41ab79486ccce"
+      "bytes": 37880,
+      "sha256": "f4b6cbe2eff12df75e9060842cfa934b102338642d31b1b377631b7c4a5a190f"
     },
     {
       "path": "data/industry-research-index.json",
       "bytes": 8923,
-      "sha256": "0b09ee78109a7bf756f4dae6bf912a3b9f08755366feaf0f992a5173e65de19e"
+      "sha256": "966296eda616b1830a3abfe0659bf709ff2dec161a22753105bc3e0ff11c12f4"
     },
     {
       "path": "data/daily-research-handoff.json",
       "bytes": 15055,
-      "sha256": "b6a6ea0cccfbd2a698b5ed099c80686158d426fd6c51eec8233b6502d1680873"
+      "sha256": "01718dbc6135e096f1d89a46f40e419fbca258bc028750436ecddce7a611db99"
     },
     {
       "path": "data/research-evolution.json",
-      "bytes": 221147,
-      "sha256": "e4f1484ac63d0927012d363a95b0ba69ab5d3301d432479e905399b6e50d21e3"
+      "bytes": 221103,
+      "sha256": "70721b652f97869594094b10c0718e9d08e155d23b177199299ca523fdddc67e"
     },
     {
       "path": "data/research-priority-agenda.json",
@@ -85,8 +85,8 @@
     },
     {
       "path": "data/company-public-context.json",
-      "bytes": 41279,
-      "sha256": "ca63c5df4f4f62576afaf0cdf86e6aeac1d041c7669c44950a1ebb138b64aa4c"
+      "bytes": 41175,
+      "sha256": "43c9c54e7eb6ab8a1ac0159575cad56a541bbb60b7b187ee27d7158051cdf1af"
     },
     {
       "path": "data/company-public-dossiers.json",
@@ -95,8 +95,8 @@
     },
     {
       "path": "data/company-fact-evidence.json",
-      "bytes": 102865,
-      "sha256": "1140a8a2049aaf261feff996310c48aadb97066b985967ee916314e7879a417d"
+      "bytes": 102878,
+      "sha256": "a0f661d828ebe59da3132feb3fccd2bf9cfaf75b179423e53c8b61fc35234878"
     }
   ]
 }
