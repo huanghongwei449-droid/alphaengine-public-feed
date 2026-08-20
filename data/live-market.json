@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-20T23:29:42.385Z",
+  "fetchedAt": "2026-08-20T23:53:11.879Z",
   "asOfDate": "2026-08-20",
   "sourceStatus": {
     "399001": {
@@ -26,15 +26,15 @@
     },
     "market": {
       "status": "failed",
-      "error": "TypeError: fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
   "indices": [
@@ -97,191 +97,9 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-08-20",
-    "industry": [
-      {
-        "code": "BK1216",
-        "name": "医药生物",
-        "pctChange": 4.42,
-        "mainNetBillion": 109.16,
-        "mainPct": 4.63,
-        "advanceCount": 471,
-        "declineCount": 35
-      },
-      {
-        "code": "BK0727",
-        "name": "医疗服务",
-        "pctChange": 6.06,
-        "mainNetBillion": 37.87,
-        "mainPct": 6.01,
-        "advanceCount": 52,
-        "declineCount": 2
-      },
-      {
-        "code": "BK0732",
-        "name": "贵金属",
-        "pctChange": 5.56,
-        "mainNetBillion": 33.8,
-        "mainPct": 9.51,
-        "advanceCount": 12,
-        "declineCount": 0
-      },
-      {
-        "code": "BK1044",
-        "name": "生物制品",
-        "pctChange": 8.64,
-        "mainNetBillion": 32.34,
-        "mainPct": 9.81,
-        "advanceCount": 56,
-        "declineCount": 2
-      },
-      {
-        "code": "BK0465",
-        "name": "化学制药",
-        "pctChange": 3.95,
-        "mainNetBillion": 29.42,
-        "mainPct": 3.41,
-        "advanceCount": 143,
-        "declineCount": 14
-      },
-      {
-        "code": "BK1600",
-        "name": "医疗研发外包",
-        "pctChange": 6.66,
-        "mainNetBillion": 29.19,
-        "mainPct": 5.58,
-        "advanceCount": 27,
-        "declineCount": 2
-      },
-      {
-        "code": "BK0478",
-        "name": "有色金属",
-        "pctChange": 0.46,
-        "mainNetBillion": 25.11,
-        "mainPct": 1.75,
-        "advanceCount": 81,
-        "declineCount": 60
-      },
-      {
-        "code": "BK1615",
-        "name": "铜",
-        "pctChange": 1.84,
-        "mainNetBillion": 24.16,
-        "mainPct": 7.33,
-        "advanceCount": 14,
-        "declineCount": 2
-      },
-      {
-        "code": "BK0448",
-        "name": "通信设备",
-        "pctChange": 3.27,
-        "mainNetBillion": 22.81,
-        "mainPct": 1.52,
-        "advanceCount": 78,
-        "declineCount": 13
-      },
-      {
-        "code": "BK1215",
-        "name": "通信",
-        "pctChange": 2.64,
-        "mainNetBillion": 22.35,
-        "mainPct": 1.36,
-        "advanceCount": 104,
-        "declineCount": 26
-      }
-    ],
-    "concept": [
-      {
-        "code": "BK1106",
-        "name": "创新药",
-        "pctChange": 4.85,
-        "mainNetBillion": 62.61,
-        "mainPct": 4.17,
-        "advanceCount": 184,
-        "declineCount": 13
-      },
-      {
-        "code": "BK0547",
-        "name": "黄金概念",
-        "pctChange": 2.17,
-        "mainNetBillion": 59.19,
-        "mainPct": 7.61,
-        "advanceCount": 54,
-        "declineCount": 16
-      },
-      {
-        "code": "BK1657",
-        "name": "病原体防治",
-        "pctChange": 4.79,
-        "mainNetBillion": 51.73,
-        "mainPct": 6.09,
-        "advanceCount": 154,
-        "declineCount": 14
-      },
-      {
-        "code": "BK1712",
-        "name": "医药医疗风格",
-        "pctChange": 4.63,
-        "mainNetBillion": 44.89,
-        "mainPct": 3.68,
-        "advanceCount": 94,
-        "declineCount": 6
-      },
-      {
-        "code": "BK1660",
-        "name": "光纤概念",
-        "pctChange": 3.05,
-        "mainNetBillion": 36.61,
-        "mainPct": 2.52,
-        "advanceCount": 60,
-        "declineCount": 14
-      },
-      {
-        "code": "BK0899",
-        "name": "CRO",
-        "pctChange": 5.72,
-        "mainNetBillion": 33.34,
-        "mainPct": 5.51,
-        "advanceCount": 43,
-        "declineCount": 3
-      },
-      {
-        "code": "BK1658",
-        "name": "创新医疗服务",
-        "pctChange": 3.98,
-        "mainNetBillion": 31.58,
-        "mainPct": 4.56,
-        "advanceCount": 70,
-        "declineCount": 9
-      },
-      {
-        "code": "BK0675",
-        "name": "病毒防治",
-        "pctChange": 4.81,
-        "mainNetBillion": 30.65,
-        "mainPct": 6.42,
-        "advanceCount": 102,
-        "declineCount": 6
-      },
-      {
-        "code": "BK1174",
-        "name": "合成生物",
-        "pctChange": 3.27,
-        "mainNetBillion": 29.28,
-        "mainPct": 5.18,
-        "advanceCount": 102,
-        "declineCount": 20
-      },
-      {
-        "code": "BK0986",
-        "name": "CAR-T细胞疗法",
-        "pctChange": 8.84,
-        "mainNetBillion": 28.41,
-        "mainPct": 8.36,
-        "advanceCount": 25,
-        "declineCount": 0
-      }
-    ],
-    "source": "东方财富公开板块资金"
+    "industry": [],
+    "concept": [],
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
