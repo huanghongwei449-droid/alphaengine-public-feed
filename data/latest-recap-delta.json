@@ -3,18 +3,18 @@
   "recapDate": "2026-08-20",
   "source": "tmp_recap_20260820/evidence_index.json",
   "publicEvidenceCount": 1,
-  "filteredPrivateEvidenceCount": 0,
+  "filteredPrivateEvidenceCount": 1,
   "duplicatePublicEvidenceRemoved": 0,
   "items": [
     {
-      "id": "ev_20260820_margin_leverage_stress",
+      "id": "ev_20260820_margin_leverage_stress_public",
       "date": "2026-08-20",
       "theme": "杠杆资金",
-      "event": "融资余额26411.51亿元，连续下降1日",
-      "logic": "两融余额、净偿还速度和指数破位共同决定去杠杆压力；市场汇总数据不能直接推导唯一强平点。",
+      "event": "融资资金近5个交易日约净减少62.32亿元，近10个交易日仍净增加约366.14亿元",
+      "logic": "融资余额与净偿还变化用于观察短线风险偏好，不足以单独确认系统性去杠杆。",
       "source": "a_stock_data",
       "relatedStocks": [],
-      "nextWatch": "观察融资净偿还是否进入60日极端分位、融资余额5日回撤及市场是否跌破近20日低点。"
+      "nextWatch": "观察融资压力是否继续恶化或收敛，并核对行业/概念横截面。"
     }
   ]
 }

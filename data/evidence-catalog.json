@@ -1,11 +1,11 @@
 {
   "schemaVersion": "alphaengine-evidence-catalog-v1",
-  "generatedAt": "2026-08-20T08:16:18.868Z",
+  "generatedAt": "2026-08-20T09:51:13.369Z",
   "asOfDate": "2026-08-20",
   "latestRecap": {
     "date": "2026-08-20",
     "sourceFile": "tmp_recap_20260820/evidence_index.json",
-    "publicEvidence": 0
+    "publicEvidence": 1
   },
   "evidence": [
     {
@@ -16510,6 +16510,29 @@
       "public_safe": true,
       "private_related": false,
       "sourceFile": "tmp_recap_20260819/evidence_index.json"
+    },
+    {
+      "id": "ev_20260820_margin_leverage_stress_public",
+      "evidence_id": "ev_20260820_margin_leverage_stress_public",
+      "date": "2026-08-20",
+      "theme": "杠杆资金",
+      "event": "融资资金近5个交易日约净减少62.32亿元，近10个交易日仍净增加约366.14亿元",
+      "logic": "融资余额与净偿还变化用于观察短线风险偏好，不足以单独确认系统性去杠杆。",
+      "relatedStocks": [],
+      "related_stocks": [],
+      "source": "a_stock_data",
+      "source_type": "a_stock_data",
+      "sourceTitle": "沪深两市融资融券历史汇总（公开摘要）",
+      "source_title": "沪深两市融资融券历史汇总（公开摘要）",
+      "funding": "融资资金近5日净变动约-62.32亿元，近10日约+366.14亿元；压力等级为watch，仍需结合市场宽度与资金序列确认。",
+      "fund_validation": "融资资金近5日净变动约-62.32亿元，近10日约+366.14亿元；压力等级为watch，仍需结合市场宽度与资金序列确认。",
+      "risk": "市场汇总资金数据不能替代完整的板块宽度与主力资金序列。",
+      "nextWatch": "观察融资压力是否继续恶化或收敛，并核对行业/概念横截面。",
+      "next_watch": "观察融资压力是否继续恶化或收敛，并核对行业/概念横截面。",
+      "reliability": "fund_flow_data",
+      "public_safe": true,
+      "private_related": false,
+      "sourceFile": "tmp_recap_20260820/evidence_index.json"
     },
     {
       "id": "ev_20260723_late_001",
