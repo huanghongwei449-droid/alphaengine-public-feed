@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-20T01:10:56.335Z",
+  "fetchedAt": "2026-08-20T02:30:55.448Z",
   "asOfDate": "2026-08-20",
   "sourceStatus": {
     "399001": {
@@ -29,8 +29,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
       "status": "failed",
@@ -41,55 +41,55 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3894.28,
+      "close": 3906.76,
       "previousClose": 3894.42,
-      "dailyPct": 0,
-      "high": null,
-      "low": null,
+      "dailyPct": 0.32,
+      "high": 3925.06,
+      "low": 3903.15,
       "asOfDate": "2026-08-20",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13890.15,
+      "close": 13996.08,
       "previousClose": 13890.15,
-      "dailyPct": 0,
-      "high": null,
-      "low": null,
+      "dailyPct": 0.76,
+      "high": 14101.14,
+      "low": 13950.01,
       "asOfDate": "2026-08-20",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3473.49,
+      "close": 3502.04,
       "previousClose": 3473.49,
-      "dailyPct": 0,
-      "high": null,
-      "low": null,
+      "dailyPct": 0.82,
+      "high": 3531.92,
+      "low": 3480.96,
       "asOfDate": "2026-08-20",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1667.52,
+      "close": 1666.51,
       "previousClose": 1667.52,
-      "dailyPct": 0,
-      "high": null,
-      "low": null,
+      "dailyPct": -0.06,
+      "high": 1694.36,
+      "low": 1661.07,
       "asOfDate": "2026-08-20",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4588.61,
+      "close": 4600,
       "previousClose": 4588.7,
-      "dailyPct": 0,
-      "high": null,
-      "low": null,
+      "dailyPct": 0.25,
+      "high": 4631.13,
+      "low": 4593.64,
       "asOfDate": "2026-08-20",
       "source": "腾讯 qt.gtimg.cn"
     }
@@ -99,7 +99,7 @@
     "date": "2026-08-20",
     "industry": [],
     "concept": [],
-    "source": "东方财富公开板块资金"
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
