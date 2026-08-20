@@ -1,9 +1,42 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-20T08:20:39.382Z",
+  "fetchedAt": "2026-08-20T08:37:04.094Z",
   "asOfDate": "2026-08-20",
-  "source": "腾讯指数 + 东方财富公开市场数据",
+  "sourceStatus": {
+    "399001": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "399006": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "000001": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "000688": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "000300": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "market": {
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
+    },
+    "industry": {
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
+    },
+    "concept": {
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
+    }
+  },
   "indices": [
     {
       "code": "000001",
@@ -11,13 +44,9 @@
       "close": 3903.72,
       "previousClose": 3894.42,
       "dailyPct": 0.24,
-      "open": 3907.21,
       "high": 3925.06,
       "low": 3888.1,
-      "volume": 506633954,
-      "amount": 101856835,
       "asOfDate": "2026-08-20",
-      "asOfTime": "20260820161402",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
@@ -26,13 +55,9 @@
       "close": 13972.78,
       "previousClose": 13890.15,
       "dailyPct": 0.59,
-      "open": 14032.97,
       "high": 14101.14,
       "low": 13870.18,
-      "volume": 596570236,
-      "amount": 106079489,
       "asOfDate": "2026-08-20",
-      "asOfTime": "20260820161451",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
@@ -41,13 +66,9 @@
       "close": 3495.59,
       "previousClose": 3473.49,
       "dailyPct": 0.64,
-      "open": 3517.65,
       "high": 3531.92,
       "low": 3459.57,
-      "volume": 182875324,
-      "amount": 52272690,
       "asOfDate": "2026-08-20",
-      "asOfTime": "20260820161406",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
@@ -56,13 +77,9 @@
       "close": 1652.97,
       "previousClose": 1667.52,
       "dailyPct": -0.87,
-      "open": 1685.48,
       "high": 1694.36,
       "low": 1638.29,
-      "volume": 9144025,
-      "amount": 9978581,
       "asOfDate": "2026-08-20",
-      "asOfTime": "20260820161414",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
@@ -71,13 +88,9 @@
       "close": 4592.75,
       "previousClose": 4588.7,
       "dailyPct": 0.09,
-      "open": 4613.3,
       "high": 4631.13,
       "low": 4569.23,
-      "volume": 200874189,
-      "amount": 55402107,
       "asOfDate": "2026-08-20",
-      "asOfTime": "20260820161414",
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
@@ -86,27 +99,7 @@
     "date": "2026-08-20",
     "industry": [],
     "concept": [],
-    "source": "",
-    "total": {
-      "industry": 0,
-      "concept": 0
-    }
+    "source": ""
   },
-  "sourceStatus": {
-    "indices": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    "market": {
-      "status": "failed",
-      "error": "fetch failed"
-    },
-    "industry": {
-      "status": "failed"
-    },
-    "concept": {
-      "status": "failed"
-    }
-  },
-  "note": "公开行情优先在线补取；GitHub Feed 保存最近一次公开快照；公司研究按股票代码在线更新。"
+  "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
