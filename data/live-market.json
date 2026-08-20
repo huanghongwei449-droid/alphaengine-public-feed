@@ -93,20 +93,102 @@
     }
   },
   "sourceStatus": {
-    "indices": {
+    "399001": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "399006": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "000001": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "000688": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    "000300": {
       "status": "ok",
       "source": "腾讯 qt.gtimg.cn"
     },
     "market": {
       "status": "failed",
-      "error": "fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "failed"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "failed"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
-  "note": "公开行情优先在线补取；GitHub Feed 保存最近一次公开快照；公司研究按股票代码在线更新。"
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "close": 3903.72,
+      "previousClose": 3894.42,
+      "dailyPct": 0.24,
+      "high": 3925.06,
+      "low": 3888.1,
+      "asOfDate": "2026-08-20",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "close": 13972.78,
+      "previousClose": 13890.15,
+      "dailyPct": 0.59,
+      "high": 14101.14,
+      "low": 13870.18,
+      "asOfDate": "2026-08-20",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "close": 3495.59,
+      "previousClose": 3473.49,
+      "dailyPct": 0.64,
+      "high": 3531.92,
+      "low": 3459.57,
+      "asOfDate": "2026-08-20",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "000688",
+      "name": "科创50",
+      "close": 1652.97,
+      "previousClose": 1667.52,
+      "dailyPct": -0.87,
+      "high": 1694.36,
+      "low": 1638.29,
+      "asOfDate": "2026-08-20",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "000300",
+      "name": "沪深300",
+      "close": 4592.75,
+      "previousClose": 4588.7,
+      "dailyPct": 0.09,
+      "high": 4631.13,
+      "low": 4569.23,
+      "asOfDate": "2026-08-20",
+      "source": "腾讯 qt.gtimg.cn"
+    }
+  ],
+  "market": null,
+  "sectorFlows": {
+    "date": "2026-08-20",
+    "industry": [],
+    "concept": [],
+    "source": ""
+  },
+  "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
