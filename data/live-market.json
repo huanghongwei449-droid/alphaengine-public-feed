@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-21T15:58:50.147Z",
+  "fetchedAt": "2026-08-21T16:43:30.065Z",
   "asOfDate": "2026-08-21",
   "sourceStatus": {
     "399001": {
@@ -33,8 +33,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
   "indices": [
@@ -98,99 +98,8 @@
   "sectorFlows": {
     "date": "2026-08-21",
     "industry": [],
-    "concept": [
-      {
-        "code": "BK0596",
-        "name": "融资融券",
-        "pctChange": -0.19,
-        "mainNetBillion": 157.34,
-        "mainPct": 0.94,
-        "advanceCount": 1650,
-        "declineCount": 2108
-      },
-      {
-        "code": "BK0804",
-        "name": "深股通",
-        "pctChange": 0.01,
-        "mainNetBillion": 144.13,
-        "mainPct": 1.61,
-        "advanceCount": 883,
-        "declineCount": 939
-      },
-      {
-        "code": "BK1749",
-        "name": "2026中报预增",
-        "pctChange": 0.55,
-        "mainNetBillion": 143.76,
-        "mainPct": 2.61,
-        "advanceCount": 340,
-        "declineCount": 220
-      },
-      {
-        "code": "BK0821",
-        "name": "MSCI中国",
-        "pctChange": -0.01,
-        "mainNetBillion": 141.39,
-        "mainPct": 1.73,
-        "advanceCount": 257,
-        "declineCount": 298
-      },
-      {
-        "code": "BK0714",
-        "name": "5G概念",
-        "pctChange": 1.13,
-        "mainNetBillion": 140.53,
-        "mainPct": 3.91,
-        "advanceCount": 217,
-        "declineCount": 102
-      },
-      {
-        "code": "BK1663",
-        "name": "大盘股",
-        "pctChange": 0.36,
-        "mainNetBillion": 136.45,
-        "mainPct": 2.33,
-        "advanceCount": 147,
-        "declineCount": 145
-      },
-      {
-        "code": "BK0568",
-        "name": "深成500",
-        "pctChange": -0.09,
-        "mainNetBillion": 134.01,
-        "mainPct": 2.4,
-        "advanceCount": 221,
-        "declineCount": 264
-      },
-      {
-        "code": "BK1650",
-        "name": "通信技术",
-        "pctChange": 1.13,
-        "mainNetBillion": 133.47,
-        "mainPct": 3.15,
-        "advanceCount": 258,
-        "declineCount": 116
-      },
-      {
-        "code": "BK0500",
-        "name": "HS300_",
-        "pctChange": 0.07,
-        "mainNetBillion": 130.83,
-        "mainPct": 2.59,
-        "advanceCount": 127,
-        "declineCount": 163
-      },
-      {
-        "code": "BK0867",
-        "name": "富时罗素",
-        "pctChange": -0.37,
-        "mainNetBillion": 123.93,
-        "mainPct": 1.42,
-        "advanceCount": 481,
-        "declineCount": 750
-      }
-    ],
-    "source": "东方财富公开板块资金"
+    "concept": [],
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
