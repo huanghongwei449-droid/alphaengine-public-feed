@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-21T04:23:28.703Z",
+  "fetchedAt": "2026-08-21T05:05:10.749Z",
   "asOfDate": "2026-08-21",
   "sourceStatus": {
     "399001": {
@@ -41,9 +41,9 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3903.81,
+      "close": 3898.93,
       "previousClose": 3903.72,
-      "dailyPct": 0,
+      "dailyPct": -0.12,
       "high": 3911.08,
       "low": 3883.79,
       "asOfDate": "2026-08-21",
@@ -52,9 +52,9 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 14061.45,
+      "close": 14054.76,
       "previousClose": 13972.78,
-      "dailyPct": 0.63,
+      "dailyPct": 0.59,
       "high": 14132.04,
       "low": 13866.39,
       "asOfDate": "2026-08-21",
@@ -63,7 +63,7 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3537.98,
+      "close": 3537.95,
       "previousClose": 3495.59,
       "dailyPct": 1.21,
       "high": 3563.06,
@@ -74,9 +74,9 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1654.19,
+      "close": 1649.63,
       "previousClose": 1652.97,
-      "dailyPct": 0.07,
+      "dailyPct": -0.2,
       "high": 1675.82,
       "low": 1640.62,
       "asOfDate": "2026-08-21",
@@ -85,9 +85,9 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4616.83,
+      "close": 4613.36,
       "previousClose": 4592.75,
-      "dailyPct": 0.52,
+      "dailyPct": 0.45,
       "high": 4629,
       "low": 4579.26,
       "asOfDate": "2026-08-21",
