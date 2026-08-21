@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-21T02:37:55.551Z",
+  "fetchedAt": "2026-08-21T03:36:33.012Z",
   "asOfDate": "2026-08-21",
   "sourceStatus": {
     "399001": {
@@ -29,8 +29,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
       "status": "failed",
@@ -41,9 +41,9 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3903.35,
+      "close": 3903.81,
       "previousClose": 3903.72,
-      "dailyPct": -0.01,
+      "dailyPct": 0,
       "high": 3911.08,
       "low": 3883.79,
       "asOfDate": "2026-08-21",
@@ -52,10 +52,10 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 14069.86,
+      "close": 14061.45,
       "previousClose": 13972.78,
-      "dailyPct": 0.69,
-      "high": 14113.9,
+      "dailyPct": 0.63,
+      "high": 14132.04,
       "low": 13866.39,
       "asOfDate": "2026-08-21",
       "source": "腾讯 qt.gtimg.cn"
@@ -63,9 +63,9 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3540.52,
+      "close": 3537.98,
       "previousClose": 3495.59,
-      "dailyPct": 1.29,
+      "dailyPct": 1.21,
       "high": 3563.06,
       "low": 3478.52,
       "asOfDate": "2026-08-21",
@@ -74,9 +74,9 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1656.33,
+      "close": 1654.19,
       "previousClose": 1652.97,
-      "dailyPct": 0.2,
+      "dailyPct": 0.07,
       "high": 1675.82,
       "low": 1640.62,
       "asOfDate": "2026-08-21",
@@ -85,10 +85,10 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4613.93,
+      "close": 4616.83,
       "previousClose": 4592.75,
-      "dailyPct": 0.46,
-      "high": 4623.04,
+      "dailyPct": 0.52,
+      "high": 4629,
       "low": 4579.26,
       "asOfDate": "2026-08-21",
       "source": "腾讯 qt.gtimg.cn"
@@ -97,9 +97,100 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-08-21",
-    "industry": [],
+    "industry": [
+      {
+        "code": "BK0448",
+        "name": "通信设备",
+        "pctChange": 1.24,
+        "mainNetBillion": 71.36,
+        "mainPct": 6.2,
+        "advanceCount": 54,
+        "declineCount": 34
+      },
+      {
+        "code": "BK1591",
+        "name": "通信网络设备及器件",
+        "pctChange": 1.11,
+        "mainNetBillion": 71.1,
+        "mainPct": 9.45,
+        "advanceCount": 24,
+        "declineCount": 12
+      },
+      {
+        "code": "BK1215",
+        "name": "通信",
+        "pctChange": 0.58,
+        "mainNetBillion": 65.57,
+        "mainPct": 5.38,
+        "advanceCount": 58,
+        "declineCount": 68
+      },
+      {
+        "code": "BK1201",
+        "name": "电子",
+        "pctChange": 0.41,
+        "mainNetBillion": 57.08,
+        "mainPct": 1.76,
+        "advanceCount": 278,
+        "declineCount": 234
+      },
+      {
+        "code": "BK0478",
+        "name": "有色金属",
+        "pctChange": 1.92,
+        "mainNetBillion": 56.71,
+        "mainPct": 5.92,
+        "advanceCount": 112,
+        "declineCount": 27
+      },
+      {
+        "code": "BK0459",
+        "name": "元件",
+        "pctChange": 0.85,
+        "mainNetBillion": 26.79,
+        "mainPct": 4.14,
+        "advanceCount": 47,
+        "declineCount": 20
+      },
+      {
+        "code": "BK1287",
+        "name": "工业金属",
+        "pctChange": 1.74,
+        "mainNetBillion": 24.74,
+        "mainPct": 8.18,
+        "advanceCount": 50,
+        "declineCount": 7
+      },
+      {
+        "code": "BK1340",
+        "name": "印制电路板",
+        "pctChange": 0.82,
+        "mainNetBillion": 24.3,
+        "mainPct": 4.88,
+        "advanceCount": 33,
+        "declineCount": 15
+      },
+      {
+        "code": "BK1615",
+        "name": "铜",
+        "pctChange": 2.26,
+        "mainNetBillion": 19.93,
+        "mainPct": 11.51,
+        "advanceCount": 17,
+        "declineCount": 0
+      },
+      {
+        "code": "BK0732",
+        "name": "贵金属",
+        "pctChange": 4.29,
+        "mainNetBillion": 19.69,
+        "mainPct": 7.54,
+        "advanceCount": 12,
+        "declineCount": 0
+      }
+    ],
     "concept": [],
-    "source": ""
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
