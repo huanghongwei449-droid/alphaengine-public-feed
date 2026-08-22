@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-22T21:46:40.151Z",
+  "fetchedAt": "2026-08-22T22:20:39.133Z",
   "asOfDate": "2026-08-21",
   "sourceStatus": {
     "399001": {
@@ -29,8 +29,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
       "status": "failed",
@@ -97,100 +97,9 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-08-21",
-    "industry": [
-      {
-        "code": "BK0478",
-        "name": "有色金属",
-        "pctChange": 2.59,
-        "mainNetBillion": 88.29,
-        "mainPct": 6.09,
-        "advanceCount": 121,
-        "declineCount": 21
-      },
-      {
-        "code": "BK1201",
-        "name": "电子",
-        "pctChange": 0.73,
-        "mainNetBillion": 85.53,
-        "mainPct": 1.75,
-        "advanceCount": 319,
-        "declineCount": 189
-      },
-      {
-        "code": "BK0448",
-        "name": "通信设备",
-        "pctChange": 1.34,
-        "mainNetBillion": 85.32,
-        "mainPct": 5.17,
-        "advanceCount": 60,
-        "declineCount": 30
-      },
-      {
-        "code": "BK1591",
-        "name": "通信网络设备及器件",
-        "pctChange": 1.06,
-        "mainNetBillion": 78.52,
-        "mainPct": 7.13,
-        "advanceCount": 26,
-        "declineCount": 11
-      },
-      {
-        "code": "BK1215",
-        "name": "通信",
-        "pctChange": 0.78,
-        "mainNetBillion": 78.13,
-        "mainPct": 4.45,
-        "advanceCount": 74,
-        "declineCount": 55
-      },
-      {
-        "code": "BK0459",
-        "name": "元件",
-        "pctChange": 1.51,
-        "mainNetBillion": 44.9,
-        "mainPct": 4.58,
-        "advanceCount": 49,
-        "declineCount": 18
-      },
-      {
-        "code": "BK1340",
-        "name": "印制电路板",
-        "pctChange": 1.43,
-        "mainNetBillion": 41.18,
-        "mainPct": 5.5,
-        "advanceCount": 34,
-        "declineCount": 14
-      },
-      {
-        "code": "BK1287",
-        "name": "工业金属",
-        "pctChange": 2.56,
-        "mainNetBillion": 34.5,
-        "mainPct": 7.12,
-        "advanceCount": 51,
-        "declineCount": 6
-      },
-      {
-        "code": "BK0732",
-        "name": "贵金属",
-        "pctChange": 5.99,
-        "mainNetBillion": 34.23,
-        "mainPct": 8.95,
-        "advanceCount": 12,
-        "declineCount": 0
-      },
-      {
-        "code": "BK1615",
-        "name": "铜",
-        "pctChange": 3.21,
-        "mainNetBillion": 27.82,
-        "mainPct": 9.81,
-        "advanceCount": 17,
-        "declineCount": 0
-      }
-    ],
+    "industry": [],
     "concept": [],
-    "source": "东方财富公开板块资金"
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
