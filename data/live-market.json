@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-23T08:59:55.444Z",
+  "fetchedAt": "2026-08-23T09:36:29.762Z",
   "asOfDate": "2026-08-21",
   "sourceStatus": {
     "399001": {
@@ -26,11 +26,11 @@
     },
     "market": {
       "status": "failed",
-      "error": "TypeError: fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "TypeError: fetch failed"
     },
     "concept": {
       "status": "failed",
