@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-24T02:39:03.814Z",
+  "fetchedAt": "2026-08-24T03:38:47.630Z",
   "asOfDate": "2026-08-24",
   "sourceStatus": {
     "399001": {
@@ -26,70 +26,70 @@
     },
     "market": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "TypeError: fetch failed"
     },
     "industry": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     }
   },
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3886.47,
+      "close": 3877.3,
       "previousClose": 3905.2,
-      "dailyPct": -0.48,
+      "dailyPct": -0.71,
       "high": 3910.24,
-      "low": 3882.52,
+      "low": 3867.43,
       "asOfDate": "2026-08-24",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13821.24,
+      "close": 13750.12,
       "previousClose": 14094.17,
-      "dailyPct": -1.94,
+      "dailyPct": -2.44,
       "high": 14118.15,
-      "low": 13817.01,
+      "low": 13713.37,
       "asOfDate": "2026-08-24",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3441.94,
+      "close": 3421.5,
       "previousClose": 3545.58,
-      "dailyPct": -2.92,
+      "dailyPct": -3.5,
       "high": 3551.51,
-      "low": 3440.12,
+      "low": 3411.9,
       "asOfDate": "2026-08-24",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1613.11,
+      "close": 1599.65,
       "previousClose": 1653.56,
-      "dailyPct": -2.45,
+      "dailyPct": -3.26,
       "high": 1651.96,
-      "low": 1612.13,
+      "low": 1590.89,
       "asOfDate": "2026-08-24",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4574.59,
+      "close": 4560.85,
       "previousClose": 4618.9,
-      "dailyPct": -0.96,
+      "dailyPct": -1.26,
       "high": 4621.39,
-      "low": 4572.93,
+      "low": 4551.01,
       "asOfDate": "2026-08-24",
       "source": "腾讯 qt.gtimg.cn"
     }
@@ -97,191 +97,9 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-08-24",
-    "industry": [
-      {
-        "code": "BK0478",
-        "name": "有色金属",
-        "pctChange": 0.19,
-        "mainNetBillion": 20.58,
-        "mainPct": 1.95,
-        "advanceCount": 62,
-        "declineCount": 78
-      },
-      {
-        "code": "BK1287",
-        "name": "工业金属",
-        "pctChange": 0.05,
-        "mainNetBillion": 12.12,
-        "mainPct": 3.78,
-        "advanceCount": 25,
-        "declineCount": 32
-      },
-      {
-        "code": "BK1615",
-        "name": "铜",
-        "pctChange": 0.33,
-        "mainNetBillion": 9.15,
-        "mainPct": 4.5,
-        "advanceCount": 8,
-        "declineCount": 9
-      },
-      {
-        "code": "BK1203",
-        "name": "非银金融",
-        "pctChange": 0.47,
-        "mainNetBillion": 6.78,
-        "mainPct": 3.21,
-        "advanceCount": 57,
-        "declineCount": 19
-      },
-      {
-        "code": "BK1015",
-        "name": "能源金属",
-        "pctChange": 2.05,
-        "mainNetBillion": 5.99,
-        "mainPct": 4.92,
-        "advanceCount": 10,
-        "declineCount": 1
-      },
-      {
-        "code": "BK0437",
-        "name": "煤炭",
-        "pctChange": 2.21,
-        "mainNetBillion": 5.95,
-        "mainPct": 6.21,
-        "advanceCount": 29,
-        "declineCount": 4
-      },
-      {
-        "code": "BK1621",
-        "name": "锂",
-        "pctChange": 2.83,
-        "mainNetBillion": 5.56,
-        "mainPct": 5.33,
-        "advanceCount": 8,
-        "declineCount": 0
-      },
-      {
-        "code": "BK1326",
-        "name": "半导体设备",
-        "pctChange": 0.41,
-        "mainNetBillion": 5.14,
-        "mainPct": 2.47,
-        "advanceCount": 16,
-        "declineCount": 9
-      },
-      {
-        "code": "BK1623",
-        "name": "钼",
-        "pctChange": 4.22,
-        "mainNetBillion": 4.92,
-        "mainPct": 13.61,
-        "advanceCount": 3,
-        "declineCount": 0
-      },
-      {
-        "code": "BK1306",
-        "name": "蓄电池及其他电池",
-        "pctChange": 0.21,
-        "mainNetBillion": 4.81,
-        "mainPct": 31.68,
-        "advanceCount": 3,
-        "declineCount": 7
-      }
-    ],
-    "concept": [
-      {
-        "code": "BK0695",
-        "name": "小金属概念",
-        "pctChange": 0.26,
-        "mainNetBillion": 19.73,
-        "mainPct": 2.25,
-        "advanceCount": 59,
-        "declineCount": 56
-      },
-      {
-        "code": "BK0519",
-        "name": "稀缺资源",
-        "pctChange": 0.64,
-        "mainNetBillion": 18.62,
-        "mainPct": 3.03,
-        "advanceCount": 45,
-        "declineCount": 30
-      },
-      {
-        "code": "BK0547",
-        "name": "黄金概念",
-        "pctChange": 1.24,
-        "mainNetBillion": 14.03,
-        "mainPct": 2.15,
-        "advanceCount": 42,
-        "declineCount": 29
-      },
-      {
-        "code": "BK1112",
-        "name": "破净股",
-        "pctChange": 0.08,
-        "mainNetBillion": 13.77,
-        "mainPct": 2.9,
-        "advanceCount": 219,
-        "declineCount": 182
-      },
-      {
-        "code": "BK1173",
-        "name": "锂矿概念",
-        "pctChange": 0.57,
-        "mainNetBillion": 11.22,
-        "mainPct": 3.42,
-        "advanceCount": 21,
-        "declineCount": 13
-      },
-      {
-        "code": "BK1197",
-        "name": "反内卷概念",
-        "pctChange": 0.22,
-        "mainNetBillion": 10.23,
-        "mainPct": 2.57,
-        "advanceCount": 74,
-        "declineCount": 76
-      },
-      {
-        "code": "BK0966",
-        "name": "碳交易",
-        "pctChange": -0.59,
-        "mainNetBillion": 9.23,
-        "mainPct": 5.04,
-        "advanceCount": 44,
-        "declineCount": 93
-      },
-      {
-        "code": "BK1641",
-        "name": "红利股",
-        "pctChange": 0.72,
-        "mainNetBillion": 9,
-        "mainPct": 3.24,
-        "advanceCount": 76,
-        "declineCount": 21
-      },
-      {
-        "code": "BK1636",
-        "name": "红利破净股",
-        "pctChange": 1.07,
-        "mainNetBillion": 8.42,
-        "mainPct": 4.97,
-        "advanceCount": 36,
-        "declineCount": 4
-      },
-      {
-        "code": "BK1723",
-        "name": "低市净率",
-        "pctChange": 0.22,
-        "mainNetBillion": 8.18,
-        "mainPct": 3.57,
-        "advanceCount": 121,
-        "declineCount": 65
-      }
-    ],
-    "source": "东方财富公开板块资金"
+    "industry": [],
+    "concept": [],
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
