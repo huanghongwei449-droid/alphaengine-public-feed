@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-24T06:03:23.935Z",
+  "fetchedAt": "2026-08-24T07:20:47.250Z",
   "asOfDate": "2026-08-24",
   "sourceStatus": {
     "399001": {
@@ -33,17 +33,17 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3860.87,
+      "close": 3882.01,
       "previousClose": 3905.2,
-      "dailyPct": -1.14,
+      "dailyPct": -0.59,
       "high": 3910.24,
       "low": 3855.35,
       "asOfDate": "2026-08-24",
@@ -52,9 +52,9 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13644.51,
+      "close": 13794.29,
       "previousClose": 14094.17,
-      "dailyPct": -3.19,
+      "dailyPct": -2.13,
       "high": 14118.15,
       "low": 13616.75,
       "asOfDate": "2026-08-24",
@@ -63,9 +63,9 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3383.65,
+      "close": 3431.89,
       "previousClose": 3545.58,
-      "dailyPct": -4.57,
+      "dailyPct": -3.21,
       "high": 3551.51,
       "low": 3376.64,
       "asOfDate": "2026-08-24",
@@ -74,9 +74,9 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1580.65,
+      "close": 1602.34,
       "previousClose": 1653.56,
-      "dailyPct": -4.41,
+      "dailyPct": -3.1,
       "high": 1651.96,
       "low": 1575.28,
       "asOfDate": "2026-08-24",
@@ -85,9 +85,9 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4534.26,
+      "close": 4563.13,
       "previousClose": 4618.9,
-      "dailyPct": -1.83,
+      "dailyPct": -1.21,
       "high": 4621.39,
       "low": 4527.49,
       "asOfDate": "2026-08-24",
@@ -98,99 +98,8 @@
   "sectorFlows": {
     "date": "2026-08-24",
     "industry": [],
-    "concept": [
-      {
-        "code": "BK1636",
-        "name": "红利破净股",
-        "pctChange": 0.94,
-        "mainNetBillion": 8.61,
-        "mainPct": 3.07,
-        "advanceCount": 32,
-        "declineCount": 8
-      },
-      {
-        "code": "BK1641",
-        "name": "红利股",
-        "pctChange": 0.58,
-        "mainNetBillion": 7.98,
-        "mainPct": 1.77,
-        "advanceCount": 72,
-        "declineCount": 26
-      },
-      {
-        "code": "BK1112",
-        "name": "破净股",
-        "pctChange": -0.24,
-        "mainNetBillion": 7.14,
-        "mainPct": 0.94,
-        "advanceCount": 181,
-        "declineCount": 216
-      },
-      {
-        "code": "BK0632",
-        "name": "土地流转",
-        "pctChange": 0.2,
-        "mainNetBillion": 5.93,
-        "mainPct": 5.99,
-        "advanceCount": 15,
-        "declineCount": 29
-      },
-      {
-        "code": "BK0966",
-        "name": "碳交易",
-        "pctChange": -1.08,
-        "mainNetBillion": 5.75,
-        "mainPct": 2.08,
-        "advanceCount": 31,
-        "declineCount": 103
-      },
-      {
-        "code": "BK1197",
-        "name": "反内卷概念",
-        "pctChange": -0.21,
-        "mainNetBillion": 5.47,
-        "mainPct": 0.94,
-        "advanceCount": 73,
-        "declineCount": 80
-      },
-      {
-        "code": "BK1173",
-        "name": "锂矿概念",
-        "pctChange": -0.45,
-        "mainNetBillion": 5.35,
-        "mainPct": 1.09,
-        "advanceCount": 11,
-        "declineCount": 24
-      },
-      {
-        "code": "BK1723",
-        "name": "低市净率",
-        "pctChange": -0.07,
-        "mainNetBillion": 5.2,
-        "mainPct": 1.41,
-        "advanceCount": 98,
-        "declineCount": 85
-      },
-      {
-        "code": "BK0519",
-        "name": "稀缺资源",
-        "pctChange": -0.16,
-        "mainNetBillion": 5.08,
-        "mainPct": 0.56,
-        "advanceCount": 36,
-        "declineCount": 41
-      },
-      {
-        "code": "BK0547",
-        "name": "黄金概念",
-        "pctChange": 0.15,
-        "mainNetBillion": 4.07,
-        "mainPct": 0.45,
-        "advanceCount": 25,
-        "declineCount": 43
-      }
-    ],
-    "source": "东方财富公开板块资金"
+    "concept": [],
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
