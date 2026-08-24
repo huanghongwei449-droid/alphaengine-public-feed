@@ -1,36 +1,36 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-24T03:38:47.630Z",
+  "fetchedAt": "2026-08-24T04:29:13.025Z",
   "asOfDate": "2026-08-24",
   "sourceStatus": {
     "399001": {
       "status": "ok",
       "source": "腾讯 qt.gtimg.cn"
     },
-    "399006": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sz399006": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000688": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000688": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000300": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000300": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "market": {
       "status": "failed",
-      "error": "TypeError: fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
       "status": "failed",
-      "error": "TypeError: fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
       "status": "failed",
@@ -39,17 +39,6 @@
   },
   "indices": [
     {
-      "code": "000001",
-      "name": "上证指数",
-      "close": 3877.3,
-      "previousClose": 3905.2,
-      "dailyPct": -0.71,
-      "high": 3910.24,
-      "low": 3867.43,
-      "asOfDate": "2026-08-24",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
       "code": "399001",
       "name": "深证成指",
       "close": 13750.12,
@@ -57,39 +46,6 @@
       "dailyPct": -2.44,
       "high": 14118.15,
       "low": 13713.37,
-      "asOfDate": "2026-08-24",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "close": 3421.5,
-      "previousClose": 3545.58,
-      "dailyPct": -3.5,
-      "high": 3551.51,
-      "low": 3411.9,
-      "asOfDate": "2026-08-24",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000688",
-      "name": "科创50",
-      "close": 1599.65,
-      "previousClose": 1653.56,
-      "dailyPct": -3.26,
-      "high": 1651.96,
-      "low": 1590.89,
-      "asOfDate": "2026-08-24",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000300",
-      "name": "沪深300",
-      "close": 4560.85,
-      "previousClose": 4618.9,
-      "dailyPct": -1.26,
-      "high": 4621.39,
-      "low": 4551.01,
       "asOfDate": "2026-08-24",
       "source": "腾讯 qt.gtimg.cn"
     }
