@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-25T03:31:30.986Z",
+  "fetchedAt": "2026-08-25T04:24:06.202Z",
   "asOfDate": "2026-08-25",
   "sourceStatus": {
     "399001": {
@@ -26,15 +26,15 @@
     },
     "market": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "TypeError: fetch failed"
     },
     "industry": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "TypeError: fetch failed"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
   "indices": [
@@ -98,99 +98,8 @@
   "sectorFlows": {
     "date": "2026-08-25",
     "industry": [],
-    "concept": [
-      {
-        "code": "BK1138",
-        "name": "液冷服务器",
-        "pctChange": 0.68,
-        "mainNetBillion": 43.28,
-        "mainPct": 4.37,
-        "advanceCount": 103,
-        "declineCount": 54
-      },
-      {
-        "code": "BK0922",
-        "name": "数据中心",
-        "pctChange": 0.65,
-        "mainNetBillion": 26.92,
-        "mainPct": 2.27,
-        "advanceCount": 194,
-        "declineCount": 105
-      },
-      {
-        "code": "BK1090",
-        "name": "机器人概念",
-        "pctChange": 0.67,
-        "mainNetBillion": 26.3,
-        "mainPct": 1.65,
-        "advanceCount": 479,
-        "declineCount": 258
-      },
-      {
-        "code": "BK1064",
-        "name": "东数西算",
-        "pctChange": 1.08,
-        "mainNetBillion": 24.82,
-        "mainPct": 7.03,
-        "advanceCount": 48,
-        "declineCount": 23
-      },
-      {
-        "code": "BK0634",
-        "name": "大数据",
-        "pctChange": 1.18,
-        "mainNetBillion": 19.5,
-        "mainPct": 2.64,
-        "advanceCount": 231,
-        "declineCount": 57
-      },
-      {
-        "code": "BK0601",
-        "name": "海工装备",
-        "pctChange": 1.12,
-        "mainNetBillion": 19.06,
-        "mainPct": 5.91,
-        "advanceCount": 58,
-        "declineCount": 17
-      },
-      {
-        "code": "BK0549",
-        "name": "深圳特区",
-        "pctChange": 0.86,
-        "mainNetBillion": 18.47,
-        "mainPct": 2.09,
-        "advanceCount": 224,
-        "declineCount": 115
-      },
-      {
-        "code": "BK0689",
-        "name": "阿里概念",
-        "pctChange": 0.95,
-        "mainNetBillion": 18.08,
-        "mainPct": 2.86,
-        "advanceCount": 136,
-        "declineCount": 47
-      },
-      {
-        "code": "BK0852",
-        "name": "冷链物流",
-        "pctChange": 1.61,
-        "mainNetBillion": 18,
-        "mainPct": 7.41,
-        "advanceCount": 98,
-        "declineCount": 14
-      },
-      {
-        "code": "BK1646",
-        "name": "消费电子概念",
-        "pctChange": 0.22,
-        "mainNetBillion": 16.28,
-        "mainPct": 1.55,
-        "advanceCount": 107,
-        "declineCount": 93
-      }
-    ],
-    "source": "东方财富公开板块资金"
+    "concept": [],
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
