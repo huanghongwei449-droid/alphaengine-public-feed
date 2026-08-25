@@ -1,0 +1,1127 @@
+{
+  "schemaVersion": "company-research-state-v2",
+  "company": {
+    "code": "300017",
+    "name": "网宿科技",
+    "exchange": "深交所",
+    "industry": "互联网服务",
+    "themes": [
+      "CDN/边缘计算",
+      "IT服务Ⅲ",
+      "IT服务Ⅱ",
+      "计算机",
+      "人工智能",
+      "一带一路",
+      "电商概念",
+      "在线教育"
+    ]
+  },
+  "freshness": "fresh",
+  "researchStatus": "changed",
+  "thesisAsOf": "2026-08-24",
+  "dataAsOf": "2026-08-24",
+  "lastEvidenceScanAt": "2026-08-24T15:50:25.326Z",
+  "lastRefreshAt": "2026-08-24T15:50:25.326Z",
+  "refreshReasons": [
+    "manual Research Pipeline run",
+    "2026-08-14 official half-year report",
+    "2026-08-19 repurchase-related disclosure",
+    "2026-08-24 market window"
+  ],
+  "staleReason": null,
+  "currentView": {
+    "currentStage": "divergence_rising",
+    "oneLineThesis": "H1 报告口径利润仍弱，但同口径收入与 Q2 经营回升；成熟业务修复呈 mixed，边缘 AI 仍未完成公司级验证。",
+    "coreTension": "现在最关键的矛盾不是 headline 收入下降本身，而是同口径经营增长能否持续传导到利润、现金流和公司级边缘 AI 验证。",
+    "secondaryTension": "资本动作和行业主题可以改善预期，但不能替代客户、订单、利用率、利润和现金流验证。",
+    "whyNow": "正式 H1 报告同时给出了合并范围变化、Q2 环比、汇兑损失、股份支付和分部收入，足以把旧的 headline 判断拆成经营桥接再复核。",
+    "currentMarketMispricing": "市场可能把合并范围变化后的 headline 下滑与主营恶化混在一起，也可能把同口径回升过早交易成完整重估；当前证据只能确认两者存在张力。"
+  },
+  "delta": {
+    "previousVersion": "company-research-previous-state-frozen-v1:2026-07-16",
+    "previousThesis": "成熟 CDN 业务修复决定估值底，边缘 AI 是可选增量；需要订单、中报和连续市场强弱确认。",
+    "newEvidenceSummary": "相较 2026-07-16 旧研究档案，新增正式 H1 财报、Financial Bridge、回购相关公告和窗口末市场数据；财务变化是 mixed 而非 headline-only，边缘 AI 公司级收入验证仍未回答，市场独立定价为部分确认。",
+    "whatChanged": [
+      "正式 H1 报告给出 headline、同口径、Q2、非经营项目和分部变化",
+      "回购专项贷款承诺函增加资本动作线索",
+      "窗口末个股、指数和板块数据提供新的市场验证"
+    ],
+    "whatDidNotChange": [
+      "边缘 AI 仍不能用行业叙事替代公司级收入或订单",
+      "核心研究需要把经营、市场和商业化验证分开"
+    ],
+    "currentThesisChange": "weakened",
+    "recentChanges": [
+      {
+        "date": "2026-08-14",
+        "type": "financial",
+        "fact": "H1 headline 收入和归母利润同比为负，但同口径收入和 Q2 经营数据为正，且汇兑、股份支付费用增加。",
+        "impactOnThesis": "财务方向为 mixed，不能只按 headline 判断。",
+        "impactLevel": "high",
+        "evidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630",
+          "financial-segments-300017-20260630"
+        ]
+      },
+      {
+        "date": "2026-08-19",
+        "type": "capital_action",
+        "fact": "披露取得金融机构股票回购专项贷款承诺函。",
+        "impactOnThesis": "提供资本动作线索，但不替代经营兑现。",
+        "impactLevel": "medium",
+        "evidenceIds": [
+          "cninfo-300017-20260819-1225481582"
+        ]
+      },
+      {
+        "date": "2026-08-24",
+        "type": "market",
+        "fact": "窗口末个股与板块验证偏弱。",
+        "impactOnThesis": "市场验证从修复转为分歧。",
+        "impactLevel": "high",
+        "evidenceIds": [
+          "market-300017-20260824-kline",
+          "market-300017-20260824-quote",
+          "industry-300017-20260824"
+        ]
+      }
+    ]
+  },
+  "financialBridge": {
+    "schemaVersion": "company-financial-bridge-v2",
+    "companyCode": "300017",
+    "reportDate": "2026-06-30",
+    "reconciliation": {
+      "fields": [
+        {
+          "field": "revenue",
+          "unit": "yuan",
+          "officialValue": 2318113258.38,
+          "thirdPartyValue": 2318113258.38,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "revenueYoY",
+          "unit": "percent",
+          "officialValue": -1.3807909051055,
+          "thirdPartyValue": -1.381,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "netProfit",
+          "unit": "yuan",
+          "officialValue": 347899361.77,
+          "thirdPartyValue": 347899361.77,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "netProfitYoY",
+          "unit": "percent",
+          "officialValue": -6.6056193090554105,
+          "thirdPartyValue": -6.605999999999999,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "adjustedProfit",
+          "unit": "yuan",
+          "officialValue": 240880717.94,
+          "thirdPartyValue": null,
+          "status": "official_wins",
+          "discrepancy": "第三方结构化接口未返回可用字段，采用官方报告",
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "operatingCashFlow",
+          "unit": "yuan",
+          "officialValue": 364781673.59,
+          "thirdPartyValue": 364781673.59,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "grossMargin",
+          "unit": "percent",
+          "officialValue": 35.91885991506237,
+          "thirdPartyValue": 35.91885991506237,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        },
+        {
+          "field": "financeExpense",
+          "unit": "yuan",
+          "officialValue": 135884451.22,
+          "thirdPartyValue": 135884451.22,
+          "status": "matched",
+          "discrepancy": null,
+          "officialEvidenceIds": [
+            "financial-official-300017-20260630"
+          ],
+          "thirdPartyEvidenceIds": [
+            "financial-300017-20260630"
+          ]
+        }
+      ],
+      "summary": "正式半年度报告是财务事实最高权威；结构化第三方字段用于交叉核对，缺失或冲突时不覆盖官方口径。"
+    },
+    "reported_change": {
+      "revenue": {
+        "value": 2318113258.38,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "yoy = current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {
+          "current": 2318113258.38,
+          "prior": 2350569711.17
+        },
+        "priorValue": 2350569711.17,
+        "yoy": -1.3807909051055
+      },
+      "netProfit": {
+        "value": 347899361.77,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "yoy = current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {
+          "current": 347899361.77,
+          "prior": 372505668.11
+        },
+        "priorValue": 372505668.11,
+        "yoy": -6.6056193090554105
+      },
+      "adjustedProfit": {
+        "value": 240880717.94,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "yoy = current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {
+          "current": 240880717.94,
+          "prior": 261400687.87
+        },
+        "priorValue": 261400687.87,
+        "yoy": -7.8500060949361465
+      },
+      "operatingCashFlow": {
+        "value": 364781673.59,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "yoy = current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {
+          "current": 364781673.59,
+          "prior": 376042322.07
+        },
+        "priorValue": 376042322.07,
+        "yoy": -2.9945162603011055
+      },
+      "interpretation": "报告口径收入和归母净利润同比下降，但这组 headline 变化需要与合并范围、同口径经营、汇兑损失和股份支付一起解释。",
+      "evidenceIds": [
+        "financial-official-300017-20260630"
+      ]
+    },
+    "underlying_operating_change": {
+      "q1Revenue": {
+        "value": 1115680358.38,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "q1Revenue = h1Revenue - q2Revenue",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {
+          "h1Revenue": 2318113258.38,
+          "q2Revenue": 1202432900
+        }
+      },
+      "q2Revenue": {
+        "value": 1202432900,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "q1NetProfit": {
+        "value": 120746061.77,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "q1NetProfit = h1NetProfit - q2NetProfit",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {
+          "h1NetProfit": 347899361.77,
+          "q2NetProfit": 227153300
+        }
+      },
+      "q2NetProfit": {
+        "value": 227153300,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "operatingCost": {
+        "value": 1485473404.43,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "sameScopeRevenueYoY": {
+        "value": 13.11,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "q2RevenueYoY": {
+        "value": 7.79,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "q2RevenueQoQ": {
+        "value": 7.775752344154108,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "q2RevenueQoQ = q2Revenue / q1Revenue - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {
+          "q2Revenue": 1202432900,
+          "q1Revenue": 1115680358.38
+        }
+      },
+      "q2NetProfitYoY": {
+        "value": 26.73,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "q2NetProfitQoQ": {
+        "value": 88.12481059025103,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "q2NetProfitQoQ = q2NetProfit / q1NetProfit - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {
+          "q2NetProfit": 227153300,
+          "q1NetProfit": 120746061.77
+        }
+      },
+      "grossMargin": {
+        "value": 35.91885991506237,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "grossMargin = (revenue - operatingCost) / revenue",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {
+          "revenue": 2318113258.38,
+          "operatingCost": 1485473404.43
+        }
+      },
+      "interpretation": "同一合并范围收入同比增长，第二季度收入和归母净利润同比、环比均为正；因此不能仅凭 H1 headline revenue YoY 判定主营经营恶化。整体毛利率由官方收入与营业成本程序推导。",
+      "evidenceIds": [
+        "financial-bridge-300017-20260630"
+      ]
+    },
+    "consolidation_effect": {
+      "summary": "公司说明上年处置股权导致相关主体不再纳入合并范围；按相同合并范围计算，收入同比增长 13.11%。",
+      "sameScopeRevenueYoY": {
+        "value": 13.11,
+        "unit": "percent",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "evidenceIds": [
+        "financial-bridge-300017-20260630"
+      ]
+    },
+    "non_operating_effect": {
+      "foreignExchangeLoss": {
+        "value": 49087900,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "foreignExchangeLossIncrease": {
+        "value": 135385800,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "stockBasedCompensation": {
+        "value": 136505400,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "stockBasedCompensationIncrease": {
+        "value": 70923100,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "financeExpense": {
+        "value": 135884451.22,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "derived_from_official",
+        "derived": true,
+        "formula": "yoy = current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {
+          "current": 135884451.22,
+          "prior": -49839257.71
+        },
+        "priorValue": -49839257.71,
+        "yoy": -372.64541540861563
+      },
+      "fairValueChangeGain": {
+        "value": 96580377.22,
+        "unit": "yuan",
+        "evidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "provenance": "directly_disclosed",
+        "derived": false,
+        "formula": null,
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "inputs": {}
+      },
+      "summary": "汇兑损失和股份支付费用同比增加，财务费用显著转差；公允价值变动收益仍是重要利润表项目。它们共同说明归母利润 headline 弱于同口径经营表现，不能把全部变化归因于主营。",
+      "evidenceIds": [
+        "financial-bridge-300017-20260630"
+      ]
+    },
+    "segment_change": {
+      "segments": [
+        {
+          "name": "CDN和边缘计算",
+          "revenue": {
+            "value": 1368299310.6,
+            "unit": "yuan",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {},
+            "priorValue": null,
+            "yoy": -9.52
+          },
+          "grossMargin": {
+            "value": 15.85,
+            "unit": "percent",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "grossMarginChange": {
+            "value": -0.48,
+            "unit": "percentage_points",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "evidenceIds": [
+            "financial-segments-300017-20260630"
+          ]
+        },
+        {
+          "name": "安全及增值",
+          "revenue": {
+            "value": 789665169.91,
+            "unit": "yuan",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {},
+            "priorValue": null,
+            "yoy": 22.1
+          },
+          "grossMargin": {
+            "value": 74.03,
+            "unit": "percent",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "grossMarginChange": {
+            "value": -3.2,
+            "unit": "percentage_points",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "evidenceIds": [
+            "financial-segments-300017-20260630"
+          ]
+        },
+        {
+          "name": "IDC及液冷",
+          "revenue": {
+            "value": 127911653.51,
+            "unit": "yuan",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {},
+            "priorValue": null,
+            "yoy": 1.53
+          },
+          "grossMargin": {
+            "value": 15.8,
+            "unit": "percent",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "grossMarginChange": {
+            "value": -2.12,
+            "unit": "percentage_points",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "evidenceIds": [
+            "financial-segments-300017-20260630"
+          ]
+        },
+        {
+          "name": "商业销售及其他",
+          "revenue": {
+            "value": 32237124.36,
+            "unit": "yuan",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {},
+            "priorValue": null,
+            "yoy": -50.87
+          },
+          "grossMargin": {
+            "value": 34.05,
+            "unit": "percent",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "grossMarginChange": {
+            "value": 7.84,
+            "unit": "percentage_points",
+            "evidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "provenance": "directly_disclosed",
+            "derived": false,
+            "formula": null,
+            "sourceEvidenceIds": [
+              "financial-segments-300017-20260630"
+            ],
+            "inputs": {}
+          },
+          "evidenceIds": [
+            "financial-segments-300017-20260630"
+          ]
+        }
+      ],
+      "summary": "安全及增值业务收入同比增长，CDN 和边缘计算收入同比下降；各分部毛利率变化仍需与公司级客户、订单和利用率继续核验。",
+      "evidenceIds": [
+        "financial-segments-300017-20260630"
+      ]
+    },
+    "arithmeticInvariants": [
+      {
+        "id": "h1-revenue-q1-plus-q2",
+        "lhs": 2318113258.38,
+        "rhs": 2318113258.38,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "h1Revenue ≈ q1Revenue + q2Revenue",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "h1-net-profit-q1-plus-q2",
+        "lhs": 347899361.77,
+        "rhs": 347899361.77,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "h1NetProfit ≈ q1NetProfit + q2NetProfit",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "q2-revenue-qoq",
+        "lhs": 7.775752344154108,
+        "rhs": 7.775752344154114,
+        "difference": -6.217248937900877e-15,
+        "tolerance": 0.01,
+        "formula": "q2RevenueQoQ ≈ q2Revenue / q1Revenue - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "q2-net-profit-qoq",
+        "lhs": 88.12481059025103,
+        "rhs": 88.12481059025103,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "q2NetProfitQoQ ≈ q2NetProfit / q1NetProfit - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "gross-margin",
+        "lhs": 35.91885991506237,
+        "rhs": 35.91885991506237,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "grossMargin ≈ (revenue - operatingCost) / revenue",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630",
+          "financial-bridge-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "reported-revenue-yoy",
+        "lhs": -1.3807909051055,
+        "rhs": -1.3807909051055,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "reportedRevenueYoY ≈ current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "reported-net-profit-yoy",
+        "lhs": -6.6056193090554105,
+        "rhs": -6.6056193090554105,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "reportedNetProfitYoY ≈ current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "reported-adjusted-profit-yoy",
+        "lhs": -7.8500060949361465,
+        "rhs": -7.8500060949361465,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "reportedAdjustedProfitYoY ≈ current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "reported-ocf-yoy",
+        "lhs": -2.9945162603011055,
+        "rhs": -2.9945162603011055,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "reportedOperatingCashFlowYoY ≈ current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-official-300017-20260630"
+        ],
+        "passed": true
+      },
+      {
+        "id": "finance-expense-yoy",
+        "lhs": -372.64541540861563,
+        "rhs": -372.64541540861563,
+        "difference": 0,
+        "tolerance": 0.01,
+        "formula": "financeExpenseYoY ≈ current / prior - 1",
+        "sourceEvidenceIds": [
+          "financial-bridge-300017-20260630"
+        ],
+        "passed": true
+      }
+    ],
+    "unresolved": [
+      "边缘 AI 尚无公司级客户、订单、收入或利用率的本窗口正式披露",
+      "同口径收入增长能否持续传导到毛利率、经营现金流和估值仍需下一报告窗口验证"
+    ]
+  },
+  "evidenceAssessment": {
+    "supporting": [
+      "financial-official-300017-20260630",
+      "financial-bridge-300017-20260630",
+      "financial-segments-300017-20260630",
+      "cninfo-300017-20260819-1225481582",
+      "industry-300017-20260824"
+    ],
+    "opposing": [
+      "financial-segments-300017-20260630",
+      "market-300017-20260824-kline",
+      "market-300017-20260824-quote"
+    ],
+    "conflicts": [
+      "financial-reconciliation-300017-20260630"
+    ],
+    "unknowns": [
+      "ima-300017-window-scan-20260824"
+    ]
+  },
+  "focusedBusiness": {
+    "currentRelevantBusiness": "当前相关业务仍是 CDN/云分发与云安全基本盘；安全及增值业务已有分部收入增长，边缘 AI 仍是需要单独验证的增量。",
+    "industryPosition": "公司处于互联网服务与信息基础设施服务环节，靠近应用交付、网络安全和边缘资源。",
+    "whatMarketIsTrading": "市场交易 CDN/安全业务修复、同口径经营回升与边缘 AI 增量预期，同时消化 H1 headline 利润压力。",
+    "whatActuallyMatters": "同口径收入增长能否持续传导到分部毛利率、归母利润和经营现金流，以及边缘 AI 是否出现公司级客户、订单、收入或利用率披露。",
+    "whatIsBackgroundOnly": [
+      "海外云平台或芯片景气不能直接推出公司订单",
+      "仅有行业热度、单日资金或主题标签不能替代公司级兑现",
+      "旧研究档案仅用于上一状态，不是本窗口新证据"
+    ]
+  },
+  "externalResearchDelta": [
+    {
+      "date": "2026-08-24",
+      "sourceType": "ima_public_safe_index",
+      "newInformation": "窗口扫描未发现新的公司级公开研究记录。",
+      "impact": "neutral",
+      "remainingUnverified": "边缘 AI 的客户、合同、收入和利用率仍需公司公告或定期报告验证。",
+      "evidenceIds": [
+        "ima-300017-window-scan-20260824"
+      ]
+    }
+  ],
+  "marketValidation": {
+    "verdict": "partial",
+    "priceAction": "窗口末个股价格、近 5/10/20 日结构和较阶段高点回撤显示验证偏弱。",
+    "relativeStrength": "窗口末个股与主要指数、所属板块的单日对照偏弱；没有完整长期相对强弱序列。",
+    "volumeStructure": "窗口末量价结构只支持分歧描述，不支持持续资金趋势结论。",
+    "sectorConfirmation": "公开互联网服务、云计算、网络安全板块对照偏弱，更多说明当日环境，不能外推长期相对强弱。",
+    "capitalConfirmation": "回购专项贷款承诺函是资本层支持线索，但不是经营收入、客户或利润验证。",
+    "interpretation": "市场层面对主题仍有交易，但截至窗口末尚不足以确认公司级独立重估；结论为部分确认。",
+    "evidenceIds": [
+      "market-300017-20260824-kline",
+      "market-300017-20260824-quote",
+      "market-index-20260824-public-feed",
+      "industry-300017-20260824",
+      "cninfo-300017-20260819-1225481582"
+    ]
+  },
+  "assessment": {
+    "winRate": {
+      "level": "medium",
+      "reason": "正式 H1 报告和同口径桥接提高了事实质量，但边缘 AI 商业化和经营改善的持续性尚未验证；这是证据成熟度分级，不是统计概率。"
+    },
+    "odds": {
+      "level": "average",
+      "reason": "同口径经营回升提供上行路径，分部 CDN 下滑、汇兑/股份支付扰动和公司级 AI 验证缺失提供下行路径，暂不能机械映射为高赔率。",
+      "upsideScenario": "同口径收入与分部毛利率继续改善，经营现金流保持可核验增长，并出现边缘 AI 客户、订单或收入披露。",
+      "downsideScenario": "同口径增长不能持续传导到毛利率、利润和现金流，边缘 AI 仍无公司级兑现，市场验证继续弱于板块。"
+    },
+    "confidence": {
+      "level": "medium_high",
+      "reason": "正式报告、公开结构化字段、分部表和市场数据已交叉核对；但同口径增长的持续性与边缘 AI 商业化仍缺连续证据。"
+    },
+    "calibratedProbability": null,
+    "largestInformationGap": "high"
+  },
+  "checkpoints": [
+    {
+      "id": "cp-mature-business",
+      "question": "成熟业务的修复是否仍在延续？",
+      "expectedWindow": "下一次定期报告",
+      "whatToWatch": "同口径收入增速、分部毛利率、安全业务表现和经营现金流。",
+      "evidenceNeeded": [
+        "financial-official-300017-20260630",
+        "financial-bridge-300017-20260630",
+        "financial-segments-300017-20260630"
+      ],
+      "changeConditions": {
+        "upgrade": [
+          "同口径收入维持增长且分部毛利率继续改善，并能解释现金流变化。"
+        ],
+        "downgrade": [
+          "同口径收入或毛利率未能延续改善，或利润变化无法解释。"
+        ],
+        "invalidate": [
+          "成熟业务出现持续性收缩并且价格修复无法传导到经营结果。"
+        ]
+      },
+      "evolution": [
+        {
+          "date": "2026-08-14",
+          "stageFrom": "thesis_valid_waiting",
+          "stageTo": "divergence_rising",
+          "reason": "H1 报告把 headline 下滑、同口径增长、分部变化和非经营因素同时带入，原假设需要拆分验证。",
+          "keyEvidenceIds": [
+            "financial-official-300017-20260630",
+            "financial-bridge-300017-20260630"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cp-edge-ai-revenue",
+      "question": "边缘 AI 是否从叙事变成可见收入？",
+      "expectedWindow": "未来一至两个财报窗口",
+      "whatToWatch": "边缘 AI 业务收入、客户、合同、利用率或可核验交付。",
+      "evidenceNeeded": [
+        "ima-300017-window-scan-20260824"
+      ],
+      "changeConditions": {
+        "upgrade": [
+          "出现公司级客户、订单、收入或利用率披露，并能与利润或现金流对应。"
+        ],
+        "downgrade": [
+          "只有行业讨论，没有公司级订单、收入或客户证据。"
+        ],
+        "invalidate": [
+          "公司披露相关业务不构成独立收入或长期无法形成可验证商业化。"
+        ]
+      },
+      "evolution": []
+    },
+    {
+      "id": "cp-independent-pricing",
+      "question": "市场是否愿意给它独立定价？",
+      "expectedWindow": "每个交易周",
+      "whatToWatch": "相对互联网服务、云计算/网络安全板块与成长指数的持续强弱；分歧日成交和承接。",
+      "evidenceNeeded": [
+        "market-300017-20260824-kline",
+        "market-300017-20260824-quote",
+        "industry-300017-20260824",
+        "market-index-20260824-public-feed"
+      ],
+      "changeConditions": {
+        "upgrade": [
+          "在板块分歧日保持持续相对强势，并伴随公司级经营证据。"
+        ],
+        "downgrade": [
+          "只有单日脉冲，随后回落或连续弱于同类核心。"
+        ],
+        "invalidate": [
+          "价格与经营证据同时恶化，且无法形成独立定价。"
+        ]
+      },
+      "evolution": []
+    }
+  ],
+  "sourceEvidence": [
+    "company-profile-300017-20260824",
+    "financial-300017-20260630",
+    "financial-derived-gross-margin-300017-20260630",
+    "financial-official-300017-20260630",
+    "cninfo-300017-h1-20260814",
+    "financial-bridge-300017-20260630",
+    "financial-segments-300017-20260630",
+    "financial-reconciliation-300017-20260630",
+    "cninfo-300017-20260820-1225485117",
+    "cninfo-300017-20260819-1225481519",
+    "cninfo-300017-20260819-1225481583",
+    "cninfo-300017-20260819-1225481582",
+    "cninfo-300017-20260814-1225474759",
+    "cninfo-300017-20260814-1225474758",
+    "cninfo-300017-20260814-1225474757",
+    "cninfo-300017-20260814-1225474756",
+    "cninfo-300017-20260814-1225474755",
+    "cninfo-300017-20260814-1225474754",
+    "cninfo-300017-20260814-1225474753",
+    "cninfo-300017-20260810-1225466770",
+    "cninfo-300017-20260804-1225457957",
+    "cninfo-300017-20260804-1225457956",
+    "cninfo-300017-20260804-1225457955",
+    "cninfo-300017-20260804-1225457954",
+    "cninfo-300017-20260730-1225448806",
+    "cninfo-300017-20260730-1225448805",
+    "cninfo-300017-20260730-1225448804",
+    "cninfo-300017-20260730-1225448803",
+    "market-300017-20260824-quote",
+    "market-300017-20260824-kline",
+    "market-index-20260824-public-feed",
+    "industry-300017-20260824",
+    "ima-300017-window-scan-20260824"
+  ]
+}

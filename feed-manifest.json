@@ -97,6 +97,11 @@
       "path": "data/live-market.json",
       "bytes": 6801,
       "sha256": "6a0f453d19fdf84b44bce141e38527e78603976c353e9785d31c9fadb07b7395"
+    },
+    {
+      "path": "data/company-research-state-v2/300017.json",
+      "bytes": 39443,
+      "sha256": "5c96af377c542883ade564a503583121837134d76c9633971bc89d1295c51f0e"
     }
   ]
 }
