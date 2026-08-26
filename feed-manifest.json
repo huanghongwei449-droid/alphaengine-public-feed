@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-26T11:01:07.584Z",
+  "generatedAt": "2026-08-26T11:44:55.059Z",
   "sourceSnapshot": "2026-08-20T09:51:13.504Z",
   "asOfDate": "2026-08-26",
   "topics": 7,
@@ -101,7 +101,7 @@
     {
       "path": "data/live-market.json",
       "bytes": 2433,
-      "sha256": "25cd71ee0da4db45b8b9cf4b50a820eb4cc20256e8bd19d4b4a4720173c36449"
+      "sha256": "b728b2b7d1373eabc918993dde5783e64546bf32e93a5e1a97f41c39639a9834"
     }
   ]
 }
