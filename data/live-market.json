@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-26T08:54:51.702Z",
+  "fetchedAt": "2026-08-26T09:40:10.241Z",
   "asOfDate": "2026-08-26",
   "sourceStatus": {
     "399001": {
@@ -26,15 +26,15 @@
     },
     "market": {
       "status": "failed",
-      "error": "TypeError: fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
       "status": "failed",
-      "error": "TypeError: fetch failed"
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
@@ -98,8 +98,99 @@
   "sectorFlows": {
     "date": "2026-08-26",
     "industry": [],
-    "concept": [],
-    "source": ""
+    "concept": [
+      {
+        "code": "BK0707",
+        "name": "沪股通",
+        "pctChange": 0.5,
+        "mainNetBillion": 105.82,
+        "mainPct": 1.38,
+        "advanceCount": 987,
+        "declineCount": 619
+      },
+      {
+        "code": "BK1749",
+        "name": "2026中报预增",
+        "pctChange": 0.38,
+        "mainNetBillion": 95.45,
+        "mainPct": 1.82,
+        "advanceCount": 303,
+        "declineCount": 260
+      },
+      {
+        "code": "BK0596",
+        "name": "融资融券",
+        "pctChange": 0.25,
+        "mainNetBillion": 92.51,
+        "mainPct": 0.58,
+        "advanceCount": 2086,
+        "declineCount": 1675
+      },
+      {
+        "code": "BK0821",
+        "name": "MSCI中国",
+        "pctChange": 0.86,
+        "mainNetBillion": 91.77,
+        "mainPct": 1.18,
+        "advanceCount": 384,
+        "declineCount": 176
+      },
+      {
+        "code": "BK0499",
+        "name": "AH股",
+        "pctChange": 1.04,
+        "mainNetBillion": 91.04,
+        "mainPct": 3.52,
+        "advanceCount": 145,
+        "declineCount": 56
+      },
+      {
+        "code": "BK1639",
+        "name": "周期股",
+        "pctChange": 1.09,
+        "mainNetBillion": 83.98,
+        "mainPct": 4.25,
+        "advanceCount": 72,
+        "declineCount": 25
+      },
+      {
+        "code": "BK1663",
+        "name": "大盘股",
+        "pctChange": 0.84,
+        "mainNetBillion": 81.13,
+        "mainPct": 1.44,
+        "advanceCount": 207,
+        "declineCount": 88
+      },
+      {
+        "code": "BK0500",
+        "name": "HS300_",
+        "pctChange": 0.9,
+        "mainNetBillion": 79.86,
+        "mainPct": 1.63,
+        "advanceCount": 221,
+        "declineCount": 74
+      },
+      {
+        "code": "BK1662",
+        "name": "权重股",
+        "pctChange": 1.04,
+        "mainNetBillion": 67.99,
+        "mainPct": 3.71,
+        "advanceCount": 39,
+        "declineCount": 11
+      },
+      {
+        "code": "BK0637",
+        "name": "互联网金融",
+        "pctChange": 1.53,
+        "mainNetBillion": 66.66,
+        "mainPct": 5.95,
+        "advanceCount": 151,
+        "declineCount": 36
+      }
+    ],
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
