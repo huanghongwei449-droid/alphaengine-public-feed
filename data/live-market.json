@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-26T02:46:55.405Z",
+  "fetchedAt": "2026-08-26T03:53:31.349Z",
   "asOfDate": "2026-08-26",
   "sourceStatus": {
     "399001": {
@@ -30,20 +30,20 @@
     },
     "industry": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "TypeError: fetch failed"
     },
     "concept": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "TypeError: fetch failed"
     }
   },
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3920.45,
+      "close": 3916.83,
       "previousClose": 3889.44,
-      "dailyPct": 0.8,
+      "dailyPct": 0.7,
       "high": 3926.44,
       "low": 3881.74,
       "asOfDate": "2026-08-26",
@@ -52,7 +52,7 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13911.32,
+      "close": 13911.29,
       "previousClose": 13745.87,
       "dailyPct": 1.2,
       "high": 13948.69,
@@ -63,7 +63,7 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3444.01,
+      "close": 3444.05,
       "previousClose": 3397.52,
       "dailyPct": 1.37,
       "high": 3455.89,
@@ -74,10 +74,10 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1636.25,
+      "close": 1639.58,
       "previousClose": 1604.59,
-      "dailyPct": 1.97,
-      "high": 1641.07,
+      "dailyPct": 2.18,
+      "high": 1644.72,
       "low": 1598.44,
       "asOfDate": "2026-08-26",
       "source": "腾讯 qt.gtimg.cn"
@@ -85,9 +85,9 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4603.27,
+      "close": 4600.77,
       "previousClose": 4552.03,
-      "dailyPct": 1.13,
+      "dailyPct": 1.07,
       "high": 4612.04,
       "low": 4542.84,
       "asOfDate": "2026-08-26",
