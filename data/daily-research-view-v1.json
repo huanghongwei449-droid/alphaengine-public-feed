@@ -25,8 +25,8 @@
     "riskBudget": {
       "current": 3,
       "scale": 3,
-      "previous": null,
-      "change": null,
+      "previous": 2,
+      "change": "raised",
       "reason": "积极但选择性",
       "asOfPhase": "postclose",
       "downgradeIf": "AI第一次分歧时CPO、光纤、PCB容量核心同步失去承接，同时主力资金转弱且市场宽度明显收缩，则研究风险预算降回2/3。"
@@ -35,8 +35,8 @@
   "riskBudget": {
     "current": 3,
     "scale": 3,
-    "previous": null,
-    "change": null,
+    "previous": 2,
+    "change": "raised",
     "reason": "积极但选择性",
     "asOfPhase": "postclose",
     "downgradeIf": "AI第一次分歧时CPO、光纤、PCB容量核心同步失去承接，同时主力资金转弱且市场宽度明显收缩，则研究风险预算降回2/3。"
@@ -52,15 +52,15 @@
           "entityId": "dir-ai-cpo",
           "label": "CPO/光通信",
           "researchRole": "direction",
-          "lifecycleState": "effective",
-          "whyToday": "高位容量没有继续充当全链拖累，板块宽度恢复。",
-          "upgradeIf": "下一次分歧中容量核心继续稳定。"
+          "lifecycleState": "validation",
+          "whyToday": "英伟达财报后首先要验证高位估值与筹码压力是否缓解。",
+          "upgradeIf": "中际旭创、新易盛至少一个稳定承接且板块宽度恢复。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "高位核心不再拖累全链且板块宽度恢复。",
-        "invalidateIf": "下一交易日重新成为全链拖累。",
+        "confirmIf": "中际旭创、新易盛至少一个稳定承接，高位CPO不再成为全链拖累。",
+        "invalidateIf": "高位CPO继续明显弱于市场并拖累AI整体宽度。",
         "anchors": [
           {
             "entityType": "company",
@@ -89,15 +89,15 @@
           "entityId": "dir-fiber-physical-link",
           "label": "光纤光缆/低位物理连接",
           "researchRole": "direction",
-          "lifecycleState": "effective",
-          "whyToday": "利好日没有集体兑现，继续保持宽度与强价格表达。",
-          "upgradeIf": "首次明显分歧时容量与趋势核心继续承接。"
+          "lifecycleState": "trigger",
+          "whyToday": "前一日已完成第二次市场选择，今天要验证利好日是否出现兑现还是继续承接。",
+          "upgradeIf": "高开后仍有2至3个容量或趋势核心保持主动承接。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "利好日仍有板块宽度与容量核心承接。",
-        "invalidateIf": "下一交易日集体高开低走并失去宽度。",
+        "confirmIf": "板块高开后仍保持宽度，至少2至3个容量或趋势核心主动承接。",
+        "invalidateIf": "英伟达利好下集体高开低走且板块宽度快速消失。",
         "anchors": [
           {
             "entityType": "company",
@@ -108,6 +108,16 @@
             "entityType": "company",
             "entityId": "603618",
             "label": "杭电股份"
+          },
+          {
+            "entityType": "company",
+            "entityId": "600487",
+            "label": "亨通光电"
+          },
+          {
+            "entityType": "company",
+            "entityId": "600522",
+            "label": "中天科技"
           }
         ]
       },
@@ -127,14 +137,14 @@
           "label": "液冷/算力温控",
           "researchRole": "direction",
           "lifecycleState": "trigger",
-          "whyToday": "方向继续活跃，需求逻辑与价格表达仍在。",
-          "upgradeIf": "下一次分歧时容量核心继续强于AI整体。"
+          "whyToday": "英伟达继续强化高算力密度需求，但方向是否有效仍要由容量与板块宽度确认。",
+          "upgradeIf": "英维克、申菱环境等容量锚承接且板块保持跨日宽度。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "方向继续活跃且核心保持承接。",
-        "invalidateIf": "核心集体补跌、板块宽度消失。",
+        "confirmIf": "容量核心保持承接且板块宽度延续。",
+        "invalidateIf": "只有消息刺激而核心不承接、板块宽度迅速消失。",
         "anchors": [
           {
             "entityType": "company",
@@ -163,15 +173,15 @@
           "entityId": "dir-ai-profit-diffusion",
           "label": "AI硬件盈利扩散",
           "researchRole": "direction",
-          "lifecycleState": "validation",
-          "whyToday": "盘前产业业绩簇与当天PCB、半导体、通信的板块宽度形成强共振。",
-          "upgradeIf": "第二个交易日仍保持容量与宽度。"
+          "lifecycleState": "research",
+          "whyToday": "Knowledge Star出现深南电路、盛科通信、杰华特、智立方等跨环节业绩簇，需要盘面验证是否从单点信息升级为方向。",
+          "upgradeIf": "PCB、交换、电源、测试中至少一个新增分支形成板块级响应。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "至少一个新增硬件分支形成多公司同步增强。",
-        "invalidateIf": "第二个交易日只剩小票接力、容量核心兑现。",
+        "confirmIf": "PCB、交换芯片、电源或测试至少一个新环节形成多公司同步响应。",
+        "invalidateIf": "仅有单一财报票脉冲，其他环节没有宽度与资金响应。",
         "anchors": [
           {
             "entityType": "company",
@@ -212,15 +222,15 @@
           "entityId": "dir-ai-cpo",
           "label": "CPO/光通信",
           "researchRole": "direction",
-          "lifecycleState": "effective",
-          "whyToday": "高位容量没有继续充当全链拖累，板块宽度恢复。",
-          "upgradeIf": "下一次分歧中容量核心继续稳定。"
+          "lifecycleState": "validation",
+          "whyToday": "英伟达财报后首先要验证高位估值与筹码压力是否缓解。",
+          "upgradeIf": "中际旭创、新易盛至少一个稳定承接且板块宽度恢复。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "高位核心不再拖累全链且板块宽度恢复。",
-        "invalidateIf": "下一交易日重新成为全链拖累。",
+        "confirmIf": "中际旭创、新易盛至少一个稳定承接，高位CPO不再成为全链拖累。",
+        "invalidateIf": "高位CPO继续明显弱于市场并拖累AI整体宽度。",
         "anchors": [
           {
             "entityType": "company",
@@ -249,15 +259,15 @@
           "entityId": "dir-fiber-physical-link",
           "label": "光纤光缆/低位物理连接",
           "researchRole": "direction",
-          "lifecycleState": "effective",
-          "whyToday": "利好日没有集体兑现，继续保持宽度与强价格表达。",
-          "upgradeIf": "首次明显分歧时容量与趋势核心继续承接。"
+          "lifecycleState": "trigger",
+          "whyToday": "前一日已完成第二次市场选择，今天要验证利好日是否出现兑现还是继续承接。",
+          "upgradeIf": "高开后仍有2至3个容量或趋势核心保持主动承接。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "利好日仍有板块宽度与容量核心承接。",
-        "invalidateIf": "下一交易日集体高开低走并失去宽度。",
+        "confirmIf": "板块高开后仍保持宽度，至少2至3个容量或趋势核心主动承接。",
+        "invalidateIf": "英伟达利好下集体高开低走且板块宽度快速消失。",
         "anchors": [
           {
             "entityType": "company",
@@ -268,6 +278,16 @@
             "entityType": "company",
             "entityId": "603618",
             "label": "杭电股份"
+          },
+          {
+            "entityType": "company",
+            "entityId": "600487",
+            "label": "亨通光电"
+          },
+          {
+            "entityType": "company",
+            "entityId": "600522",
+            "label": "中天科技"
           }
         ]
       },
@@ -287,14 +307,14 @@
           "label": "液冷/算力温控",
           "researchRole": "direction",
           "lifecycleState": "trigger",
-          "whyToday": "方向继续活跃，需求逻辑与价格表达仍在。",
-          "upgradeIf": "下一次分歧时容量核心继续强于AI整体。"
+          "whyToday": "英伟达继续强化高算力密度需求，但方向是否有效仍要由容量与板块宽度确认。",
+          "upgradeIf": "英维克、申菱环境等容量锚承接且板块保持跨日宽度。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "方向继续活跃且核心保持承接。",
-        "invalidateIf": "核心集体补跌、板块宽度消失。",
+        "confirmIf": "容量核心保持承接且板块宽度延续。",
+        "invalidateIf": "只有消息刺激而核心不承接、板块宽度迅速消失。",
         "anchors": [
           {
             "entityType": "company",
@@ -323,15 +343,15 @@
           "entityId": "dir-ai-profit-diffusion",
           "label": "AI硬件盈利扩散",
           "researchRole": "direction",
-          "lifecycleState": "validation",
-          "whyToday": "盘前产业业绩簇与当天PCB、半导体、通信的板块宽度形成强共振。",
-          "upgradeIf": "第二个交易日仍保持容量与宽度。"
+          "lifecycleState": "research",
+          "whyToday": "Knowledge Star出现深南电路、盛科通信、杰华特、智立方等跨环节业绩簇，需要盘面验证是否从单点信息升级为方向。",
+          "upgradeIf": "PCB、交换、电源、测试中至少一个新增分支形成板块级响应。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "至少一个新增硬件分支形成多公司同步增强。",
-        "invalidateIf": "第二个交易日只剩小票接力、容量核心兑现。",
+        "confirmIf": "PCB、交换芯片、电源或测试至少一个新环节形成多公司同步响应。",
+        "invalidateIf": "仅有单一财报票脉冲，其他环节没有宽度与资金响应。",
         "anchors": [
           {
             "entityType": "company",
