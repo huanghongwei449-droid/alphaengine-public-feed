@@ -105,8 +105,8 @@
     },
     {
       "path": "data/daily-research-reports.json",
-      "bytes": 26957,
-      "sha256": "a689ce4839e03f9baf48feb403a16bcf1eb5c5237d0975c5cd08e96ac51b9abf"
+      "bytes": 26953,
+      "sha256": "0cf66b3239481f40e54cac994417adaa516284c6128e90fc4247e635a59ae90c"
     },
     {
       "path": "data/live-market.json",
