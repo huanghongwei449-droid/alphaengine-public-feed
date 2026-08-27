@@ -1,0 +1,57 @@
+{
+  "schemaVersion": "yanshu-daily-research-view-v1",
+  "publicSafe": true,
+  "meta": {
+    "requestedDate": "2026-08-27",
+    "researchDate": "2026-08-27",
+    "phase": "premarket",
+    "researchAsOf": "2026-08-27T08:09:11+08:00",
+    "generatedAt": "2026-08-27T02:43:12.098Z",
+    "sourceSnapshotDate": "2026-08-27",
+    "canonical": true,
+    "viewStatus": "partial",
+    "freshness": "fresh"
+  },
+  "currentView": {
+    "headline": "2026-08-27 盘前研究｜英伟达把全球风险偏好重新拉回 AI，今天要判的是 A 股能否从“低位迁移”升级成整条基础设施链共振",
+    "summary": "英伟达财报后的关键增量不是单家公司超预期，而是盘后AI风险偏好重新转强：英伟达由财报后初跌转为盘后约+4%，纳指100期货接近+1%，强化全球AI Capex仍在加速的市场定价。结合8月26日A股多支点修复与Knowledge Star国内AI硬件业绩簇，今天风险预算维持2/3向上偏置，核心验证是高位CPO止跌、光纤/液冷分歧承接及PCB/交换芯片/电源测试的跨环节扩散能否同时成立。"
+  },
+  "market": {
+    "state": "multi_anchor_repair_with_global_ai_risk_on_repricing",
+    "temperature": "neutral_positive",
+    "summary": "中性偏积极",
+    "rewardedPattern": "AI基础设施业绩/产能兑现 + 容量确认优先，资源价格兑现与金融Beta作为第二支点",
+    "riskBudget": {
+      "current": 2,
+      "scale": 3,
+      "previous": null,
+      "change": null,
+      "reason": "中性偏积极",
+      "asOfPhase": "premarket"
+    }
+  },
+  "hypotheses": [],
+  "marketStructureChanges": [],
+  "opportunityChanges": [],
+  "nextChecks": [],
+  "reports": [
+    {
+      "id": "report-20260827-premarket",
+      "type": "premarket",
+      "title": "2026-08-27 盘前研究｜英伟达把全球风险偏好重新拉回 AI，今天要判的是 A 股能否从“低位迁移”升级成整条基础设施链共振",
+      "researchDate": "2026-08-27",
+      "publishedAt": "2026-08-27T08:09:11+08:00",
+      "canonical": true,
+      "sourceRef": "data/daily-research-reports.json#report-20260827-premarket"
+    }
+  ],
+  "coverage": {
+    "currentView": "available",
+    "market": "available",
+    "hypotheses": "notUpdated",
+    "marketStructureChanges": "notUpdated",
+    "opportunityChanges": "notUpdated",
+    "nextChecks": "notUpdated",
+    "reports": "available"
+  }
+}
