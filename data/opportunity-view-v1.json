@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "yanshu-opportunity-view-v1",
+  "publicSafe": true,
+  "meta": {
+    "requestedDate": "2026-08-27",
+    "researchDate": "2026-08-27",
+    "researchAsOf": "2026-08-27T15:28:00+08:00",
+    "generatedAt": "2026-08-27T15:58:00+08:00",
+    "phase": "postclose",
+    "canonical": true,
+    "viewStatus": "current",
+    "freshness": "fresh"
+  },
+  "marketSummary": {
+    "summary": "AI从内部迁移升级为阶段性主线确认，市场奖励的是有业绩、产能、供需或跨环节验证的硬件分支；AIDC电力同步走弱说明共享AI标签已不足以获得同等定价。",
+    "mainline": "AI基础设施重新拿回主线定价权，CPO、光纤、PCB、半导体与液冷形成跨环节共振。",
+    "rotation": "工业金属、大金融继续保留第二支点，但优先级下移；贵金属在宏观逆风下仍被股票端重新选择。",
+    "secondWave": "光纤光缆升级为主线内有效方向，液冷维持触发；联特科技仍等待个股级重新选择。",
+    "stealth": "PCB/载板与磷化铟进入新增验证层；裕太微、芯源微仍属于未充分价格化观察，尚未完成个股级确认。",
+    "dynamicPool": "金盘科技因AIDC电力负反馈被剔除；北特科技因机器人未获新增主导资金选择而维持偏弱。",
+    "nextChecks": [
+      "AI第一次主线确认后的分歧能否被承接，CPO、光纤、PCB至少两个分支的容量核心是否继续稳定。",
+      "PCB/载板第二个交易日是否仍有容量与板块宽度。",
+      "AIDC电力是否继续在AI强势时掉队，只有板块级修复才重新评估。",
+      "主力资金若继续正向且融资停止连续下降，风险偏好扩张才获得更完整确认。"
+    ]
+  },
+  "opportunities": [
+    {
+      "id": "opp-20260827-ai-infrastructure",
+      "entityType": "direction",
+      "entityId": "dir-ai-infrastructure",
+      "name": "AI基础设施",
+      "kind": "mainline",
+      "lifecycle": "upgrade",
+      "industryTheme": "AI硬件/算力基础设施",
+      "whyToday": "CPO、光纤、PCB、半导体和液冷共同活跃，盘前国内AI硬件业绩簇与盘面形成跨环节共振，AI从内部迁移升级为阶段性主线确认。",
+      "marketContext": "市场风险状态升至3/3，但融资连续下降，当前强度主要来自主动资金向高确定性硬件分支集中。",
+      "evidence": [
+        {
+          "id": "ev-ai-close-report",
+          "label": "8月27日收盘复盘：AI阶段性主线确认",
+          "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+        },
+        {
+          "id": "ev-ai-pcb-cluster",
+          "label": "Knowledge Star：PCB/交换/电源/测试业绩簇",
+          "sourceRef": "KnowledgeStar:PCB-ABF-芯碁微装-20260827"
+        }
+      ],
+      "capitalFeatures": "电子、半导体、通信成为当天新增资金最强承载方向，主力资金近5日4天为正且当日强度居近5日第一。",
+      "patternFeatures": "高位CPO不再拖累，低位光纤与液冷延续，PCB和半导体新扩散，形成高低位与跨环节共同确认。",
+      "fundamentalLogic": "英伟达AI Capex强度与国内硬件盈利兑现共同验证需求，市场进一步按盈利、产能与供需兑现速度进行分层定价。",
+      "confidence": {
+        "level": "high",
+        "reason": "产业锚、国内业绩簇、板块宽度和容量表现同时确认，但融资尚未同步改善。"
+      },
+      "supportingFactors": [
+        "CPO/光通信恢复板块宽度",
+        "光纤与液冷继续有价格表达",
+        "PCB/载板和半导体形成新增扩散",
+        "风险端涨停77家、跌停2家"
+      ],
+      "risks": [
+        "融资连续下降，杠杆资金未同步确认",
+        "若下一交易日强势分支集体高开低走，可能退化为事件峰值"
+      ],
+      "confirmTomorrow": "第一次明显分歧时，CPO、光纤、PCB至少两个分支的容量核心继续承接且市场宽度不明显收缩。",
+      "invalidateIf": "CPO、光纤、PCB容量核心同步转弱，主力资金转负且市场宽度明显收缩。",
+      "companyCodes": [
+        "300308",
+        "300502",
+        "002916",
+        "601869",
+        "002837"
+      ]
+    },
+    {
+      "id": "opp-20260827-fiber",
+      "entityType": "direction",
+      "entityId": "dir-fiber-physical-link",
+      "name": "光纤光缆/低位物理连接",
+      "kind": "second_wave",
+      "lifecycle": "upgrade",
+      "industryTheme": "AI光互联/物理连接",
+      "whyToday": "前一日完成第二次市场选择后，今天在英伟达利好下没有集体兑现，继续保持板块宽度与强价格表达。",
+      "marketContext": "AI主线重新确认后，光纤承担低位弹性与物理连接扩散，是主线内部完成多日重新选择的方向。",
+      "evidence": [
+        {
+          "id": "ev-fiber-close",
+          "label": "光纤光缆收盘确认",
+          "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+        }
+      ],
+      "capitalFeatures": "连续多日获得市场重新选择，当日仍保持板块宽度。",
+      "patternFeatures": "从低位迁移、触发池进一步升级为主线内有效方向，下一步看首次明显分歧承接。",
+      "fundamentalLogic": "AI算力基础设施扩张增加高速光互联与物理连接需求，当前产业逻辑得到连续价格验证。",
+      "confidence": {
+        "level": "high",
+        "reason": "产业逻辑、连续重新选择与利好日分歧承接同时成立。"
+      },
+      "supportingFactors": [
+        "长飞光纤、杭电股份等继续形成强价格表达",
+        "板块宽度未在利好日快速消失"
+      ],
+      "risks": [
+        "若首次分歧中容量核心同步破坏趋势，二波确认会失效"
+      ],
+      "confirmTomorrow": "首次明显分歧时至少2至3个容量或趋势核心继续保持相对强度。",
+      "invalidateIf": "集体高开低走且板块宽度快速消失，容量核心同步破坏趋势。",
+      "companyCodes": [
+        "601869",
+        "603618",
+        "600487",
+        "600522"
+      ]
+    },
+    {
+      "id": "opp-20260827-liquid-cooling",
+      "entityType": "direction",
+      "entityId": "dir-liquid-cooling",
+      "name": "液冷/算力温控",
+      "kind": "second_wave",
+      "lifecycle": "wait",
+      "industryTheme": "AI算力温控",
+      "whyToday": "英伟达高算力密度继续强化需求逻辑，板块价格表达仍在，但当天新增资金更集中于PCB、CPO、半导体和光纤。",
+      "marketContext": "方向有效但尚未形成比主线其他分支更强的新增选择，不自动升级所有个股。",
+      "evidence": [
+        {
+          "id": "ev-liquid-close",
+          "label": "液冷方向维持有效",
+          "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+        }
+      ],
+      "capitalFeatures": "仍有板块承接，但边际资金强度低于PCB、CPO、半导体与光纤。",
+      "patternFeatures": "触发状态维持，等待下一次分歧中的个股重新选择。",
+      "fundamentalLogic": "高算力密度与AI工厂建设提升散热需求，产业逻辑继续成立。",
+      "confidence": {
+        "level": "medium_high",
+        "reason": "方向逻辑与价格仍有效，但机会层尚缺新的个股级二次选择。"
+      },
+      "supportingFactors": [
+        "英伟达高算力密度继续强化需求逻辑",
+        "板块价格表达仍在"
+      ],
+      "risks": [
+        "核心集体补跌或板块宽度消失",
+        "个股之间分化可能扩大"
+      ],
+      "confirmTomorrow": "分歧时容量核心继续强于AI整体并保持跨日宽度。",
+      "invalidateIf": "容量核心集体补跌且板块宽度消失。",
+      "companyCodes": [
+        "002837",
+        "301018"
+      ]
+    },
+    {
+      "id": "opp-20260827-pcb",
+      "entityType": "direction",
+      "entityId": "dir-pcb-substrate",
+      "name": "PCB/载板",
+      "kind": "dynamic_pool",
+      "lifecycle": "new",
+      "industryTheme": "AI硬件盈利扩散",
+      "whyToday": "盘前深南电路等AI硬件盈利事件簇与当天PCB批量强势、电子和半导体板块宽度形成强共振，完成第一次明确市场选择。",
+      "marketContext": "这是当天AI内部最大的新增分支，但仍只有一天，需要验证能否从业绩扩散升级为持续资金行为。",
+      "evidence": [
+        {
+          "id": "ev-pcb-close",
+          "label": "PCB/载板当天明确确认",
+          "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+        },
+        {
+          "id": "ev-pcb-ks",
+          "label": "Knowledge Star：PCB/ABF相关事件簇",
+          "sourceRef": "KnowledgeStar:PCB-ABF-芯碁微装-20260827"
+        }
+      ],
+      "capitalFeatures": "当天出现批量强势，成为电子、半导体、通信资金承载的一部分。",
+      "patternFeatures": "从盘前研究雷达直接进入验证层，属于新增市场选择而非历史高位简单回流。",
+      "fundamentalLogic": "AI Capex已经在PCB、载板等环节出现收入与利润兑现，提供比单纯主题映射更硬的基本面支撑。",
+      "confidence": {
+        "level": "medium_high",
+        "reason": "产业业绩与当天板块宽度同时确认，但持续性尚未经过第二个交易日验证。"
+      },
+      "supportingFactors": [
+        "深南电路盈利验证较硬",
+        "PCB出现板块级响应而非单一财报票",
+        "AI盈利扩散逻辑得到盘面确认"
+      ],
+      "risks": [
+        "若次日只剩小票接力，说明资金扩散质量下降",
+        "批量高开低走会把本轮确认降回一日脉冲"
+      ],
+      "confirmTomorrow": "深南电路、生益系及PCB容量核心继续强于市场，第二个交易日仍保留板块宽度。",
+      "invalidateIf": "只剩小票接力，容量核心兑现，板块批量高开低走并失去宽度。",
+      "companyCodes": [
+        "002916"
+      ]
+    },
+    {
+      "id": "opp-20260827-inp",
+      "entityType": "direction",
+      "entityId": "dir-inp-compound",
+      "name": "磷化铟/化合物半导体",
+      "kind": "stealth",
+      "lifecycle": "new",
+      "industryTheme": "AI光互联材料",
+      "whyToday": "AI光互联从800G向更高速率升级与供需偏紧的产业讨论，首次得到光智科技、云南锗业等股票端价格响应。",
+      "marketContext": "从单条专家观点升级为产业叙事与股票选择的新增研究雷达，但只有一天，暂不定义成熟主线。",
+      "evidence": [
+        {
+          "id": "ev-inp-close",
+          "label": "磷化铟新增验证雷达",
+          "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+        },
+        {
+          "id": "ev-inp-ks",
+          "label": "Knowledge Star：磷化铟供需缺口",
+          "sourceRef": "KnowledgeStar:磷化铟-供需缺口-20260827"
+        }
+      ],
+      "capitalFeatures": "已有多只相关标的出现价格响应，但尚未验证跨日资金持续性。",
+      "patternFeatures": "第一轮产业与价格共振，属于潜伏/新增验证而非成熟趋势。",
+      "fundamentalLogic": "高速光互联升级可能提升磷化铟衬底与相关材料需求，当前仍需要上市公司层面的供需和产能验证。",
+      "confidence": {
+        "level": "medium",
+        "reason": "产业叙事和股票端首次共振，但验证时间短、公司层面证据仍不足。"
+      },
+      "supportingFactors": [
+        "AI光互联升级带来需求叙事",
+        "光智科技、云南锗业出现价格响应"
+      ],
+      "risks": [
+        "只有单日题材脉冲",
+        "缺少进一步上市公司供需与产能验证"
+      ],
+      "confirmTomorrow": "光通信分歧时仍有2至3个核心保持相对强度，同时供需或产能信息继续获得公司层面验证。",
+      "invalidateIf": "光通信继续强而该分支迅速掉队，或只有一天价格脉冲。",
+      "companyCodes": [
+        "300489",
+        "002428"
+      ]
+    },
+    {
+      "id": "opp-20260827-linktel",
+      "entityType": "company",
+      "entityId": "301205",
+      "name": "联特科技",
+      "kind": "second_wave",
+      "lifecycle": "wait",
+      "industryTheme": "光互联/CPO/NPO",
+      "whyToday": "CPO恢复板块宽度，但目前仍缺少足够个股级证据证明联特科技自身完成重新选择。",
+      "marketContext": "方向交易置信度提升，但个股仍处于研究池，适合作为二波观察而不是自动升级。",
+      "evidence": [
+        {
+          "id": "ev-linktel-pool",
+          "label": "8月27日二波池：联特科技维持",
+          "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+        }
+      ],
+      "capitalFeatures": "方向资金改善，但公司自身相对强度尚未形成独立确认。",
+      "patternFeatures": "二波/回流型，等待回调承接与二次攻击。",
+      "fundamentalLogic": "受益于光互联/CPO方向，但本次机会判断仍需公司自身价格与板块相对强度验证。",
+      "confidence": {
+        "level": "medium",
+        "reason": "方向环境改善，但个股级重新选择证据不足。"
+      },
+      "supportingFactors": [
+        "CPO主线宽度恢复",
+        "高位容量压力有所缓解"
+      ],
+      "risks": [
+        "CPO继续强而个股持续掉队",
+        "高位结构再次明显破坏"
+      ],
+      "confirmTomorrow": "CPO分歧日继续保持容量承接，同时联特科技明显强于板块并完成二次攻击。",
+      "invalidateIf": "方向继续强而个股持续掉队，或高位结构再次明显破坏。",
+      "companyCodes": [
+        "301205"
+      ]
+    },
+    {
+      "id": "opp-20260827-yutai",
+      "entityType": "company",
+      "entityId": "688515",
+      "name": "裕太微",
+      "kind": "stealth",
+      "lifecycle": "wait",
+      "industryTheme": "AI互联/以太网芯片",
+      "whyToday": "AI互连和交换芯片研究置信度因硬件扩散上升，但裕太微自身的资金重新选择尚未确认。",
+      "marketContext": "属于未充分价格化观察，产业逻辑提升但不能替代个股级承接。",
+      "evidence": [
+        {
+          "id": "ev-yutai-pool",
+          "label": "8月27日二波池：裕太微维持偏强",
+          "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+        }
+      ],
+      "capitalFeatures": "产业方向增强，但个股尚未形成明确持续资金承接。",
+      "patternFeatures": "孕育型/未充分价格化，仍在研究池等待独立相对强度。",
+      "fundamentalLogic": "AI互联和高速以太网需求增强提供产业支撑，但公司级订单与收入兑现仍需正式验证。",
+      "confidence": {
+        "level": "medium",
+        "reason": "产业方向增强，个股价格与公司级兑现尚未同步确认。"
+      },
+      "supportingFactors": [
+        "AI硬件盈利扩散提高互连芯片研究优先级"
+      ],
+      "risks": [
+        "产业催化继续无法转化为资金承接",
+        "个股结构破坏"
+      ],
+      "confirmTomorrow": "互连芯片形成独立板块宽度，公司恢复相对强度并出现持续承接。",
+      "invalidateIf": "产业方向继续增强而个股持续无承接，或个股结构明显破坏。",
+      "companyCodes": [
+        "688515"
+      ]
+    },
+    {
+      "id": "opp-20260827-jinpan",
+      "entityType": "company",
+      "entityId": "688676",
+      "name": "金盘科技",
+      "kind": "stealth",
+      "lifecycle": "remove",
+      "industryTheme": "AIDC电力/变压器",
+      "whyToday": "AI硬件主线显著增强时，电网设备/AIDC电力反而成为负反馈分支，思源电气跌停且金盘等同步承压。",
+      "marketContext": "短期AIDC电力映射被市场主动否定，剔除比继续讲长期AI电力逻辑更符合当天证据。",
+      "evidence": [
+        {
+          "id": "ev-jinpan-pool",
+          "label": "8月27日二波池：金盘科技剔除",
+          "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+        },
+        {
+          "id": "ev-aidc-negative",
+          "label": "电网设备/AIDC电力负反馈",
+          "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+        }
+      ],
+      "capitalFeatures": "AI主线增强时该分支反向走弱，资金选择形成负反馈。",
+      "patternFeatures": "原孕育型机会失效，短期从机会池剔除。",
+      "fundamentalLogic": "长期AIDC电力需求并未被证明消失，但当天价格行为表明市场不认可其短期盈利兑现顺序与估值映射。",
+      "confidence": {
+        "level": "high",
+        "reason": "方向与公司同步负反馈，且发生在AI整体风险偏好明显增强的背景下。"
+      },
+      "supportingFactors": [
+        "暂无足以抵消当天负反馈的新公司级证据"
+      ],
+      "risks": [
+        "若板块快速修复，本次剔除需要重新评估"
+      ],
+      "confirmTomorrow": "只有电力设备重新出现2至3个容量核心同步修复，且金盘自身重新强于板块并出现持续承接，才重新进入研究。",
+      "invalidateIf": "AI继续强而AIDC电力持续弱，金盘继续弱于板块并破坏趋势。",
+      "companyCodes": [
+        "688676"
+      ]
+    }
+  ],
+  "reports": [
+    {
+      "id": "report-20260827-postclose",
+      "title": "2026-08-27 收盘复盘｜AI从内部迁移升级为阶段性主线确认",
+      "researchDate": "2026-08-27",
+      "publishedAt": "2026-08-27T15:28:00+08:00",
+      "canonical": true,
+      "sourceRef": "data/daily-research-reports.json#report-20260827-postclose"
+    }
+  ]
+}

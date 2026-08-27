@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-27T15:28:00+08:00",
+  "generatedAt": "2026-08-27T15:58:00+08:00",
   "sourceSnapshot": "2026-08-27T02:44:03.820Z",
   "asOfDate": "2026-08-27",
   "topics": 7,
@@ -99,19 +99,24 @@
       "sha256": "5c96af377c542883ade564a503583121837134d76c9633971bc89d1295c51f0e"
     },
     {
-      "path": "data/daily-research-view-v1.json",
-      "bytes": 4727,
-      "sha256": "4340d52bee959f27534a41082db377d9fa9b4a09bca4411836133a79c12fd93e"
-    },
-    {
-      "path": "data/daily-research-reports.json",
-      "bytes": 26953,
-      "sha256": "0cf66b3239481f40e54cac994417adaa516284c6128e90fc4247e635a59ae90c"
-    },
-    {
       "path": "data/live-market.json",
       "bytes": 6824,
       "sha256": "dfafdd722a149c60a3180703ed0f69be0a83d6c9031252734eb1580f8a20b724"
+    },
+    {
+      "path": "data/daily-research-view-v1.json",
+      "bytes": 24798,
+      "sha256": "22dec8787900d7295caf59507100b1c0aebddeebe130de9c2fcdf55ff946df12"
+    },
+    {
+      "path": "data/daily-research-reports.json",
+      "bytes": 26965,
+      "sha256": "82b5d5537ffcfc14cf2f77a2c9976ad42127329b6c784675f0f92de6799524f8"
+    },
+    {
+      "path": "data/opportunity-view-v1.json",
+      "bytes": 17954,
+      "sha256": "3ea01f05bd8287c5c5725fe835fa1ed9d91f1f36d37cbb86f8ff71699531c179"
     }
   ]
 }
