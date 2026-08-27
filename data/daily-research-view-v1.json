@@ -4,45 +4,105 @@
   "meta": {
     "requestedDate": "2026-08-27",
     "researchDate": "2026-08-27",
-    "phase": "premarket",
-    "researchAsOf": "2026-08-27T08:09:11+08:00",
-    "generatedAt": "2026-08-27T02:43:12.098Z",
+    "phase": "postclose",
+    "researchAsOf": "2026-08-27T15:28:00+08:00",
+    "generatedAt": "2026-08-27T08:27:29.723395+00:00",
     "sourceSnapshotDate": "2026-08-27",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-08-27 盘前研究｜英伟达把全球风险偏好重新拉回 AI，今天要判的是 A 股能否从“低位迁移”升级成整条基础设施链共振",
-    "summary": "英伟达财报后的关键增量不是单家公司超预期，而是盘后AI风险偏好重新转强：英伟达由财报后初跌转为盘后约+4%，纳指100期货接近+1%，强化全球AI Capex仍在加速的市场定价。结合8月26日A股多支点修复与Knowledge Star国内AI硬件业绩簇，今天风险预算维持2/3向上偏置，核心验证是高位CPO止跌、光纤/液冷分歧承接及PCB/交换芯片/电源测试的跨环节扩散能否同时成立。"
+    "headline": "2026-08-27 收盘复盘｜AI从“内部迁移”升级为阶段性主线确认，但市场选择的是盈利与产能，不是所有AI分支",
+    "summary": "盘前A剧本基本兑现：CPO/光纤/液冷保持宽度，PCB与半导体出现跨环节扩散，AI从内部迁移升级为阶段性主线确认。今天真正被市场奖励的是AI硬件中的业绩、产能、供需与容量共振，而不是所有AI基础设施分支；电网设备/AIDC电力反而显著走弱，是最重要的反面证据。收盘涨停77家、跌停2家、炸板17家，主力资金近5日4天为正且今天强度居近5日第一，研究风险状态上调至3/3；但融资连续6天下降、近5日净融资约-161亿元，杠杆资金尚未同步确认。",
+    "sourceRef": "daily-bus/2026-08-27/close-report.md"
   },
   "market": {
-    "state": "multi_anchor_repair_with_global_ai_risk_on_repricing",
-    "temperature": "neutral_positive",
-    "summary": "中性偏积极",
-    "rewardedPattern": "AI基础设施业绩/产能兑现 + 容量确认优先，资源价格兑现与金融Beta作为第二支点",
-    "riskBudget": {
-      "current": 2,
-      "scale": 3,
-      "previous": null,
-      "change": null,
-      "reason": "中性偏积极",
-      "asOfPhase": "premarket"
-    }
+    "state": "ai_hardware_stage_mainline_confirmed_with_selective_branch_divergence",
+    "temperature": "positive",
+    "riskStance": "积极但选择性",
+    "rewardedPattern": "AI硬件业绩/产能兑现 + 跨环节扩散 + 容量确认"
+  },
+  "riskBudget": {
+    "current": 3,
+    "scale": 3,
+    "previous": 2,
+    "asOfPhase": "postclose",
+    "change": 1
   },
   "hypotheses": [],
   "marketStructureChanges": [],
-  "opportunityChanges": [],
-  "nextChecks": [],
+  "opportunityChanges": [
+    {
+      "id": "688676",
+      "code": "688676",
+      "name": "金盘科技",
+      "status": "剔除",
+      "stage": "剔除",
+      "changeReason": "AI硬件主线显著增强时，电网设备/AIDC电力反而成为负反馈分支，思源电气跌停且金盘等同步承压，短期映射被市场主动否定",
+      "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+    },
+    {
+      "id": "301205",
+      "code": "301205",
+      "name": "联特科技",
+      "status": "维持",
+      "stage": "研究池",
+      "changeReason": "CPO恢复板块宽度，但缺少足够个股级证据证明联特自身完成重新选择",
+      "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+    },
+    {
+      "id": "688515",
+      "code": "688515",
+      "name": "裕太微",
+      "status": "维持偏强",
+      "stage": "研究池",
+      "changeReason": "AI互连和交换芯片研究置信度因硬件扩散上升，但个股级重新选择尚未确认",
+      "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+    },
+    {
+      "id": "688037",
+      "code": "688037",
+      "name": "芯源微",
+      "status": "维持",
+      "stage": "研究池",
+      "changeReason": "半导体整体增强，但设备分支和公司自身尚未形成足够独立的二次选择证据",
+      "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+    },
+    {
+      "id": "603009",
+      "code": "603009",
+      "name": "北特科技",
+      "status": "维持偏弱",
+      "stage": "研究池",
+      "changeReason": "今天风险偏好扩张主要集中于AI硬件，机器人没有获得新的主导资金选择，二波重选仍未出现",
+      "sourceRef": "daily-bus/2026-08-27/second-wave-pool.json"
+    }
+  ],
+  "nextChecks": [
+    "AI第一次明显分歧时，CPO、光纤、PCB至少两个分支的容量核心能否继续承接。",
+    "PCB/载板能否从一日业绩扩散升级为第二个交易日仍有容量和宽度的持续资金行为。",
+    "AIDC电力若继续在AI强势时掉队，则确认该分支短期被市场排除；只有板块级修复才重新评估。",
+    "主力资金若继续正向且融资停止连续下降，风险偏好扩张才从主动资金主导进一步升级。"
+  ],
   "reports": [
     {
-      "id": "report-20260827-premarket",
-      "type": "premarket",
-      "title": "2026-08-27 盘前研究｜英伟达把全球风险偏好重新拉回 AI，今天要判的是 A 股能否从“低位迁移”升级成整条基础设施链共振",
-      "researchDate": "2026-08-27",
-      "publishedAt": "2026-08-27T08:09:11+08:00",
-      "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260827-premarket"
+      "id": "2026-08-27-premarket",
+      "session": "premarket",
+      "sourceRef": "daily-bus/2026-08-27/premarket-report.md",
+      "canonical": true
+    },
+    {
+      "id": "2026-08-27-close",
+      "session": "postclose",
+      "sourceRef": "daily-bus/2026-08-27/close-report.md",
+      "canonical": true
+    },
+    {
+      "id": "2026-08-27-second-wave",
+      "session": "second-wave",
+      "sourceRef": "daily-bus/2026-08-27/second-wave-report.md",
+      "canonical": true
     }
   ],
   "coverage": {
@@ -50,8 +110,8 @@
     "market": "available",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
-    "opportunityChanges": "notUpdated",
-    "nextChecks": "notUpdated",
+    "opportunityChanges": "available",
+    "nextChecks": "available",
     "reports": "available"
   }
 }

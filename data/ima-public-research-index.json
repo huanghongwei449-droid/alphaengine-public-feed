@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-ima-public-research-index-v1",
-  "generatedAt": "2026-08-20T09:50:37.947Z",
+  "generatedAt": "2026-08-27T08:27:38.621405+00:00",
   "lastSuccessfulScanAt": "2026-08-20T09:50:37.947Z",
   "notes": [
     {
@@ -1804,6 +1804,43 @@
       "contentSha256": "72b33987b86bf70afa2c6a260ea988e8d0a4de8a390b3a3df9a1cb5badf80a83",
       "source": "IMA_public_research",
       "publicSafe": true
+    },
+    {
+      "id": "ima-2026-08-27-premarket",
+      "researchDate": "2026-08-27",
+      "title": "2026-08-27 盘前研究",
+      "kind": "daily_premarket",
+      "summary": "2026-08-27 盘前研究｜英伟达把全球风险偏好重新拉回 AI，今天要判的是 A 股能否从“低位迁移”升级成整条基础设施链共振",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_095758bd33e18984142f3091b4e922307477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_095758bd33e18984142f3091b4e922307477529334009595",
+      "canonicalSha256": "5d2d3c4a1aae502e7e94208e8715fd7869451cfc296dbb37acd8dfbfc4b10761",
+      "sourceRef": "daily-bus/_status/premarket-delivery-20260827.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-08-27-close",
+      "researchDate": "2026-08-27",
+      "title": "2026-08-27 收盘复盘",
+      "kind": "daily_close",
+      "summary": "2026-08-27 收盘复盘｜AI从“内部迁移”升级为阶段性主线确认，但市场选择的是盈利与产能，不是所有AI分支",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_3e05a7a6ce4c5dda04871bea5417f4a17477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_3e05a7a6ce4c5dda04871bea5417f4a17477529334009595",
+      "canonicalSha256": "1149746813a8ee83e985ac85862d11b60a9abdda326e4b12c3098d8b615a4971",
+      "sourceRef": "daily-bus/_status/close-delivery-20260827.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-08-27-second-wave",
+      "researchDate": "2026-08-27",
+      "title": "2026-08-27 二波研究",
+      "kind": "daily_opportunity",
+      "summary": "2026-08-27 统一机会更新｜AI主线收敛，但机会只升级有“再次选择”证据的分支",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_d04c83fdfe13e22806b34961556f7f317477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_d04c83fdfe13e22806b34961556f7f317477529334009595",
+      "canonicalSha256": "90a12a4ab2d821b83b032a28c504f4d82b2eb84ce12ff8f591af98a05ea44adf",
+      "sourceRef": "daily-bus/_status/second-wave-delivery-20260827.json",
+      "publicSafe": true
     }
-  ]
+  ],
+  "publicSafe": true
 }
