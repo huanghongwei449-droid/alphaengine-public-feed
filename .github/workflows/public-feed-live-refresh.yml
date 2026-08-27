@@ -3,26 +3,70 @@ name: Refresh public market snapshot
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    # Off-minute cadence reduces contention at the top of the quarter hour.
+    - cron: "7,22,37,52 * * * *"
 
 permissions:
   contents: write
 
+concurrency:
+  group: public-feed-main
+  cancel-in-progress: false
+
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - name: Refresh public market data
         run: node scripts/refresh-live-market.mjs
       - name: Publish changed snapshot
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "alphaengine-bot"
           git config user.email "alphaengine-bot@users.noreply.github.com"
           git add data/live-market.json feed-manifest.json
           if git diff --cached --quiet; then
             echo "No public market change"
-          else
-            git commit -m "Refresh public market snapshot"
-            git push
+            exit 0
           fi
+          git commit -m "Refresh public market snapshot"
+
+          for attempt in 1 2 3; do
+            push_log="$(mktemp)"
+            if git push origin HEAD:main >"$push_log" 2>&1; then
+              rm -f "$push_log"
+              echo "Published public market snapshot"
+              exit 0
+            fi
+            push_error="$(tr '\n' ' ' <"$push_log")"
+            rm -f "$push_log"
+
+            if printf '%s' "$push_error" | grep -Eiq 'schannel|ssl|tls|connection reset|connection timed out|timed out|remote end hung up|unexpectedly closed|could not resolve host|network is unreachable'; then
+              if [ "$attempt" -eq 3 ]; then
+                echo "Publish failed: transient network error after 3 attempts"
+                exit 1
+              fi
+              sleep "$([ "$attempt" -eq 1 ] && echo 5 || echo 15)"
+              continue
+            fi
+
+            if printf '%s' "$push_error" | grep -Eiq 'non-fast-forward|fetch first|rejected|tip of your current branch is behind'; then
+              if [ "$attempt" -eq 3 ]; then
+                echo "Publish failed: non-fast-forward after 3 attempts"
+                exit 1
+              fi
+              git fetch origin main
+              if ! git rebase origin/main; then
+                git rebase --abort || true
+                echo "Publish failed: manifest rebase conflict"
+                exit 1
+              fi
+              continue
+            fi
+
+            echo "Publish failed: non-retryable git push error"
+            exit 1
+          done
