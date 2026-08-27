@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-ima-public-research-index-v1",
-  "generatedAt": "2026-08-27T15:28:00+08:00",
+  "generatedAt": "2026-08-28T07:12:00+08:00",
   "lastSuccessfulScanAt": "2026-08-20T09:50:37.947Z",
   "notes": [
     {
@@ -1839,6 +1839,18 @@
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_d04c83fdfe13e22806b34961556f7f317477529334009595",
       "canonicalSha256": "90a12a4ab2d821b83b032a28c504f4d82b2eb84ce12ff8f591af98a05ea44adf",
       "sourceRef": "daily-bus/_status/second-wave-delivery-20260827.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-08-28-premarket",
+      "researchDate": "2026-08-28",
+      "title": "2026-08-28 盘前研究",
+      "kind": "daily_premarket",
+      "summary": "2026-08-28 盘前研究｜AI主线第一次确认后，今天要判的是“盈利兑现能否继续接力”，而不是继续为所有AI标签抬估值",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_d2295be3ea65e9081b87c177cf056d837477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_d2295be3ea65e9081b87c177cf056d837477529334009595",
+      "canonicalSha256": "77a1c1216f7270c547bd7cb6763c05d621dfc988941fdef83d2faed03a01e4ba",
+      "sourceRef": "daily-bus/_status/premarket-delivery-20260828.json",
       "publicSafe": true
     }
   ],

@@ -1,9 +1,9 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-08-27T19:01:49.255Z",
+  "generatedAt": "2026-08-28T07:12:00+08:00",
   "sourceSnapshot": "2026-08-27T02:44:03.820Z",
-  "asOfDate": "2026-08-27",
+  "asOfDate": "2026-08-28",
   "topics": 7,
   "securities": 31,
   "publicEvidence": 664,
@@ -30,8 +30,8 @@
     },
     {
       "path": "data/ima-public-research-index.json",
-      "bytes": 121865,
-      "sha256": "9c6e2b195d45b1455a6fae11abebfce163ff62773f0a93969b97e8aa69558b77"
+      "bytes": 122615,
+      "sha256": "217b6f7a0107a0f8a9566b70c27051c396a0df3a13f1fc281afdda18a0ed5de5"
     },
     {
       "path": "data/ima-research-coverage.json",
@@ -100,13 +100,13 @@
     },
     {
       "path": "data/daily-research-view-v1.json",
-      "bytes": 26150,
-      "sha256": "0f86ceb25e8aaad1539d8b1b72a6eb932cdcbcda557a328d0f48d14bbe0fab28"
+      "bytes": 2910,
+      "sha256": "dbdfae41496943664685e802badf1e4e09d96f32149631a48555977932d6c1b1"
     },
     {
       "path": "data/daily-research-reports.json",
-      "bytes": 26965,
-      "sha256": "82b5d5537ffcfc14cf2f77a2c9976ad42127329b6c784675f0f92de6799524f8"
+      "bytes": 40605,
+      "sha256": "8de6443e381ee44365731b5c5df3ddc50f5df8bd6146ba93c79968236da17330"
     },
     {
       "path": "data/opportunity-view-v1.json",
