@@ -46,22 +46,22 @@
     {
       "id": "next-check-2026-08-28-1",
       "question": "PCB/CCL涨价逻辑能否在下一交易日继续获得容量和盈利锚承接，决定是否升级为主线内有效方向。",
-      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
-      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "confirmIf": "上游未提供明确确认条件（未更新）。",
+      "downgradeIf": "上游未提供明确降级条件（未更新）。",
       "anchors": []
     },
     {
       "id": "next-check-2026-08-28-2",
       "question": "中际旭创、新易盛、天孚通信等CPO容量能否在分歧后重新稳定，决定AI主线交易置信度是否恢复。",
-      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
-      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "confirmIf": "上游未提供明确确认条件（未更新）。",
+      "downgradeIf": "上游未提供明确降级条件（未更新）。",
       "anchors": []
     },
     {
       "id": "next-check-2026-08-28-3",
       "question": "AI应用/网络安全、农业、地产中是否至少一个低位方向留下跨日容量和宽度，否则今天只定义为高位分歧下的情绪分流。",
-      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
-      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "confirmIf": "上游未提供明确确认条件（未更新）。",
+      "downgradeIf": "上游未提供明确降级条件（未更新）。",
       "anchors": []
     }
   ],
@@ -82,7 +82,7 @@
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
     "opportunityChanges": "notUpdated",
-    "nextChecks": "available",
+    "nextChecks": "notUpdated",
     "reports": "available"
   }
 }

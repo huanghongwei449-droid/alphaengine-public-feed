@@ -15,8 +15,8 @@
     },
     {
       "path": "data/market-recap.json",
-      "bytes": 46837,
-      "sha256": "514c00d565a0df87852fd444e40c1dfc8e0cf86c4831863562f1d421a15e3036"
+      "bytes": 46965,
+      "sha256": "23e036e0792afa629a63021f1b034eb52068e6c2116deabdfdcc5d7d8aebf664"
     },
     {
       "path": "data/evidence-catalog.json",
@@ -31,7 +31,7 @@
     {
       "path": "data/ima-public-research-index.json",
       "bytes": 124076,
-      "sha256": "7160ad76976b15f0dac535a70651585b265252b3fe7eca66a2a23e43daa8aa89"
+      "sha256": "da263ef0dc88138288129a4d8b0f3adee4de30bbd0f45d355af79d00741ba107"
     },
     {
       "path": "data/ima-research-coverage.json",
@@ -100,13 +100,13 @@
     },
     {
       "path": "data/daily-research-view-v1.json",
-      "bytes": 4363,
-      "sha256": "2d91787a6e2b9697c91a0c76dc99541b4a152e473444f4ffbcd111fa39744fab"
+      "bytes": 3611,
+      "sha256": "82d2c594292f4baa30c564dad96562a7a400c22af8e388ed244766953ff19377"
     },
     {
       "path": "data/daily-research-reports.json",
-      "bytes": 52606,
-      "sha256": "03b80604e9e076e10113f6ab0c4d5ab195189c4d988d1e1db44bd1705d79dd24"
+      "bytes": 53162,
+      "sha256": "f9547903406485698c06359edbd6b9f9978b64832312a30b04ee9cbc050d5576"
     },
     {
       "path": "data/opportunity-view-v1.json",

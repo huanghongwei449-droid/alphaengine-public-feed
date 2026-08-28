@@ -1849,7 +1849,7 @@
       "summary": "2026-08-28 盘前研究｜AI主线第一次确认后，今天要判的是“盈利兑现能否继续接力”，而不是继续为所有AI标签抬估值",
       "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_d2295be3ea65e9081b87c177cf056d837477529334009595",
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_d2295be3ea65e9081b87c177cf056d837477529334009595",
-      "canonicalSha256": "77a1c1216f7270c547bd7cb6763c05d621dfc988941fdef83d2faed03a01e4ba",
+      "canonicalSha256": "8cc72e7340bd4053d7733e737642e54f733f96519e59224d09038794a6f65f7e",
       "sourceRef": "daily-bus/_status/premarket-delivery-20260828.json",
       "publicSafe": true
     },
@@ -1861,7 +1861,7 @@
       "summary": "2026-08-28 收盘复盘｜AI主线进入第一次真正分歧，市场没有转弱，但赚钱模式从“全链扩散”收窄到“硬兑现 + 低位轮动”",
       "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_f363f21471a8c8c112153b0394ab75327477529334009595",
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_f363f21471a8c8c112153b0394ab75327477529334009595",
-      "canonicalSha256": "eea1eac69fdf5203815b9043e1659821f159b5648ce6d0b172d7be290f3476df",
+      "canonicalSha256": "7e2279b297d3498a676c63889f69c6e43ade8084feae8ef5dd6ee6fff903858a",
       "sourceRef": "daily-bus/_status/close-delivery-20260828.json",
       "publicSafe": true
     },
@@ -1873,7 +1873,7 @@
       "summary": "2026-08-28 统一机会更新｜主线进入分歧，优先升级“供需兑现”，不升级“热度扩散”",
       "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_7975f0dac519b8e95219d710fd4cd7f57477529334009595",
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_7975f0dac519b8e95219d710fd4cd7f57477529334009595",
-      "canonicalSha256": "598d8a2ceb1d1da0213baf9c6ddb6291147b9ebbce8e53a6d1443da0a4166948",
+      "canonicalSha256": "bc5e9a281175df6b663ed502dbb12d283f3f5ffe9bceaf94da9b707bc8c7acb3",
       "sourceRef": "daily-bus/_status/second-wave-delivery-20260828.json",
       "publicSafe": true
     }
