@@ -14,94 +14,66 @@
   },
   "currentView": {
     "headline": "2026-08-28 收盘复盘｜AI主线进入第一次真正分歧，市场没有转弱，但赚钱模式从“全链扩散”收窄到“硬兑现 + 低位轮动”",
-    "summary": "今天不是风险偏好崩掉，而是AI第一次主线确认后的分歧日。高位算力和半导体未延续昨日全面扩张，但PCB/CCL在建滔再次涨价、电子布与覆铜板供给紧张事件簇和板块价格响应共振下完成更硬的供需兑现；AI应用/网络安全及农业、地产等低位方向承担轮动。风险端仍干净，研究风险预算从3/3下调到2/3，AI研究主线维持但交易进入分歧后的重新选择。",
-    "sourceRef": "daily-bus/2026-08-28/close-report.md"
+    "summary": "今天不是风险偏好崩掉，而是AI第一次主线确认后的分歧日。高位算力和半导体未延续昨日全面扩张，但PCB/CCL在建滔再次涨价、电子布与覆铜板供给紧张事件簇和板块价格响应共振下完成更硬的供需兑现；AI应用/网络安全及农业、地产等低位方向承担轮动。风险端仍干净，研究风险预算从3/3下调到2/3，AI研究主线维持但交易进入分歧后的重新选择。"
   },
   "market": {
     "state": "risk_appetite_maintained_with_ai_mainline_first_divergence",
     "temperature": "positive_but_divergent",
-    "riskStance": "结构进攻",
-    "rewardedPattern": "供需/价格硬兑现 + 主线分歧后的低位轮动"
+    "summary": "结构进攻",
+    "riskBudget": {
+      "current": 2,
+      "scale": 3,
+      "previous": 3,
+      "change": "lowered",
+      "reason": "结构进攻",
+      "asOfPhase": "postclose"
+    }
   },
   "riskBudget": {
     "current": 2,
     "scale": 3,
     "previous": 3,
-    "asOfPhase": "postclose",
-    "change": -1
+    "change": "lowered",
+    "reason": "结构进攻",
+    "asOfPhase": "postclose"
   },
   "hypotheses": [],
+  "coreHypotheses": [],
+  "focusEntities": [],
   "marketStructureChanges": [],
-  "opportunityChanges": [
-    {
-      "id": "301205",
-      "code": "301205",
-      "name": "联特科技",
-      "status": "维持",
-      "stage": "验证池",
-      "changeReason": "盘前因H1收入增长和Q2收入创新高升级验证，但今天缺少足够个股级重新选择证据，方向修复不能替代个股确认",
-      "sourceRef": "daily-bus/2026-08-28/second-wave-pool.json"
-    },
-    {
-      "id": "688515",
-      "code": "688515",
-      "name": "裕太微",
-      "status": "维持偏强",
-      "stage": "研究池",
-      "changeReason": "AI互联长期产业逻辑仍强，但今天未形成独立板块宽度和个股重新选择",
-      "sourceRef": "daily-bus/2026-08-28/second-wave-pool.json"
-    },
-    {
-      "id": "688037",
-      "code": "688037",
-      "name": "芯源微",
-      "status": "维持",
-      "stage": "研究池",
-      "changeReason": "半导体今天进入分歧，设备分支没有出现独立回流和公司自身重新选择",
-      "sourceRef": "daily-bus/2026-08-28/second-wave-pool.json"
-    },
-    {
-      "id": "603009",
-      "code": "603009",
-      "name": "北特科技",
-      "status": "维持偏弱",
-      "stage": "研究池",
-      "changeReason": "机器人仍不是今天主要资金承载，二波重选未出现",
-      "sourceRef": "daily-bus/2026-08-28/second-wave-pool.json"
-    },
-    {
-      "id": "688676",
-      "code": "688676",
-      "name": "金盘科技",
-      "status": "维持剔除",
-      "stage": "剔除",
-      "changeReason": "今天电力设备未形成足以推翻前一日负面映射的板块级重新选择，短期机会映射仍未恢复",
-      "sourceRef": "daily-bus/2026-08-28/second-wave-pool.json"
-    }
-  ],
+  "opportunityChanges": [],
   "nextChecks": [
-    "PCB/CCL涨价逻辑能否在下一交易日继续获得容量和盈利锚承接，决定是否升级为主线内有效方向。",
-    "中际旭创、新易盛、天孚通信等CPO容量能否在分歧后重新稳定，决定AI主线交易置信度是否恢复。",
-    "AI应用/网络安全、农业、地产中是否至少一个低位方向留下跨日容量和宽度，否则今天只定义为高位分歧下的情绪分流。"
+    {
+      "id": "next-check-2026-08-28-1",
+      "question": "PCB/CCL涨价逻辑能否在下一交易日继续获得容量和盈利锚承接，决定是否升级为主线内有效方向。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-2",
+      "question": "中际旭创、新易盛、天孚通信等CPO容量能否在分歧后重新稳定，决定AI主线交易置信度是否恢复。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-3",
+      "question": "AI应用/网络安全、农业、地产中是否至少一个低位方向留下跨日容量和宽度，否则今天只定义为高位分歧下的情绪分流。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    }
   ],
   "reports": [
     {
-      "id": "2026-08-28-premarket",
-      "session": "premarket",
-      "sourceRef": "daily-bus/2026-08-28/premarket-report.md",
-      "canonical": true
-    },
-    {
-      "id": "2026-08-28-close",
-      "session": "postclose",
-      "sourceRef": "daily-bus/2026-08-28/close-report.md",
-      "canonical": true
-    },
-    {
-      "id": "2026-08-28-second-wave",
-      "session": "second-wave",
-      "sourceRef": "daily-bus/2026-08-28/second-wave-report.md",
-      "canonical": true
+      "id": "report-20260828-postclose",
+      "type": "postclose",
+      "title": "2026-08-28 收盘复盘｜AI主线进入第一次真正分歧，市场没有转弱，但赚钱模式从“全链扩散”收窄到“硬兑现 + 低位轮动”",
+      "researchDate": "2026-08-28",
+      "publishedAt": "2026-08-28T15:26:00+08:00",
+      "canonical": true,
+      "sourceRef": "data/daily-research-reports.json#report-20260828-postclose"
     }
   ],
   "coverage": {
@@ -109,7 +81,7 @@
     "market": "available",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
-    "opportunityChanges": "available",
+    "opportunityChanges": "notUpdated",
     "nextChecks": "available",
     "reports": "available"
   }
