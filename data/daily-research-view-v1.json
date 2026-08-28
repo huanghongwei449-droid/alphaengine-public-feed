@@ -13,40 +13,93 @@
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-08-28 盘前研究｜AI主线第一次确认后，今天要判的是“盈利兑现能否继续接力”，而不是继续为所有AI标签抬估值",
-    "summary": "8月27日A股已从修复升级为风险偏好扩张，AI硬件形成CPO、光纤、PCB、半导体、液冷跨环节共振；隔夜美股科技继续强化AI风险偏好，胜宏科技与联特科技中报又补上PCB和光通信公司级兑现证据。但Marvell业绩超预期后盘后仍跌，说明预期门槛同步抬高。今天维持进攻、研究风险预算3/3，但只给“有盈利/产能兑现且分歧后有承接”的方向，重点判别主线质量是否从确定性扩散滑向纯概念补涨。",
-    "sourceRef": "daily-bus/2026-08-28/premarket-report.md"
+    "headline": "第一次主线确认之后，今天只看市场是否继续为真实盈利、产能和供需兑现付钱；如果转向纯概念补涨，表面越热，交易置信度反而越应下降。",
+    "summary": "8月27日A股已从修复升级为风险偏好扩张，AI硬件形成CPO、光纤、PCB、半导体、液冷跨环节共振；隔夜美股科技继续强化AI风险偏好，胜宏科技与联特科技中报又补上PCB和光通信公司级兑现证据。但Marvell业绩超预期后盘后仍跌，说明预期门槛同步抬高。今天维持进攻、研究风险预算3/3，但只给“有盈利/产能兑现且分歧后有承接”的方向，重点判别主线质量是否从确定性扩散滑向纯概念补涨。"
   },
   "market": {
     "state": "risk_appetite_expansion_with_ai_hardware_mainline_confirmation",
     "temperature": "positive",
-    "riskStance": "进攻",
-    "rewardedPattern": null
+    "summary": "进攻",
+    "rewardedPattern": "AI硬件盈利/产能/供需兑现 + 容量承接，拒绝泛AI无差别扩估值",
+    "riskBudget": {
+      "current": 3,
+      "scale": 3,
+      "previous": null,
+      "change": null,
+      "reason": "进攻",
+      "asOfPhase": "premarket",
+      "upgradeIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。"
+    }
   },
   "riskBudget": {
     "current": 3,
     "scale": 3,
-    "previous": 3,
+    "previous": null,
+    "change": null,
+    "reason": "进攻",
     "asOfPhase": "premarket",
-    "change": 0
+    "upgradeIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+    "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。"
   },
   "hypotheses": [],
+  "coreHypotheses": [],
+  "focusEntities": [],
   "marketStructureChanges": [],
   "opportunityChanges": [],
   "nextChecks": [
-    "中际旭创、新易盛、天孚通信是否在第一次主线确认后维持趋势和分歧承接，而不是重新成为全链拖累。",
-    "胜宏科技、深南电路、生益系等PCB容量/业绩核心能否跨日承接；若只剩小票接力，降低PCB交易置信度。",
-    "联特科技是否在光通信容量稳定的前提下出现自身相对强度和价格重新选择，决定其能否从验证池进入触发池。",
-    "光纤、液冷、存储/HBM中是否至少两个分支保持板块宽度，验证AI盈利扩散而非单点事件行情。",
-    "AIDC电力/变压器是否继续被排除；若思源电气、金盘科技等仍弱，不用长期AI用电逻辑覆盖短期市场证伪。",
-    "若市场从容量核心切向纯概念补涨、上涨家数收缩或炸板/跌停扩张，研究风险预算从3/3下调至2/3或1/3。"
+    {
+      "id": "next-check-2026-08-28-1",
+      "question": "中际旭创、新易盛、天孚通信是否在第一次主线确认后维持趋势和分歧承接，而不是重新成为全链拖累。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-2",
+      "question": "胜宏科技、深南电路、生益系等PCB容量/业绩核心能否跨日承接；若只剩小票接力，降低PCB交易置信度。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-3",
+      "question": "联特科技是否在光通信容量稳定的前提下出现自身相对强度和价格重新选择，决定其能否从验证池进入触发池。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-4",
+      "question": "光纤、液冷、存储/HBM中是否至少两个分支保持板块宽度，验证AI盈利扩散而非单点事件行情。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-5",
+      "question": "AIDC电力/变压器是否继续被排除；若思源电气、金盘科技等仍弱，不用长期AI用电逻辑覆盖短期市场证伪。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    },
+    {
+      "id": "next-check-2026-08-28-6",
+      "question": "若市场从容量核心切向纯概念补涨、上涨家数收缩或炸板/跌停扩张，研究风险预算从3/3下调至2/3或1/3。",
+      "confirmIf": "当前已处3/3，无进一步上调；维持条件是CPO容量稳定、PCB容量跨日承接，且光纤/液冷/存储至少两个分支保持宽度、全市场风险端不恶化。",
+      "downgradeIf": "若容量核心转弱、PCB高开低走、AI从盈利兑现切向纯概念补涨并伴随市场宽度收缩，则降至2/3；若跌停/炸板同步扩张，则降至1/3。",
+      "anchors": []
+    }
   ],
   "reports": [
     {
-      "id": "2026-08-28-premarket",
-      "session": "premarket",
-      "sourceRef": "daily-bus/2026-08-28/premarket-report.md",
-      "canonical": true
+      "id": "report-20260828-premarket",
+      "type": "premarket",
+      "title": "2026-08-28 盘前研究｜AI主线第一次确认后，今天要判的是“盈利兑现能否继续接力”，而不是继续为所有AI标签抬估值",
+      "researchDate": "2026-08-28",
+      "publishedAt": "2026-08-28T07:12:00+08:00",
+      "canonical": true,
+      "sourceRef": "data/daily-research-reports.json#report-20260828-premarket"
     }
   ],
   "coverage": {
@@ -54,7 +107,7 @@
     "market": "available",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
-    "opportunityChanges": "available",
+    "opportunityChanges": "notUpdated",
     "nextChecks": "available",
     "reports": "available"
   }
