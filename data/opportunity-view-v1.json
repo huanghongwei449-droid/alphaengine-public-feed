@@ -2,14 +2,14 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-08-27",
+    "requestedDate": "2026-08-28",
     "researchDate": "2026-08-27",
     "researchAsOf": "2026-08-27T15:28:00+08:00",
     "generatedAt": "2026-08-27T15:58:00+08:00",
     "phase": "postclose",
     "canonical": true,
-    "viewStatus": "current",
-    "freshness": "fresh"
+    "viewStatus": "stale",
+    "freshness": "stale"
   },
   "marketSummary": {
     "summary": "AI从内部迁移升级为阶段性主线确认，市场奖励的是有业绩、产能、供需或跨环节验证的硬件分支；AIDC电力同步走弱说明共享AI标签已不足以获得同等定价。",
