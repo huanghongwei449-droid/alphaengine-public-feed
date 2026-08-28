@@ -110,8 +110,8 @@
     },
     {
       "path": "data/opportunity-view-v1.json",
-      "bytes": 18321,
-      "sha256": "6b708254859112243a0dcd940e7c31390ea1c04a3e61141b8056961cc2f3a473"
+      "bytes": 17952,
+      "sha256": "de9de9273d69cf7aefe84aee46c192f6274994da30c4bf755c0161caf0e591a4"
     },
     {
       "path": "data/live-market.json",
