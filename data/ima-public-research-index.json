@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-ima-public-research-index-v1",
-  "generatedAt": "2026-08-28T07:12:00+08:00",
+  "generatedAt": "2026-08-28T15:26:00+08:00",
   "lastSuccessfulScanAt": "2026-08-20T09:50:37.947Z",
   "notes": [
     {
@@ -1851,6 +1851,30 @@
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_d2295be3ea65e9081b87c177cf056d837477529334009595",
       "canonicalSha256": "77a1c1216f7270c547bd7cb6763c05d621dfc988941fdef83d2faed03a01e4ba",
       "sourceRef": "daily-bus/_status/premarket-delivery-20260828.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-08-28-close",
+      "researchDate": "2026-08-28",
+      "title": "2026-08-28 收盘复盘",
+      "kind": "daily_close",
+      "summary": "2026-08-28 收盘复盘｜AI主线进入第一次真正分歧，市场没有转弱，但赚钱模式从“全链扩散”收窄到“硬兑现 + 低位轮动”",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_f363f21471a8c8c112153b0394ab75327477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_f363f21471a8c8c112153b0394ab75327477529334009595",
+      "canonicalSha256": "eea1eac69fdf5203815b9043e1659821f159b5648ce6d0b172d7be290f3476df",
+      "sourceRef": "daily-bus/_status/close-delivery-20260828.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-08-28-second-wave",
+      "researchDate": "2026-08-28",
+      "title": "2026-08-28 二波研究",
+      "kind": "daily_opportunity",
+      "summary": "2026-08-28 统一机会更新｜主线进入分歧，优先升级“供需兑现”，不升级“热度扩散”",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_7975f0dac519b8e95219d710fd4cd7f57477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_7975f0dac519b8e95219d710fd4cd7f57477529334009595",
+      "canonicalSha256": "598d8a2ceb1d1da0213baf9c6ddb6291147b9ebbce8e53a6d1443da0a4166948",
+      "sourceRef": "daily-bus/_status/second-wave-delivery-20260828.json",
       "publicSafe": true
     }
   ],
