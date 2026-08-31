@@ -6,7 +6,7 @@
     "researchDate": "2026-08-31",
     "phase": "premarket",
     "researchAsOf": "2026-08-31T07:00:00+08:00",
-    "generatedAt": "2026-08-31T01:26:12.384Z",
+    "generatedAt": "2026-08-31T01:56:38.525Z",
     "sourceSnapshotDate": "2026-08-31",
     "canonical": true,
     "viewStatus": "partial",
@@ -48,6 +48,27 @@
   "marketStructureChanges": [],
   "opportunityChanges": [],
   "nextChecks": [
+    {
+      "id": "cpo-capacity-reselection",
+      "question": "CPO高位容量能否在第一次分歧后重新稳定？",
+      "confirmIf": "中际旭创、新易盛、天孚通信至少两个止跌并重新强于成长指数。",
+      "downgradeIf": "容量核心继续明显落后并成为AI全链拖累。",
+      "anchors": []
+    },
+    {
+      "id": "pcb-ccl-third-selection",
+      "question": "PCB/CCL能否完成第三次市场选择？",
+      "confirmIf": "涨价逻辑、容量核心和盈利核心继续同步承接。",
+      "downgradeIf": "只剩题材小票高开，容量核心高开低走。",
+      "anchors": []
+    },
+    {
+      "id": "semi-profit-breadth",
+      "question": "周末半导体盈利证据能否转化成板块宽度？",
+      "confirmIf": "测试设备、模拟/电源或AI连接中至少两个细分同步增强。",
+      "downgradeIf": "只有单家公司财报脉冲，没有板块共振。",
+      "anchors": []
+    },
     {
       "id": "liquidcooling-power-width",
       "question": "液冷/机架供配电能否获得独立价格确认？",
@@ -97,6 +118,14 @@
       "stance": "进攻",
       "userMeaning": "保持进攻研究姿态，但不恢复全面满风险；只有容量核心稳定且至少两个硬兑现分支形成宽度才升至3/3。"
     },
+    "changes": [
+      {
+        "id": "today-change-2026-08-31-1",
+        "title": "半导体测试设备",
+        "summary": "研究优先级较低 → 验证池",
+        "implication": "华峰测控、圣邦股份等半年报补上盈利和订单/需求兑现证据。"
+      }
+    ],
     "marketStructure": {
       "mainline": [
         "AI硬件中的PCB/CCL硬兑现",
@@ -114,11 +143,28 @@
     },
     "nextChecks": [
       {
+        "id": "cpo-capacity-reselection",
+        "question": "CPO高位容量能否在第一次分歧后重新稳定？",
+        "confirmIf": "中际旭创、新易盛、天孚通信至少两个止跌并重新强于成长指数。",
+        "invalidateIf": "容量核心继续明显落后并成为AI全链拖累。"
+      },
+      {
+        "id": "pcb-ccl-third-selection",
+        "question": "PCB/CCL能否完成第三次市场选择？",
+        "confirmIf": "涨价逻辑、容量核心和盈利核心继续同步承接。",
+        "invalidateIf": "只剩题材小票高开，容量核心高开低走。"
+      },
+      {
+        "id": "semi-profit-breadth",
+        "question": "周末半导体盈利证据能否转化成板块宽度？",
+        "confirmIf": "测试设备、模拟/电源或AI连接中至少两个细分同步增强。",
+        "invalidateIf": "只有单家公司财报脉冲，没有板块共振。"
+      },
+      {
         "id": "liquidcooling-power-width",
         "question": "液冷/机架供配电能否获得独立价格确认？",
         "confirmIf": "液冷与供配电出现容量核心同步增强，且不是CPO简单反抽的附属。",
-        "invalidateIf": "仍只有零散消息股，无持续宽度。",
-        "anchors": []
+        "invalidateIf": "仍只有零散消息股，无持续宽度。"
       }
     ],
     "evidence": {
