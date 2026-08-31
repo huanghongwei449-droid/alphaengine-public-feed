@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-08-31T03:00:42.991Z",
+  "fetchedAt": "2026-08-31T03:45:33.306Z",
   "asOfDate": "2026-08-31",
   "sourceStatus": {
     "399001": {
@@ -29,23 +29,123 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4933,
-        "rawRows": 2400,
-        "uniqueRows": 2393,
-        "usableRows": 2052,
-        "missingRows": 2881,
-        "missingFieldRows": 341,
-        "coverageRatio": 0.416,
+        "rawRows": 400,
+        "uniqueRows": 400,
+        "usableRows": 400,
+        "missingRows": 4533,
+        "missingFieldRows": 0,
+        "coverageRatio": 0.0811,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 24,
+          "fetchedPages": 4,
           "pagesWithErrors": [
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
             25
           ],
           "capped": false
         },
         "pageErrors": [
+          {
+            "page": 4,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 5,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 6,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 7,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 8,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 9,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 10,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 12,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 13,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 14,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 15,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 16,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 17,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 18,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 19,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 20,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 21,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 22,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 23,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 24,
+            "error": "Error: eastmoney HTTP 502"
+          },
           {
             "page": 25,
             "error": "Error: eastmoney HTTP 502"
@@ -66,9 +166,9 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3936.65,
+      "close": 3944.46,
       "previousClose": 3952.18,
-      "dailyPct": -0.39,
+      "dailyPct": -0.2,
       "high": 3948.31,
       "low": 3926.5,
       "asOfDate": "2026-08-31",
@@ -77,9 +177,9 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13760.59,
+      "close": 13812.99,
       "previousClose": 13953.07,
-      "dailyPct": -1.38,
+      "dailyPct": -1,
       "high": 13882.81,
       "low": 13740.74,
       "asOfDate": "2026-08-31",
@@ -88,9 +188,9 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3365.19,
+      "close": 3380.15,
       "previousClose": 3424.4,
-      "dailyPct": -1.73,
+      "dailyPct": -1.29,
       "high": 3408.27,
       "low": 3359.14,
       "asOfDate": "2026-08-31",
@@ -99,9 +199,9 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1625.26,
+      "close": 1635.39,
       "previousClose": 1662.15,
-      "dailyPct": -2.22,
+      "dailyPct": -1.61,
       "high": 1645.08,
       "low": 1620.36,
       "asOfDate": "2026-08-31",
@@ -110,9 +210,9 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4563.06,
+      "close": 4572.06,
       "previousClose": 4609.18,
-      "dailyPct": -1,
+      "dailyPct": -0.81,
       "high": 4586.34,
       "low": 4557.35,
       "asOfDate": "2026-08-31",
@@ -120,34 +220,134 @@
     }
   ],
   "market": {
-    "turnoverBillion": 4039.42,
-    "mainFundBillion": 280.98,
-    "risingCount": 1214,
-    "fallingCount": 786,
-    "limitUpCount": 61,
-    "limitDownCount": 2,
-    "rows": 2052,
+    "turnoverBillion": 2708.86,
+    "mainFundBillion": 248.46,
+    "risingCount": 312,
+    "fallingCount": 81,
+    "limitUpCount": 55,
+    "limitDownCount": 0,
+    "rows": 400,
     "total": 4933,
     "complete": false,
     "coverage": {
       "total": 4933,
-      "rawRows": 2400,
-      "uniqueRows": 2393,
-      "usableRows": 2052,
-      "missingRows": 2881,
-      "missingFieldRows": 341,
-      "coverageRatio": 0.416,
+      "rawRows": 400,
+      "uniqueRows": 400,
+      "usableRows": 400,
+      "missingRows": 4533,
+      "missingFieldRows": 0,
+      "coverageRatio": 0.0811,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 24,
+        "fetchedPages": 4,
         "pagesWithErrors": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
           25
         ],
         "capped": false
       },
       "pageErrors": [
+        {
+          "page": 4,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 5,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 6,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 7,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 8,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 9,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 10,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 12,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 13,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 14,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 15,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 16,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 17,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 18,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 19,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 20,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 21,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 22,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 23,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 24,
+          "error": "Error: eastmoney HTTP 502"
+        },
         {
           "page": 25,
           "error": "Error: eastmoney HTTP 502"
@@ -162,184 +362,184 @@
       {
         "code": "BK0486",
         "name": "传媒",
-        "pctChange": 2.37,
-        "mainNetBillion": 24.37,
-        "mainPct": 7.4,
-        "advanceCount": 101,
-        "declineCount": 22
+        "pctChange": 2.67,
+        "mainNetBillion": 27.4,
+        "mainPct": 7.48,
+        "advanceCount": 108,
+        "declineCount": 16
       },
       {
         "code": "BK1283",
         "name": "银行",
-        "pctChange": 1.39,
-        "mainNetBillion": 14.48,
-        "mainPct": 6.25,
-        "advanceCount": 39,
+        "pctChange": 1.34,
+        "mainNetBillion": 15.17,
+        "mainPct": 5.86,
+        "advanceCount": 38,
         "declineCount": 2
       },
       {
         "code": "BK0475",
         "name": "银行Ⅱ",
-        "pctChange": 1.39,
-        "mainNetBillion": 14.48,
-        "mainPct": 6.25,
-        "advanceCount": 39,
+        "pctChange": 1.34,
+        "mainNetBillion": 15.17,
+        "mainPct": 5.86,
+        "advanceCount": 38,
         "declineCount": 2
       },
       {
         "code": "BK1221",
         "name": "数字媒体",
-        "pctChange": 5.01,
-        "mainNetBillion": 14.28,
-        "mainPct": 16.55,
+        "pctChange": 5.16,
+        "mainNetBillion": 14.84,
+        "mainPct": 16.06,
         "advanceCount": 15,
         "declineCount": 0
       },
       {
         "code": "BK1222",
         "name": "影视院线",
-        "pctChange": 4.46,
-        "mainNetBillion": 7.29,
-        "mainPct": 15.57,
+        "pctChange": 4.9,
+        "mainNetBillion": 8.43,
+        "mainPct": 15.79,
         "advanceCount": 16,
         "declineCount": 2
       },
       {
         "code": "BK1299",
         "name": "影视动漫制作",
-        "pctChange": 5.16,
-        "mainNetBillion": 7.13,
-        "mainPct": 17.7,
+        "pctChange": 5.66,
+        "mainNetBillion": 8.29,
+        "mainPct": 18.01,
         "advanceCount": 13,
         "declineCount": 1
       },
       {
         "code": "BK1298",
         "name": "文字媒体",
-        "pctChange": 12.14,
-        "mainNetBillion": 7.03,
-        "mainPct": 21.68,
+        "pctChange": 11.9,
+        "mainNetBillion": 7.34,
+        "mainPct": 21.4,
         "advanceCount": 2,
         "declineCount": 0
       },
       {
         "code": "BK1611",
         "name": "国有大型银行Ⅲ",
-        "pctChange": 2.75,
-        "mainNetBillion": 6.93,
-        "mainPct": 8.78,
+        "pctChange": 2.87,
+        "mainNetBillion": 6.9,
+        "mainPct": 7.72,
         "advanceCount": 6,
         "declineCount": 0
       },
       {
         "code": "BK0464",
         "name": "石油石化",
-        "pctChange": -0.19,
-        "mainNetBillion": 6.27,
-        "mainPct": 5.4,
+        "pctChange": -0.22,
+        "mainNetBillion": 6.12,
+        "mainPct": 4.8,
         "advanceCount": 20,
-        "declineCount": 25
+        "declineCount": 26
       },
       {
-        "code": "BK1250",
-        "name": "煤炭开采",
-        "pctChange": 2.24,
-        "mainNetBillion": 5.61,
-        "mainPct": 5.07,
-        "advanceCount": 24,
-        "declineCount": 2
+        "code": "BK1212",
+        "name": "轻工制造",
+        "pctChange": 0.64,
+        "mainNetBillion": 5.69,
+        "mainPct": 3.93,
+        "advanceCount": 97,
+        "declineCount": 68
       }
     ],
     "concept": [
       {
         "code": "BK1009",
         "name": "元宇宙概念",
-        "pctChange": 1.02,
-        "mainNetBillion": 22.21,
-        "mainPct": 4.84,
-        "advanceCount": 93,
-        "declineCount": 47
-      },
-      {
-        "code": "BK1654",
-        "name": "文娱消费",
-        "pctChange": 1.62,
-        "mainNetBillion": 18.17,
-        "mainPct": 6.87,
-        "advanceCount": 54,
-        "declineCount": 36
-      },
-      {
-        "code": "BK0847",
-        "name": "影视概念",
-        "pctChange": 2.65,
-        "mainNetBillion": 17.84,
-        "mainPct": 14.73,
-        "advanceCount": 44,
-        "declineCount": 16
+        "pctChange": 1.42,
+        "mainNetBillion": 25.51,
+        "mainPct": 4.98,
+        "advanceCount": 98,
+        "declineCount": 40
       },
       {
         "code": "BK1111",
         "name": "AIGC概念",
-        "pctChange": 2.1,
-        "mainNetBillion": 17.67,
-        "mainPct": 3.69,
-        "advanceCount": 82,
-        "declineCount": 38
-      },
-      {
-        "code": "BK1151",
-        "name": "短剧互动游戏",
-        "pctChange": 3.73,
-        "mainNetBillion": 17.24,
-        "mainPct": 7.59,
-        "advanceCount": 32,
-        "declineCount": 8
+        "pctChange": 2.48,
+        "mainNetBillion": 23.29,
+        "mainPct": 4.34,
+        "advanceCount": 89,
+        "declineCount": 33
       },
       {
         "code": "BK0722",
         "name": "虚拟现实",
-        "pctChange": 0.68,
-        "mainNetBillion": 15.67,
-        "mainPct": 2.53,
-        "advanceCount": 134,
-        "declineCount": 83
+        "pctChange": 1.11,
+        "mainNetBillion": 22.5,
+        "mainPct": 3.26,
+        "advanceCount": 144,
+        "declineCount": 70
       },
       {
-        "code": "BK1172",
-        "name": "AI语料",
+        "code": "BK1654",
+        "name": "文娱消费",
+        "pctChange": 1.83,
+        "mainNetBillion": 20.13,
+        "mainPct": 6.84,
+        "advanceCount": 57,
+        "declineCount": 32
+      },
+      {
+        "code": "BK0847",
+        "name": "影视概念",
+        "pctChange": 2.95,
+        "mainNetBillion": 19.72,
+        "mainPct": 14.61,
+        "advanceCount": 46,
+        "declineCount": 14
+      },
+      {
+        "code": "BK1151",
+        "name": "短剧互动游戏",
         "pctChange": 4.05,
-        "mainNetBillion": 14.1,
-        "mainPct": 8.95,
-        "advanceCount": 28,
-        "declineCount": 8
-      },
-      {
-        "code": "BK0845",
-        "name": "百度概念",
-        "pctChange": 0.48,
-        "mainNetBillion": 13.32,
-        "mainPct": 2.49,
-        "advanceCount": 71,
-        "declineCount": 72
+        "mainNetBillion": 18.84,
+        "mainPct": 7.55,
+        "advanceCount": 35,
+        "declineCount": 6
       },
       {
         "code": "BK1055",
         "name": "虚拟数字人",
-        "pctChange": 1.49,
-        "mainNetBillion": 13.27,
-        "mainPct": 4.33,
-        "advanceCount": 55,
-        "declineCount": 31
+        "pctChange": 1.88,
+        "mainNetBillion": 15.86,
+        "mainPct": 4.67,
+        "advanceCount": 60,
+        "declineCount": 25
       },
       {
-        "code": "BK0860",
-        "name": "边缘计算",
-        "pctChange": 0.48,
-        "mainNetBillion": 12.77,
-        "mainPct": 3.55,
-        "advanceCount": 69,
-        "declineCount": 52
+        "code": "BK1172",
+        "name": "AI语料",
+        "pctChange": 4.4,
+        "mainNetBillion": 15.68,
+        "mainPct": 9.08,
+        "advanceCount": 31,
+        "declineCount": 5
+      },
+      {
+        "code": "BK0845",
+        "name": "百度概念",
+        "pctChange": 0.78,
+        "mainNetBillion": 15.21,
+        "mainPct": 2.61,
+        "advanceCount": 85,
+        "declineCount": 58
+      },
+      {
+        "code": "BK1161",
+        "name": "英伟达概念",
+        "pctChange": 1.21,
+        "mainNetBillion": 14.78,
+        "mainPct": 2.49,
+        "advanceCount": 40,
+        "declineCount": 25
       }
     ],
     "source": "东方财富公开板块资金"
