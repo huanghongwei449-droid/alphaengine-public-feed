@@ -4,10 +4,14 @@
   "phase": "premarket",
   "researchAsOf": "2026-08-31T07:00:00+08:00",
   "marketDataAsOf": "2026-08-28",
-  "publishedAt": "2026-08-31T01:56:38.525Z",
+  "publishedAt": "2026-08-31T03:25:20.260Z",
   "dailyView": {
     "path": "data/daily-research-view-v1.json",
     "sha256": "bc716bd818bf323b9426d0f0b87a237f47a7eb0d3cf7e99a3149ae9803919c11"
   },
-  "canonical": true
+  "canonical": true,
+  "opportunity": {
+    "path": "data/opportunity-view-v1.json",
+    "sha256": "bca9ec42de7fe726bc8396d1cdb4a90d3304791b84dca2f8dfe6e55f60fee3a6"
+  }
 }
