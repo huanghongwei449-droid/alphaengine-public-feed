@@ -2,41 +2,45 @@
   "schemaVersion": "yanshu-daily-research-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-08-28",
-    "researchDate": "2026-08-28",
-    "phase": "postclose",
-    "researchAsOf": "2026-08-28T15:26:00+08:00",
-    "generatedAt": "2026-08-28T15:26:00+08:00",
-    "sourceSnapshotDate": "2026-08-28",
+    "requestedDate": "2026-08-31",
+    "researchDate": "2026-08-31",
+    "phase": "premarket",
+    "researchAsOf": "2026-08-31T07:00:00+08:00",
+    "generatedAt": "2026-08-31T01:26:12.384Z",
+    "sourceSnapshotDate": "2026-08-31",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-08-28 收盘复盘｜AI主线进入第一次真正分歧，市场没有转弱，但赚钱模式从“全链扩散”收窄到“硬兑现 + 低位轮动”",
-    "summary": "今天不是风险偏好崩掉，而是AI第一次主线确认后的分歧日。高位算力和半导体未延续昨日全面扩张，但PCB/CCL在建滔再次涨价、电子布与覆铜板供给紧张事件簇和板块价格响应共振下完成更硬的供需兑现；AI应用/网络安全及农业、地产等低位方向承担轮动。风险端仍干净，研究风险预算从3/3下调到2/3，AI研究主线维持但交易进入分歧后的重新选择。",
-    "largestBeliefChange": "AI主线未失效，但‘全链同步盈利扩散’假设过强；主线进入第一次分歧，真正升级的是PCB/CCL供需兑现，其他分支需要重新选择。"
+    "headline": "AI产业主线未失效，但交易主线需要在分歧后重新赢回来；周一只奖励仍有容量承接、盈利和供需兑现的方向。",
+    "summary": "8月28日成长高位第一次明显降速，但全市场宽度和风险端仍健康，正式后验维持结构进攻、风险预算2/3。周末华峰测控、圣邦股份等半年报强化AI需求向半导体测试/模拟等盈利环节外溢，但周五美股科技回落、Warsh鹰派表态与长端利率高位限制无差别扩估值。今天维持进攻、研究风险预算2/3，先看CPO容量能否稳定，再让PCB/CCL、半导体测试、液冷/机架供配电按真实容量和宽度竞争。"
   },
   "market": {
-    "state": "risk_appetite_maintained_with_ai_mainline_first_divergence",
-    "temperature": "positive_but_divergent",
-    "summary": "结构进攻",
+    "state": "structural_offense_ai_first_divergence_reselection",
+    "temperature": "positive_but_selective",
+    "summary": "进攻",
+    "rewardedPattern": "硬兑现优先：盈利/价格/订单/供需 + 分歧后容量承接；低位轮动需跨日宽度确认",
     "riskBudget": {
       "current": 2,
       "scale": 3,
-      "previous": 3,
-      "change": "lowered",
-      "reason": "结构进攻",
-      "asOfPhase": "postclose"
+      "previous": null,
+      "change": null,
+      "reason": "进攻",
+      "asOfPhase": "premarket",
+      "upgradeIf": "CPO容量停止拖累，且PCB/CCL、半导体测试/模拟、液冷/高速互联中至少两个方向出现容量与宽度同步增强，则升至3/3。",
+      "downgradeIf": "若高位AI容量继续明显弱于市场、PCB/CCL容量高开低走，周末新增只形成小票脉冲，并伴随市场宽度收缩或炸板/跌停扩张，则降至1/3。"
     }
   },
   "riskBudget": {
     "current": 2,
     "scale": 3,
-    "previous": 3,
-    "change": "lowered",
-    "reason": "结构进攻",
-    "asOfPhase": "postclose"
+    "previous": null,
+    "change": null,
+    "reason": "进攻",
+    "asOfPhase": "premarket",
+    "upgradeIf": "CPO容量停止拖累，且PCB/CCL、半导体测试/模拟、液冷/高速互联中至少两个方向出现容量与宽度同步增强，则升至3/3。",
+    "downgradeIf": "若高位AI容量继续明显弱于市场、PCB/CCL容量高开低走，周末新增只形成小票脉冲，并伴随市场宽度收缩或炸板/跌停扩张，则降至1/3。"
   },
   "hypotheses": [],
   "coreHypotheses": [],
@@ -45,69 +49,22 @@
   "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "20260828-check-pcb-ccl",
-      "question": "PCB / CCL涨价逻辑能否完成第三次市场选择？",
-      "confirmIf": "涨价与供需逻辑继续得到容量核心和盈利锚承接，板块保留宽度，而不是只剩小票情绪。",
-      "downgradeIf": "涨价刺激后核心集体高开低走、容量承接消失，走势退化为一次性事件交易。",
-      "anchors": [
-        {
-          "entityType": "direction",
-          "entityId": "pcb-ccl",
-          "label": "PCB / CCL"
-        }
-      ]
-    },
-    {
-      "id": "20260828-check-cpo-capacity",
-      "question": "CPO高位容量能否在分歧后重新稳定？",
-      "confirmIf": "中际旭创、新易盛、天孚通信等容量核心重新获得承接，即使不立即创新高，也不再持续弱于市场。",
-      "downgradeIf": "高位容量继续明显弱于市场并持续失去承接，AI主线交易置信度需要继续下调。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "300308",
-          "label": "中际旭创"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300502",
-          "label": "新易盛"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300394",
-          "label": "天孚通信"
-        }
-      ]
-    },
-    {
-      "id": "20260828-check-low-rotation",
-      "question": "低位轮动能否留下一个真正跨日的新支点？",
-      "confirmIf": "AI应用、网络安全、农业、地产中至少一个方向保留容量核心和板块宽度，出现第二天持续选择。",
-      "downgradeIf": "低位方向只有单日脉冲，次日没有容量和宽度承接，则只定义为高位分歧下的情绪分流。",
-      "anchors": [
-        {
-          "entityType": "direction",
-          "entityId": "ai-applications",
-          "label": "AI应用"
-        },
-        {
-          "entityType": "direction",
-          "entityId": "cybersecurity",
-          "label": "网络安全"
-        }
-      ]
+      "id": "liquidcooling-power-width",
+      "question": "液冷/机架供配电能否获得独立价格确认？",
+      "confirmIf": "液冷与供配电出现容量核心同步增强，且不是CPO简单反抽的附属。",
+      "downgradeIf": "仍只有零散消息股，无持续宽度。",
+      "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260828-postclose",
-      "type": "postclose",
-      "title": "2026-08-28 收盘复盘｜AI主线进入第一次真正分歧，市场没有转弱，但赚钱模式从“全链扩散”收窄到“硬兑现 + 低位轮动”",
-      "researchDate": "2026-08-28",
-      "publishedAt": "2026-08-28T15:26:00+08:00",
+      "id": "report-20260831-premarket",
+      "type": "premarket",
+      "title": "2026-08-31 盘前研究｜AI主线进入分歧后的再选择：先看硬兑现能否接住，再看低位轮动谁能跨周留下",
+      "researchDate": "2026-08-31",
+      "publishedAt": "2026-08-31T07:00:00+08:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260828-postclose"
+      "sourceRef": "data/daily-research-reports.json#report-20260831-premarket"
     }
   ],
   "coverage": {
@@ -120,198 +77,85 @@
     "reports": "available"
   },
   "todayOwner": {
-    "researchDate": "2026-08-28",
-    "phase": "postclose",
+    "researchDate": "2026-08-31",
+    "phase": "premarket",
     "thesis": {
-      "headline": "AI主线进入第一次真正分歧，但市场没有转弱",
-      "summary": "高位算力与半导体没有延续前一日的全面扩张，资金转向PCB/CCL供需与价格兑现，同时AI应用、网络安全以及农业、地产等低位方向承担轮动。市场风险端仍然健康，因此不是risk-off，而是主线从全链扩散进入分歧后的重新选择。"
+      "headline": "AI主线进入分歧后的再选择，优先验证硬兑现能否接住。",
+      "summary": "周五成长高位第一次明显降速，但市场宽度和风险端仍健康；周末半导体盈利证据增强，海外鹰派利率限制无差别扩估值，因此维持进攻、研究风险预算2/3，等待容量核心与硬兑现分支重新共振。"
     },
     "strategy": {
-      "headline": "从全链扩散切到硬兑现 + 低位轮动",
-      "mainline": "AI仍是研究主线，但高位硬件不再按全面扩散处理，优先看供需、价格、盈利和容量真正能继续兑现的内部环节。",
-      "rotation": "AI应用、网络安全以及农业、地产等低位方向获得轮动溢价，但目前只做跨日验证，不直接定义为新主线。",
-      "avoid": "不把泛AI概念补涨、高位硬件的一日修复，或尚未获得第二次市场选择的分支当成主线继续扩张。"
+      "headline": "先判容量承接，再让PCB/CCL、半导体测试、液冷等硬兑现方向竞争。",
+      "mainline": "AI仍是研究主线，交易上优先PCB/CCL与分歧后重新获得承接的CPO。",
+      "rotation": "半导体测试/模拟、液冷/机架供配电，以及低位有盈利或供需证据的轮动。",
+      "avoid": "仅靠周末话题热度、没有容量和板块宽度支持的纯概念补涨。"
     },
     "riskBudget": {
       "current": 2,
       "scale": 3,
-      "previous": 3,
-      "change": "lowered",
-      "stance": "结构进攻",
-      "userMeaning": "风险偏好仍在，但主线进入第一次分歧，不再按前一日3/3的全面扩张状态外推。"
+      "previous": 2,
+      "change": "unchanged",
+      "stance": "进攻",
+      "userMeaning": "保持进攻研究姿态，但不恢复全面满风险；只有容量核心稳定且至少两个硬兑现分支形成宽度才升至3/3。"
     },
-    "changes": [
-      {
-        "id": "20260828-ai-mainline-first-divergence",
-        "title": "AI主线进入第一次真正分歧",
-        "summary": "AI研究主线没有失效，但CPO、半导体、液冷等高位硬件不再同步扩张，‘全链同步盈利扩散’这一过强假设需要下调。",
-        "implication": "从追求全链扩散转为等待分歧后的重新选择，主线交易置信度下调一档。",
-        "entityRefs": [
-          {
-            "entityType": "direction",
-            "entityId": "ai-hardware",
-            "label": "AI硬件"
-          }
-        ]
-      },
-      {
-        "id": "20260828-pcb-ccl-upgrade",
-        "title": "PCB / CCL成为主线内部最硬增量",
-        "summary": "建滔再次上调FR-4和PP价格，电子布、CCL涨价与供给缺口形成连续事件簇，并获得板块价格响应，PCB/CCL由验证池升级到触发池。",
-        "implication": "下一步重点验证涨价与供需逻辑能否继续得到容量核心和盈利锚承接。",
-        "entityRefs": [
-          {
-            "entityType": "direction",
-            "entityId": "pcb-ccl",
-            "label": "PCB / CCL"
-          }
-        ]
-      },
-      {
-        "id": "20260828-cpo-liquidcooling-recheck",
-        "title": "CPO与液冷退回重新验证",
-        "summary": "CPO早盘有修复但没有重新形成统领全链的容量扩张，液冷产业逻辑仍强但缺少独立价格宽度；CPO由有效方向退回触发状态，液冷由触发池降至验证池。",
-        "implication": "不否定产业逻辑，但交易层面必须等待容量重新承接或第二次独立市场选择。",
-        "entityRefs": [
-          {
-            "entityType": "direction",
-            "entityId": "cpo-optical",
-            "label": "CPO / 光通信"
-          },
-          {
-            "entityType": "direction",
-            "entityId": "liquid-cooling",
-            "label": "液冷"
-          }
-        ]
-      },
-      {
-        "id": "20260828-low-rotation-emerges",
-        "title": "低位轮动开始承担新的风险偏好",
-        "summary": "AI应用、网络安全新增验证，农业、地产也出现明显价格表达，说明市场没有转防守，而是在高位硬件分歧时寻找新的低位风险承载。",
-        "implication": "尊重价格，但只有形成跨日容量和板块宽度后才能升级为新的有效方向。",
-        "entityRefs": [
-          {
-            "entityType": "direction",
-            "entityId": "ai-applications",
-            "label": "AI应用"
-          },
-          {
-            "entityType": "direction",
-            "entityId": "cybersecurity",
-            "label": "网络安全"
-          }
-        ]
-      }
-    ],
     "marketStructure": {
       "mainline": [
-        "AI硬件研究主线仍在，但从全面扩散进入第一次分歧",
-        "PCB / CCL供需与价格兑现是主线内部最硬增量",
-        "CPO / 光通信仍是高位容量的核心验证锚"
+        "AI硬件中的PCB/CCL硬兑现",
+        "分歧后重新稳定的CPO/光通信"
       ],
       "rotation": [
-        "AI应用 / 网络安全新增验证",
-        "农业 / 地产承担低位风险偏好，但只按轮动验证"
+        "半导体测试/模拟",
+        "液冷/机架供配电",
+        "低位有催化且有宽度的轮动"
       ],
       "avoid": [
-        "无盈利、供需或容量支撑的泛AI概念补涨",
-        "把高位硬件的一日修复直接解释为全链继续扩张",
-        "尚未获得第二次市场选择的液冷、化合物半导体直接升级"
+        "纯概念AI补涨",
+        "只有单一消息股、没有容量共振的周末题材"
       ]
     },
     "nextChecks": [
       {
-        "id": "20260828-check-pcb-ccl",
-        "question": "PCB / CCL涨价逻辑能否完成第三次市场选择？",
-        "confirmIf": "涨价与供需逻辑继续得到容量核心和盈利锚承接，板块保留宽度，而不是只剩小票情绪。",
-        "invalidateIf": "涨价刺激后核心集体高开低走、容量承接消失，走势退化为一次性事件交易。",
-        "anchors": [
-          {
-            "entityType": "direction",
-            "entityId": "pcb-ccl",
-            "label": "PCB / CCL"
-          }
-        ]
-      },
-      {
-        "id": "20260828-check-cpo-capacity",
-        "question": "CPO高位容量能否在分歧后重新稳定？",
-        "confirmIf": "中际旭创、新易盛、天孚通信等容量核心重新获得承接，即使不立即创新高，也不再持续弱于市场。",
-        "invalidateIf": "高位容量继续明显弱于市场并持续失去承接，AI主线交易置信度需要继续下调。",
-        "anchors": [
-          {
-            "entityType": "company",
-            "entityId": "300308",
-            "label": "中际旭创"
-          },
-          {
-            "entityType": "company",
-            "entityId": "300502",
-            "label": "新易盛"
-          },
-          {
-            "entityType": "company",
-            "entityId": "300394",
-            "label": "天孚通信"
-          }
-        ]
-      },
-      {
-        "id": "20260828-check-low-rotation",
-        "question": "低位轮动能否留下一个真正跨日的新支点？",
-        "confirmIf": "AI应用、网络安全、农业、地产中至少一个方向保留容量核心和板块宽度，出现第二天持续选择。",
-        "invalidateIf": "低位方向只有单日脉冲，次日没有容量和宽度承接，则只定义为高位分歧下的情绪分流。",
-        "anchors": [
-          {
-            "entityType": "direction",
-            "entityId": "ai-applications",
-            "label": "AI应用"
-          },
-          {
-            "entityType": "direction",
-            "entityId": "cybersecurity",
-            "label": "网络安全"
-          }
-        ]
+        "id": "liquidcooling-power-width",
+        "question": "液冷/机架供配电能否获得独立价格确认？",
+        "confirmIf": "液冷与供配电出现容量核心同步增强，且不是CPO简单反抽的附属。",
+        "invalidateIf": "仍只有零散消息股，无持续宽度。",
+        "anchors": []
       }
     ],
     "evidence": {
       "market": [
         {
-          "id": "20260828-market-breadth",
-          "text": "正式收盘输入显示涨停81家、跌停1家、炸板17家，风险端仍然健康，不支持定义为risk-off。"
-        },
-        {
-          "id": "20260828-market-divergence",
-          "text": "CPO早盘修复，但半导体和部分高位算力硬件转弱，前一日的跨环节同步扩张没有完整延续。"
+          "id": "today-evidence-2026-08-31-market-1",
+          "text": "8月28日创业板、科创50明显回落，但约3000只个股上涨，涨停82家、跌停1家、炸板16家。"
         }
       ],
       "fundamental": [
         {
-          "id": "20260828-ccl-price",
-          "text": "建滔积层板再次上调FR-4和PP价格，电子布、CCL涨价与供给紧张形成连续产业事件簇。"
+          "id": "today-evidence-2026-08-31-fundamental-1",
+          "text": "华峰测控2026H1收入同比+38.17%、归母净利润+112.60%、扣非净利润+39.06%。"
         },
         {
-          "id": "20260828-pcb-response",
-          "text": "PCB/CCL涨价与供需事件获得盘面同步响应，使该方向从单一消息升级为产业证据与市场选择共振。"
+          "id": "today-evidence-2026-08-31-fundamental-2",
+          "text": "圣邦股份2026H1收入同比+42.7%、归母净利润+109.3%。"
+        },
+        {
+          "id": "today-evidence-2026-08-31-fundamental-3",
+          "text": "周末产业跟踪继续强化高功率密度数据中心对液冷、机架供配电、OCS和服务器功率器件的需求。"
         }
       ],
       "opposing": [
         {
-          "id": "20260828-high-ai-capacity",
-          "text": "高位AI容量没有继续承担前一日的统一定价权，说明全面扩散假设过强。"
+          "id": "today-evidence-2026-08-31-opposing-1",
+          "text": "8月28日美股科技回落，英伟达跌4.6%、Marvell跌10.3%。"
         },
         {
-          "id": "20260828-liquidcooling-width",
-          "text": "液冷产业逻辑仍在，但当天没有形成足够独立的价格宽度，不能直接维持触发状态。"
+          "id": "today-evidence-2026-08-31-opposing-2",
+          "text": "Warsh鹰派表态推高加息预期，美元走强、黄金大跌，长端美债收益率仍处高位。"
         }
       ]
     },
     "unknowns": [
-      "行业/概念完整横截面仍不是全量，因此部分分支宽度只采用已经确认的公开事实和事件簇。",
-      "联特科技当天是否完成个股级重新选择尚未获得足够独立证据，因此维持验证池而不升级。",
-      "AI应用/网络安全目前只有一次市场选择，尚未确认跨日容量和产业兑现。"
+      "周末公司公告/IR自动采集并非全量，未纳入未经公开来源交叉确认的公司事件。",
+      "部分行业/概念完整横截面尚未确认，板块宽度需要开盘后由容量核心和同步增强个股数判定。"
     ]
   }
 }
