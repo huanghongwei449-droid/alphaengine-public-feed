@@ -2,89 +2,88 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-08-31",
-    "researchDate": "2026-08-31",
-    "researchAsOf": "2026-08-31T08:00:00+08:00",
-    "generatedAt": "2026-08-31T08:00:00+08:00",
+    "requestedDate": "2026-09-01",
+    "researchDate": "2026-09-01",
+    "researchAsOf": "2026-09-01T15:21:00+08:00",
+    "generatedAt": "2026-09-02T05:51:30+08:00",
     "phase": "postclose",
     "canonical": true,
     "viewStatus": "current",
     "freshness": "fresh"
   },
   "marketSummary": {
-    "summary": "8月31日机会只做状态变化映射：不因周末自动升级，优先等待容量、宽度、盈利与供需证据的下一交易日确认。",
-    "mainline": "PCB / CCL / 电子布维持触发池；CPO / 光通信维持触发池并等待分歧后重新验证。",
-    "rotation": "半导体测试 / 模拟从研究池升级至验证池；液冷 / 机架供配电维持验证池。",
-    "secondWave": "联特科技、北特科技继续观察，均不因周末信息自动升级。",
-    "stealth": "本轮 owner 未单列独立潜伏方向。",
-    "dynamicPool": "OCS / 服务器功率器件进入新增研究雷达，等待A股宽度与个股重新选择。",
+    "summary": "9月1日收盘后的机会状态发生了明确重排：AI应用/影视完成跨日升级，CPO午后获得容量回流并重新确认；PCB/CCL与液冷因价格确认不足降回验证，农业/种植成为新的低位触发，大消费/零售进入验证。",
+    "mainline": "AI应用/影视是当前最明确的有效方向；CPO/光通信处于回流重新确认，仍需下一交易日容量跨日验证。",
+    "rotation": "农业/种植新增触发，大消费/零售进入验证；PCB/CCL与液冷/算力温控保留研究逻辑但交易优先级下降。",
+    "secondWave": "联特科技继续留在CPO二波验证池，北特科技继续留在机器人研究池；当前没有新的个股二波升级。",
+    "stealth": "本轮没有单列独立潜伏方向，优先观察低位农业/消费能否形成持续承载。",
+    "dynamicPool": "半导体测试/模拟、OCS/服务器功率器件继续保留研究池，等待独立价格确认。",
     "nextChecks": [
-      "PCB / CCL：容量与盈利锚继续承接，涨价逻辑与板块宽度同时存在。",
-      "CPO / 光通信：至少两个容量核心止跌并重新强于成长指数，至少两个分支恢复宽度。",
-      "液冷 / 机架供配电：容量核心同步增强，且独立于CPO简单反抽。"
+      "AI影视第一次明显分歧时，芒果超媒、中文在线、华策影视、捷成股份中是否仍有2至3个核心保持承接。",
+      "CPO午后回流能否跨日，中际旭创、新易盛、天孚通信至少两个是否继续稳定并保持板块宽度。",
+      "农业和消费能否从低位宽度变成持续承载；若两者同步兑现，则降低轮动优先级。",
+      "PCB/CCL和液冷能否重新获得容量与板块宽度的同步价格确认。"
     ]
   },
   "opportunities": [
     {
-      "id": "rc25-pcb-ccl-electronic-cloth",
+      "id": "20260901-ai-film",
       "entityType": "direction",
-      "entityId": "pcb-ccl-electronic-cloth",
-      "name": "PCB / CCL / 电子布",
+      "entityId": "ai-film",
+      "name": "AI应用/影视",
       "kind": "mainline",
-      "lifecycle": "wait",
-      "currentStage": "触发池",
-      "industryTheme": "AI高速高层板、CCL与电子布",
-      "whyToday": "周五已连续获得市场选择并有涨价、供给紧张、盈利兑现支撑，周一需要第三次选择确认；周末没有新的价格证据，不因周末自动升级。",
-      "marketContext": "当前 owner 将其作为主线触发池观察对象，下一步仍取决于容量与板块宽度。",
+      "lifecycle": "upgrade",
+      "industryTheme": "AI应用、影视内容与产品落地",
+      "whyToday": "首日产品落地与板块扩散后，第二天继续出现核心承接，方向完成跨日市场选择并升级为有效机会。",
+      "marketContext": "市场宽度和风险端改善，AI内部定价由单一高位硬件向应用与容量回流重新选择。",
       "evidence": [],
-      "capitalFeatures": "周末没有新的价格证据，等待容量与盈利锚的下一交易日承接。",
-      "patternFeatures": "周一进行第三次市场选择，观察容量核心与板块宽度是否同步。",
-      "fundamentalLogic": "涨价、供给紧张与盈利兑现需要同时传导到容量核心和板块宽度。",
+      "capitalFeatures": "芒果超媒等中大市值与弹性核心仍有承接，板块没有退化为只剩小票连板。",
+      "patternFeatures": "已经完成第二天跨日确认，下一步进入第一次明显分歧的压力测试。",
+      "fundamentalLogic": "真实产品落地给了方向基本面入口，但后续能否维持有效机会仍取决于用户留存、商业化和持续内容供给。",
       "confidence": {
-        "level": "待验证",
-        "reason": "owner 已给出状态与条件，下一交易日价格确认尚未发生。"
+        "level": "有效机会",
+        "reason": "产品事件与第二天价格承接同时成立，完成了从事件脉冲到跨日方向的升级。"
       },
       "supportingFactors": [
-        "周五已连续获得市场选择，并有涨价、供给紧张、盈利兑现支撑。"
+        "AI影视产品已经真实落地。",
+        "第二天仍有中大市值与弹性核心承接。"
       ],
       "risks": [
-        "只剩涨价题材小票，容量核心高开低走、宽度快速消失。"
+        "首播后的用户留存、商业化和持续内容供给仍需连续数据验证。",
+        "若第一次明显分歧时核心同步补跌，方向可能退化为短线题材。"
       ],
-      "confirmTomorrow": "胜宏科技、深南电路、生益系等容量/盈利锚继续承接，且涨价逻辑与板块宽度同时存在。",
-      "invalidateIf": "只剩涨价题材小票，容量核心高开低走、宽度快速消失。",
-      "companyCodes": [
-        "300476",
-        "002916",
-        "600183"
-      ]
+      "confirmTomorrow": "芒果超媒、中文在线、华策影视、捷成股份中仍有2至3个核心保持承接，且不是只剩小票连板。",
+      "invalidateIf": "核心同步补跌，板块退化成只剩小票连板。",
+      "companyCodes": []
     },
     {
-      "id": "rc25-cpo-optical-communication",
+      "id": "20260901-cpo-reflow",
       "entityType": "direction",
-      "entityId": "cpo-optical-communication",
-      "name": "CPO / 光通信",
+      "entityId": "cpo-optical",
+      "name": "CPO/光通信",
       "kind": "mainline",
-      "lifecycle": "wait",
-      "currentStage": "触发池 / 分歧后重新验证",
-      "industryTheme": "CPO与光通信",
-      "whyToday": "产业逻辑未失效，但周五第一次明显分歧，必须先由容量核心重新证明承接。",
-      "marketContext": "当前 owner 将其保留在主线触发池，状态取决于分歧后的容量稳定与分支宽度。",
+      "lifecycle": "upgrade",
+      "industryTheme": "CPO、光模块与高速光通信",
+      "whyToday": "早盘科技承压后，中际旭创、新易盛等容量核心午后同步回升，中际回购影响从单票稳定扩散到方向回流。",
+      "marketContext": "CPO从早盘承压转为午后容量回流，重新获得市场选择，但尚未完成跨日确认。",
       "evidence": [],
-      "capitalFeatures": "周末没有新的个股价格证据，等待容量核心重新承接。",
-      "patternFeatures": "先观察至少两个容量核心止跌并重新强于成长指数，再看分支宽度。",
-      "fundamentalLogic": "产业逻辑需要通过容量核心承接与至少两个分支恢复宽度重新得到市场验证。",
+      "capitalFeatures": "中际旭创、新易盛等容量核心午后同步回升，资金行为从单票支撑扩散到板块。",
+      "patternFeatures": "属于分歧后的回流重新确认，下一交易日是否跨日决定能否进一步升级。",
+      "fundamentalLogic": "AI资本开支和光互连需求逻辑仍在，但当前交易强度必须由容量核心和板块宽度重新证明。",
       "confidence": {
-        "level": "待验证",
-        "reason": "owner 已给出状态与条件，分歧后的价格确认尚未发生。"
+        "level": "触发池/重新确认",
+        "reason": "午后容量回流提高了交易置信度，但还缺第二天持续性。"
       },
       "supportingFactors": [
-        "产业逻辑未失效。"
+        "中际旭创回购提高容量稳定概率。",
+        "午后新易盛等同行出现同步响应。"
       ],
       "risks": [
-        "容量持续明显弱于市场并继续成为AI全链拖累。"
+        "若下一交易日重新集体走弱，说明本次回流只是单日修复。",
+        "若只剩中际自身受回购支撑，不能视为行业主线恢复。"
       ],
-      "confirmTomorrow": "中际旭创、新易盛、天孚通信至少两个止跌并重新强于成长指数，至少两个光通信分支恢复宽度。",
-      "invalidateIf": "容量持续明显弱于市场并继续成为AI全链拖累。",
+      "confirmTomorrow": "中际旭创、新易盛、天孚通信至少两个继续稳定，且光通信内部保持板块宽度。",
+      "invalidateIf": "次日重新集体走弱，或只剩中际自身受回购支撑。",
       "companyCodes": [
         "300308",
         "300502",
@@ -92,155 +91,124 @@
       ]
     },
     {
-      "id": "rc25-semiconductor-test-analog",
+      "id": "20260901-agriculture",
       "entityType": "direction",
-      "entityId": "semiconductor-test-analog",
-      "name": "半导体测试 / 模拟",
+      "entityId": "agriculture-planting",
+      "name": "农业/种植",
       "kind": "rotation",
-      "lifecycle": "upgrade",
-      "currentStage": "研究池 → 验证池",
-      "industryTheme": "半导体测试设备、模拟/电源与AI连接",
-      "whyToday": "华峰测控、圣邦股份等半年报补上订单、收入、利润和AI需求外溢的硬证据，研究优先级上调但暂无周一价格确认。",
-      "marketContext": "当前 owner 将其作为轮动方向，并上调至验证池而非直接定义为已确认机会。",
+      "lifecycle": "new",
+      "industryTheme": "农业、种植与低位轮动",
+      "whyToday": "多只核心已经形成多日连续表达，9月1日又出现明显板块宽度，满足3至10日参与度和内部核心要求。",
+      "marketContext": "低位轮动的定价权转向农业、消费等方向，农业的持续性目前强于消费。",
       "evidence": [],
-      "capitalFeatures": "周末新增主要是盈利与订单证据，等待板块宽度而非单家公司脉冲。",
-      "patternFeatures": "暂无周一价格确认，需观察至少两个细分同步增强。",
-      "fundamentalLogic": "订单、收入、利润与AI需求外溢证据需要从公司层面扩散到细分宽度。",
+      "capitalFeatures": "多日参与度与当日板块宽度同时成立，具备从研究池进入触发池的资金条件。",
+      "patternFeatures": "属于低位宽度型新增触发，下一步看容量与连板核心能否跨日。",
+      "fundamentalLogic": "当前主要由低位轮动和板块参与度驱动，不与AI产业主线混为一谈。",
       "confidence": {
-        "level": "待验证",
-        "reason": "研究优先级已上调，但下一交易日价格确认尚未发生。"
+        "level": "触发池",
+        "reason": "多日表达和当日宽度同时成立，但尚需下一交易日容量确认。"
       },
       "supportingFactors": [
-        "华峰测控、圣邦股份半年报补上订单、收入、利润和AI需求外溢的硬证据。"
+        "多日连续表达。",
+        "9月1日板块宽度明显。"
       ],
       "risks": [
-        "只有单家公司高开或财报脉冲，没有板块宽度。"
+        "高位核心集体断板并快速补跌。",
+        "板块宽度快速消失。"
       ],
-      "confirmTomorrow": "测试设备、模拟/电源或AI连接至少两个细分同步增强，华峰测控/圣邦股份不是孤立财报脉冲。",
-      "invalidateIf": "只有单家公司高开或财报脉冲，没有板块宽度。",
-      "companyCodes": [
-        "688200",
-        "300661"
-      ]
-    },
-    {
-      "id": "rc25-liquid-cooling-rack-power",
-      "entityType": "direction",
-      "entityId": "liquid-cooling-rack-power",
-      "name": "液冷 / 机架供配电",
-      "kind": "rotation",
-      "lifecycle": "wait",
-      "currentStage": "验证池",
-      "industryTheme": "高功率密度数据中心、液冷与机架供配电",
-      "whyToday": "高功率密度数据中心、busbar、机架供配电等产业证据继续增强，但仍缺新的跨日价格重新选择。",
-      "marketContext": "当前 owner 将其保留在轮动验证池，尚未因周末产业信息升级。",
-      "evidence": [],
-      "capitalFeatures": "周末产业证据有增量，但缺新的跨日价格确认。",
-      "patternFeatures": "等待液冷与供配电容量核心同步增强，并与CPO简单反抽区分。",
-      "fundamentalLogic": "高功率密度基础设施的产业证据需要进一步传导为独立的容量与价格确认。",
-      "confidence": {
-        "level": "待验证",
-        "reason": "产业证据增强，但跨日价格重新选择尚未发生。"
-      },
-      "supportingFactors": [
-        "高功率密度数据中心、busbar、机架供配电产业证据继续增强。"
-      ],
-      "risks": [
-        "仍只有零散消息股，没有持续宽度。"
-      ],
-      "confirmTomorrow": "液冷与供配电出现容量核心同步增强，且独立于CPO简单反抽。",
-      "invalidateIf": "仍只有零散消息股，没有持续宽度。",
+      "confirmTomorrow": "下一交易日容量和连板核心继续承接，板块宽度不快速坍缩。",
+      "invalidateIf": "高位核心集体断板并快速补跌，或板块宽度快速消失。",
       "companyCodes": []
     },
     {
-      "id": "rc25-liante-301205",
-      "entityType": "company",
-      "entityId": "301205",
-      "name": "联特科技",
-      "kind": "second_wave",
-      "lifecycle": "wait",
-      "currentStage": "验证池",
-      "industryTheme": "光通信二波验证",
-      "whyToday": "H1收入同比增长、Q2收入新高的经营改善仍成立，但利润端弱且CPO尚处第一次分歧；周末没有个股级价格证据，不升级。",
-      "marketContext": "当前 owner 将其作为光通信容量稳定后的个股级压力测试对象。",
-      "evidence": [],
-      "capitalFeatures": "周末没有个股级价格证据，等待分歧承接。",
-      "patternFeatures": "等待光通信容量稳定后的相对强度与有效突破。",
-      "fundamentalLogic": "收入端改善需通过光通信容量稳定与个股相对强度进一步兑现。",
-      "confidence": {
-        "level": "待验证",
-        "reason": "收入改善仍成立，但价格条件尚未确认。"
-      },
-      "supportingFactors": [
-        "H1收入同比增长、Q2收入新高的经营改善仍成立。"
-      ],
-      "risks": [
-        "CPO容量修复而联特仍明显落后，或自身放量破坏平台。"
-      ],
-      "confirmTomorrow": "光通信容量稳定，且联特明显强于板块并出现分歧承接或有效突破。",
-      "invalidateIf": "CPO容量修复而联特仍明显落后，或自身放量破坏平台。",
-      "companyCodes": [
-        "301205"
-      ]
-    },
-    {
-      "id": "rc25-beite-603009",
-      "entityType": "company",
-      "entityId": "603009",
-      "name": "北特科技",
-      "kind": "second_wave",
-      "lifecycle": "wait",
-      "currentStage": "研究池",
-      "industryTheme": "机器人二波压力测试",
-      "whyToday": "机器人周末没有新增交易验证，仍只是二波压力测试对象。",
-      "marketContext": "当前 owner 将其留在研究池，等待机器人板块宽度与相对强度。",
-      "evidence": [],
-      "capitalFeatures": "周末没有新增交易验证，等待机器人核心同步增强。",
-      "patternFeatures": "等待恢复相对强度并形成稳定承接。",
-      "fundamentalLogic": "个股状态需要由机器人板块宽度与自身相对强度共同验证。",
-      "confidence": {
-        "level": "待验证",
-        "reason": "当前仅为二波压力测试对象，交易验证尚未发生。"
-      },
-      "supportingFactors": [
-        "当前保留为机器人二波压力测试对象。"
-      ],
-      "risks": [
-        "市场风险偏好修复但机器人继续无宽度，或北特持续弱于同类。"
-      ],
-      "confirmTomorrow": "机器人2—3个核心同步增强，且北特恢复相对强度并形成稳定承接。",
-      "invalidateIf": "市场风险偏好修复但机器人继续无宽度，或北特持续弱于同类。",
-      "companyCodes": [
-        "603009"
-      ]
-    },
-    {
-      "id": "rc25-ocs-server-power",
+      "id": "20260901-consumption",
       "entityType": "direction",
-      "entityId": "ocs-server-power",
-      "name": "OCS / 服务器功率器件",
-      "kind": "dynamic_pool",
+      "entityId": "consumption-retail",
+      "name": "大消费/零售",
+      "kind": "rotation",
       "lifecycle": "new",
-      "currentStage": "新增研究雷达",
-      "industryTheme": "数据中心网络与服务器功率器件",
-      "whyToday": "周末产业信息有增量，但当前缺完整A股板块宽度与个股重新选择证据。",
-      "marketContext": "当前 owner 将其作为动态候选池新增研究雷达，未直接升级为触发状态。",
+      "industryTheme": "零售、食品饮料与低位消费轮动",
+      "whyToday": "零售、食品饮料等在9月1日形成明显板块宽度，但跨日持续性暂时弱于农业。",
+      "marketContext": "风险端改善后低位方向获得承载，消费进入验证而非直接升级为有效机会。",
       "evidence": [],
-      "capitalFeatures": "当前缺完整A股板块宽度与个股重新选择证据。",
-      "patternFeatures": "等待2—3个可识别A股核心同步承接。",
-      "fundamentalLogic": "产业信息需要与独立市场选择同时增强，才能进入更高状态。",
+      "capitalFeatures": "当日宽度成立，但尚缺明确跨日容量核心。",
+      "patternFeatures": "属于首日/早期验证型轮动，需要第二天留下容量和宽度。",
+      "fundamentalLogic": "当前交易驱动主要来自低位轮动与风险偏好改善，持续性需要价格继续确认。",
       "confidence": {
-        "level": "待验证",
-        "reason": "产业信息有增量，但A股宽度与个股选择尚未确认。"
+        "level": "验证池",
+        "reason": "板块宽度已经出现，但跨日持续性尚未证明。"
       },
       "supportingFactors": [
-        "周末产业信息有增量。"
+        "零售、食品饮料等出现板块宽度。"
       ],
       "risks": [
-        "仅停留在卖方/产业讨论，没有独立市场选择。"
+        "次日集体兑现。",
+        "仅剩个别连板股。"
       ],
-      "confirmTomorrow": "出现至少2—3个可识别A股核心同步承接，产业证据与价格证据同时增强。",
-      "invalidateIf": "仅停留在卖方/产业讨论，没有独立市场选择。",
+      "confirmTomorrow": "至少一个细分方向留下跨日容量核心，且板块宽度继续维持。",
+      "invalidateIf": "次日集体兑现，或仅剩个别连板股。",
+      "companyCodes": []
+    },
+    {
+      "id": "20260901-pcb-ccl",
+      "entityType": "direction",
+      "entityId": "pcb-ccl",
+      "name": "PCB/CCL/电子布",
+      "kind": "rotation",
+      "lifecycle": "downgrade",
+      "industryTheme": "AI PCB、CCL与电子布",
+      "whyToday": "产业端AI PCB业绩和材料升级信息仍强，但9月1日PCB及电子元件明显回调，交易定价权下降。",
+      "marketContext": "硬逻辑保留，但市场当天没有给予同步价格确认，因此从更高交易优先级降回验证。",
+      "evidence": [],
+      "capitalFeatures": "容量核心未与产业信息同步走强，资金定价权弱化。",
+      "patternFeatures": "处于硬逻辑保留、价格验证失败后的降级状态，等待第二次资金选择。",
+      "fundamentalLogic": "AI PCB业绩与材料升级逻辑仍在，但基本面增强不能直接等同于交易强度。",
+      "confidence": {
+        "level": "验证池",
+        "reason": "研究逻辑没有失效，但当日价格确认不足。"
+      },
+      "supportingFactors": [
+        "AI PCB下半年业绩与材料升级逻辑继续被强化。"
+      ],
+      "risks": [
+        "产业信息继续增强但容量持续走弱。",
+        "板块价格持续弱于市场。"
+      ],
+      "confirmTomorrow": "胜宏科技、深南电路、生益系等容量锚重新同步增强，并出现第二次资金选择。",
+      "invalidateIf": "产业信息继续增强但容量持续走弱，或板块价格持续弱于市场。",
+      "companyCodes": [
+        "300476",
+        "002916",
+        "600183"
+      ]
+    },
+    {
+      "id": "20260901-liquid-cooling",
+      "entityType": "direction",
+      "entityId": "liquid-cooling",
+      "name": "液冷/算力温控",
+      "kind": "rotation",
+      "lifecycle": "downgrade",
+      "industryTheme": "数据中心液冷与算力温控",
+      "whyToday": "订单和交付逻辑仍有效，但9月1日没有形成与产业逻辑相匹配的独立板块宽度。",
+      "marketContext": "AI内部资金重新选择时，液冷没有同步扩张，因此交易优先级退回验证。",
+      "evidence": [],
+      "capitalFeatures": "缺少2至3个容量核心同步增强的独立资金表达。",
+      "patternFeatures": "从触发/高优先级状态降回验证，等待下一次独立于CPO的价格选择。",
+      "fundamentalLogic": "高功率密度数据中心、订单和交付逻辑仍在，但需要重新转化成板块价格宽度。",
+      "confidence": {
+        "level": "验证池",
+        "reason": "产业逻辑保留，但当日独立价格确认不足。"
+      },
+      "supportingFactors": [
+        "液冷订单与交付逻辑仍有效。"
+      ],
+      "risks": [
+        "持续缺少独立价格表达。",
+        "板块宽度继续收缩。"
+      ],
+      "confirmTomorrow": "AI分歧时2至3个液冷核心重新形成独立相对强度与板块宽度。",
+      "invalidateIf": "持续缺少独立价格表达，或板块宽度继续收缩。",
       "companyCodes": []
     }
   ],

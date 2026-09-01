@@ -4,43 +4,39 @@
   "meta": {
     "requestedDate": "2026-09-01",
     "researchDate": "2026-09-01",
-    "phase": "premarket",
-    "researchAsOf": "2026-09-01T06:59:30+08:00",
-    "generatedAt": "2026-09-01T22:34:25.286Z",
+    "phase": "postclose",
+    "researchAsOf": "2026-09-01T15:21:00+08:00",
+    "generatedAt": "2026-09-01T22:48:20.186Z",
     "sourceSnapshotDate": "2026-09-01",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "中际大额回购只提高CPO容量稳定概率，不等于主线回归；今天真正的判卷是同行同步承接，以及AI应用和液冷能否完成第二天跨日确认。",
-    "summary": "8月31日市场低开高走、宽度修复，正式后验维持结构进攻和2/3风险预算，但AI定价权已由高位CPO单中心迁移至AI应用/影视、液冷与PCB/CCL多分支竞争。隔夜中际旭创拟40—80亿元回购提高CPO容量锚稳定概率；同时美股回落、10Y/30Y美债上行和布油重回90美元上方限制高估值扩张。今日维持进攻、研究风险预算2/3，核心判卷是CPO是否获得同行同步承接，以及AI应用/影视、液冷能否完成第二天跨日确认。"
+    "headline": "AI应用完成跨日，CPO午后获得容量回流，但PCB与液冷没有同时扩张；市场宽度强而风格分化，风险预算维持2/3。",
+    "summary": "市场宽度强、风险端明显改善，但指数与风格仍分化。AI应用/影视完成跨日升级为有效方向；CPO在早盘承压后午后获得中际旭创、新易盛等容量回流，交易置信度上调；PCB/CCL和液冷因今日价格确认不足降回验证。农业/种植凭多日参与度与板块宽度新增触发。研究风险预算维持2/3。"
   },
   "market": {
-    "state": "structural_offense_multi_branch_ai_repricing",
-    "temperature": "positive_but_selective",
-    "summary": "进攻",
-    "rewardedPattern": "真实产品落地、订单/交付、盈利/供需 + 跨日容量承接",
+    "state": "structural_offense_broad_breadth_with_ai_reselection",
+    "temperature": "positive_but_style_divergent",
+    "summary": "结构进攻",
+    "rewardedPattern": "第二次市场选择：跨日产品/事件兑现 + 低位板块宽度 + 高位容量分歧后回流",
     "riskBudget": {
       "current": 2,
       "scale": 3,
-      "previous": null,
-      "change": null,
-      "reason": "进攻",
-      "asOfPhase": "premarket",
-      "upgradeIf": "中际旭创、新易盛、天孚通信至少两个明显稳定，且AI应用/影视、液冷、PCB/CCL中至少两个方向维持跨日容量和板块宽度，则升至3/3。",
-      "downgradeIf": "若中际回购仍无法阻止CPO容量继续走弱，AI影视与液冷首日高潮后同步兑现，并伴随市场宽度收缩或炸板/跌停扩大，则降至1/3。"
+      "previous": 2,
+      "change": "unchanged",
+      "reason": "结构进攻",
+      "asOfPhase": "postclose"
     }
   },
   "riskBudget": {
     "current": 2,
     "scale": 3,
-    "previous": null,
-    "change": null,
-    "reason": "进攻",
-    "asOfPhase": "premarket",
-    "upgradeIf": "中际旭创、新易盛、天孚通信至少两个明显稳定，且AI应用/影视、液冷、PCB/CCL中至少两个方向维持跨日容量和板块宽度，则升至3/3。",
-    "downgradeIf": "若中际回购仍无法阻止CPO容量继续走弱，AI影视与液冷首日高潮后同步兑现，并伴随市场宽度收缩或炸板/跌停扩大，则降至1/3。"
+    "previous": 2,
+    "change": "unchanged",
+    "reason": "结构进攻",
+    "asOfPhase": "postclose"
   },
   "hypotheses": [],
   "coreHypotheses": [],
@@ -49,43 +45,36 @@
   "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "cpo-capacity-reselection",
-      "question": "中际回购能否转化为CPO容量重新选择？",
-      "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并强于成长指数，CPO内部恢复宽度。",
-      "downgradeIf": "只有中际受利好支撑，其他容量核心继续明显落后。",
+      "id": "ai-film-first-divergence",
+      "question": "AI影视第一次明显分歧能否守住容量？",
+      "confirmIf": "芒果超媒、中文在线、华策影视、捷成股份中仍有2至3个核心保持承接。",
+      "downgradeIf": "核心同步补跌，板块退化成只剩小票连板。",
       "anchors": []
     },
     {
-      "id": "ai-film-second-day",
-      "question": "AI应用/影视能否从首日高潮升级为跨日容量方向？",
-      "confirmIf": "芒果超媒、中文在线、华策影视、捷成股份中至少2—3个核心继续保持承接，且不是只剩小票连板。",
-      "downgradeIf": "核心高开后同步兑现，板块迅速失去宽度。",
+      "id": "cpo-reflow-crossday",
+      "question": "CPO午后回流能否跨日？",
+      "confirmIf": "中际旭创、新易盛、天孚通信至少两个继续稳定，光通信内部保持宽度。",
+      "downgradeIf": "次日重新集体走弱或只剩中际自身受回购支撑。",
       "anchors": []
     },
     {
-      "id": "liquid-cooling-second-day",
-      "question": "液冷能否继续独立于CPO保持相对强度？",
-      "confirmIf": "英维克、申菱环境及液冷设备/零部件核心继续同步增强，并保持订单/交付逻辑与价格共振。",
-      "downgradeIf": "次日集体高开兑现，宽度快速消失。",
-      "anchors": []
-    },
-    {
-      "id": "pcb-ccl-reselection",
-      "question": "PCB/CCL能否继续证明硬兑现仍有资金持续付钱？",
-      "confirmIf": "胜宏科技、深南电路、生益系容量与供需逻辑同步承接。",
-      "downgradeIf": "只剩涨价题材小票脉冲，容量核心明显掉队。",
+      "id": "low-level-rotation-persistence",
+      "question": "农业和消费能否从低位宽度变成持续承载？",
+      "confirmIf": "农业继续保留容量/连板核心，大消费至少留下一个跨日容量方向。",
+      "downgradeIf": "两者同步兑现，板块宽度快速消失。",
       "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260901-premarket",
-      "type": "premarket",
-      "title": "2026-09-01 盘前研究｜AI主线进入“二次定价”：应用和液冷要证明跨日，中际回购只给CPO一次重新拿回容量权的机会",
+      "id": "report-20260901-postclose",
+      "type": "postclose",
+      "title": "2026-09-01 收盘复盘｜AI应用完成跨日，CPO午后回流，但PCB硬逻辑没有换来今天的定价权",
       "researchDate": "2026-09-01",
-      "publishedAt": "2026-09-01T06:59:30+08:00",
+      "publishedAt": "2026-09-01T15:21:00+08:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260901-premarket"
+      "sourceRef": "data/daily-research-reports.json#report-20260901-postclose"
     }
   ],
   "coverage": {
@@ -99,112 +88,123 @@
   },
   "todayOwner": {
     "researchDate": "2026-09-01",
-    "phase": "premarket",
+    "phase": "postclose",
     "thesis": {
-      "headline": "AI进入二次定价：CPO获得重新验证机会，应用与液冷进入跨日考试。",
-      "summary": "上一交易日仍是结构进攻、风险预算2/3，AI定价权转向应用落地、液冷兑现与PCB供需。隔夜中际旭创40—80亿元回购提高CPO容量锚稳定概率，但美债长端和油价上行限制高估值扩张，因此不恢复3/3。"
+      "headline": "第二次市场选择成为核心：AI影视跨日，CPO回流，PCB硬逻辑暂时失去定价权。",
+      "summary": "市场风险端显著改善，结构进攻延续。AI影视完成跨日升级；CPO从早盘承压到午后容量回流，交易置信度上调；PCB/CCL和液冷因价格确认不足降级。"
     },
     "strategy": {
-      "headline": "维持2/3进攻，让CPO、AI应用/影视、液冷和PCB/CCL用容量与跨日宽度竞争定价权。",
-      "mainline": "AI研究主线延续，交易核心是已获价格确认的AI应用/影视、液冷、PCB/CCL，以及获得重新验证机会的CPO。",
-      "rotation": "煤炭维持验证；OCS和服务器功率器件保留研究雷达。",
-      "avoid": "把中际回购机械等同于CPO主线回归、追逐首日高潮后无跨日承接的AI概念、贵金属弱映射和储能/逆变器弱势补跌。"
+      "headline": "维持2/3结构进攻，优先跟踪已完成第二次选择的方向，不把硬逻辑直接等同于交易强度。",
+      "mainline": "AI应用/影视是当前最明确的有效方向；CPO处于回流重新确认，等待跨日容量确认。",
+      "rotation": "农业/种植进入低位触发，大消费/零售进入验证；PCB/CCL与液冷等待重新选择。",
+      "avoid": "仅凭基本面继续强化就追逐当日价格转弱的PCB/CCL，或把中际回购后的单日回流直接等同于CPO重新成为唯一主线。"
     },
     "riskBudget": {
       "current": 2,
       "scale": 3,
       "previous": 2,
       "change": "unchanged",
-      "stance": "进攻",
-      "userMeaning": "保持结构进攻，但必须看到CPO同行同步承接和至少两个AI分支保持跨日宽度，才允许恢复3/3。"
+      "stance": "结构进攻",
+      "userMeaning": "市场宽度和风险端支持继续进攻，但只有AI影视完成跨日、CPO尚待第二天确认，液冷和PCB未同步扩张，因此不升3/3。"
     },
     "changes": [
       {
-        "id": "cpo-repurchase-retest",
-        "title": "CPO获得重新验证机会",
-        "summary": "中际旭创拟40—80亿元回购提高容量锚稳定概率，但没有替代行业需求和价格重新选择。",
-        "implication": "研究置信度小幅上调，交易置信度仍待中际、新易盛、天孚同步承接确认。"
+        "id": "ai-film-effective",
+        "title": "AI影视完成跨日升级",
+        "summary": "第二天仍有中大市值与弹性核心承接，方向从事件脉冲升级为主线内有效方向。",
+        "implication": "下一步验证从“能否跨日”切换为“第一次分歧能否保住容量”。"
+      },
+      {
+        "id": "cpo-afternoon-reselection",
+        "title": "CPO午后回流重新确认",
+        "summary": "早盘科技承压后，中际旭创、新易盛等容量核心午后同步回升，回购影响从单票稳定扩散到板块回流。",
+        "implication": "CPO交易置信度上调，但必须跨日才能进一步升级。"
+      },
+      {
+        "id": "pcb-liquidity-downgrade",
+        "title": "PCB与液冷交易优先级下降",
+        "summary": "PCB产业信息继续增强但价格回调，液冷今日也缺少独立宽度。",
+        "implication": "研究逻辑保留，交易状态退回验证，等待下一次市场选择。"
+      },
+      {
+        "id": "agriculture-trigger",
+        "title": "农业成为低位触发方向",
+        "summary": "多日连板核心与今日板块宽度同时成立，满足3—10日参与度和相对强度要求。",
+        "implication": "作为轮动型触发方向观察跨日容量，不与AI产业主线混为一谈。"
       }
     ],
     "marketStructure": {
       "mainline": [
         "AI应用/影视",
-        "液冷/算力温控",
-        "PCB/CCL/电子布",
-        "等待容量重新选择的CPO/光通信"
+        "CPO/光通信回流重新确认"
       ],
       "rotation": [
-        "煤炭验证",
-        "OCS研究雷达",
-        "服务器功率器件研究雷达"
+        "农业/种植",
+        "大消费/零售",
+        "PCB/CCL验证",
+        "液冷/算力温控验证"
       ],
       "avoid": [
-        "无跨日承接的AI首日高潮补涨",
-        "贵金属短期弱映射",
+        "仅靠基本面强化却无价格确认的硬件追涨",
+        "把单日CPO回流直接当成唯一主线确认",
         "储能/逆变器弱势补跌"
       ]
     },
     "nextChecks": [
       {
-        "id": "cpo-capacity-reselection",
-        "question": "中际回购能否转化为CPO容量重新选择？",
-        "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并强于成长指数，CPO内部恢复宽度。",
-        "invalidateIf": "只有中际受利好支撑，其他容量核心继续明显落后。"
+        "id": "ai-film-first-divergence",
+        "question": "AI影视第一次明显分歧能否守住容量？",
+        "confirmIf": "芒果超媒、中文在线、华策影视、捷成股份中仍有2至3个核心保持承接。",
+        "invalidateIf": "核心同步补跌，板块退化成只剩小票连板。"
       },
       {
-        "id": "ai-film-second-day",
-        "question": "AI应用/影视能否从首日高潮升级为跨日容量方向？",
-        "confirmIf": "芒果超媒、中文在线、华策影视、捷成股份中至少2—3个核心继续保持承接，且不是只剩小票连板。",
-        "invalidateIf": "核心高开后同步兑现，板块迅速失去宽度。"
+        "id": "cpo-reflow-crossday",
+        "question": "CPO午后回流能否跨日？",
+        "confirmIf": "中际旭创、新易盛、天孚通信至少两个继续稳定，光通信内部保持宽度。",
+        "invalidateIf": "次日重新集体走弱或只剩中际自身受回购支撑。"
       },
       {
-        "id": "liquid-cooling-second-day",
-        "question": "液冷能否继续独立于CPO保持相对强度？",
-        "confirmIf": "英维克、申菱环境及液冷设备/零部件核心继续同步增强，并保持订单/交付逻辑与价格共振。",
-        "invalidateIf": "次日集体高开兑现，宽度快速消失。"
-      },
-      {
-        "id": "pcb-ccl-reselection",
-        "question": "PCB/CCL能否继续证明硬兑现仍有资金持续付钱？",
-        "confirmIf": "胜宏科技、深南电路、生益系容量与供需逻辑同步承接。",
-        "invalidateIf": "只剩涨价题材小票脉冲，容量核心明显掉队。"
+        "id": "low-level-rotation-persistence",
+        "question": "农业和消费能否从低位宽度变成持续承载？",
+        "confirmIf": "农业继续保留容量/连板核心，大消费至少留下一个跨日容量方向。",
+        "invalidateIf": "两者同步兑现，板块宽度快速消失。"
       }
     ],
     "evidence": {
       "market": [
         {
           "id": "today-evidence-2026-09-01-market-1",
-          "text": "8月31日上证+0.86%、深成指+0.44%、创业板+0.42%、科创50+1.34%，成交约2.13万亿元，上涨个股约3180只。"
+          "text": "正式收盘输入记录83家涨停、0家跌停、6家炸板，风险端较前一交易日明显改善。"
         },
         {
           "id": "today-evidence-2026-09-01-market-2",
-          "text": "正式收盘输入记录涨停88家、跌停11家、炸板30家，显示风险偏好仍活跃但波动和选择性上升。"
+          "text": "上午农业、大消费、传媒宽度显著，午后CPO出现中际旭创、新易盛等容量核心同步回升。"
         }
       ],
       "fundamental": [
         {
           "id": "today-evidence-2026-09-01-fundamental-1",
-          "text": "中际旭创8月31日晚公告拟40—80亿元回购A股，用于员工持股计划或股权激励。"
+          "text": "中际旭创回购提高容量稳定概率，并在午后出现同行响应。"
         },
         {
           "id": "today-evidence-2026-09-01-fundamental-2",
-          "text": "AI影视8月31日已完成真实产品上线，液冷此前已形成CDU订单排期、产线满产及服务器液冷交付等产业证据。"
+          "text": "AI影视产品落地后的第二天继续出现核心承接；Knowledge Star继续出现AI光互连、AI PCB、半导体测试等产业证据簇。"
         }
       ],
       "opposing": [
         {
           "id": "today-evidence-2026-09-01-opposing-1",
-          "text": "8月31日美股三大指数回落，10年美债约4.75%、30年约5.25%。"
+          "text": "PCB/电子元件今日明显回调，即使AI PCB下半年业绩与材料升级逻辑继续被卖方强化，市场仍未给予同步价格确认。"
         },
         {
           "id": "today-evidence-2026-09-01-opposing-2",
-          "text": "布伦特原油升至约90.49美元/桶，能源通胀重新抬头；黄金反而回落，说明当前更偏利率/通胀约束而非全面避险。"
+          "text": "液冷今日缺少与此前订单逻辑相匹配的独立板块宽度。"
         }
       ]
     },
     "unknowns": [
-      "AI影视首播后的用户反馈、留存和商业化持续性尚未确认。",
-      "OCS和服务器功率器件缺少完整3—10日参与度与个股相对强度证据，因此只保留研究雷达。"
+      "AI影视首播后的用户留存、商业化和持续内容供给仍需连续数据验证。",
+      "液冷今日完整收盘横截面尚不足以判断是否进入退潮，因此只降至验证而非失效。"
     ]
   }
 }
