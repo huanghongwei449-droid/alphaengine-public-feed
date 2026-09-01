@@ -1,11 +1,11 @@
 {
   "sourceBranch": "daily-bus",
   "sourcePath": "daily-bus/2026-09-02/chatgpt-decision.json",
-  "sourceCommit": "e4d1b9c5eb991cedd54d64694ca84b9d8205cf0c",
-  "sourceBlob": "be0157402ae9e64d01a8eab45293469ff1ff08db",
+  "sourceCommit": "a665de0d57002632186c42007fb7341c34f8de29",
+  "sourceBlob": "3657f20f207e01970d72d747d8fbcae79a3fc6f8",
   "phase": "premarket",
-  "ownerPayloadHash": "849c774a4952a732ea2062d31bd3647405a4b1fc84c4b7ddd0a3c1dfa772ea35",
+  "ownerPayloadHash": "8bc4470bce9bebee1b64b89cd914dbe3c4ea29c76278ecd4dd8c0d57ddf52a1a",
   "researchDate": "2026-09-02",
   "publishStatus": "published",
-  "workflowSha": "e4d1b9c5eb991cedd54d64694ca84b9d8205cf0c"
+  "workflowSha": "a665de0d57002632186c42007fb7341c34f8de29"
 }

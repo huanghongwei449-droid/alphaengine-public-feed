@@ -6,7 +6,7 @@
     "researchDate": "2026-09-02",
     "phase": "premarket",
     "researchAsOf": "2026-09-02T07:02:27+08:00",
-    "generatedAt": "2026-09-01T23:42:33.274Z",
+    "generatedAt": "2026-09-01T23:47:50.864Z",
     "sourceSnapshotDate": "2026-09-02",
     "canonical": true,
     "viewStatus": "current",
@@ -334,6 +334,14 @@
       "mainline": "AI应用已有效，CPO处于跨日回流验证；AI基础设施产业逻辑继续增强但交易层必须等容量确认。",
       "rotation": "农业/种植继续作为低位承载物验证，大消费观察跨日持续性。",
       "avoid": "把Dell订单直接等同于A股AI硬件必涨、把燧原科技申购当成新需求、继续保留长期未重新选择的历史池对象。"
+    },
+    "riskBudget": {
+      "current": 1,
+      "scale": 2,
+      "previous": 2,
+      "change": "lowered",
+      "stance": "中性",
+      "userMeaning": "宏观先压低风险上限；只有A股主动消化油价与利率冲击、容量核心继续承接，才恢复2/3。"
     },
     "changes": [
       {
