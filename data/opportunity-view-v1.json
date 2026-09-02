@@ -2,14 +2,14 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-01",
+    "requestedDate": "2026-09-02",
     "researchDate": "2026-09-01",
     "researchAsOf": "2026-09-01T15:21:00+08:00",
-    "generatedAt": "2026-09-02T05:51:30+08:00",
+    "generatedAt": "2026-09-02T01:02:07.066Z",
     "phase": "postclose",
     "canonical": true,
-    "viewStatus": "current",
-    "freshness": "fresh"
+    "viewStatus": "stale",
+    "freshness": "stale"
   },
   "marketSummary": {
     "summary": "9月1日收盘后的机会状态发生了明确重排：AI应用/影视完成跨日升级，CPO午后获得容量回流并重新确认；PCB/CCL与液冷因价格确认不足降回验证，农业/种植成为新的低位触发，大消费/零售进入验证。",
