@@ -99,6 +99,11 @@
       "sha256": "62570d41ffe8bb017ee0da6cf3b3ea253e55d87973d0d52dc0412138583b6885"
     },
     {
+      "path": "data/opportunity-view-v1.json",
+      "bytes": 11540,
+      "sha256": "f3ceeb56e687f91bc8a84e1949c69cfd0aa51c5d294e011a5a4a2462e9bc565c"
+    },
+    {
       "path": "data/daily-research-reports.json",
       "bytes": 92391,
       "sha256": "7b16f8515f9dd52075545d1bc9ca0395b6e5bf9719b7369677f551f83d0a14c3"
