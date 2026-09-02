@@ -1,24 +1,24 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-09-02T09:56:47.543Z",
+  "fetchedAt": "2026-09-02T14:19:07.434Z",
   "asOfDate": "2026-09-02",
   "sourceStatus": {
-    "399001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "399006": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sz399001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sz399006": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000688": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000688": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "000300": {
       "status": "ok",
@@ -38,50 +38,6 @@
     }
   },
   "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "close": 3941.39,
-      "previousClose": 3979.89,
-      "dailyPct": -0.97,
-      "high": 3965.81,
-      "low": 3932.25,
-      "asOfDate": "2026-09-02",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "close": 13611.55,
-      "previousClose": 13872.38,
-      "dailyPct": -1.88,
-      "high": 13732.18,
-      "low": 13549.77,
-      "asOfDate": "2026-09-02",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "close": 3312.24,
-      "previousClose": 3393.43,
-      "dailyPct": -2.39,
-      "high": 3348.69,
-      "low": 3296.47,
-      "asOfDate": "2026-09-02",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000688",
-      "name": "科创50",
-      "close": 1617.6,
-      "previousClose": 1647.53,
-      "dailyPct": -1.82,
-      "high": 1635.76,
-      "low": 1607.19,
-      "asOfDate": "2026-09-02",
-      "source": "腾讯 qt.gtimg.cn"
-    },
     {
       "code": "000300",
       "name": "沪深300",
