@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-ima-public-research-index-v1",
-  "generatedAt": "2026-08-28T15:26:00+08:00",
+  "generatedAt": "2026-09-02T16:55:52+08:00",
   "lastSuccessfulScanAt": "2026-08-20T09:50:37.947Z",
   "notes": [
     {
@@ -1875,6 +1875,42 @@
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_7975f0dac519b8e95219d710fd4cd7f57477529334009595",
       "canonicalSha256": "bc5e9a281175df6b663ed502dbb12d283f3f5ffe9bceaf94da9b707bc8c7acb3",
       "sourceRef": "daily-bus/_status/second-wave-delivery-20260828.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-09-02-premarket",
+      "researchDate": "2026-09-02",
+      "title": "2026-09-02 盘前研究",
+      "kind": "daily_premarket",
+      "summary": "2026-09-02 盘前研究｜今天真正要验证的，是折现率压力能否压过AI订单韧性",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_00e344de29b950b751a4acf597ab18957477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_00e344de29b950b751a4acf597ab18957477529334009595",
+      "canonicalSha256": "f7b8ae7649d6448c3b7982ecc14bcfeb274f49d821cc7e9ceb4fc21417e1cb14",
+      "sourceRef": "daily-bus/_status/premarket-delivery-20260902.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-09-02-close",
+      "researchDate": "2026-09-02",
+      "title": "2026-09-02 收盘复盘",
+      "kind": "daily_close",
+      "summary": "2026-09-02 收盘复盘｜折现率取得定价权，AI需求没有失效，但高位CPO失去资金优先级",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_ebe78dae71ccf1d4aaec7794925408547477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_ebe78dae71ccf1d4aaec7794925408547477529334009595",
+      "canonicalSha256": "869b677b20605cf5eda83c74badc57b672106ae8ff26828bc697bd3e2f7499a8",
+      "sourceRef": "daily-bus/_status/close-delivery-20260902.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-09-02-second-wave",
+      "researchDate": "2026-09-02",
+      "title": "2026-09-02 二波研究",
+      "kind": "daily_opportunity",
+      "summary": "2026-09-02 统一机会更新｜高位CPO降级，AIDC线缆进入验证",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_c9f21e7c171de042ff11b27cc60b113e7477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_c9f21e7c171de042ff11b27cc60b113e7477529334009595",
+      "canonicalSha256": "5c62daea563376a9abe096a1726f31825ba39437b556592d3167f2b61306a8e6",
+      "sourceRef": "daily-bus/_status/second-wave-delivery-20260902.json",
       "publicSafe": true
     }
   ],
