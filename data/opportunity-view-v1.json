@@ -2,10 +2,10 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-02",
+    "requestedDate": "2026-09-03",
     "researchDate": "2026-09-01",
     "researchAsOf": "2026-09-01T15:21:00+08:00",
-    "generatedAt": "2026-09-02T01:13:28.427Z",
+    "generatedAt": "2026-09-02T23:24:10.956Z",
     "phase": "postclose",
     "canonical": true,
     "viewStatus": "stale",
