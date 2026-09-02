@@ -4,42 +4,42 @@
   "meta": {
     "requestedDate": "2026-09-02",
     "researchDate": "2026-09-02",
-    "phase": "postclose",
-    "researchAsOf": "2026-09-02T15:38:00+08:00",
-    "generatedAt": "2026-09-02T16:55:52+08:00",
+    "phase": "premarket",
+    "researchAsOf": "2026-09-02T08:50:00+08:00",
+    "generatedAt": "2026-09-02T22:34:02.905Z",
     "sourceSnapshotDate": "2026-09-02",
     "canonical": true,
     "viewStatus": "current",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "折现率今天压过了高位AI订单韧性，但资金没有离开AI基础设施，而是在向更低位置、订单更直接的AIDC电网线缆环节迁移。",
-    "summary": "折现率压力取得当天定价权，高位CPO昨日回流未能跨日；AI需求和订单韧性没有失效，但市场选择转向更低位置、订单映射更直接的电网/线缆/光纤及AIDC配套。风险预算由1/3降至0/3。"
+    "headline": "今天先看折现率压力与AI订单韧性谁取得A股定价权，再决定是否提高风险预算。",
+    "summary": "第一影响变量仍为油价与全球长端利率共同抬高折现率门槛；核心矛盾是折现率恶化与AI基础设施需求、订单继续上修之间谁取得今日定价权。Dell与远东股份被下沉为AI需求/订单韧性的证据，不再各自机械占据Top Driver。今日聚焦CPO/光通信、AI应用/影视、AIDC电能配套；联特科技仅验证池、远东股份仅研究池，可执行机会为0。"
   },
   "market": {
-    "state": "结构性风险收缩，高位成长失去优先定价，低位订单映射开始获得承载。",
-    "temperature": "偏谨慎",
-    "summary": "风险预算降至0/3，等待至少一个方向完成跨日确认后再恢复。",
+    "state": "结构性风险偏好仍在，但高估值成长进入更严格的价格验证期",
+    "temperature": "中性偏谨慎",
+    "summary": "基准风险预算1/3；不预设科技必跌，先等容量核心和市场宽度裁决核心矛盾。",
     "riskBudget": {
-      "current": 0,
+      "current": 1,
       "scale": 3,
-      "previous": 1,
-      "change": "lowered",
-      "reason": "风险预算降至0/3，等待至少一个方向完成跨日确认后再恢复。",
-      "asOfPhase": "postclose",
-      "upgradeIf": "市场宽度不继续恶化，AIDC/线缆或CPO至少一个方向完成容量与宽度的跨日确认。",
-      "downgradeIf": "高位成长继续走弱、市场宽度进一步收缩，低位新方向也同步兑现。"
+      "previous": null,
+      "change": null,
+      "reason": "基准风险预算1/3；不预设科技必跌，先等容量核心和市场宽度裁决核心矛盾。",
+      "asOfPhase": "premarket",
+      "upgradeIf": "指数低开后稳定、宽度保持，CPO至少两个容量核心转强且AI应用分歧后仍有核心承接。",
+      "downgradeIf": "创业板/科创继续明显走弱，CPO回流无法跨日，AI应用核心同步补跌且市场宽度收缩。"
     }
   },
   "riskBudget": {
-    "current": 0,
+    "current": 1,
     "scale": 3,
-    "previous": 1,
-    "change": "lowered",
-    "reason": "风险预算降至0/3，等待至少一个方向完成跨日确认后再恢复。",
-    "asOfPhase": "postclose",
-    "upgradeIf": "市场宽度不继续恶化，AIDC/线缆或CPO至少一个方向完成容量与宽度的跨日确认。",
-    "downgradeIf": "高位成长继续走弱、市场宽度进一步收缩，低位新方向也同步兑现。"
+    "previous": null,
+    "change": null,
+    "reason": "基准风险预算1/3；不预设科技必跌，先等容量核心和市场宽度裁决核心矛盾。",
+    "asOfPhase": "premarket",
+    "upgradeIf": "指数低开后稳定、宽度保持，CPO至少两个容量核心转强且AI应用分歧后仍有核心承接。",
+    "downgradeIf": "创业板/科创继续明显走弱，CPO回流无法跨日，AI应用核心同步补跌且市场宽度收缩。"
   },
   "hypotheses": [
     {
@@ -96,10 +96,6 @@
             "label": "天孚通信"
           }
         ]
-      },
-      "postclose": {
-        "verdict": "confirmed",
-        "result": "折现率压力取得当天定价权；CPO昨日容量回流没有跨日，高位成长未能用订单韧性抵消估值约束。"
       }
     },
     {
@@ -137,10 +133,6 @@
             "label": "远东股份"
           }
         ]
-      },
-      "postclose": {
-        "verdict": "partially_confirmed",
-        "result": "AI订单韧性没有失效，但市场把价格选择给了更低位置的AIDC/电网线缆映射；远东股份首次获得个股级重新选择，方向推进到发酵。"
       }
     }
   ],
@@ -199,10 +191,6 @@
             "label": "天孚通信"
           }
         ]
-      },
-      "postclose": {
-        "verdict": "confirmed",
-        "result": "折现率压力取得当天定价权；CPO昨日容量回流没有跨日，高位成长未能用订单韧性抵消估值约束。"
       }
     },
     {
@@ -240,10 +228,6 @@
             "label": "远东股份"
           }
         ]
-      },
-      "postclose": {
-        "verdict": "partially_confirmed",
-        "result": "AI订单韧性没有失效，但市场把价格选择给了更低位置的AIDC/电网线缆映射；远东股份首次获得个股级重新选择，方向推进到发酵。"
       }
     }
   ],
@@ -254,8 +238,17 @@
       "label": "CPO/光通信",
       "researchRole": "direction",
       "lifecycleState": null,
-      "whyToday": "昨日回流未跨日，方向进入分歧。",
-      "upgradeIf": "容量核心重新同步稳定并恢复板块宽度。"
+      "whyToday": "昨日发生容量回流，今天验证能否跨日重新确认。",
+      "upgradeIf": "至少两个容量核心同步承接且内部宽度恢复。"
+    },
+    {
+      "entityType": "direction",
+      "entityId": "ai-app-media",
+      "label": "AI应用/影视",
+      "researchRole": "direction",
+      "lifecycleState": null,
+      "whyToday": "昨日已发酵，今天检验分歧后的真实承接。",
+      "upgradeIf": "分歧后仍有两到三个核心保持承接。"
     },
     {
       "entityType": "direction",
@@ -263,286 +256,180 @@
       "label": "AIDC电能配套",
       "researchRole": "direction",
       "lifecycleState": null,
-      "whyToday": "低位订单映射获得第一次明显价格选择，方向从孕育推进到发酵。",
-      "upgradeIf": "远东、杭电等跨日保持强度并带出更多同步核心。"
-    },
-    {
-      "entityType": "company",
-      "entityId": "600869",
-      "label": "远东股份",
-      "researchRole": "anchor",
-      "lifecycleState": "validation",
-      "whyToday": "订单证据首次获得个股级重新选择。",
-      "upgradeIf": "连续相对强度与板块共振进一步确认。"
-    },
-    {
-      "entityType": "company",
-      "entityId": "603618",
-      "label": "杭电股份",
-      "researchRole": "anchor",
-      "lifecycleState": "validation",
-      "whyToday": "成为线缆方向新的低位价格载体。",
-      "upgradeIf": "跨日保持强度并与方向宽度共振。"
+      "whyToday": "产业和订单证据增强，但市场侧仍在孕育。",
+      "upgradeIf": "出现多个同步核心和连续市场宽度。"
     },
     {
       "entityType": "company",
       "entityId": "301205",
       "label": "联特科技",
+      "researchRole": "anchor",
+      "lifecycleState": "validation",
+      "whyToday": "验证CPO回流是否真正传导到个股重新选择。",
+      "upgradeIf": "自身明显强于板块并持续承接。"
+    },
+    {
+      "entityType": "company",
+      "entityId": "600869",
+      "label": "远东股份",
       "researchRole": "anchor",
       "lifecycleState": "research",
-      "whyToday": "CPO回流跨日失败且个股无新选择，降回研究。",
-      "upgradeIf": "CPO容量修复且个股出现独立重新选择。"
+      "whyToday": "订单增量真实，但交易层尚缺连续确认。",
+      "upgradeIf": "形成连续相对强度并获得AIDC板块共振。"
     }
   ],
-  "marketStructureChanges": [
-    {
-      "id": "risk-budget-down",
-      "entityType": "market",
-      "entityId": "a-share-risk",
-      "label": "A股风险预算",
-      "from": "1/3",
-      "to": "0/3",
-      "summary": "折现率压力取得定价权，高位成长缺少跨日承接，先把风险预算降到0/3。",
-      "anchors": [
-        {
-          "entityType": "market",
-          "entityId": "a-share",
-          "label": "A股全市场"
-        }
-      ]
-    },
-    {
-      "id": "cpo-reflow-to-divergence",
-      "entityType": "market",
-      "entityId": "cpo-optical",
-      "label": "CPO/光通信",
-      "from": "回流重新确认",
-      "to": "分歧",
-      "summary": "昨日容量回流未完成跨日确认，交易优先级下降。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "300308",
-          "label": "中际旭创"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300502",
-          "label": "新易盛"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300394",
-          "label": "天孚通信"
-        }
-      ]
-    },
-    {
-      "id": "aidc-incubation-to-fermentation",
-      "entityType": "market",
-      "entityId": "aidc-power",
-      "label": "AIDC电能配套",
-      "from": "孕育/候选",
-      "to": "发酵",
-      "summary": "订单证据开始获得价格响应，远东与线缆低位载体进入验证。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "600869",
-          "label": "远东股份"
-        },
-        {
-          "entityType": "company",
-          "entityId": "603618",
-          "label": "杭电股份"
-        }
-      ]
-    }
-  ],
-  "opportunityChanges": [
-    {
-      "id": "far-east-upgrade",
-      "entityType": "company",
-      "entityId": "600869",
-      "label": "远东股份",
-      "transitionType": "upgraded",
-      "from": "research",
-      "to": "validation",
-      "reason": "公司订单证据获得第一次明确个股级重新选择。",
-      "nextCheck": "验证连续相对强度与AIDC电网线缆内部宽度。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "600869",
-          "label": "远东股份"
-        }
-      ]
-    },
-    {
-      "id": "hangdian-enter",
-      "entityType": "company",
-      "entityId": "603618",
-      "label": "杭电股份",
-      "transitionType": "entered",
-      "from": null,
-      "to": "validation",
-      "reason": "成为线缆方向新的低位价格载体。",
-      "nextCheck": "验证跨日强度与板块扩散。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "603618",
-          "label": "杭电股份"
-        }
-      ]
-    },
-    {
-      "id": "linktel-downgrade",
-      "entityType": "company",
-      "entityId": "301205",
-      "label": "联特科技",
-      "transitionType": "downgraded",
-      "from": "validation",
-      "to": "research",
-      "reason": "CPO昨日回流未跨日且个股没有自身重新选择。",
-      "nextCheck": "仅在CPO容量修复且个股独立转强时重新升级。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "301205",
-          "label": "联特科技"
-        }
-      ]
-    },
-    {
-      "id": "yutai-maintain",
-      "entityType": "company",
-      "entityId": "688515",
-      "label": "裕太微",
-      "transitionType": "maintained",
-      "from": "research",
-      "to": "research",
-      "reason": "产业逻辑仍在但没有独立价格选择。",
-      "nextCheck": "等待互连芯片独立宽度与个股相对强度。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "688515",
-          "label": "裕太微"
-        }
-      ]
-    },
-    {
-      "id": "xinyuan-maintain",
-      "entityType": "company",
-      "entityId": "688037",
-      "label": "芯源微",
-      "transitionType": "maintained",
-      "from": "research",
-      "to": "research",
-      "reason": "产业研究逻辑未被否定但缺少独立市场选择。",
-      "nextCheck": "等待设备板块独立修复与个股持续强度。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "688037",
-          "label": "芯源微"
-        }
-      ]
-    },
-    {
-      "id": "beite-maintain",
-      "entityType": "company",
-      "entityId": "603009",
-      "label": "北特科技",
-      "transitionType": "maintained",
-      "from": "research",
-      "to": "research",
-      "reason": "机器人不是今天主要定价方向，暂无重新选择。",
-      "nextCheck": "等待机器人核心共振与个股独立强度。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "603009",
-          "label": "北特科技"
-        }
-      ]
-    }
-  ],
+  "marketStructureChanges": [],
+  "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "aidc-cross-day-confirmation",
-      "question": "AIDC电能配套和线缆低位映射能否跨日继续获得市场选择？",
-      "confirmIf": "远东股份、杭电股份至少一只继续强于市场，且电网/线缆/供配电出现更多同步核心。",
-      "downgradeIf": "两只快速失去相对强度且板块无扩散。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "600869",
-          "label": "远东股份"
-        },
-        {
-          "entityType": "company",
-          "entityId": "603618",
-          "label": "杭电股份"
-        }
-      ]
+      "id": "dominant-discount-rate",
+      "question": "油价与长端利率带来的折现率压力是否真正主导A股？",
+      "confirmIf": "成长容量核心与市场宽度同步恶化，创业板/科创方向持续显著弱于全市场。",
+      "downgradeIf": "指数低开后稳定、宽度保持，CPO与AI应用容量核心不再系统性杀估值。",
+      "anchors": []
     },
     {
-      "id": "cpo-repair-test",
-      "question": "CPO是短期分歧还是进入更长的估值压缩？",
-      "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并带回板块宽度。",
-      "downgradeIf": "容量核心继续弱于市场，反弹只剩单票或日内脉冲。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "300308",
-          "label": "中际旭创"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300502",
-          "label": "新易盛"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300394",
-          "label": "天孚通信"
-        }
-      ]
+      "id": "ai-orders-vs-pricing",
+      "question": "AI订单韧性能否重新获得A股价格选择？",
+      "confirmIf": "CPO、PCB、液冷、AIDC供电至少一个分支由容量核心带动恢复宽度。",
+      "downgradeIf": "新增订单证据继续增强但高位核心仍普遍弱于市场，只剩单票事件脉冲。",
+      "anchors": []
     },
     {
-      "id": "risk-spread-test",
-      "question": "今天的结构性风险收缩会不会扩散成更广泛的退潮？",
-      "confirmIf": "市场宽度不继续恶化，且至少一个低位新方向完成跨日确认。",
-      "downgradeIf": "宽度继续收缩、跌停和炸板扩散，低位方向同步兑现。",
-      "anchors": [
-        {
-          "entityType": "market",
-          "entityId": "a-share",
-          "label": "A股全市场"
-        }
-      ]
+      "id": "cpo-stock-reselection",
+      "question": "CPO方向回流能否转化为联特科技自身的重新选择？",
+      "confirmIf": "容量锚稳定且联特明显强于板块、出现持续承接。",
+      "downgradeIf": "CPO方向稳定但联特继续被动跟随或持续弱于板块。",
+      "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260902-postclose",
-      "type": "postclose",
-      "title": "2026-09-02 收盘复盘｜折现率取得定价权，AI需求没有失效，但高位CPO失去资金优先级",
+      "id": "report-20260902-premarket",
+      "type": "premarket",
+      "title": "2026-09-02 盘前研究｜今天真正要验证的，是折现率压力能否压过AI订单韧性",
       "researchDate": "2026-09-02",
-      "publishedAt": "2026-09-02T15:38:00+08:00",
+      "publishedAt": "2026-09-02T08:50:00+08:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260902-postclose"
+      "sourceRef": "data/daily-research-reports.json#report-20260902-premarket"
     }
   ],
   "coverage": {
     "currentView": "available",
     "market": "available",
     "hypotheses": "available",
-    "marketStructureChanges": "available",
-    "opportunityChanges": "available",
+    "marketStructureChanges": "notUpdated",
+    "opportunityChanges": "notUpdated",
     "nextChecks": "available",
     "reports": "available"
+  },
+  "todayOwner": {
+    "researchDate": "2026-09-02",
+    "phase": "premarket",
+    "thesis": {
+      "headline": "今天真正要验证的，是折现率压力能否压过AI订单韧性。",
+      "summary": "第一影响变量仍是油价与全球长端利率共同抬高折现率门槛；核心矛盾是折现率恶化与AI基础设施需求、订单继续上修之间谁取得今日定价权。Dell与远东股份只作为AI需求和订单韧性的证据，不再各自机械占据Top Driver。"
+    },
+    "strategy": {
+      "headline": "维持中性1/3，先验证折现率压力是否成为主导，再看AI订单韧性能否重新获得价格选择。",
+      "mainline": "CPO/光通信与AI应用/影视是主要验证方向；AIDC电能配套只处于孕育/候选。",
+      "rotation": "当前不新增可执行机会，低位轮动只作为风险偏好观察。",
+      "avoid": "不把Dell或远东股份单独当成Top Driver，也不因方向证据增强而自动升级联特科技或远东股份。"
+    },
+    "riskBudget": {
+      "current": 1,
+      "scale": 2,
+      "previous": 2,
+      "change": "lowered",
+      "stance": "中性",
+      "userMeaning": "折现率压力先限制风险上限；只有指数和宽度稳定、AI容量核心重新承接，才恢复到2/3。"
+    },
+    "changes": [
+      {
+        "id": "pricing-driver-consolidated",
+        "title": "Top Driver收敛为折现率压力",
+        "summary": "油价和全球长端利率共同抬高高估值成长的定价门槛。",
+        "implication": "今天先判断估值约束是否主导市场，而不是把单一产业或公司事件机械并列为最高驱动。"
+      },
+      {
+        "id": "ai-orders-evidence-consolidated",
+        "title": "AI需求与订单韧性作为对抗变量",
+        "summary": "Dell与远东股份的增量被合并为AI基础设施需求、订单和资本开支可见度继续增强的证据。",
+        "implication": "产业研究置信度仍在，但交易升级必须等待容量和板块宽度重新选择。"
+      },
+      {
+        "id": "opportunity-discipline",
+        "title": "可执行机会维持为0",
+        "summary": "联特科技仍在验证池，远东股份仍在研究池，关键相对强度、量价和板块宽度证据尚不完整。",
+        "implication": "今天不把研究对象越级成交易触发。"
+      }
+    ],
+    "marketStructure": {
+      "mainline": [
+        "CPO/光通信",
+        "AI应用/影视"
+      ],
+      "rotation": [
+        "AIDC电能配套孕育/候选"
+      ],
+      "avoid": [
+        "无容量承接的高估值补涨",
+        "把公司订单公告直接等同于交易触发",
+        "缺少个股重新选择证据的二波升级"
+      ]
+    },
+    "nextChecks": [
+      {
+        "id": "dominant-discount-rate",
+        "question": "油价与长端利率带来的折现率压力是否真正主导A股？",
+        "confirmIf": "成长容量核心与市场宽度同步恶化，创业板/科创方向持续显著弱于全市场。",
+        "invalidateIf": "指数低开后稳定、宽度保持，CPO与AI应用容量核心不再系统性杀估值。"
+      },
+      {
+        "id": "ai-orders-vs-pricing",
+        "question": "AI订单韧性能否重新获得A股价格选择？",
+        "confirmIf": "CPO、PCB、液冷、AIDC供电至少一个分支由容量核心带动恢复宽度。",
+        "invalidateIf": "新增订单证据继续增强但高位核心仍普遍弱于市场，只剩单票事件脉冲。"
+      },
+      {
+        "id": "cpo-stock-reselection",
+        "question": "CPO方向回流能否转化为联特科技自身的重新选择？",
+        "confirmIf": "容量锚稳定且联特明显强于板块、出现持续承接。",
+        "invalidateIf": "CPO方向稳定但联特继续被动跟随或持续弱于板块。"
+      }
+    ],
+    "evidence": {
+      "market": [
+        {
+          "id": "today-evidence-2026-09-02-market-1",
+          "text": "9月1日指数偏弱，但市场宽度仍强、跌停为零；AI应用完成跨日，CPO午后回流，高位科技已率先承受估值压力。"
+        }
+      ],
+      "fundamental": [
+        {
+          "id": "today-evidence-2026-09-02-fundamental-1",
+          "text": "AI服务器和国产算力需求继续扩张，订单与资本开支可见度上修。"
+        },
+        {
+          "id": "today-evidence-2026-09-02-fundamental-2",
+          "text": "远东股份算力AI/储能业务出现公司级订单增量，但尚未形成市场侧连续确认。"
+        }
+      ],
+      "opposing": [
+        {
+          "id": "today-evidence-2026-09-02-opposing-1",
+          "text": "油价急升与全球长端利率同步上行，形成新的折现率压力。"
+        },
+        {
+          "id": "today-evidence-2026-09-02-opposing-2",
+          "text": "当前联特科技和远东股份都缺少足以越级的连续相对强度、量价或板块宽度证据。"
+        }
+      ]
+    },
+    "unknowns": [
+      "联特科技缺少完整的3—10日个股相对强度与量价证据，因此不能因CPO方向确认而自动进入触发池。",
+      "远东股份订单增量明确，但缺少连续相对强度、板块宽度与多日参与度确认，因此只停留在研究池。",
+      "AIDC电能配套当前尚未形成稳定容量核心，方向只处于孕育/候选阶段。"
+    ]
   }
 }
