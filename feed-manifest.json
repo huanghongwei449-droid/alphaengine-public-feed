@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-09-03T06:30:44.025Z",
+  "generatedAt": "2026-09-03T07:06:34.154Z",
   "sourceSnapshot": "2026-08-20T09:51:13.504Z",
   "asOfDate": "2026-09-03",
   "topics": 7,
@@ -95,13 +95,13 @@
     },
     {
       "path": "data/daily-research-view-v1.json",
-      "bytes": 14649,
-      "sha256": "9cd9e76c78d97d7cefeaa684495b77db61b4eba51025caad5448321c346ee004"
+      "bytes": 17708,
+      "sha256": "4854f5d1c301472013229e5d178a768839afa2cecad337a62a55d33024abbd7e"
     },
     {
       "path": "data/opportunity-view-v1.json",
-      "bytes": 12709,
-      "sha256": "96449bdbce3d53d5c187146334d8996e85afb95ba04b2fbc2f90de7ec6828c5f"
+      "bytes": 15474,
+      "sha256": "81e4efb3cd8d9fd8496eedc0a1cfac8a98a646a4a866f175c7d246bc62f0e294"
     },
     {
       "path": "data/daily-research-reports.json",

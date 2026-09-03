@@ -3,15 +3,15 @@
   "researchDate": "2026-09-03",
   "phase": "premarket",
   "researchAsOf": "2026-09-03T07:20:00+08:00",
-  "marketDataAsOf": "2026-09-02",
-  "publishedAt": "2026-09-03T08:13:43+08:00",
+  "marketDataAsOf": "2026-09-03",
+  "publishedAt": "2026-09-03T07:06:33.999Z",
   "dailyView": {
     "path": "data/daily-research-view-v1.json",
-    "sha256": "9cd9e76c78d97d7cefeaa684495b77db61b4eba51025caad5448321c346ee004"
+    "sha256": "4854f5d1c301472013229e5d178a768839afa2cecad337a62a55d33024abbd7e"
   },
   "opportunity": {
     "path": "data/opportunity-view-v1.json",
-    "sha256": "96449bdbce3d53d5c187146334d8996e85afb95ba04b2fbc2f90de7ec6828c5f"
+    "sha256": "81e4efb3cd8d9fd8496eedc0a1cfac8a98a646a4a866f175c7d246bc62f0e294"
   },
   "canonical": true
 }
