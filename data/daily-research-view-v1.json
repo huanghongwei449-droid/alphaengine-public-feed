@@ -2,140 +2,126 @@
   "schemaVersion": "yanshu-daily-research-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-03",
-    "researchDate": "2026-09-03",
+    "requestedDate": "2026-09-04",
+    "researchDate": "2026-09-04",
     "phase": "premarket",
-    "researchAsOf": "2026-09-03T07:20:00+08:00",
-    "generatedAt": "2026-09-03T07:06:33.999Z",
-    "sourceSnapshotDate": "2026-09-03",
+    "researchAsOf": "2026-09-04T07:08:00+08:00",
+    "generatedAt": "2026-09-03T23:10:31.373Z",
+    "sourceSnapshotDate": "2026-09-04",
     "canonical": true,
     "viewStatus": "current",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "AI资本开支证据继续增强，但今天只认跨日价格选择，不因产业证据强就提前提高风险预算。",
-    "summary": "9月2日市场完成一次从高位CPO向低位AIDC基础设施配套的价格迁移，但主资金约束仍明显。隔夜液冷、HVDC、AI服务器配套和Agent生态继续出现产业增量。今天风险预算维持0/3，核心验证是远东股份、杭电股份及供电/线缆/液冷能否把昨日迁移变成跨日市场选择；CPO继续处于分歧，AI应用/Agent仅回到研究视野；可执行机会仍为0。"
+    "headline": "海外折现率压力缓和给成长一次重新定价窗口，但油价与昨日弱宽度仍压上限；今天先看容量和广度能否把0/3真正抬到1/3以上。",
+    "summary": "9月3日A股指数近乎收平但宽度偏弱，昨日真正有效的是液冷、航运、机器人/电机、培育钻石等独立轮动与重复选择。隔夜Waller讲话推动10年美债收益率回落、美元走弱、美股成长全面修复，给A股成长风格一次重新定价窗口；但布油升至约97美元、国内昨日弱宽度仍压风险上限。今日从防守0/3上调至中性1/3，盘中最高2/3。"
   },
   "market": {
-    "state": "结构性风险收缩后的迁移验证日，资金约束仍在",
-    "temperature": "偏谨慎",
-    "summary": "防守观察",
+    "state": "海外成长修复与国内弱宽度之间的重新定价日",
+    "temperature": "中性",
+    "summary": "中性验证",
     "riskBudget": {
-      "current": 0,
-      "scale": 1,
+      "current": 1,
+      "scale": 2,
       "previous": null,
       "change": null,
-      "reason": "防守观察",
+      "reason": "中性验证",
       "asOfPhase": "premarket",
-      "upgradeIf": "AIDC供电/线缆/液冷完成跨日同步选择且市场宽度不恶化，升至1/3。",
-      "downgradeIf": "当前已在0/3；若昨日低位核心快速失效，则继续维持0/3并停止所有升级。"
+      "upgradeIf": "成长容量同步修复且市场宽度改善，液冷或机器人至少一个方向保留多核心，升至2/3。",
+      "downgradeIf": "成长高开低走、市场宽度继续弱化且昨日独立强方向同步兑现，降回0/3。"
     }
   },
   "riskBudget": {
-    "current": 0,
-    "scale": 1,
+    "current": 1,
+    "scale": 2,
     "previous": null,
     "change": null,
-    "reason": "防守观察",
+    "reason": "中性验证",
     "asOfPhase": "premarket",
-    "upgradeIf": "AIDC供电/线缆/液冷完成跨日同步选择且市场宽度不恶化，升至1/3。",
-    "downgradeIf": "当前已在0/3；若昨日低位核心快速失效，则继续维持0/3并停止所有升级。"
+    "upgradeIf": "成长容量同步修复且市场宽度改善，液冷或机器人至少一个方向保留多核心，升至2/3。",
+    "downgradeIf": "成长高开低走、市场宽度继续弱化且昨日独立强方向同步兑现，降回0/3。"
   },
   "hypotheses": [
     {
-      "id": "aidc-low-position-repricing",
-      "statement": "AI资本开支仍强，但今天真正要验证的是资金是否继续把增量定价给低位AIDC基础设施配套。",
+      "id": "global-growth-relief-vs-domestic-weak-breadth",
+      "statement": "隔夜折现率压力缓和给A股成长一次重新定价窗口，但昨日国内弱宽度决定今天必须用容量与广度确认，不能直接恢复进攻。",
       "priority": 1,
       "focus": [
         {
           "entityType": "direction",
-          "entityId": "aidc-infra",
-          "label": "AIDC供电/线缆/液冷",
+          "entityId": "growth-ai-hardware",
+          "label": "成长/AI硬件",
           "researchRole": "direction",
           "lifecycleState": null,
-          "whyToday": "昨日已出现从高位CPO向低位基础设施的价格迁移，隔夜产业证据继续增强。",
-          "upgradeIf": "多个低位基础设施核心完成跨日同步选择。"
+          "whyToday": "隔夜美债收益率回落、美股成长全面修复，A股尚未交易这一轮边际变化。",
+          "upgradeIf": "容量核心与市场宽度同步修复。"
         },
         {
           "entityType": "company",
-          "entityId": "600869",
-          "label": "远东股份",
+          "entityId": "300308",
+          "label": "中际旭创",
           "researchRole": "anchor",
           "lifecycleState": "validation",
-          "whyToday": "昨日获得第一次明确个股级重新选择。",
-          "upgradeIf": "跨日保持相对强度并获得板块共振。"
-        },
-        {
-          "entityType": "company",
-          "entityId": "603618",
-          "label": "杭电股份",
-          "researchRole": "anchor",
-          "lifecycleState": "validation",
-          "whyToday": "昨日成为线缆方向新价格载体。",
-          "upgradeIf": "与远东或其他供配电核心形成跨日同步。"
+          "whyToday": "作为高位AI容量锚，最能检验海外成长修复是否传导到A股。",
+          "upgradeIf": "与新易盛、天孚通信至少一个同步稳定并恢复方向宽度。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "远东、杭电保持相对强度，供电/线缆/液冷出现多个同步核心并跨日扩散。",
-        "invalidateIf": "昨日低位核心快速掉队，只剩事件单票，高位与低位AI链同时弱化。",
+        "confirmIf": "成长容量同步修复且全市场上涨家数改善。",
+        "invalidateIf": "成长仅高开回落、容量继续分化、宽度不改善。",
         "anchors": [
           {
-            "entityType": "company",
-            "entityId": "600869",
-            "label": "远东股份"
+            "entityType": "market",
+            "entityId": "us-10y-growth-risk",
+            "label": "美债长端与全球成长风险偏好"
           },
           {
-            "entityType": "company",
-            "entityId": "603618",
-            "label": "杭电股份"
+            "entityType": "market",
+            "entityId": "a-share-breadth",
+            "label": "A股市场宽度"
           }
         ]
       }
     },
     {
-      "id": "cpo-demand-not-equal-price-priority",
-      "statement": "CPO产业需求没有失效，但只有容量核心同步修复才说明价格优先级重新回到高位光通信。",
+      "id": "liquid-cooling-repeat-selection",
+      "statement": "液冷产业需求线索继续增强，但昨天已经明显价格化，今天只有分歧后的多核心承接才能证明方向继续升级。",
       "priority": 2,
       "focus": [
         {
           "entityType": "direction",
-          "entityId": "cpo-optical",
-          "label": "CPO/光通信",
+          "entityId": "liquid-cooling",
+          "label": "液冷/算力温控",
           "researchRole": "direction",
           "lifecycleState": null,
-          "whyToday": "方向仍处于分歧，今天只验证是否真正修复。",
-          "upgradeIf": "至少两个容量核心同步稳定并恢复内部宽度。"
+          "whyToday": "昨日重复选择叠加隔夜CDU需求上修线索，但价格表达已经较高。",
+          "upgradeIf": "分歧后继续多核心承接并出现更有容量的设备/泵类载体。"
         },
         {
           "entityType": "company",
-          "entityId": "301205",
-          "label": "联特科技",
+          "entityId": "603757",
+          "label": "大元泵业",
           "researchRole": "anchor",
           "lifecycleState": "research",
-          "whyToday": "方向产业逻辑仍在，但个股自身没有重新选择。",
-          "upgradeIf": "容量核心修复且联特自身明显强于板块、出现持续承接。"
+          "whyToday": "泵/CDU部件与新增需求线索映射较直接，但个股级价格证据不完整。",
+          "upgradeIf": "液冷保持宽度、个股出现持续相对强度且产业线索进一步确认。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并恢复板块宽度。",
-        "invalidateIf": "只有单只反弹或容量核心继续分化。",
+        "confirmIf": "液冷分歧时仍有2—3个核心保持相对强度并出现容量承接。",
+        "invalidateIf": "高位核心集体兑现且方向宽度消失。",
         "anchors": [
           {
-            "entityType": "company",
-            "entityId": "300308",
-            "label": "中际旭创"
+            "entityType": "direction",
+            "entityId": "liquid-cooling",
+            "label": "液冷/算力温控"
           },
           {
             "entityType": "company",
-            "entityId": "300502",
-            "label": "新易盛"
-          },
-          {
-            "entityType": "company",
-            "entityId": "300394",
-            "label": "天孚通信"
+            "entityId": "603757",
+            "label": "大元泵业"
           }
         ]
       }
@@ -143,99 +129,85 @@
   ],
   "coreHypotheses": [
     {
-      "id": "aidc-low-position-repricing",
-      "statement": "AI资本开支仍强，但今天真正要验证的是资金是否继续把增量定价给低位AIDC基础设施配套。",
+      "id": "global-growth-relief-vs-domestic-weak-breadth",
+      "statement": "隔夜折现率压力缓和给A股成长一次重新定价窗口，但昨日国内弱宽度决定今天必须用容量与广度确认，不能直接恢复进攻。",
       "priority": 1,
       "focus": [
         {
           "entityType": "direction",
-          "entityId": "aidc-infra",
-          "label": "AIDC供电/线缆/液冷",
+          "entityId": "growth-ai-hardware",
+          "label": "成长/AI硬件",
           "researchRole": "direction",
           "lifecycleState": null,
-          "whyToday": "昨日已出现从高位CPO向低位基础设施的价格迁移，隔夜产业证据继续增强。",
-          "upgradeIf": "多个低位基础设施核心完成跨日同步选择。"
+          "whyToday": "隔夜美债收益率回落、美股成长全面修复，A股尚未交易这一轮边际变化。",
+          "upgradeIf": "容量核心与市场宽度同步修复。"
         },
         {
           "entityType": "company",
-          "entityId": "600869",
-          "label": "远东股份",
+          "entityId": "300308",
+          "label": "中际旭创",
           "researchRole": "anchor",
           "lifecycleState": "validation",
-          "whyToday": "昨日获得第一次明确个股级重新选择。",
-          "upgradeIf": "跨日保持相对强度并获得板块共振。"
-        },
-        {
-          "entityType": "company",
-          "entityId": "603618",
-          "label": "杭电股份",
-          "researchRole": "anchor",
-          "lifecycleState": "validation",
-          "whyToday": "昨日成为线缆方向新价格载体。",
-          "upgradeIf": "与远东或其他供配电核心形成跨日同步。"
+          "whyToday": "作为高位AI容量锚，最能检验海外成长修复是否传导到A股。",
+          "upgradeIf": "与新易盛、天孚通信至少一个同步稳定并恢复方向宽度。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "远东、杭电保持相对强度，供电/线缆/液冷出现多个同步核心并跨日扩散。",
-        "invalidateIf": "昨日低位核心快速掉队，只剩事件单票，高位与低位AI链同时弱化。",
+        "confirmIf": "成长容量同步修复且全市场上涨家数改善。",
+        "invalidateIf": "成长仅高开回落、容量继续分化、宽度不改善。",
         "anchors": [
           {
-            "entityType": "company",
-            "entityId": "600869",
-            "label": "远东股份"
+            "entityType": "market",
+            "entityId": "us-10y-growth-risk",
+            "label": "美债长端与全球成长风险偏好"
           },
           {
-            "entityType": "company",
-            "entityId": "603618",
-            "label": "杭电股份"
+            "entityType": "market",
+            "entityId": "a-share-breadth",
+            "label": "A股市场宽度"
           }
         ]
       }
     },
     {
-      "id": "cpo-demand-not-equal-price-priority",
-      "statement": "CPO产业需求没有失效，但只有容量核心同步修复才说明价格优先级重新回到高位光通信。",
+      "id": "liquid-cooling-repeat-selection",
+      "statement": "液冷产业需求线索继续增强，但昨天已经明显价格化，今天只有分歧后的多核心承接才能证明方向继续升级。",
       "priority": 2,
       "focus": [
         {
           "entityType": "direction",
-          "entityId": "cpo-optical",
-          "label": "CPO/光通信",
+          "entityId": "liquid-cooling",
+          "label": "液冷/算力温控",
           "researchRole": "direction",
           "lifecycleState": null,
-          "whyToday": "方向仍处于分歧，今天只验证是否真正修复。",
-          "upgradeIf": "至少两个容量核心同步稳定并恢复内部宽度。"
+          "whyToday": "昨日重复选择叠加隔夜CDU需求上修线索，但价格表达已经较高。",
+          "upgradeIf": "分歧后继续多核心承接并出现更有容量的设备/泵类载体。"
         },
         {
           "entityType": "company",
-          "entityId": "301205",
-          "label": "联特科技",
+          "entityId": "603757",
+          "label": "大元泵业",
           "researchRole": "anchor",
           "lifecycleState": "research",
-          "whyToday": "方向产业逻辑仍在，但个股自身没有重新选择。",
-          "upgradeIf": "容量核心修复且联特自身明显强于板块、出现持续承接。"
+          "whyToday": "泵/CDU部件与新增需求线索映射较直接，但个股级价格证据不完整。",
+          "upgradeIf": "液冷保持宽度、个股出现持续相对强度且产业线索进一步确认。"
         }
       ],
       "premarket": {
         "status": "pending",
-        "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并恢复板块宽度。",
-        "invalidateIf": "只有单只反弹或容量核心继续分化。",
+        "confirmIf": "液冷分歧时仍有2—3个核心保持相对强度并出现容量承接。",
+        "invalidateIf": "高位核心集体兑现且方向宽度消失。",
         "anchors": [
           {
-            "entityType": "company",
-            "entityId": "300308",
-            "label": "中际旭创"
+            "entityType": "direction",
+            "entityId": "liquid-cooling",
+            "label": "液冷/算力温控"
           },
           {
             "entityType": "company",
-            "entityId": "300502",
-            "label": "新易盛"
-          },
-          {
-            "entityType": "company",
-            "entityId": "300394",
-            "label": "天孚通信"
+            "entityId": "603757",
+            "label": "大元泵业"
           }
         ]
       }
@@ -244,84 +216,132 @@
   "focusEntities": [
     {
       "entityType": "direction",
-      "entityId": "aidc-infra",
-      "label": "AIDC供电/线缆/液冷",
+      "entityId": "liquid-cooling",
+      "label": "液冷/算力温控",
       "researchRole": "direction",
       "lifecycleState": null,
-      "whyToday": "昨日价格迁移与隔夜产业证据形成连续研究线索。",
-      "upgradeIf": "多个核心完成跨日同步选择。"
-    },
-    {
-      "entityType": "company",
-      "entityId": "600869",
-      "label": "远东股份",
-      "researchRole": "anchor",
-      "lifecycleState": "validation",
-      "whyToday": "昨日第一次明确重新选择。",
-      "upgradeIf": "跨日保持相对强度并获得板块共振。"
-    },
-    {
-      "entityType": "company",
-      "entityId": "603618",
-      "label": "杭电股份",
-      "researchRole": "anchor",
-      "lifecycleState": "validation",
-      "whyToday": "昨日成为线缆新载体。",
-      "upgradeIf": "与其他AIDC配套核心跨日同步。"
+      "whyToday": "昨日为最稳定重复选择方向，隔夜仍有CDU需求上修线索。",
+      "upgradeIf": "分歧后维持多核心并出现容量承接。"
     },
     {
       "entityType": "direction",
-      "entityId": "cpo-optical",
-      "label": "CPO/光通信",
+      "entityId": "robotics-autonomy",
+      "label": "机器人/自主驾驶",
       "researchRole": "direction",
       "lifecycleState": null,
-      "whyToday": "仍处于分歧，验证容量修复。",
-      "upgradeIf": "至少两个容量核心同步稳定并恢复宽度。"
+      "whyToday": "昨日机器人/电机形成多核心，隔夜Cybercab正式推进提供新的产业事件。",
+      "upgradeIf": "方向跨日保留2—3个核心且出现更多主动承接。"
+    },
+    {
+      "entityType": "direction",
+      "entityId": "shipping-energy-transport",
+      "label": "航运/能源运输",
+      "researchRole": "direction",
+      "lifecycleState": null,
+      "whyToday": "昨日航运形成独立价格表达，隔夜油价与中东供给风险继续上升。",
+      "upgradeIf": "至少两个航运核心跨日保持强度。"
     },
     {
       "entityType": "company",
-      "entityId": "301205",
-      "label": "联特科技",
+      "entityId": "603728",
+      "label": "鸣志电器",
+      "researchRole": "anchor",
+      "lifecycleState": "validation",
+      "whyToday": "昨日机器人/电机在弱宽度环境下获得多核心选择，鸣志为明确载体。",
+      "upgradeIf": "机器人多核心跨日增强且鸣志自身出现新的个股级重新选择。"
+    },
+    {
+      "entityType": "company",
+      "entityId": "603757",
+      "label": "大元泵业",
       "researchRole": "anchor",
       "lifecycleState": "research",
-      "whyToday": "产业逻辑仍在但个股未重获选择。",
-      "upgradeIf": "容量修复且个股自身持续强于板块。"
+      "whyToday": "液冷重复选择叠加CDU需求线索，部件环节值得观察新的容量承接。",
+      "upgradeIf": "方向维持宽度、公司出现持续相对强度且需求线索得到更多确认。"
     }
   ],
   "marketStructureChanges": [],
   "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "aidc-cross-day-confirmation",
-      "question": "AIDC低位基础设施能否完成跨日选择？",
-      "confirmIf": "远东、杭电至少一强一稳，并出现供电/线缆/液冷2—3个同步核心。",
-      "downgradeIf": "昨日核心快速掉队，方向只剩单票。",
-      "anchors": []
+      "id": "growth-capacity-repricing",
+      "question": "隔夜利率缓和与美股成长修复能否让A股成长容量重新拿回定价权？",
+      "confirmIf": "创业板/科创方向不再明显弱于全市场，中际旭创、新易盛、天孚通信至少两个同步稳定，并带回通信/AI硬件宽度。",
+      "downgradeIf": "成长仅高开后回落，容量核心继续分化且市场上涨家数没有改善。",
+      "anchors": [
+        {
+          "entityType": "market",
+          "entityId": "a-share-breadth",
+          "label": "A股市场宽度"
+        },
+        {
+          "entityType": "company",
+          "entityId": "300308",
+          "label": "中际旭创"
+        },
+        {
+          "entityType": "company",
+          "entityId": "300502",
+          "label": "新易盛"
+        },
+        {
+          "entityType": "company",
+          "entityId": "300394",
+          "label": "天孚通信"
+        }
+      ]
     },
     {
-      "id": "cpo-real-repair",
-      "question": "CPO是否真正修复？",
-      "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并恢复方向宽度。",
-      "downgradeIf": "只有单一核心反弹。",
-      "anchors": []
+      "id": "liquid-cooling-repeat-selection",
+      "question": "液冷是继续完成重复选择，还是高价格表达后的集中兑现？",
+      "confirmIf": "高辨识度核心分歧时仍有2—3个液冷核心保持相对强度，并出现更有容量的温控/泵类承接。",
+      "downgradeIf": "连板与高弹性核心集体断裂，且没有新的容量承接。",
+      "anchors": [
+        {
+          "entityType": "direction",
+          "entityId": "liquid-cooling",
+          "label": "液冷/算力温控"
+        },
+        {
+          "entityType": "company",
+          "entityId": "603757",
+          "label": "大元泵业"
+        }
+      ]
     },
     {
-      "id": "risk-budget-recovery",
-      "question": "风险预算能否从0/3恢复到1/3？",
-      "confirmIf": "市场宽度稳定且至少一个产业方向完成跨日重新选择。",
-      "downgradeIf": "高位成长与昨日低位新方向同时走弱。",
-      "anchors": []
+      "id": "shipping-geopolitical-follow-through",
+      "question": "油价与中东供给风险能否让昨日航运强势变成跨日选择？",
+      "confirmIf": "海通发展、中远海能、凤凰航运至少两个核心跨日保持强度。",
+      "downgradeIf": "航运高开快速兑现且板块宽度消失。",
+      "anchors": [
+        {
+          "entityType": "company",
+          "entityId": "603162",
+          "label": "海通发展"
+        },
+        {
+          "entityType": "company",
+          "entityId": "600026",
+          "label": "中远海能"
+        },
+        {
+          "entityType": "company",
+          "entityId": "000520",
+          "label": "凤凰航运"
+        }
+      ]
     }
   ],
   "reports": [
     {
-      "id": "report-20260903-premarket",
+      "id": "report-20260904-premarket",
       "type": "premarket",
-      "title": "2026-09-03 盘前研究｜AI资本开支仍强，但今天先验证“低位基础设施接力”能否跨日",
-      "researchDate": "2026-09-03",
-      "publishedAt": "2026-09-03T07:20:00+08:00",
+      "title": "2026-09-04 盘前研究｜海外成长修复给A股一次“重开估值”的机会，但油价与昨日弱宽度仍在压上限",
+      "researchDate": "2026-09-04",
+      "publishedAt": "2026-09-04T07:08:00+08:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260903-premarket"
+      "sourceRef": "data/daily-research-reports.json#report-20260904-premarket"
     }
   ],
   "coverage": {
@@ -334,120 +354,25 @@
     "reports": "available"
   },
   "todayOwner": {
-    "researchDate": "2026-09-03",
+    "researchDate": "2026-09-04",
     "phase": "premarket",
     "thesis": {
-      "headline": "AI资本开支仍强，但今天先验证低位基础设施接力能否跨日。",
-      "summary": "昨天市场把AI内部价格优先级从高位CPO向低位供电、线缆等配套迁移；隔夜液冷、HVDC、AI服务器配套继续出现产业增量。今天先看这种迁移能否形成第二次市场选择。"
+      "headline": "海外利率缓和给成长一次重开估值的机会，但A股必须用容量和宽度确认。",
+      "summary": "昨日A股仍是缩量弱宽度下的独立轮动；隔夜Waller讲话推动美债收益率回落、美股成长修复，但油价升至六周高位。今天先验证成长容量能否重新拿回定价权。"
     },
     "strategy": {
-      "headline": "风险预算维持0/3，只有跨日选择成立才恢复到1/3。",
-      "mainline": "AIDC供电/线缆/液冷是第一验证方向；CPO继续分歧；AI应用/Agent回到研究视野。",
-      "rotation": "不预设任何新方向直接成为主线，所有新增线索先看容量与宽度。",
-      "avoid": "不把AI产业证据增强直接等同于高位CPO修复，也不把单票消息脉冲当板块确认。"
+      "headline": "风险预算从0/3上调到1/3，盘中最高2/3。",
+      "mainline": "先看成长容量与市场宽度是否同步修复；液冷继续做重复选择验证。",
+      "rotation": "航运受油价与地缘风险继续验证；机器人/自主驾驶受昨日价格选择与Cybercab事件共同观察。",
+      "avoid": "不把美股大涨直接等同于A股成长主线恢复，也不把液冷新增产业线索直接等同于可追价格空间。"
     },
     "riskBudget": {
-      "current": 0,
-      "scale": 1,
+      "current": 1,
+      "scale": 2,
       "previous": 0,
-      "change": "unchanged",
-      "stance": "防守观察",
-      "userMeaning": "昨天价格迁移需要第二天确认；在确认前不主动提高风险上限。"
-    },
-    "changes": [
-      {
-        "id": "aidc-migration-cross-day-test",
-        "title": "昨天的低位迁移进入跨日验证",
-        "summary": "远东股份、杭电股份昨天成为AIDC供电/线缆的新价格载体，今天只看这种选择能否扩散并跨日。",
-        "implication": "只有多个配套核心同步，AIDC基础设施才继续升级。"
-      },
-      {
-        "id": "ai-capex-broadening",
-        "title": "AI资本开支证据继续向配套环节扩散",
-        "summary": "液冷、HVDC、AI服务器配套继续出现订单与产业化线索。",
-        "implication": "产业证据增强，但不直接等于交易触发，必须等市场重新选择。"
-      },
-      {
-        "id": "risk-budget-discipline",
-        "title": "风险预算维持0/3",
-        "summary": "近5日主资金仍偏流出，昨日结构未恶化但也不足以证明风险偏好恢复。",
-        "implication": "跨日选择成立后才恢复到1/3。"
-      }
-    ],
-    "marketStructure": {
-      "mainline": [
-        "AIDC供电/线缆/液冷（第一验证方向）"
-      ],
-      "rotation": [
-        "CPO/光通信修复观察",
-        "AI应用/Agent研究视野"
-      ],
-      "avoid": [
-        "单票脉冲冒充方向确认",
-        "产业证据增强自动升级个股",
-        "高位CPO无容量同步时抢跑修复"
-      ]
-    },
-    "nextChecks": [
-      {
-        "id": "aidc-cross-day-confirmation",
-        "question": "AIDC低位基础设施能否完成跨日选择？",
-        "confirmIf": "远东、杭电至少一强一稳，并出现供电/线缆/液冷2—3个同步核心。",
-        "invalidateIf": "昨日核心快速掉队，方向只剩单票。"
-      },
-      {
-        "id": "cpo-real-repair",
-        "question": "CPO是否真正修复？",
-        "confirmIf": "中际旭创、新易盛、天孚通信至少两个同步稳定并恢复方向宽度。",
-        "invalidateIf": "只有单一核心反弹。"
-      },
-      {
-        "id": "risk-budget-recovery",
-        "question": "风险预算能否从0/3恢复到1/3？",
-        "confirmIf": "市场宽度稳定且至少一个产业方向完成跨日重新选择。",
-        "invalidateIf": "高位成长与昨日低位新方向同时走弱。"
-      }
-    ],
-    "evidence": {
-      "market": [
-        {
-          "id": "today-evidence-2026-09-03-market-1",
-          "text": "9月2日涨停52家、跌停8家、炸板15家；不是全面退潮，但资金约束仍在。"
-        },
-        {
-          "id": "today-evidence-2026-09-03-market-2",
-          "text": "近5日主资金总体偏流出，融资端压力仍为normal。"
-        }
-      ],
-      "fundamental": [
-        {
-          "id": "today-evidence-2026-09-03-fundamental-1",
-          "text": "液冷产业继续出现从认证向批量交付、利润释放推进的线索。"
-        },
-        {
-          "id": "today-evidence-2026-09-03-fundamental-2",
-          "text": "AI服务器配套和HVDC供配电继续出现订单与产业化线索。"
-        },
-        {
-          "id": "today-evidence-2026-09-03-fundamental-3",
-          "text": "WorkBuddy开放平台带来Agent生态新的产品级变化。"
-        }
-      ],
-      "opposing": [
-        {
-          "id": "today-evidence-2026-09-03-opposing-1",
-          "text": "昨日低位迁移只有一天，尚未证明可以跨日。"
-        },
-        {
-          "id": "today-evidence-2026-09-03-opposing-2",
-          "text": "正式公告/IR源本次未完整取得，公司级线索不用于直接升级交易机会。"
-        }
-      ]
-    },
-    "unknowns": [
-      "本次公告/财报/IR正式源未完整取得，因此隔夜公司级事件不作为直接交易升级依据。",
-      "远东股份、杭电股份仍缺完整3—10日相对强度和连续参与度证据，因此最多停留验证池。",
-      "液冷与HVDC产业证据增强，但目前没有足够个股级市场重新选择证据支持新增触发机会。"
-    ]
+      "change": "raised",
+      "stance": "中性验证",
+      "userMeaning": "允许重新观察风险偏好修复，但必须看到容量与宽度共同确认才提高到2/3。"
+    }
   }
 }
