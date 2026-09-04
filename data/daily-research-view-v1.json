@@ -6,7 +6,7 @@
     "researchDate": "2026-09-04",
     "phase": "premarket",
     "researchAsOf": "2026-09-04T07:08:00+08:00",
-    "generatedAt": "2026-09-03T23:10:31.373Z",
+    "generatedAt": "2026-09-04T07:08:00+08:00",
     "sourceSnapshotDate": "2026-09-04",
     "canonical": true,
     "viewStatus": "current",
@@ -352,27 +352,5 @@
     "opportunityChanges": "notUpdated",
     "nextChecks": "available",
     "reports": "available"
-  },
-  "todayOwner": {
-    "researchDate": "2026-09-04",
-    "phase": "premarket",
-    "thesis": {
-      "headline": "海外利率缓和给成长一次重开估值的机会，但A股必须用容量和宽度确认。",
-      "summary": "昨日A股仍是缩量弱宽度下的独立轮动；隔夜Waller讲话推动美债收益率回落、美股成长修复，但油价升至六周高位。今天先验证成长容量能否重新拿回定价权。"
-    },
-    "strategy": {
-      "headline": "风险预算从0/3上调到1/3，盘中最高2/3。",
-      "mainline": "先看成长容量与市场宽度是否同步修复；液冷继续做重复选择验证。",
-      "rotation": "航运受油价与地缘风险继续验证；机器人/自主驾驶受昨日价格选择与Cybercab事件共同观察。",
-      "avoid": "不把美股大涨直接等同于A股成长主线恢复，也不把液冷新增产业线索直接等同于可追价格空间。"
-    },
-    "riskBudget": {
-      "current": 1,
-      "scale": 2,
-      "previous": 0,
-      "change": "raised",
-      "stance": "中性验证",
-      "userMeaning": "允许重新观察风险偏好修复，但必须看到容量与宽度共同确认才提高到2/3。"
-    }
   }
 }
