@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-09-03T23:12:09.363Z",
+  "fetchedAt": "2026-09-04T01:01:51.448Z",
   "asOfDate": "2026-09-03",
   "sourceStatus": {
     "399001": {
@@ -26,15 +26,15 @@
     },
     "market": {
       "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "error": "Error: market rows unavailable"
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
@@ -99,7 +99,7 @@
     "date": "2026-09-03",
     "industry": [],
     "concept": [],
-    "source": ""
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
