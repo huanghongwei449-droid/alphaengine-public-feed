@@ -6,11 +6,11 @@
     "researchDate": "2026-09-04",
     "phase": "postclose",
     "researchAsOf": "2026-09-04T15:18:29+08:00",
-    "generatedAt": "2026-09-05T04:25:38.550188+00:00",
+    "generatedAt": "2026-09-05T07:41:35.157Z",
     "sourceSnapshotDate": "2026-09-04",
     "canonical": true,
     "viewStatus": "current",
-    "freshness": "fresh"
+    "freshness": "aging"
   },
   "currentView": {
     "headline": "宽度修复真实成立，但定价权没有回到高位科技；市场选择低位多核心的AI应用、农业、地产和数字货币。",
@@ -265,7 +265,7 @@
   ],
   "marketStructureChanges": [
     {
-      "id": "market-structure-dc411afdb19d0a686305023c7743a61c877610edd6bf39b9d917e17bf72cde41",
+      "id": "market-structure-efa6c1f5dce3cf3b5d91a4c985aa5108c0a3fff1926c8987b3bbf9aad03960ba",
       "entityType": "market",
       "entityId": "AI应用/文化传媒",
       "label": "AI应用/文化传媒",
@@ -275,7 +275,7 @@
       "anchors": []
     },
     {
-      "id": "market-structure-869a21ba852089feafba827d3a11ba25b136a36e6e253852dc09884ded188179",
+      "id": "market-structure-73df2114c3289b06f0a698583971126a7f09f79201c62cc558152c90374a89a5",
       "entityType": "market",
       "entityId": "农业/养殖",
       "label": "农业/养殖",
@@ -285,7 +285,7 @@
       "anchors": []
     },
     {
-      "id": "market-structure-4990f84f66df4bc1b951823667b0bcd6bfe0a1a510eaa4810f9d622076dbe706",
+      "id": "market-structure-493d37477c3895deaccd1c40b232a2112ba1016798ba8e21a468234809363574",
       "entityType": "market",
       "entityId": "液冷/算力温控",
       "label": "液冷/算力温控",
@@ -295,7 +295,7 @@
       "anchors": []
     },
     {
-      "id": "market-structure-e275ab550aa0050d83fe35034ce2496fdc7dda5d71a319a52ccebbac7894c403",
+      "id": "market-structure-66c596389836d1c0b534ef46590fbfa5128faa602f0062682e50c3757a599287",
       "entityType": "market",
       "entityId": "航运/能源运输",
       "label": "航运/能源运输",
@@ -314,8 +314,8 @@
       "transitionType": "downgraded",
       "from": "validation",
       "to": "research",
-      "anchors": [],
-      "summary": "机器人方向没有完成今天的跨日前排确认，个股无新的重新选择证据。"
+      "reason": "机器人方向没有完成今天的跨日前排确认，个股无新的重新选择证据。",
+      "anchors": []
     },
     {
       "id": "opportunity-change-603162-maintained",
@@ -325,8 +325,8 @@
       "transitionType": "maintained",
       "from": "validation",
       "to": "validation",
-      "anchors": [],
-      "summary": "个股仍有价格表达，但航运方向失去定价权，需重新识别个股驱动。"
+      "reason": "个股仍有价格表达，但航运方向失去定价权，需重新识别个股驱动。",
+      "anchors": []
     },
     {
       "id": "opportunity-change-600172-downgraded",
@@ -336,8 +336,8 @@
       "transitionType": "downgraded",
       "from": "validation",
       "to": "research",
-      "anchors": [],
-      "summary": "超硬材料昨日多核心共振未延续到今天前排。"
+      "reason": "超硬材料昨日多核心共振未延续到今天前排。",
+      "anchors": []
     },
     {
       "id": "opportunity-change-605162-entered",
@@ -347,8 +347,8 @@
       "transitionType": "entered",
       "from": null,
       "to": "validation",
-      "anchors": [],
-      "summary": "AI应用/传媒形成多核心，新炬网络获得明确市场选择。"
+      "reason": "AI应用/传媒形成多核心，新炬网络获得明确市场选择。",
+      "anchors": []
     },
     {
       "id": "opportunity-change-003040-entered",
@@ -358,8 +358,8 @@
       "transitionType": "entered",
       "from": null,
       "to": "validation",
-      "anchors": [],
-      "summary": "数字货币/软件形成多个同步核心，楚天龙成为价格载体。"
+      "reason": "数字货币/软件形成多个同步核心，楚天龙成为价格载体。",
+      "anchors": []
     }
   ],
   "nextChecks": [
@@ -432,5 +432,27 @@
     "opportunityChanges": "available",
     "nextChecks": "available",
     "reports": "available"
+  },
+  "todayOwner": {
+    "researchDate": "2026-09-04",
+    "phase": "postclose",
+    "thesis": {
+      "headline": "宽度修复成立，但高位科技没有拿回定价权。",
+      "summary": "海外折现率缓和提高了全市场风险偏好，A股却通过AI应用、农业、地产和数字货币等低位多核心方向表达，而不是回到高拥挤硬件。"
+    },
+    "strategy": {
+      "headline": "维持1/3风险预算，先验证今天前排方向的跨日承接。",
+      "mainline": "AI应用/传媒与农业回流优先验证。",
+      "rotation": "房地产、数字货币/软件作为低位风险偏好承载观察。",
+      "avoid": "不把市场普涨等同于CPO/半导体主线恢复，不追认缺少跨日确认的高位情绪。"
+    },
+    "riskBudget": {
+      "current": 1,
+      "scale": 2,
+      "previous": 1,
+      "change": "unchanged",
+      "stance": "结构验证",
+      "userMeaning": "宽度改善允许维持中性风险，但高炸板与硬件弱势不足以提高到2/3。"
+    }
   }
 }

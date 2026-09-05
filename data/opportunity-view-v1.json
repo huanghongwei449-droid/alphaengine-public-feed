@@ -3,335 +3,397 @@
   "publicSafe": true,
   "meta": {
     "requestedDate": "2026-09-04",
-    "researchDate": "2026-09-02",
-    "researchAsOf": "2026-09-02T15:38:00+08:00",
-    "generatedAt": "2026-09-03T23:10:31.313Z",
+    "researchDate": "2026-09-04",
+    "researchAsOf": "2026-09-04T15:18:29+08:00",
+    "generatedAt": "2026-09-05T06:34:54.854Z",
     "phase": "postclose",
     "canonical": true,
-    "viewStatus": "stale",
-    "freshness": "stale"
+    "viewStatus": "current",
+    "freshness": "fresh"
   },
   "marketSummary": {
-    "summary": "9月2日统一机会池完成重排：远东股份从研究池升至验证池，杭电股份作为线缆新载体进入验证；联特科技因CPO跨日失败降回研究池，裕太微、芯源微、北特科技维持研究，金盘科技继续剔除。",
-    "mainline": "9月2日市场实际选择集中在电网/线缆/光纤低位订单映射与AIDC电能配套，高位CPO未完成跨日确认。",
-    "rotation": "资金从高位CPO向位置更低、订单映射更直接的AI基础设施配套迁移，线缆/电网成为新增验证方向。",
-    "secondWave": "联特科技、北特科技仍在二波/回流研究池，但9月2日均没有新的个股级重新选择证据，因此没有新的二波触发。",
-    "stealth": "远东股份、杭电股份属于孵育/未充分价格化验证，但完整3—10日参与度和相对强度证据不足，不能直接升级到触发层。",
-    "dynamicPool": "裕太微、芯源微继续保留研究池；金盘科技继续剔除。当前机会池以低位订单映射的持续性验证为主。",
+    "summary": "9月4日市场宽度从前一日的明显偏弱修复为普涨，但高位科技没有同步拿回定价权；市场实际选择集中在AI应用/文化传媒、农业/养殖、房地产、数字货币/软件四组低位多核心方向。机会池方面，海通发展维持验证但研究角色重分类，鸣志电器和黄河旋风降级，新炬网络、楚天龙新进入验证；联特科技、裕太微、芯源微退出，金盘科技维持剔除。",
+    "mainline": "当日没有单一绝对主线，最清晰的市场选择是AI应用/文化传媒，农业/养殖、房地产、数字货币/软件共同构成低位风险偏好修复。",
+    "rotation": "海外成长修复确实传导到了A股，但资金没有回到高拥挤硬件，而是转向位置更低、拥挤度更低、能够迅速形成板块宽度的应用、消费和政策敏感方向。",
+    "secondWave": "海通发展仍处验证但需要重判驱动来源；鸣志电器、黄河旋风因跨日确认不足降回研究池。机器人、超硬材料和航运均未继续保持一级定价权，二波机会必须重新等待个股级市场选择。",
+    "stealth": "新炬网络、楚天龙已经获得明确价格选择并进入验证，但完整3—10日参与度、相对强度和累计价格化证据不足，暂不允许越级。远东股份、杭电股份等低位研究候选继续等待独立重新选择。",
+    "dynamicPool": "当前验证层包括海通发展、新炬网络、楚天龙；远东股份、杭电股份、北特科技、鸣志电器、黄河旋风继续留在研究层。联特科技、裕太微、芯源微退出本轮，金盘科技维持此前剔除。",
     "nextChecks": [
-      "远东股份未来1—3个交易日能否保持连续相对强度，并带动电网、线缆、供配电出现更多同步核心。",
-      "杭电股份能否继续强于市场，且线缆、电网内部形成持续扩散而不是单日低位轮动。",
-      "CPO容量核心若重新同步稳定，联特科技是否出现明显强于板块的持续承接。",
-      "裕太微、芯源微等研究池标的是否出现独立板块宽度和连续相对强度。"
+      "验证AI应用/文化传媒能否从9月4日的宽度高潮转成跨日承接：龙版传媒、新炬网络及至少一个软件或出版核心需继续稳定。",
+      "验证农业反包是新一轮回流还是单日修复：敦煌种业、亚盛集团和养殖核心需要继续保留2—3个同步强点。",
+      "验证市场宽度已经修复以后，高位科技能否重新拿回容量定价权；若CPO和半导体继续明显弱于市场，则风险偏好修复与硬件主线恢复必须继续分开处理。",
+      "验证海通发展的独立强度能否继续存在，并重新与至少一个航运核心形成同步。",
+      "验证新炬网络与楚天龙所在方向在分歧后是否仍有多核心承接，禁止依据单日涨停直接升级。"
     ]
   },
   "opportunities": [
     {
-      "id": "20260902-600869",
+      "id": "20260904-600869",
       "entityType": "company",
       "entityId": "600869",
       "name": "远东股份",
       "kind": "dynamic_pool",
-      "lifecycle": "upgrade",
-      "currentStage": "验证池",
-      "industryTheme": "AIDC电能配套",
-      "whyToday": "早上的算力AI/储能订单证据在9月2日首次获得明确个股级市场重新选择，机会从研究池升到验证池。",
-      "marketContext": "高位AI承压时，市场把部分定价权迁移到位置更低、订单映射更直接的电力和线缆配套。",
+      "lifecycle": "wait",
+      "industryTheme": "AIDC供电/线缆",
+      "whyToday": "缺电链研究仍有价值，但没有新的个股级价格选择。",
+      "marketContext": "AIDC供电/线缆｜分歧｜订单证据锚/低位线缆研究核心",
       "evidence": [
         {
           "id": "ev-600869-1",
-          "label": "盘前远东股份AIDC订单证据",
-          "sourceRef": "premarket:ev-far-east-aidc-orders"
+          "label": "前序正式机会池证据",
+          "sourceRef": "prior:2026-09-03-pool"
         },
         {
           "id": "ev-600869-2",
-          "label": "9月2日远东股份市场重新选择",
-          "sourceRef": "close:market-reselection-600869"
-        },
-        {
-          "id": "ev-600869-3",
-          "label": "AIDC低位迁移证据",
-          "sourceRef": "close:aidc-low-position-migration"
+          "label": "产业研究证据",
+          "sourceRef": "knowledge-star:power-shortage"
         }
       ],
-      "capitalFeatures": "订单证据第一次得到价格响应，但AIDC方向尚未形成稳定核心群。",
-      "patternFeatures": "属于孵育型/未充分价格化机会的首次价格验证，后续仍需连续相对强度和板块宽度。",
-      "fundamentalLogic": "算力AI/储能订单增量提供公司级硬证据，市场开始验证AIDC电能配套的订单映射。",
+      "capitalFeatures": "完整数据未取得。；完整序列未取得。；不以单日抗跌或资金流入推断吸筹。；尚未形成明确核心。",
+      "patternFeatures": "此前价格表达已部分兑现。；此前已有价格表达。",
+      "fundamentalLogic": "AIDC、电力与线缆研究基础仍在。",
       "confidence": {
-        "level": "验证池",
-        "reason": "公司订单证据与首次个股级价格选择同时成立，但完整3—10日参与度和相对强度证据仍不足。"
+        "level": "研究池",
+        "reason": "研究置信度：中等偏低；交易置信度：低；关键量价或3—10日相对强度数据仍不完整。"
       },
       "supportingFactors": [
-        "公司订单增量已经形成硬证据。",
-        "9月2日首次出现明确的个股级市场重新选择。"
+        "9月2日首次选择后已降级，今天缺电链信息增加但个股未重新成为前排。",
+        "缺电链研究仍有价值，但没有新的个股级价格选择。",
+        "AIDC、电力与线缆研究基础仍在。"
       ],
       "risks": [
-        "若价格响应退化为单日脉冲，机会需降回研究。",
-        "若电网、线缆、供配电没有形成持续宽度，方向验证不足。"
+        "未来1—2日仍无独立选择则退出本轮。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "未来1—3个交易日保持连续相对强度，同时电网、线缆、供配电出现更多同步核心。",
-      "invalidateIf": "今天的价格响应退化为单日脉冲，且板块没有持续宽度或订单兑现出现反证。",
+      "confirmTomorrow": "重新出现明显主动强度，并与多个电力/线缆核心同步。",
+      "invalidateIf": "未来1—2日仍无独立选择则退出本轮。",
       "companyCodes": [
         "600869"
-      ]
+      ],
+      "currentStage": "研究池"
     },
     {
-      "id": "20260902-301205",
+      "id": "20260904-603618",
       "entityType": "company",
-      "entityId": "301205",
-      "name": "联特科技",
-      "kind": "second_wave",
-      "lifecycle": "downgrade",
-      "currentStage": "研究池",
-      "industryTheme": "CPO/光通信",
-      "whyToday": "CPO昨日容量回流未完成跨日确认，联特自身也没有新的个股级重新选择证据，因此从验证池降回研究池。",
-      "marketContext": "高位CPO的交易定价权在9月2日下降，方向基本面未被否定，但不能据此自动维持二波验证。",
-      "evidence": [
-        {
-          "id": "ev-301205-1",
-          "label": "9月1日历史统一机会池",
-          "sourceRef": "prior:2026-09-01-second-wave-pool"
-        },
-        {
-          "id": "ev-301205-2",
-          "label": "CPO跨日确认失败",
-          "sourceRef": "close:cpo-cross-day-failed"
-        }
-      ],
-      "capitalFeatures": "方向回流没有跨日，个股没有出现新的独立承接或重新选择。",
-      "patternFeatures": "二波/回流研究条件仍可跟踪，但当前没有可确认的个股级二波价格差。",
-      "fundamentalLogic": "CPO产业逻辑仍在，但交易强度必须重新由容量核心和个股自身价格行为证明。",
-      "confidence": {
-        "level": "研究池",
-        "reason": "产业逻辑未失效，但当日缺少新的市场重新选择证据。"
-      },
-      "supportingFactors": [
-        "历史CPO弹性与二波条件仍有研究价值。"
-      ],
-      "risks": [
-        "若CPO修复时联特继续掉队，二波研究价值继续下降。"
-      ],
-      "confirmTomorrow": "CPO容量核心重新同步稳定，且联特明显强于板块并出现持续承接。",
-      "invalidateIf": "CPO修复时联特仍持续掉队，或自身结构进一步破坏。",
-      "companyCodes": [
-        "301205"
-      ]
-    },
-    {
-      "id": "20260902-688515",
-      "entityType": "company",
-      "entityId": "688515",
-      "name": "裕太微",
+      "entityId": "603618",
+      "name": "杭电股份",
       "kind": "dynamic_pool",
       "lifecycle": "wait",
-      "currentStage": "研究池",
-      "industryTheme": "AI互联/以太网芯片",
-      "whyToday": "高位AI定价迁移使低位国产互联芯片仍值得研究，但9月2日没有形成独立板块宽度或个股重新选择。",
-      "marketContext": "资金在AI内部寻找低位承载，但裕太微尚未获得独立价格确认。",
+      "industryTheme": "电网/线缆",
+      "whyToday": "线缆逻辑保留，但今天没有成为真实前排。",
+      "marketContext": "电网/线缆｜分歧｜线缆研究候选",
       "evidence": [
         {
-          "id": "ev-688515-1",
-          "label": "9月1日历史统一机会池",
-          "sourceRef": "prior:2026-09-01-second-wave-pool"
-        },
-        {
-          "id": "ev-688515-2",
-          "label": "9月2日未形成独立选择",
-          "sourceRef": "close:no-independent-selection-688515"
+          "id": "ev-603618-1",
+          "label": "前序正式机会池证据",
+          "sourceRef": "prior:2026-09-03-pool"
         }
       ],
-      "capitalFeatures": "没有观察到足以升级的独立抗压或承载，完整3—10日相对强度数据也未取得。",
-      "patternFeatures": "孵育型研究逻辑保留，但累计价格化程度尚未得到市场证实。",
-      "fundamentalLogic": "国产AI互联和以太网芯片仍有产业研究基础。",
+      "capitalFeatures": "完整数据未取得。；完整序列未取得。；不以单日抗跌或资金流入推断吸筹。；尚未形成明确核心。",
+      "patternFeatures": "此前涨停已显著价格化。；此前已有价格表达。",
+      "fundamentalLogic": "线缆研究基础仍在。",
       "confidence": {
         "level": "研究池",
-        "reason": "产业逻辑存在，但价格端仍缺独立验证。"
+        "reason": "研究置信度：中等偏低；交易置信度：低；关键量价或3—10日相对强度数据仍不完整。"
       },
       "supportingFactors": [
-        "国产AI互联和以太网芯片的产业研究基础仍在。"
+        "9月2日价格表达后没有形成连续市场选择。",
+        "线缆逻辑保留，但今天没有成为真实前排。",
+        "线缆研究基础仍在。"
       ],
       "risks": [
-        "若催化持续不能转化为价格承接，研究优先级应下降。"
+        "继续无独立选择则退出本轮。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "互连芯片形成独立板块宽度，公司出现连续相对强度。",
-      "invalidateIf": "催化持续不能转化为价格承接或个股结构破坏。",
+      "confirmTomorrow": "重新获得主动强度并与多个线缆核心同步。",
+      "invalidateIf": "继续无独立选择则退出本轮。",
       "companyCodes": [
-        "688515"
-      ]
+        "603618"
+      ],
+      "currentStage": "研究池"
     },
     {
-      "id": "20260902-688037",
-      "entityType": "company",
-      "entityId": "688037",
-      "name": "芯源微",
-      "kind": "dynamic_pool",
-      "lifecycle": "wait",
-      "currentStage": "研究池",
-      "industryTheme": "半导体设备/国产存储",
-      "whyToday": "国产半导体设备逻辑未出现反证，但9月2日没有形成新的独立价格选择。",
-      "marketContext": "市场主要选择不在半导体设备，方向保留低优先级研究。",
-      "evidence": [
-        {
-          "id": "ev-688037-1",
-          "label": "9月1日历史统一机会池",
-          "sourceRef": "prior:2026-09-01-second-wave-pool"
-        },
-        {
-          "id": "ev-688037-2",
-          "label": "9月2日未形成独立选择",
-          "sourceRef": "close:no-independent-selection-688037"
-        }
-      ],
-      "capitalFeatures": "未出现明确抗压或新的承载证据。",
-      "patternFeatures": "孵育型研究假设尚未被市场验证。",
-      "fundamentalLogic": "半导体设备国产替代与存储相关产业逻辑仍在。",
-      "confidence": {
-        "level": "研究池",
-        "reason": "产业逻辑没有被否定，但价格端没有独立市场选择。"
-      },
-      "supportingFactors": [
-        "半导体设备国产替代与存储相关产业逻辑仍在。"
-      ],
-      "risks": [
-        "若产业信息持续增加但价格仍无独立承接，机会需退出。"
-      ],
-      "confirmTomorrow": "设备板块出现独立修复且公司持续强于板块。",
-      "invalidateIf": "产业逻辑持续无法转化为价格承接或个股结构破坏。",
-      "companyCodes": [
-        "688037"
-      ]
-    },
-    {
-      "id": "20260902-603009",
+      "id": "20260904-603009",
       "entityType": "company",
       "entityId": "603009",
       "name": "北特科技",
       "kind": "second_wave",
       "lifecycle": "wait",
-      "currentStage": "研究池",
       "industryTheme": "机器人T链",
-      "whyToday": "历史交易信用仍可跟踪，但机器人不是9月2日主要市场选择，北特自身也没有新的二波触发证据。",
-      "marketContext": "市场活跃方向转向低位订单映射，机器人没有形成当日主要共振。",
+      "whyToday": "公司仍是机器人研究候选，但没有新的重新选择证据。",
+      "marketContext": "机器人T链｜分歧｜历史二波研究候选",
       "evidence": [
         {
           "id": "ev-603009-1",
-          "label": "9月1日历史统一机会池",
-          "sourceRef": "prior:2026-09-01-second-wave-pool"
-        },
-        {
-          "id": "ev-603009-2",
-          "label": "9月2日北特科技无重新选择",
-          "sourceRef": "close:no-reselection-603009"
+          "label": "前序正式机会池证据",
+          "sourceRef": "prior:2026-09-03-pool"
         }
       ],
-      "capitalFeatures": "方向没有共振，个股没有重新选择。",
-      "patternFeatures": "属于历史二波研究候选，当前没有新的二波价格差证据。",
-      "fundamentalLogic": "机器人产业研究逻辑仍可跟踪，但交易状态必须由新的市场选择重新激活。",
+      "capitalFeatures": "仅按新的个股级市场选择恢复信用。；方向状态与个股信用分离。",
+      "patternFeatures": "个股二波价格差未被验证。；方向状态与个股信用分离。",
+      "fundamentalLogic": "机器人昨日增强但今天未进入真实前排，方向强弱不能替代个股自身选择。",
       "confidence": {
         "level": "研究池",
-        "reason": "没有新的触发证据，仅保留历史二波观察。"
+        "reason": "研究置信度：中等偏低；交易置信度：低；关键量价或3—10日相对强度数据仍不完整。"
       },
       "supportingFactors": [
-        "历史二波研究条件仍可继续观察。"
+        "机器人昨日增强但今天未进入真实前排，方向强弱不能替代个股自身选择。",
+        "公司仍是机器人研究候选，但没有新的重新选择证据。",
+        "仅按新的个股级市场选择恢复信用。"
       ],
       "risks": [
-        "若市场活跃而北特持续弱于机器人方向，交易信用继续下降。"
+        "机器人再强而北特持续掉队则退出。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "机器人2—3个核心同步增强，且北特自身恢复相对强度和持续承接。",
-      "invalidateIf": "市场活跃而个股持续弱于机器人方向或关键结构失守。",
+      "confirmTomorrow": "机器人多核心重新回流且北特自身明显强于板块。",
+      "invalidateIf": "机器人再强而北特持续掉队则退出。",
       "companyCodes": [
         "603009"
-      ]
+      ],
+      "currentStage": "研究池"
     },
     {
-      "id": "20260902-603618",
+      "id": "20260904-603162",
       "entityType": "company",
-      "entityId": "603618",
-      "name": "杭电股份",
-      "kind": "dynamic_pool",
-      "lifecycle": "new",
-      "currentStage": "验证池",
-      "industryTheme": "电网/线缆",
-      "whyToday": "9月2日低位线缆获得市场选择，杭电股份作为新的价格验证载体进入验证池。",
-      "marketContext": "它与远东股份共同指向资金从高位AI向位置更低、订单映射更直接的基础设施配套迁移。",
+      "entityId": "603162",
+      "name": "海通发展",
+      "kind": "second_wave",
+      "lifecycle": "wait",
+      "industryTheme": "航运/区域题材",
+      "whyToday": "航运方向失去定价权，但海通发展个股仍有价格表达，研究角色从航运核心转为独立强度观察。",
+      "marketContext": "航运/区域题材｜分歧｜个股独立强度观察",
       "evidence": [
         {
-          "id": "ev-603618-1",
-          "label": "杭电股份市场选择",
-          "sourceRef": "close:market-selection-603618"
+          "id": "ev-603162-1",
+          "label": "前序正式机会池证据",
+          "sourceRef": "prior:2026-09-03-pool"
         },
         {
-          "id": "ev-603618-2",
-          "label": "电力线缆光纤低位迁移",
-          "sourceRef": "close:power-cable-fiber-low-position"
+          "id": "ev-603162-2",
+          "label": "9月4日公开市场证据",
+          "sourceRef": "web:2026-09-04-haitong-limit"
         }
       ],
-      "capitalFeatures": "高位成长承压时获得低位承载，但完整3—10日参与度和相对强度证据仍不足。",
-      "patternFeatures": "低位价格表达刚开始，累计价格化程度尚不充分。",
-      "fundamentalLogic": "AI基础设施电力和线缆需求映射提供研究基础。",
+      "capitalFeatures": "个股有新价格表达，但方向信用下降。；个股与所属方向发生背离。；9月4日个股继续出现涨停价格表达，但所属航运方向整体偏弱，需验证驱动重分类。",
+      "patternFeatures": "个股价格表达较高，需验证新驱动能否跨日。；个股与所属方向发生背离。",
+      "fundamentalLogic": "昨日作为航运核心进入验证，今天海运整体弱而个股仍有价格表达，需要重判驱动来源。",
       "confidence": {
         "level": "验证池",
-        "reason": "9月2日形成新的价格选择，但持续性和多日证据仍需验证。"
+        "reason": "研究置信度：中等；交易置信度：中等偏低；关键量价或3—10日相对强度数据仍不完整。"
       },
       "supportingFactors": [
-        "线缆方向获得新的市场选择。",
-        "与远东股份共同形成低位订单映射验证。"
+        "昨日作为航运核心进入验证，今天海运整体弱而个股仍有价格表达，需要重判驱动来源。",
+        "个股强度仍值得跟踪，但不能再简单用航运板块解释。",
+        "个股有新价格表达，但方向信用下降。"
       ],
       "risks": [
-        "若次日快速失去相对强度，可能退化为单日低位轮动。"
+        "独立强度快速消失或连续掉队。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "未来1—3个交易日保持强于市场，且线缆、电网内部继续扩散并形成更多同步核心。",
-      "invalidateIf": "明天快速失去相对强度并退化为单日低位轮动。",
+      "confirmTomorrow": "继续主动强于市场，并重新与至少一个航运核心形成同步。",
+      "invalidateIf": "独立强度快速消失或连续掉队。",
       "companyCodes": [
-        "603618"
-      ]
+        "603162"
+      ],
+      "currentStage": "验证池"
     },
     {
-      "id": "20260902-688676",
+      "id": "20260904-603728",
       "entityType": "company",
-      "entityId": "688676",
-      "name": "金盘科技",
-      "kind": "dynamic_pool",
-      "lifecycle": "remove",
-      "currentStage": "剔除",
-      "industryTheme": "AIDC电能配套",
-      "whyToday": "AIDC方向开始发酵不等于历史剔除标的自动恢复资格，金盘科技9月2日没有新的个股级重新选择证据，因此继续剔除。",
-      "marketContext": "方向变化不能自动恢复历史剔除个股，个股必须提供新的独立市场选择。",
+      "entityId": "603728",
+      "name": "鸣志电器",
+      "kind": "second_wave",
+      "lifecycle": "downgrade",
+      "industryTheme": "机器人/电机",
+      "whyToday": "方向未延续且个股没有新的重新选择证据。",
+      "marketContext": "机器人/电机｜分歧｜机器人价格载体/历史回流候选",
       "evidence": [
         {
-          "id": "ev-688676-1",
-          "label": "9月2日统一机会池剔除记录",
-          "sourceRef": "daily-bus/2026-09-02/second-wave-pool.json#removed-688676"
+          "id": "ev-603728-1",
+          "label": "前序正式机会池证据",
+          "sourceRef": "prior:2026-09-03-pool"
+        },
+        {
+          "id": "ev-603728-2",
+          "label": "9月4日收盘研究证据",
+          "sourceRef": "close:robotics-not-top"
         }
       ],
-      "capitalFeatures": "没有新的个股级重新选择证据。",
-      "patternFeatures": "历史剔除状态继续生效，不因方向发酵自动恢复。",
-      "fundamentalLogic": "后续只有出现独立价格选择和新的公司级硬证据，才重新进入研究雷达。",
+      "capitalFeatures": "跨日确认失败，降级。；方向未延续，个股无重新选择。",
+      "patternFeatures": "昨日已明显价格化，今日确认不足。；方向未延续，个股无重新选择。",
+      "fundamentalLogic": "昨日机器人多核心选择后今天未继续前排，触发跨日降级纪律。",
       "confidence": {
-        "level": "剔除",
-        "reason": "方向发酵不足以覆盖个股缺乏新选择的事实。"
+        "level": "研究池",
+        "reason": "研究置信度：中等偏低；交易置信度：低；关键量价或3—10日相对强度数据仍不完整。"
       },
       "supportingFactors": [
-        "AIDC方向开始发酵。"
+        "昨日机器人多核心选择后今天未继续前排，触发跨日降级纪律。",
+        "方向未延续且个股没有新的重新选择证据。",
+        "跨日确认失败，降级。"
       ],
       "risks": [
-        "若没有独立价格选择和新的公司级硬证据，不应恢复研究资格。"
+        "再次确认失败或持续掉队。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "出现独立价格选择和新的公司级硬证据后，才重新进入研究雷达。",
-      "invalidateIf": "继续缺乏独立价格选择或公司级硬证据。",
+      "confirmTomorrow": "机器人再次出现多个核心且鸣志主动强于板块。",
+      "invalidateIf": "再次确认失败或持续掉队。",
       "companyCodes": [
-        "688676"
-      ]
+        "603728"
+      ],
+      "currentStage": "研究池"
+    },
+    {
+      "id": "20260904-600172",
+      "entityType": "company",
+      "entityId": "600172",
+      "name": "黄河旋风",
+      "kind": "second_wave",
+      "lifecycle": "downgrade",
+      "industryTheme": "培育钻石/超硬材料",
+      "whyToday": "产业研究仍可保留，但跨日确认失败。",
+      "marketContext": "培育钻石/超硬材料｜分歧｜超硬材料历史价格核心",
+      "evidence": [
+        {
+          "id": "ev-600172-1",
+          "label": "前序正式机会池证据",
+          "sourceRef": "prior:2026-09-03-pool"
+        },
+        {
+          "id": "ev-600172-2",
+          "label": "9月4日收盘研究证据",
+          "sourceRef": "close:superhard-not-top"
+        }
+      ],
+      "capitalFeatures": "跨日确认失败，降级。；方向未延续，个股无重新选择。",
+      "patternFeatures": "昨日价格表达较高，今日确认不足。；方向未延续，个股无重新选择。",
+      "fundamentalLogic": "昨日多核心共振今天未延续为真实前排。",
+      "confidence": {
+        "level": "研究池",
+        "reason": "研究置信度：中等偏低；交易置信度：低；关键量价或3—10日相对强度数据仍不完整。"
+      },
+      "supportingFactors": [
+        "昨日多核心共振今天未延续为真实前排。",
+        "产业研究仍可保留，但跨日确认失败。",
+        "跨日确认失败，降级。"
+      ],
+      "risks": [
+        "继续无市场选择则退出。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
+      ],
+      "confirmTomorrow": "方向重新出现多核心且黄河旋风自身主动强于板块。",
+      "invalidateIf": "继续无市场选择则退出。",
+      "companyCodes": [
+        "600172"
+      ],
+      "currentStage": "研究池"
+    },
+    {
+      "id": "20260904-605162",
+      "entityType": "company",
+      "entityId": "605162",
+      "name": "新炬网络",
+      "kind": "dynamic_pool",
+      "lifecycle": "new",
+      "industryTheme": "AI应用/文化传媒",
+      "whyToday": "方向多核心共振且个股获得明确选择。",
+      "marketContext": "AI应用/文化传媒｜发酵｜AI应用价格核心",
+      "evidence": [
+        {
+          "id": "ev-605162-1",
+          "label": "9月4日收盘研究证据",
+          "sourceRef": "close:ai-application-multiple-leaders"
+        },
+        {
+          "id": "ev-605162-2",
+          "label": "9月4日公开市场证据",
+          "sourceRef": "web:cls-20260904"
+        }
+      ],
+      "capitalFeatures": "完整数据未取得。；完整序列未取得。；不以单日抗跌或资金流入推断吸筹。；新炬网络",
+      "patternFeatures": "当日已明显价格化，累计程度待验证。；当日已有明显价格表达。",
+      "fundamentalLogic": "AI应用/传媒形成多个同步核心。",
+      "confidence": {
+        "level": "验证池",
+        "reason": "研究置信度：中等；交易置信度：中等偏低；关键量价或3—10日相对强度数据仍不完整。"
+      },
+      "supportingFactors": [
+        "AI应用/传媒今天成为真实前排，新炬网络2连板并与多个软件/出版核心同步。",
+        "方向多核心共振且个股获得明确选择。",
+        "AI应用/传媒形成多个同步核心。"
+      ],
+      "risks": [
+        "次日方向快速兑现或个股明显掉队。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
+      ],
+      "confirmTomorrow": "方向分歧后仍保留2—3个核心，个股继续主动强于板块。",
+      "invalidateIf": "次日方向快速兑现或个股明显掉队。",
+      "companyCodes": [
+        "605162"
+      ],
+      "currentStage": "验证池"
+    },
+    {
+      "id": "20260904-003040",
+      "entityType": "company",
+      "entityId": "003040",
+      "name": "楚天龙",
+      "kind": "dynamic_pool",
+      "lifecycle": "new",
+      "industryTheme": "数字货币/软件",
+      "whyToday": "低位软件风险偏好修复中获得主动价格选择。",
+      "marketContext": "数字货币/软件｜发酵｜数字货币价格核心",
+      "evidence": [
+        {
+          "id": "ev-003040-1",
+          "label": "9月4日收盘研究证据",
+          "sourceRef": "close:digital-software-multiple-leaders"
+        },
+        {
+          "id": "ev-003040-2",
+          "label": "9月4日公开市场证据",
+          "sourceRef": "web:cls-20260904"
+        }
+      ],
+      "capitalFeatures": "完整数据未取得。；完整序列未取得。；不以单日抗跌或资金流入推断吸筹。；楚天龙",
+      "patternFeatures": "当日已明显价格化，累计程度待验证。；当日已有明显价格表达。",
+      "fundamentalLogic": "数字货币/软件形成多个同步核心。",
+      "confidence": {
+        "level": "验证池",
+        "reason": "研究置信度：中等；交易置信度：中等偏低；关键量价或3—10日相对强度数据仍不完整。"
+      },
+      "supportingFactors": [
+        "数字货币/软件形成多个同步核心，楚天龙涨停成为明确载体。",
+        "低位软件风险偏好修复中获得主动价格选择。",
+        "数字货币/软件形成多个同步核心。"
+      ],
+      "risks": [
+        "只剩单票高开或板块快速兑现。",
+        "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
+      ],
+      "confirmTomorrow": "方向跨日仍有至少两个核心且个股继续主动成交。",
+      "invalidateIf": "只剩单票高开或板块快速兑现。",
+      "companyCodes": [
+        "003040"
+      ],
+      "currentStage": "验证池"
     }
   ],
   "reports": [
     {
-      "id": "report-20260902-opportunity",
-      "title": "2026-09-02 统一机会更新｜高位CPO降级，AIDC线缆进入验证",
-      "researchDate": "2026-09-02",
-      "publishedAt": "2026-09-02T15:38:00+08:00",
+      "id": "20260904-close",
+      "title": "2026-09-04 收盘复盘",
+      "researchDate": "2026-09-04",
+      "publishedAt": "2026-09-04T15:18:29+08:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260902-opportunity"
+      "sourceRef": "daily-bus/2026-09-04/close-report.md@daily-bus"
+    },
+    {
+      "id": "20260904-opportunity",
+      "title": "2026-09-04 统一机会更新",
+      "researchDate": "2026-09-04",
+      "publishedAt": "2026-09-04T15:18:29+08:00",
+      "canonical": true,
+      "sourceRef": "daily-bus/2026-09-04/second-wave-report.md@daily-bus"
     }
   ]
 }
