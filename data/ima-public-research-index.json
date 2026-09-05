@@ -1,6 +1,6 @@
 {
   "schemaVersion": "alphaengine-ima-public-research-index-v1",
-  "generatedAt": "2026-09-04T07:08:00+08:00",
+  "generatedAt": "2026-09-05T04:25:38.550188+00:00",
   "lastSuccessfulScanAt": "2026-08-20T09:50:37.947Z",
   "notes": [
     {
@@ -1923,6 +1923,30 @@
       "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_d21afa60c613b7a3528671ac8f4774827477529334009595",
       "canonicalSha256": "4814377fd62a1cfbf7cba93990a5ae4889a9107c2c6fc3c6cef5dd5c52f57bd9",
       "sourceRef": "daily-bus/_status/premarket-delivery-20260904.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-09-04-close",
+      "researchDate": "2026-09-04",
+      "title": "2026-09-04 收盘复盘",
+      "kind": "daily_close",
+      "summary": "2026-09-04 收盘复盘",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_a76ed087fadc3304eba9dbbb009562647477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_a76ed087fadc3304eba9dbbb009562647477529334009595",
+      "canonicalSha256": "11c167f67124f9ec0d60ee7892fde62569aaad35dbeb9fc25aea5b3482e86882",
+      "sourceRef": "daily-bus/_status/close-delivery-20260904.json",
+      "publicSafe": true
+    },
+    {
+      "id": "ima-2026-09-04-second-wave",
+      "researchDate": "2026-09-04",
+      "title": "2026-09-04 二波研究",
+      "kind": "daily_opportunity",
+      "summary": "2026-09-04 统一机会更新",
+      "source": "IMA media pdf_e0c49d00963037df059e4d4ce3cddd8f_20963473b7a98ae49233234024ff34617477529334009595",
+      "mediaId": "pdf_e0c49d00963037df059e4d4ce3cddd8f_20963473b7a98ae49233234024ff34617477529334009595",
+      "canonicalSha256": "fe95f52c83cab001a3b4c27730facd13da09257a95bbe37827bc4321bb8bf79c",
+      "sourceRef": "daily-bus/_status/second-wave-delivery-20260904.json",
       "publicSafe": true
     }
   ],

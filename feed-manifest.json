@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-feed-v1",
   "publicSafe": true,
-  "generatedAt": "2026-09-05T04:35:22.005Z",
+  "generatedAt": "2026-09-05T04:25:38.550188+00:00",
   "sourceSnapshot": "2026-08-20T09:51:13.504Z",
   "asOfDate": "2026-09-04",
   "topics": 7,
@@ -15,8 +15,8 @@
     },
     {
       "path": "data/market-recap.json",
-      "bytes": 48208,
-      "sha256": "b6aeb57de81cd551a01e1ab90ef5ac76d4a5a81bcc012d6549af931db04012da"
+      "bytes": 47225,
+      "sha256": "ae1f6a6f81f1d9fb33fc9abca50363fdd792cfbb6b898969a0451d0d2754a4a8"
     },
     {
       "path": "data/evidence-catalog.json",
@@ -30,8 +30,8 @@
     },
     {
       "path": "data/ima-public-research-index.json",
-      "bytes": 126865,
-      "sha256": "07e88051e39fcf7c3cc2fbe978f19fcdf68028dabf79061d27ceac0847f0092b"
+      "bytes": 128112,
+      "sha256": "69d4f74d65ead2ec0bb956aa3df83ac5edbf2b7c71bed32ade57a734ea104466"
     },
     {
       "path": "data/ima-research-coverage.json",
@@ -95,8 +95,8 @@
     },
     {
       "path": "data/daily-research-view-v1.json",
-      "bytes": 13900,
-      "sha256": "e6b875f4f61e48dce514211704a7f50480eb4caddcb831ffffafcc893ea53561"
+      "bytes": 15656,
+      "sha256": "2f079b0877433326f118813028d4782ab2d387429b15e3c0e4ae7aab2bf482ca"
     },
     {
       "path": "data/opportunity-view-v1.json",
@@ -105,8 +105,8 @@
     },
     {
       "path": "data/daily-research-reports.json",
-      "bytes": 122402,
-      "sha256": "0f19d4d3ff65d81fb9a50047a960a10671a2f08ee37b3d2e813a5a98674cb9a2"
+      "bytes": 132166,
+      "sha256": "d3f7d1c7e48fc745e344a54c3c35c7c0fdd3c9d27bcf3e42b823bb468ddbe94d"
     },
     {
       "path": "data/live-market.json",

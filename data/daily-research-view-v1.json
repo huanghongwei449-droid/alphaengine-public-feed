@@ -4,42 +4,38 @@
   "meta": {
     "requestedDate": "2026-09-04",
     "researchDate": "2026-09-04",
-    "phase": "premarket",
-    "researchAsOf": "2026-09-04T07:08:00+08:00",
-    "generatedAt": "2026-09-04T07:08:00+08:00",
+    "phase": "postclose",
+    "researchAsOf": "2026-09-04T15:18:29+08:00",
+    "generatedAt": "2026-09-05T04:25:38.550188+00:00",
     "sourceSnapshotDate": "2026-09-04",
     "canonical": true,
     "viewStatus": "current",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "海外折现率压力缓和给成长一次重新定价窗口，但油价与昨日弱宽度仍压上限；今天先看容量和广度能否把0/3真正抬到1/3以上。",
-    "summary": "9月3日A股指数近乎收平但宽度偏弱，昨日真正有效的是液冷、航运、机器人/电机、培育钻石等独立轮动与重复选择。隔夜Waller讲话推动10年美债收益率回落、美元走弱、美股成长全面修复，给A股成长风格一次重新定价窗口；但布油升至约97美元、国内昨日弱宽度仍压风险上限。今日从防守0/3上调至中性1/3，盘中最高2/3。"
+    "headline": "宽度修复真实成立，但定价权没有回到高位科技；市场选择低位多核心的AI应用、农业、地产和数字货币。",
+    "summary": "市场宽度明显修复，但高位科技没有重新取得定价权。AI应用/传媒、农业/养殖、房地产、数字货币/软件成为真实前排；海外折现率缓和只部分确认，载体映射从高位硬件转向低位多核心方向。"
   },
   "market": {
-    "state": "海外成长修复与国内弱宽度之间的重新定价日",
-    "temperature": "中性",
-    "summary": "中性验证",
+    "state": "结构进攻、宽度修复、热点快速轮动",
+    "temperature": "中性偏暖",
+    "summary": "结构验证",
     "riskBudget": {
       "current": 1,
       "scale": 2,
-      "previous": null,
-      "change": null,
-      "reason": "中性验证",
-      "asOfPhase": "premarket",
-      "upgradeIf": "成长容量同步修复且市场宽度改善，液冷或机器人至少一个方向保留多核心，升至2/3。",
-      "downgradeIf": "成长高开低走、市场宽度继续弱化且昨日独立强方向同步兑现，降回0/3。"
+      "previous": 1,
+      "change": "unchanged",
+      "reason": "结构验证",
+      "asOfPhase": "postclose"
     }
   },
   "riskBudget": {
     "current": 1,
     "scale": 2,
-    "previous": null,
-    "change": null,
-    "reason": "中性验证",
-    "asOfPhase": "premarket",
-    "upgradeIf": "成长容量同步修复且市场宽度改善，液冷或机器人至少一个方向保留多核心，升至2/3。",
-    "downgradeIf": "成长高开低走、市场宽度继续弱化且昨日独立强方向同步兑现，降回0/3。"
+    "previous": 1,
+    "change": "unchanged",
+    "reason": "结构验证",
+    "asOfPhase": "postclose"
   },
   "hypotheses": [
     {
@@ -82,6 +78,10 @@
             "label": "A股市场宽度"
           }
         ]
+      },
+      "postclose": {
+        "verdict": "partially_confirmed",
+        "result": "风险上限与市场宽度改善，但高位成长容量没有同步拿回定价权。"
       }
     },
     {
@@ -124,6 +124,10 @@
             "label": "大元泵业"
           }
         ]
+      },
+      "postclose": {
+        "verdict": "invalidated",
+        "result": "液冷未继续形成多核心承接，昨日强价格表达后交易置信度下降。"
       }
     }
   ],
@@ -168,6 +172,10 @@
             "label": "A股市场宽度"
           }
         ]
+      },
+      "postclose": {
+        "verdict": "partially_confirmed",
+        "result": "风险上限与市场宽度改善，但高位成长容量没有同步拿回定价权。"
       }
     },
     {
@@ -210,70 +218,188 @@
             "label": "大元泵业"
           }
         ]
+      },
+      "postclose": {
+        "verdict": "invalidated",
+        "result": "液冷未继续形成多核心承接，昨日强价格表达后交易置信度下降。"
       }
     }
   ],
   "focusEntities": [
     {
       "entityType": "direction",
-      "entityId": "liquid-cooling",
+      "entityId": "ai-application-media",
+      "label": "AI应用/文化传媒",
+      "researchRole": "direction",
+      "lifecycleState": null,
+      "whyToday": "当日真实前排，多核心共振。",
+      "upgradeIf": "跨日分歧后仍保留2—3个核心。"
+    },
+    {
+      "entityType": "direction",
+      "entityId": "agriculture-breeding",
+      "label": "农业/养殖",
+      "researchRole": "direction",
+      "lifecycleState": null,
+      "whyToday": "昨日弱势后强回流并扩展到多个细分。",
+      "upgradeIf": "跨日继续多核心承接。"
+    },
+    {
+      "entityType": "company",
+      "entityId": "605162",
+      "label": "新炬网络",
+      "researchRole": "anchor",
+      "lifecycleState": "validation",
+      "whyToday": "AI应用方向明确价格载体。",
+      "upgradeIf": "方向跨日维持且个股继续主动强于板块。"
+    },
+    {
+      "entityType": "company",
+      "entityId": "003040",
+      "label": "楚天龙",
+      "researchRole": "anchor",
+      "lifecycleState": "validation",
+      "whyToday": "数字货币/软件多核心中的明确载体。",
+      "upgradeIf": "方向跨日维持且个股继续获得主动成交。"
+    }
+  ],
+  "marketStructureChanges": [
+    {
+      "id": "market-structure-dc411afdb19d0a686305023c7743a61c877610edd6bf39b9d917e17bf72cde41",
+      "entityType": "market",
+      "entityId": "AI应用/文化传媒",
+      "label": "AI应用/文化传媒",
+      "from": "候选",
+      "to": "发酵",
+      "summary": "多核心价格共振",
+      "anchors": []
+    },
+    {
+      "id": "market-structure-869a21ba852089feafba827d3a11ba25b136a36e6e253852dc09884ded188179",
+      "entityType": "market",
+      "entityId": "农业/养殖",
+      "label": "农业/养殖",
+      "from": "退潮",
+      "to": "回流重新确认",
+      "summary": "昨日弱势后多细分反包",
+      "anchors": []
+    },
+    {
+      "id": "market-structure-4990f84f66df4bc1b951823667b0bcd6bfe0a1a510eaa4810f9d622076dbe706",
+      "entityType": "market",
+      "entityId": "液冷/算力温控",
       "label": "液冷/算力温控",
-      "researchRole": "direction",
-      "lifecycleState": null,
-      "whyToday": "昨日为最稳定重复选择方向，隔夜仍有CDU需求上修线索。",
-      "upgradeIf": "分歧后维持多核心并出现容量承接。"
+      "from": "发酵",
+      "to": "分歧",
+      "summary": "未完成继续多核心承接",
+      "anchors": []
     },
     {
-      "entityType": "direction",
-      "entityId": "robotics-autonomy",
-      "label": "机器人/自主驾驶",
-      "researchRole": "direction",
-      "lifecycleState": null,
-      "whyToday": "昨日机器人/电机形成多核心，隔夜Cybercab正式推进提供新的产业事件。",
-      "upgradeIf": "方向跨日保留2—3个核心且出现更多主动承接。"
-    },
-    {
-      "entityType": "direction",
-      "entityId": "shipping-energy-transport",
+      "id": "market-structure-e275ab550aa0050d83fe35034ce2496fdc7dda5d71a319a52ccebbac7894c403",
+      "entityType": "market",
+      "entityId": "航运/能源运输",
       "label": "航运/能源运输",
-      "researchRole": "direction",
-      "lifecycleState": null,
-      "whyToday": "昨日航运形成独立价格表达，隔夜油价与中东供给风险继续上升。",
-      "upgradeIf": "至少两个航运核心跨日保持强度。"
-    },
+      "from": "发酵",
+      "to": "分歧",
+      "summary": "油价高位未转化成板块跨日强度",
+      "anchors": []
+    }
+  ],
+  "opportunityChanges": [
     {
+      "id": "opportunity-change-603728-downgraded",
       "entityType": "company",
       "entityId": "603728",
       "label": "鸣志电器",
-      "researchRole": "anchor",
-      "lifecycleState": "validation",
-      "whyToday": "昨日机器人/电机在弱宽度环境下获得多核心选择，鸣志为明确载体。",
-      "upgradeIf": "机器人多核心跨日增强且鸣志自身出现新的个股级重新选择。"
+      "transitionType": "downgraded",
+      "from": "validation",
+      "to": "research",
+      "anchors": [],
+      "summary": "机器人方向没有完成今天的跨日前排确认，个股无新的重新选择证据。"
     },
     {
+      "id": "opportunity-change-603162-maintained",
       "entityType": "company",
-      "entityId": "603757",
-      "label": "大元泵业",
-      "researchRole": "anchor",
-      "lifecycleState": "research",
-      "whyToday": "液冷重复选择叠加CDU需求线索，部件环节值得观察新的容量承接。",
-      "upgradeIf": "方向维持宽度、公司出现持续相对强度且需求线索得到更多确认。"
+      "entityId": "603162",
+      "label": "海通发展",
+      "transitionType": "maintained",
+      "from": "validation",
+      "to": "validation",
+      "anchors": [],
+      "summary": "个股仍有价格表达，但航运方向失去定价权，需重新识别个股驱动。"
+    },
+    {
+      "id": "opportunity-change-600172-downgraded",
+      "entityType": "company",
+      "entityId": "600172",
+      "label": "黄河旋风",
+      "transitionType": "downgraded",
+      "from": "validation",
+      "to": "research",
+      "anchors": [],
+      "summary": "超硬材料昨日多核心共振未延续到今天前排。"
+    },
+    {
+      "id": "opportunity-change-605162-entered",
+      "entityType": "company",
+      "entityId": "605162",
+      "label": "新炬网络",
+      "transitionType": "entered",
+      "from": null,
+      "to": "validation",
+      "anchors": [],
+      "summary": "AI应用/传媒形成多核心，新炬网络获得明确市场选择。"
+    },
+    {
+      "id": "opportunity-change-003040-entered",
+      "entityType": "company",
+      "entityId": "003040",
+      "label": "楚天龙",
+      "transitionType": "entered",
+      "from": null,
+      "to": "validation",
+      "anchors": [],
+      "summary": "数字货币/软件形成多个同步核心，楚天龙成为价格载体。"
     }
   ],
-  "marketStructureChanges": [],
-  "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "growth-capacity-repricing",
-      "question": "隔夜利率缓和与美股成长修复能否让A股成长容量重新拿回定价权？",
-      "confirmIf": "创业板/科创方向不再明显弱于全市场，中际旭创、新易盛、天孚通信至少两个同步稳定，并带回通信/AI硬件宽度。",
-      "downgradeIf": "成长仅高开后回落，容量核心继续分化且市场上涨家数没有改善。",
+      "id": "ai-application-follow-through",
+      "question": "AI应用/传媒能否把今天的宽度高潮变成跨日承接？",
+      "confirmIf": "龙版传媒、新炬网络及至少一只软件/出版核心继续稳定，方向保留2—3个同步强点。",
+      "downgradeIf": "高度股快速兑现且板块宽度消失。",
       "anchors": [
         {
-          "entityType": "market",
-          "entityId": "a-share-breadth",
-          "label": "A股市场宽度"
+          "entityType": "company",
+          "entityId": "605162",
+          "label": "新炬网络"
         },
+        {
+          "entityType": "direction",
+          "entityId": "ai-application-media",
+          "label": "AI应用/文化传媒"
+        }
+      ]
+    },
+    {
+      "id": "agriculture-reflow",
+      "question": "农业/养殖今天的反包是回流重新确认还是单日修复？",
+      "confirmIf": "敦煌种业、亚盛集团及养殖核心至少2—3只跨日保持相对强度。",
+      "downgradeIf": "板块集体低开兑现、核心迅速失去承接。",
+      "anchors": [
+        {
+          "entityType": "direction",
+          "entityId": "agriculture-breeding",
+          "label": "农业/养殖"
+        }
+      ]
+    },
+    {
+      "id": "hardware-vs-breadth",
+      "question": "市场宽度修复与高位科技主线恢复是否继续分离？",
+      "confirmIf": "全市场继续修复而CPO/半导体容量仍明显弱于市场。",
+      "downgradeIf": "中际旭创、新易盛、天孚通信至少两个同步转强并带回硬件宽度。",
+      "anchors": [
         {
           "entityType": "company",
           "entityId": "300308",
@@ -283,73 +409,27 @@
           "entityType": "company",
           "entityId": "300502",
           "label": "新易盛"
-        },
-        {
-          "entityType": "company",
-          "entityId": "300394",
-          "label": "天孚通信"
-        }
-      ]
-    },
-    {
-      "id": "liquid-cooling-repeat-selection",
-      "question": "液冷是继续完成重复选择，还是高价格表达后的集中兑现？",
-      "confirmIf": "高辨识度核心分歧时仍有2—3个液冷核心保持相对强度，并出现更有容量的温控/泵类承接。",
-      "downgradeIf": "连板与高弹性核心集体断裂，且没有新的容量承接。",
-      "anchors": [
-        {
-          "entityType": "direction",
-          "entityId": "liquid-cooling",
-          "label": "液冷/算力温控"
-        },
-        {
-          "entityType": "company",
-          "entityId": "603757",
-          "label": "大元泵业"
-        }
-      ]
-    },
-    {
-      "id": "shipping-geopolitical-follow-through",
-      "question": "油价与中东供给风险能否让昨日航运强势变成跨日选择？",
-      "confirmIf": "海通发展、中远海能、凤凰航运至少两个核心跨日保持强度。",
-      "downgradeIf": "航运高开快速兑现且板块宽度消失。",
-      "anchors": [
-        {
-          "entityType": "company",
-          "entityId": "603162",
-          "label": "海通发展"
-        },
-        {
-          "entityType": "company",
-          "entityId": "600026",
-          "label": "中远海能"
-        },
-        {
-          "entityType": "company",
-          "entityId": "000520",
-          "label": "凤凰航运"
         }
       ]
     }
   ],
   "reports": [
     {
-      "id": "report-20260904-premarket",
-      "type": "premarket",
-      "title": "2026-09-04 盘前研究｜海外成长修复给A股一次“重开估值”的机会，但油价与昨日弱宽度仍在压上限",
+      "id": "report-20260904-postclose",
+      "type": "postclose",
+      "title": "2026-09-04 收盘复盘",
       "researchDate": "2026-09-04",
-      "publishedAt": "2026-09-04T07:08:00+08:00",
+      "publishedAt": "2026-09-04T15:18:29+08:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260904-premarket"
+      "sourceRef": "data/daily-research-reports.json#report-20260904-postclose"
     }
   ],
   "coverage": {
     "currentView": "available",
     "market": "available",
     "hypotheses": "available",
-    "marketStructureChanges": "notUpdated",
-    "opportunityChanges": "notUpdated",
+    "marketStructureChanges": "available",
+    "opportunityChanges": "available",
     "nextChecks": "available",
     "reports": "available"
   }
