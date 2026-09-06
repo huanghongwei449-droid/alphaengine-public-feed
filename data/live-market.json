@@ -1,45 +1,45 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-09-06T20:32:10.954Z",
-  "asOfDate": "2026-09-04",
+  "fetchedAt": "2026-09-06T22:15:47.924Z",
+  "asOfDate": "",
   "sourceStatus": {
-    "399001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "399006": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sz399001": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000001": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sz399006": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000688": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000688": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
-    "000300": {
-      "status": "ok",
-      "source": "腾讯 qt.gtimg.cn"
+    "sh000300": {
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "market": {
       "status": "partial",
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4935,
-        "rawRows": 400,
-        "uniqueRows": 400,
-        "usableRows": 400,
-        "missingRows": 4535,
-        "missingFieldRows": 0,
-        "coverageRatio": 0.0811,
+        "rawRows": 600,
+        "uniqueRows": 600,
+        "usableRows": 500,
+        "missingRows": 4435,
+        "missingFieldRows": 100,
+        "coverageRatio": 0.1013,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 4,
+          "fetchedPages": 6,
           "pagesWithErrors": [
             3,
             4,
@@ -49,14 +49,12 @@
             8,
             9,
             10,
-            11,
             12,
             13,
-            16,
+            15,
             17,
             18,
             19,
-            20,
             21,
             22,
             23,
@@ -99,10 +97,6 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 11,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
             "page": 12,
             "error": "Error: eastmoney HTTP 502"
           },
@@ -111,7 +105,7 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 16,
+            "page": 15,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -124,10 +118,6 @@
           },
           {
             "page": 19,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 20,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -162,86 +152,30 @@
       "source": "东方财富公开板块资金"
     }
   },
-  "indices": [
-    {
-      "code": "000001",
-      "name": "上证指数",
-      "close": 3930.12,
-      "previousClose": 3942.09,
-      "dailyPct": -0.3,
-      "high": 3980.2,
-      "low": 3915.22,
-      "asOfDate": "2026-09-04",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "399001",
-      "name": "深证成指",
-      "close": 13516.97,
-      "previousClose": 13625.12,
-      "dailyPct": -0.79,
-      "high": 13798.36,
-      "low": 13448.79,
-      "asOfDate": "2026-09-04",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "399006",
-      "name": "创业板指",
-      "close": 3286.55,
-      "previousClose": 3312.54,
-      "dailyPct": -0.78,
-      "high": 3370.47,
-      "low": 3266.8,
-      "asOfDate": "2026-09-04",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000688",
-      "name": "科创50",
-      "close": 1577.36,
-      "previousClose": 1611.17,
-      "dailyPct": -2.1,
-      "high": 1637.1,
-      "low": 1566.87,
-      "asOfDate": "2026-09-04",
-      "source": "腾讯 qt.gtimg.cn"
-    },
-    {
-      "code": "000300",
-      "name": "沪深300",
-      "close": 4548.05,
-      "previousClose": 4552.58,
-      "dailyPct": -0.1,
-      "high": 4602.2,
-      "low": 4530.76,
-      "asOfDate": "2026-09-04",
-      "source": "腾讯 qt.gtimg.cn"
-    }
-  ],
+  "indices": [],
   "market": {
-    "turnoverBillion": 3735.55,
-    "mainFundBillion": 357.31,
-    "risingCount": 294,
-    "fallingCount": 85,
+    "turnoverBillion": 3882.35,
+    "mainFundBillion": 360.94,
+    "risingCount": 348,
+    "fallingCount": 134,
     "limitUpCount": 34,
-    "limitDownCount": 0,
-    "rows": 400,
+    "limitDownCount": 1,
+    "rows": 500,
     "total": 4935,
     "complete": false,
     "coverage": {
       "total": 4935,
-      "rawRows": 400,
-      "uniqueRows": 400,
-      "usableRows": 400,
-      "missingRows": 4535,
-      "missingFieldRows": 0,
-      "coverageRatio": 0.0811,
+      "rawRows": 600,
+      "uniqueRows": 600,
+      "usableRows": 500,
+      "missingRows": 4435,
+      "missingFieldRows": 100,
+      "coverageRatio": 0.1013,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 4,
+        "fetchedPages": 6,
         "pagesWithErrors": [
           3,
           4,
@@ -251,14 +185,12 @@
           8,
           9,
           10,
-          11,
           12,
           13,
-          16,
+          15,
           17,
           18,
           19,
-          20,
           21,
           22,
           23,
@@ -301,10 +233,6 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 11,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
           "page": 12,
           "error": "Error: eastmoney HTTP 502"
         },
@@ -313,7 +241,7 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 16,
+          "page": 15,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -326,10 +254,6 @@
         },
         {
           "page": 19,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 20,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -357,7 +281,7 @@
     "source": "东方财富 push2 clist 全市场公开行情"
   },
   "sectorFlows": {
-    "date": "2026-09-04",
+    "date": "",
     "industry": [
       {
         "code": "BK0486",
