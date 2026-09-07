@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-09-07T06:30:16.897Z",
+  "fetchedAt": "2026-09-07T09:28:26.164Z",
   "asOfDate": "2026-09-07",
   "sourceStatus": {
     "399001": {
@@ -25,25 +25,160 @@
       "source": "腾讯 qt.gtimg.cn"
     },
     "market": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "partial",
+      "source": "东方财富 push2 clist 全市场公开行情",
+      "coverage": {
+        "total": 4935,
+        "rawRows": 200,
+        "uniqueRows": 200,
+        "usableRows": 200,
+        "missingRows": 4735,
+        "missingFieldRows": 0,
+        "coverageRatio": 0.0405,
+        "pagination": {
+          "pageSize": 200,
+          "expectedPages": 25,
+          "maxPages": 30,
+          "fetchedPages": 2,
+          "pagesWithErrors": [
+            2,
+            3,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "capped": false
+        },
+        "pageErrors": [
+          {
+            "page": 2,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 3,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 5,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 6,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 7,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 8,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 9,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 10,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 11,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 12,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 13,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 14,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 15,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 16,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 17,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 18,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 19,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 20,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 21,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 22,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 23,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 24,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 25,
+            "error": "Error: eastmoney HTTP 502"
+          }
+        ]
+      }
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3931.75,
+      "close": 3932.7,
       "previousClose": 3930.12,
-      "dailyPct": 0.04,
+      "dailyPct": 0.07,
       "high": 3948.42,
       "low": 3916.49,
       "asOfDate": "2026-09-07",
@@ -52,9 +187,9 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13765.21,
+      "close": 13774.91,
       "previousClose": 13516.97,
-      "dailyPct": 1.84,
+      "dailyPct": 1.91,
       "high": 13811.26,
       "low": 13590.82,
       "asOfDate": "2026-09-07",
@@ -63,9 +198,9 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3396.5,
+      "close": 3398.68,
       "previousClose": 3286.55,
-      "dailyPct": 3.35,
+      "dailyPct": 3.41,
       "high": 3409.36,
       "low": 3320.27,
       "asOfDate": "2026-09-07",
@@ -74,9 +209,9 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1614.87,
+      "close": 1615.53,
       "previousClose": 1577.36,
-      "dailyPct": 2.38,
+      "dailyPct": 2.42,
       "high": 1626.76,
       "low": 1579.02,
       "asOfDate": "2026-09-07",
@@ -85,21 +220,349 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4572.1,
+      "close": 4575.02,
       "previousClose": 4548.05,
-      "dailyPct": 0.53,
+      "dailyPct": 0.59,
       "high": 4580.7,
       "low": 4545.41,
       "asOfDate": "2026-09-07",
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
-  "market": null,
+  "market": {
+    "turnoverBillion": 4463.04,
+    "mainFundBillion": 572.98,
+    "risingCount": 187,
+    "fallingCount": 11,
+    "limitUpCount": 53,
+    "limitDownCount": 0,
+    "rows": 200,
+    "total": 4935,
+    "complete": false,
+    "coverage": {
+      "total": 4935,
+      "rawRows": 200,
+      "uniqueRows": 200,
+      "usableRows": 200,
+      "missingRows": 4735,
+      "missingFieldRows": 0,
+      "coverageRatio": 0.0405,
+      "pagination": {
+        "pageSize": 200,
+        "expectedPages": 25,
+        "maxPages": 30,
+        "fetchedPages": 2,
+        "pagesWithErrors": [
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25
+        ],
+        "capped": false
+      },
+      "pageErrors": [
+        {
+          "page": 2,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 3,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 5,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 6,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 7,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 8,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 9,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 10,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 11,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 12,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 13,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 14,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 15,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 16,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 17,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 18,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 19,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 20,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 21,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 22,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 23,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 24,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 25,
+          "error": "Error: eastmoney HTTP 502"
+        }
+      ]
+    },
+    "source": "东方财富 push2 clist 全市场公开行情"
+  },
   "sectorFlows": {
     "date": "2026-09-07",
-    "industry": [],
-    "concept": [],
-    "source": ""
+    "industry": [
+      {
+        "code": "BK1201",
+        "name": "电子",
+        "pctChange": 2.99,
+        "mainNetBillion": 306.95,
+        "mainPct": 6,
+        "advanceCount": 430,
+        "declineCount": 83
+      },
+      {
+        "code": "BK0448",
+        "name": "通信设备",
+        "pctChange": 3.64,
+        "mainNetBillion": 201.35,
+        "mainPct": 11.98,
+        "advanceCount": 69,
+        "declineCount": 20
+      },
+      {
+        "code": "BK1215",
+        "name": "通信",
+        "pctChange": 2.78,
+        "mainNetBillion": 200.35,
+        "mainPct": 11.35,
+        "advanceCount": 90,
+        "declineCount": 36
+      },
+      {
+        "code": "BK1591",
+        "name": "通信网络设备及器件",
+        "pctChange": 5.44,
+        "mainNetBillion": 165.31,
+        "mainPct": 13.57,
+        "advanceCount": 31,
+        "declineCount": 6
+      },
+      {
+        "code": "BK0459",
+        "name": "元件",
+        "pctChange": 6.72,
+        "mainNetBillion": 156.9,
+        "mainPct": 12.74,
+        "advanceCount": 67,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1340",
+        "name": "印制电路板",
+        "pctChange": 7.62,
+        "mainNetBillion": 133.72,
+        "mainPct": 13.51,
+        "advanceCount": 48,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1036",
+        "name": "半导体",
+        "pctChange": 2.55,
+        "mainNetBillion": 97.98,
+        "mainPct": 4.17,
+        "advanceCount": 154,
+        "declineCount": 29
+      },
+      {
+        "code": "BK1331",
+        "name": "数字芯片设计",
+        "pctChange": 1.25,
+        "mainNetBillion": 51.25,
+        "mainPct": 4.63,
+        "advanceCount": 37,
+        "declineCount": 16
+      },
+      {
+        "code": "BK1205",
+        "name": "机械设备",
+        "pctChange": 1.53,
+        "mainNetBillion": 28.71,
+        "mainPct": 1.74,
+        "advanceCount": 410,
+        "declineCount": 196
+      },
+      {
+        "code": "BK1338",
+        "name": "消费电子零部件及组装",
+        "pctChange": 2.11,
+        "mainNetBillion": 28.54,
+        "mainPct": 4.42,
+        "advanceCount": 60,
+        "declineCount": 25
+      }
+    ],
+    "concept": [
+      {
+        "code": "BK1650",
+        "name": "通信技术",
+        "pctChange": 3.22,
+        "mainNetBillion": 416.64,
+        "mainPct": 8.97,
+        "advanceCount": 284,
+        "declineCount": 87
+      },
+      {
+        "code": "BK0714",
+        "name": "5G概念",
+        "pctChange": 3,
+        "mainNetBillion": 399.37,
+        "mainPct": 10.09,
+        "advanceCount": 245,
+        "declineCount": 74
+      },
+      {
+        "code": "BK0596",
+        "name": "融资融券",
+        "pctChange": 0.86,
+        "mainNetBillion": 345.56,
+        "mainPct": 2.01,
+        "advanceCount": 2063,
+        "declineCount": 1682
+      },
+      {
+        "code": "BK1059",
+        "name": "百元股",
+        "pctChange": 4.33,
+        "mainNetBillion": 340.06,
+        "mainPct": 7.01,
+        "advanceCount": 167,
+        "declineCount": 39
+      },
+      {
+        "code": "BK1713",
+        "name": "科技风格",
+        "pctChange": 3.38,
+        "mainNetBillion": 321.27,
+        "mainPct": 7.79,
+        "advanceCount": 82,
+        "declineCount": 16
+      },
+      {
+        "code": "BK0536",
+        "name": "基金重仓",
+        "pctChange": 1.95,
+        "mainNetBillion": 311.57,
+        "mainPct": 6.31,
+        "advanceCount": 190,
+        "declineCount": 148
+      },
+      {
+        "code": "BK0821",
+        "name": "MSCI中国",
+        "pctChange": 0.7,
+        "mainNetBillion": 291.06,
+        "mainPct": 3.24,
+        "advanceCount": 233,
+        "declineCount": 320
+      },
+      {
+        "code": "BK1128",
+        "name": "CPO概念",
+        "pctChange": 6.5,
+        "mainNetBillion": 288.42,
+        "mainPct": 10.76,
+        "advanceCount": 86,
+        "declineCount": 2
+      },
+      {
+        "code": "BK0804",
+        "name": "深股通",
+        "pctChange": 1.07,
+        "mainNetBillion": 272.88,
+        "mainPct": 2.89,
+        "advanceCount": 1077,
+        "declineCount": 740
+      },
+      {
+        "code": "BK1136",
+        "name": "光通信模块",
+        "pctChange": 5.99,
+        "mainNetBillion": 268.93,
+        "mainPct": 10.79,
+        "advanceCount": 104,
+        "declineCount": 4
+      }
+    ],
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
