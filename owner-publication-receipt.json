@@ -1,25 +1,38 @@
 {
   "sourceBranch": "daily-bus",
   "sourceRef": "origin/daily-bus",
-  "sourcePath": "bus/v1/2026-09-09/premarket/canonical/canonical.json",
-  "sourceCommit": "63aad8ada43299b408d23125a15e0c0c80843da2",
-  "sourceBlob": "31c280fa0fb4b025b48af903c64ac23ffe05bd73",
-  "sourceDecisionPath": "bus/v1/2026-09-09/premarket/decision/decision.json",
-  "sourceInputPath": "bus/v1/2026-09-09/premarket/input/research-input.json",
-  "canonicalHash": "065c16afaa43b291183c2d4ed172ee632e75b177be9d8c5644177ce872730408",
-  "canonicalJsonSha256": "f06fac14fea1db90e3683e9fa3e8f9a8d9480b709a19b34df9674120f28ce3b7",
-  "phase": "premarket",
+  "sourcePath": "bus/v1/2026-09-09/close/canonical/canonical.json",
+  "sourceCommit": "b068c66446edc39fd2eab0ef09058fa5c235012f",
+  "sourceBlob": "db8a66e8207a660e36542c245181c1a98ceef4d2",
+  "sourceDecisionPath": "bus/v1/2026-09-09/close/decision/decision.json",
+  "sourceInputPath": "bus/v1/2026-09-09/close/input/research-input.json",
+  "canonicalHash": "ab3d6ef7c799b330552d851b9480d2a89af13ea114806fdf9816bed9a1398718",
+  "canonicalJsonSha256": "d172879fa3ddfa1ee806fef8457e3cde7126b6e754055e37a0309525848f78df",
+  "phase": "postclose",
+  "busSession": "close",
   "researchDate": "2026-09-09",
   "publishStatus": "published",
   "imaReupload": false,
-  "opportunitySourcePath": "daily-bus/2026-09-04/opportunity-owner.json",
-  "opportunitySourceRef": "origin/daily-bus",
-  "opportunitySourceCommit": "63aad8ada43299b408d23125a15e0c0c80843da2",
-  "opportunitySourceBlob": "e3c45819ad6dc448f173d4f0fac49baa477fcf65",
-  "opportunitySourceRawSha256": "bcb6ea7de2407071e0098a8991221c85b5acf664e3a9c97d49de1b1a961162d2",
-  "opportunityResearchDate": "2026-09-04",
-  "opportunityPhase": "postclose",
-  "opportunityViewStatus": "stale",
-  "opportunityFreshness": "stale",
-  "opportunityViewSha256": "0162f05a362678a727ba2ce0abcbbfbb75c2d7c581c556dadd0964f2f2c030eb"
+  "opportunityBasePath": "data/opportunity-view-v1.json",
+  "opportunityBaseSha256": "0162f05a362678a727ba2ce0abcbbfbb75c2d7c581c556dadd0964f2f2c030eb",
+  "opportunityAppliedChanges": [
+    {
+      "code": "603162",
+      "change": "upgrade",
+      "from": "验证池",
+      "to": "触发池"
+    },
+    {
+      "code": "600869",
+      "change": "upgrade",
+      "from": "研究池",
+      "to": "验证池"
+    },
+    {
+      "code": "600172",
+      "change": "unchanged",
+      "from": "研究池",
+      "to": "研究池"
+    }
+  ]
 }

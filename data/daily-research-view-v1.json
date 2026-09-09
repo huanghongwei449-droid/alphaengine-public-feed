@@ -4,17 +4,17 @@
   "meta": {
     "requestedDate": "2026-09-09",
     "researchDate": "2026-09-09",
-    "phase": "premarket",
-    "researchAsOf": "2026-09-09T00:06:10.173464+00:00",
-    "generatedAt": "2026-09-09T00:06:10.173464+00:00",
+    "phase": "postclose",
+    "researchAsOf": "2026-09-09T11:17:16.713119+00:00",
+    "generatedAt": "2026-09-09T11:17:16.713119+00:00",
     "sourceSnapshotDate": "2026-09-09",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-09-09 盘前研究｜AI产业证据更强，但市场正在把定价权交给资源与真实价格",
-    "summary": "昨天最值得重视的不是上证涨了0.20%，而是成长方向明显退潮、市场宽度却没有坏：深成指跌0.52%，创业板跌1.15%，科创50跌1.52%，但全市场仍有约3400只股票上涨，农业、铜、油气等资源和低位方向接过了赚钱效应。"
+    "headline": "2026-09-09 收盘复盘｜指数没坏，但市场宽度转差：资源价值拿走定价权，光通信只完成局部修复",
+    "summary": "今天最容易被指数骗到。"
   },
   "market": {
     "state": "AI产业硬证据继续增强，但高油价/高利率与A股昨日成长兑现压制交易信用；资源品凭借真实价格和供给约束争夺短期定价权。",
@@ -39,47 +39,76 @@
   },
   "hypotheses": [],
   "marketStructureChanges": [],
-  "opportunityChanges": [],
+  "opportunityChanges": [
+    {
+      "code": "603162",
+      "name": "海通发展",
+      "change": "upgrade",
+      "from": "验证池",
+      "to": "触发池",
+      "reason": "个股涨停并形成5天3板，同时招商轮船、南京港涨停，中远海能等同步走强，航运从个股独立强度重新变成方向与个股共振。",
+      "next_check": "观察航运容量核心承接和海通发展换手质量，若板块只剩单票冲刺则不再上调信用。"
+    },
+    {
+      "code": "600869",
+      "name": "远东股份",
+      "change": "upgrade",
+      "from": "研究池",
+      "to": "验证池",
+      "reason": "个股涨停且光纤光缆形成多核心，首次重新取得明确个股级市场选择；但今日市场角色更接近通信线缆，需要重新验证驱动归因。",
+      "next_check": "观察光纤光缆多核心是否延续，以及远东股份是否继续保持主动强于板块。"
+    },
+    {
+      "code": "600172",
+      "name": "黄河旋风",
+      "change": "unchanged",
+      "from": "研究池",
+      "to": "研究池",
+      "reason": "培育钻石方向增强且个股继续上涨，但此前已明显价格化，今日自身强度尚不足以构成新的个股级重新选择升级。",
+      "next_check": "只有继续明显强于培育钻石板块并出现新的主动价格选择，才考虑升级。"
+    }
+  ],
   "nextChecks": [
     {
-      "id": "check-copper-credit",
-      "question": "铜的价格信用能否跨日延续？",
-      "confirmIf": "紫金矿业、江西铜业等容量/趋势锚稳定，同时北方铜业等弹性标的维持强度并带动有色内部宽度。",
-      "downgradeIf": "只有高弹性个股冲高，容量锚明显滞涨或快速回落。",
+      "id": "check-20260910-breadth",
+      "question": "指数稳定能否重新转化为市场宽度修复？",
+      "confirmIf": "上涨家数明显回升、成交不再继续萎缩，且资源/硬件强方向保持承接。",
+      "downgradeIf": "指数仍稳但下跌家数继续显著占优，强方向也开始高开兑现。",
       "anchors": []
     },
     {
-      "id": "check-ai-reselection",
-      "question": "AI硬件能否在新产业证据下重新获得市场选择？",
-      "confirmIf": "中际旭创、新易盛、天孚通信至少两个止跌转强，且CPO/PCB宽度恢复。",
-      "downgradeIf": "海外AI硬证据增加但A股容量核心继续弱于市场，或仅有小票事件脉冲。",
+      "id": "check-20260910-resource",
+      "question": "资源价值的价格信用能否跨日延续？",
+      "confirmIf": "煤炭、航运、贵金属、工业金属至少两组继续保持容量核心与板块宽度。",
+      "downgradeIf": "资源方向普遍高开低走，只剩少数高弹性个股维持强势。",
       "anchors": []
     },
     {
-      "id": "check-market-breadth",
-      "question": "昨天的风格切换是否仍保持健康市场宽度？",
-      "confirmIf": "资源与低位轮动的同时，全市场上涨家数保持中性以上，成长不出现进一步连锁杀跌。",
-      "downgradeIf": "资源高开兑现、成长继续弱且上涨家数快速收缩。",
+      "id": "check-20260910-ai-hardware",
+      "question": "AI硬件今天的局部修复能否升级为持续重新选择？",
+      "confirmIf": "中际旭创、新易盛、天孚通信等容量核心继续稳定，光纤/元件的强势向更多硬件环节扩散。",
+      "downgradeIf": "容量核心重新走弱，仅事件小票或光博会相关短线标的继续冲高。",
       "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260909-premarket",
-      "type": "premarket",
-      "title": "2026-09-09 盘前研究｜AI产业证据更强，但市场正在把定价权交给资源与真实价格",
+      "id": "report-20260909-postclose",
+      "type": "postclose",
+      "title": "2026-09-09 收盘复盘｜指数没坏，但市场宽度转差：资源价值拿走定价权，光通信只完成局部修复",
       "researchDate": "2026-09-09",
-      "publishedAt": "2026-09-09T00:06:10.173464+00:00",
+      "publishedAt": "2026-09-09T11:17:16.713119+00:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260909-premarket"
+      "sourceRef": "data/daily-research-reports.json#report-20260909-postclose"
     }
   ],
   "coverage": {
     "currentView": "available",
-    "market": "available",
+    "market": "inherited",
+    "riskBudget": "inherited",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
-    "opportunityChanges": "notUpdated",
+    "opportunityChanges": "available",
     "nextChecks": "available",
     "reports": "available"
   }
