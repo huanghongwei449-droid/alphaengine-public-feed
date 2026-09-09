@@ -7,7 +7,7 @@
   "publishedAt": "2026-09-09T11:17:16.713119+00:00",
   "dailyView": {
     "path": "data/daily-research-view-v1.json",
-    "sha256": "4af261f19bc30bdc8d85771e319fca039cf6947ecf74a261c94d3bce76d6fec7"
+    "sha256": "e63ca59b7b16c1183f5e9e06ef72bb1fa1abc7bff160ace820bacf9d1c8485a0"
   },
   "opportunity": {
     "path": "data/opportunity-view-v1.json",

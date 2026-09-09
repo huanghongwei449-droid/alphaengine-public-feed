@@ -104,8 +104,8 @@
   ],
   "coverage": {
     "currentView": "available",
-    "market": "inherited",
-    "riskBudget": "inherited",
+    "market": "notUpdated",
+    "riskBudget": "notUpdated",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
     "opportunityChanges": "available",
