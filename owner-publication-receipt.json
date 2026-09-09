@@ -1,11 +1,15 @@
 {
   "sourceBranch": "daily-bus",
-  "sourcePath": "daily-bus/2026-09-07/chatgpt-decision.json",
-  "sourceCommit": "a9aaa3ed93c63ec50e2e1f88104758fe017919d9",
-  "sourceBlob": "74dfbb2397808abeb9ee362ecc56620360f74edc",
+  "sourceRef": "origin/daily-bus",
+  "sourcePath": "bus/v1/2026-09-09/premarket/canonical/canonical.json",
+  "sourceCommit": "63aad8ada43299b408d23125a15e0c0c80843da2",
+  "sourceBlob": "31c280fa0fb4b025b48af903c64ac23ffe05bd73",
+  "sourceDecisionPath": "bus/v1/2026-09-09/premarket/decision/decision.json",
+  "sourceInputPath": "bus/v1/2026-09-09/premarket/input/research-input.json",
+  "canonicalHash": "065c16afaa43b291183c2d4ed172ee632e75b177be9d8c5644177ce872730408",
+  "canonicalJsonSha256": "f06fac14fea1db90e3683e9fa3e8f9a8d9480b709a19b34df9674120f28ce3b7",
   "phase": "premarket",
-  "ownerPayloadHash": "9a9a5c5cfd8a9f6e6252e58aab73202d88106433601a0d8e359436cffcd4f5e9",
-  "researchDate": "2026-09-07",
+  "researchDate": "2026-09-09",
   "publishStatus": "published",
-  "workflowSha": "a9aaa3ed93c63ec50e2e1f88104758fe017919d9"
+  "imaReupload": false
 }
