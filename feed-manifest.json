@@ -101,7 +101,7 @@
     {
       "path": "data/opportunity-view-v1.json",
       "bytes": 18891,
-      "sha256": "74b0b7c0b92494c2fa4f3e00bf3f40f5b1d0c50f0543aba3637fb6c66c4d837b"
+      "sha256": "0162f05a362678a727ba2ce0abcbbfbb75c2d7c581c556dadd0964f2f2c030eb"
     },
     {
       "path": "data/daily-research-reports.json",
@@ -116,7 +116,7 @@
     {
       "path": "data/current-research.json",
       "bytes": 571,
-      "sha256": "f41906797ff42120973fb2c202738d737fd6636ff6f30a4f65d7be036035b779"
+      "sha256": "73cada3476b0d5acad37727d8b4438ed2d224fa40d21fa4c8d63df08551026ea"
     }
   ]
 }

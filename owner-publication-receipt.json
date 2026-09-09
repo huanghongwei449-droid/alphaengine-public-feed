@@ -11,5 +11,15 @@
   "phase": "premarket",
   "researchDate": "2026-09-09",
   "publishStatus": "published",
-  "imaReupload": false
+  "imaReupload": false,
+  "opportunitySourcePath": "daily-bus/2026-09-04/opportunity-owner.json",
+  "opportunitySourceRef": "origin/daily-bus",
+  "opportunitySourceCommit": "63aad8ada43299b408d23125a15e0c0c80843da2",
+  "opportunitySourceBlob": "e3c45819ad6dc448f173d4f0fac49baa477fcf65",
+  "opportunitySourceRawSha256": "bcb6ea7de2407071e0098a8991221c85b5acf664e3a9c97d49de1b1a961162d2",
+  "opportunityResearchDate": "2026-09-04",
+  "opportunityPhase": "postclose",
+  "opportunityViewStatus": "stale",
+  "opportunityFreshness": "stale",
+  "opportunityViewSha256": "0162f05a362678a727ba2ce0abcbbfbb75c2d7c581c556dadd0964f2f2c030eb"
 }
