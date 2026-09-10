@@ -41,31 +41,40 @@
   "marketStructureChanges": [],
   "opportunityChanges": [
     {
-      "code": "603162",
-      "name": "海通发展",
-      "change": "upgrade",
-      "from": "验证池",
-      "to": "触发池",
+      "id": "opportunity-change-603162-upgraded",
+      "entityType": "company",
+      "entityId": "603162",
+      "label": "海通发展",
+      "transitionType": "upgraded",
+      "from": "validation",
+      "to": "trigger",
       "reason": "个股涨停并形成5天3板，同时招商轮船、南京港涨停，中远海能等同步走强，航运从个股独立强度重新变成方向与个股共振。",
-      "next_check": "观察航运容量核心承接和海通发展换手质量，若板块只剩单票冲刺则不再上调信用。"
+      "nextCheck": "观察航运容量核心承接和海通发展换手质量，若板块只剩单票冲刺则不再上调信用。",
+      "anchors": []
     },
     {
-      "code": "600869",
-      "name": "远东股份",
-      "change": "upgrade",
-      "from": "研究池",
-      "to": "验证池",
+      "id": "opportunity-change-600869-upgraded",
+      "entityType": "company",
+      "entityId": "600869",
+      "label": "远东股份",
+      "transitionType": "upgraded",
+      "from": "research",
+      "to": "validation",
       "reason": "个股涨停且光纤光缆形成多核心，首次重新取得明确个股级市场选择；但今日市场角色更接近通信线缆，需要重新验证驱动归因。",
-      "next_check": "观察光纤光缆多核心是否延续，以及远东股份是否继续保持主动强于板块。"
+      "nextCheck": "观察光纤光缆多核心是否延续，以及远东股份是否继续保持主动强于板块。",
+      "anchors": []
     },
     {
-      "code": "600172",
-      "name": "黄河旋风",
-      "change": "unchanged",
-      "from": "研究池",
-      "to": "研究池",
+      "id": "opportunity-change-600172-maintained",
+      "entityType": "company",
+      "entityId": "600172",
+      "label": "黄河旋风",
+      "transitionType": "maintained",
+      "from": "research",
+      "to": "research",
       "reason": "培育钻石方向增强且个股继续上涨，但此前已明显价格化，今日自身强度尚不足以构成新的个股级重新选择升级。",
-      "next_check": "只有继续明显强于培育钻石板块并出现新的主动价格选择，才考虑升级。"
+      "nextCheck": "只有继续明显强于培育钻石板块并出现新的主动价格选择，才考虑升级。",
+      "anchors": []
     }
   ],
   "nextChecks": [
