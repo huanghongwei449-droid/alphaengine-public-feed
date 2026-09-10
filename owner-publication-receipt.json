@@ -1,31 +1,31 @@
 {
   "sourceBranch": "daily-bus",
   "sourceRef": "origin/daily-bus",
-  "sourcePath": "bus/v1/2026-09-09/close/canonical/canonical.json",
-  "sourceCommit": "f8b1756ad60813eba88dea45a620a4aa375855bd",
-  "sourceBlob": "db8a66e8207a660e36542c245181c1a98ceef4d2",
-  "sourceDecisionPath": "bus/v1/2026-09-09/close/decision/decision.json",
-  "sourceInputPath": "bus/v1/2026-09-09/close/input/research-input.json",
-  "canonicalHash": "ab3d6ef7c799b330552d851b9480d2a89af13ea114806fdf9816bed9a1398718",
-  "canonicalJsonSha256": "d172879fa3ddfa1ee806fef8457e3cde7126b6e754055e37a0309525848f78df",
+  "sourcePath": "bus/v1/2026-09-10/close/canonical/canonical.json",
+  "sourceCommit": "1b6e2a21757d220b6c7cb7953d447efaab801443",
+  "sourceBlob": "5e8d18bb529ccff84a3bdf2a7760f62618120e7c",
+  "sourceDecisionPath": "bus/v1/2026-09-10/close/decision/decision.json",
+  "sourceInputPath": "bus/v1/2026-09-10/close/input/research-input.json",
+  "canonicalHash": "b0c5aac48bbeac6fedd26b2d1a3a4c26ab19246266eb536290094e955fca95fa",
+  "canonicalJsonSha256": "22461f28d6fd7f7930136996a635b1d8012e9d02f7cb105ed3239c1a5cefe56e",
   "phase": "postclose",
   "busSession": "close",
-  "researchDate": "2026-09-09",
+  "researchDate": "2026-09-10",
   "publishStatus": "published",
   "imaReupload": false,
   "opportunityBasePath": "data/opportunity-view-v1.json",
-  "opportunityBaseSha256": "0162f05a362678a727ba2ce0abcbbfbb75c2d7c581c556dadd0964f2f2c030eb",
+  "opportunityBaseSha256": "d245f5cbc1543a099b503e314e15b4fbb757cccb546de5a35cd37b93ede55801",
   "opportunityAppliedChanges": [
     {
       "code": "603162",
-      "change": "upgrade",
-      "from": "验证池",
-      "to": "触发池"
+      "change": "downgrade",
+      "from": "触发池",
+      "to": "验证池"
     },
     {
       "code": "600869",
-      "change": "upgrade",
-      "from": "研究池",
+      "change": "unchanged",
+      "from": "验证池",
       "to": "验证池"
     },
     {

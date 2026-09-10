@@ -2,14 +2,14 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-09",
-    "researchDate": "2026-09-09",
-    "researchAsOf": "2026-09-09T11:17:16.713119+00:00",
-    "generatedAt": "2026-09-09T11:17:16.713119+00:00",
+    "requestedDate": "2026-09-10",
+    "researchDate": "2026-09-10",
+    "researchAsOf": "2026-09-10T14:28:25.034807+00:00",
+    "generatedAt": "2026-09-10T14:28:25.034807+00:00",
     "phase": "postclose",
     "canonical": true,
     "viewStatus": "partial",
-    "freshness": "aging"
+    "freshness": "fresh"
   },
   "marketSummary": {
     "summary": "9月4日市场宽度从前一日的明显偏弱修复为普涨，但高位科技没有同步拿回定价权；市场实际选择集中在AI应用/文化传媒、农业/养殖、房地产、数字货币/软件四组低位多核心方向。机会池方面，海通发展维持验证但研究角色重分类，鸣志电器和黄河旋风降级，新炬网络、楚天龙新进入验证；联特科技、裕太微、芯源微退出，金盘科技维持剔除。",
@@ -33,9 +33,9 @@
       "entityId": "600869",
       "name": "远东股份",
       "kind": "dynamic_pool",
-      "lifecycle": "upgrade",
+      "lifecycle": "wait",
       "industryTheme": "AIDC供电/线缆",
-      "whyToday": "个股涨停且光纤光缆形成多核心，首次重新取得明确个股级市场选择；但今日市场角色更接近通信线缆，需要重新验证驱动归因。",
+      "whyToday": "在市场宽度偏弱、光通信容量不强的背景下仍保持明显正收益，个股信用未被破坏；但当前驱动在通信线缆、智能电网与自身趋势之间仍需进一步区分，不足以越级进入触发池。",
       "marketContext": "AIDC供电/线缆｜分歧｜订单证据锚/低位线缆研究核心",
       "evidence": [
         {
@@ -65,7 +65,7 @@
         "未来1—2日仍无独立选择则退出本轮。",
         "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "观察光纤光缆多核心是否延续，以及远东股份是否继续保持主动强于板块。",
+      "confirmTomorrow": "观察其相对强度能否继续保持，并确认强势究竟与电力/智能电网还是通信硬件形成稳定共振；驱动和板块承接同时清晰后才考虑升级。",
       "invalidateIf": "未来1—2日仍无独立选择则退出本轮。",
       "companyCodes": [
         "600869"
@@ -158,9 +158,9 @@
       "entityId": "603162",
       "name": "海通发展",
       "kind": "second_wave",
-      "lifecycle": "upgrade",
+      "lifecycle": "downgrade",
       "industryTheme": "航运/区域题材",
-      "whyToday": "个股涨停并形成5天3板，同时招商轮船、南京港涨停，中远海能等同步走强，航运从个股独立强度重新变成方向与个股共振。",
+      "whyToday": "航运方向仍有南京港等强势载体，但海通发展自身高开冲高后明显回落并收跌，昨日触发升级所要求的个股跨日高质量承接没有通过。",
       "marketContext": "航运/区域题材｜分歧｜个股独立强度观察",
       "evidence": [
         {
@@ -190,12 +190,12 @@
         "独立强度快速消失或连续掉队。",
         "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "观察航运容量核心承接和海通发展换手质量，若板块只剩单票冲刺则不再上调信用。",
+      "confirmTomorrow": "观察航运容量是否继续保持多核心，以及海通发展分歧后能否重新出现主动承接；若板块尚可但个股继续掉队，则进一步下调信用。",
       "invalidateIf": "独立强度快速消失或连续掉队。",
       "companyCodes": [
         "603162"
       ],
-      "currentStage": "触发池"
+      "currentStage": "验证池"
     },
     {
       "id": "20260904-603728",
@@ -250,7 +250,7 @@
       "kind": "second_wave",
       "lifecycle": "wait",
       "industryTheme": "培育钻石/超硬材料",
-      "whyToday": "培育钻石方向增强且个股继续上涨，但此前已明显价格化，今日自身强度尚不足以构成新的个股级重新选择升级。",
+      "whyToday": "今日回落且没有新的个股级主动选择，现有产业逻辑不足以自动恢复交易信用；但单日下跌尚不足以直接删除研究价值。",
       "marketContext": "培育钻石/超硬材料｜分歧｜超硬材料历史价格核心",
       "evidence": [
         {
@@ -280,7 +280,7 @@
         "继续无市场选择则退出。",
         "完整3—10日相对强度或量价结构证据仍未取得，禁止越级。"
       ],
-      "confirmTomorrow": "只有继续明显强于培育钻石板块并出现新的主动价格选择，才考虑升级。",
+      "confirmTomorrow": "若继续弱于相关材料方向则考虑移出研究池；只有重新明显强于板块并形成主动价格选择才考虑升级。",
       "invalidateIf": "继续无市场选择则退出。",
       "companyCodes": [
         "600172"
@@ -397,9 +397,9 @@
     }
   ],
   "lineage": {
-    "baseOpportunityViewSha256": "0162f05a362678a727ba2ce0abcbbfbb75c2d7c581c556dadd0964f2f2c030eb",
-    "sourceCanonicalHash": "ab3d6ef7c799b330552d851b9480d2a89af13ea114806fdf9816bed9a1398718",
-    "sourceCanonicalJsonSha256": "d172879fa3ddfa1ee806fef8457e3cde7126b6e754055e37a0309525848f78df",
-    "sourceDecisionSha256": "3c0d7f82709a684d963f834623093ede4eb43ff6dfefe6c79b72e493fb32ef41"
+    "baseOpportunityViewSha256": "d245f5cbc1543a099b503e314e15b4fbb757cccb546de5a35cd37b93ede55801",
+    "sourceCanonicalHash": "b0c5aac48bbeac6fedd26b2d1a3a4c26ab19246266eb536290094e955fca95fa",
+    "sourceCanonicalJsonSha256": "22461f28d6fd7f7930136996a635b1d8012e9d02f7cb105ed3239c1a5cefe56e",
+    "sourceDecisionSha256": "4a629983cc034cd13adc993a5ea6b680a4b0d8057abf772fbe57ea5c92bb19bd"
   }
 }
