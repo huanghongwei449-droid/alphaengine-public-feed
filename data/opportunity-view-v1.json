@@ -9,7 +9,7 @@
     "phase": "postclose",
     "canonical": true,
     "viewStatus": "partial",
-    "freshness": "fresh"
+    "freshness": "aging"
   },
   "marketSummary": {
     "summary": "9月4日市场宽度从前一日的明显偏弱修复为普涨，但高位科技没有同步拿回定价权；市场实际选择集中在AI应用/文化传媒、农业/养殖、房地产、数字货币/软件四组低位多核心方向。机会池方面，海通发展维持验证但研究角色重分类，鸣志电器和黄河旋风降级，新炬网络、楚天龙新进入验证；联特科技、裕太微、芯源微退出，金盘科技维持剔除。",

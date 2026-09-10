@@ -101,7 +101,7 @@
     {
       "path": "data/opportunity-view-v1.json",
       "bytes": 19646,
-      "sha256": "08a4d149d2155c654895367ad2a3421c8791e06075fd8f2b04e4744b18cd2f03"
+      "sha256": "d245f5cbc1543a099b503e314e15b4fbb757cccb546de5a35cd37b93ede55801"
     },
     {
       "path": "data/daily-research-reports.json",
@@ -111,7 +111,7 @@
     {
       "path": "data/current-research.json",
       "bytes": 571,
-      "sha256": "19decf25fba707cffd28b33e4598e9854e0aadee9fefe98f7124e233aaea8f85"
+      "sha256": "3e1f99f598a54bd4a3d2a4a2c359b4f988c1e790c1332ca84286b529ae0694e1"
     },
     {
       "path": "data/live-market.json",
