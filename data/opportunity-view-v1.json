@@ -2,14 +2,14 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-10",
-    "researchDate": "2026-09-10",
-    "researchAsOf": "2026-09-10T14:28:25.034807+00:00",
-    "generatedAt": "2026-09-10T14:28:25.034807+00:00",
+    "requestedDate": "2026-09-11",
+    "researchDate": "2026-09-11",
+    "researchAsOf": "2026-09-12T02:45:12.785051+00:00",
+    "generatedAt": "2026-09-12T02:45:12.785051+00:00",
     "phase": "postclose",
     "canonical": true,
     "viewStatus": "partial",
-    "freshness": "fresh"
+    "freshness": "aging"
   },
   "marketSummary": {
     "summary": "9月4日市场宽度从前一日的明显偏弱修复为普涨，但高位科技没有同步拿回定价权；市场实际选择集中在AI应用/文化传媒、农业/养殖、房地产、数字货币/软件四组低位多核心方向。机会池方面，海通发展维持验证但研究角色重分类，鸣志电器和黄河旋风降级，新炬网络、楚天龙新进入验证；联特科技、裕太微、芯源微退出，金盘科技维持剔除。",
@@ -397,9 +397,9 @@
     }
   ],
   "lineage": {
-    "baseOpportunityViewSha256": "d245f5cbc1543a099b503e314e15b4fbb757cccb546de5a35cd37b93ede55801",
-    "sourceCanonicalHash": "b0c5aac48bbeac6fedd26b2d1a3a4c26ab19246266eb536290094e955fca95fa",
-    "sourceCanonicalJsonSha256": "22461f28d6fd7f7930136996a635b1d8012e9d02f7cb105ed3239c1a5cefe56e",
-    "sourceDecisionSha256": "4a629983cc034cd13adc993a5ea6b680a4b0d8057abf772fbe57ea5c92bb19bd"
+    "baseOpportunityViewSha256": "b2f7ee65363a92355fb8916f934f60117d7e21901aa3a5ad4e06c67b3c7cee8f",
+    "sourceCanonicalHash": "e836b58aba6b997352c0c3b77eef5ebf229cd7266921e582be7673388ffa43a8",
+    "sourceCanonicalJsonSha256": "73c68126482c9764f4631ae8bd364a49f41fe5c03ec7bb42c14217c78e668f7f",
+    "sourceDecisionSha256": "3cbb1d9eff86c0a6a77031e36c0a4dbd38b96e9cd960361060aba0d1b2063631"
   }
 }

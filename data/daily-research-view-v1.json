@@ -2,19 +2,19 @@
   "schemaVersion": "yanshu-daily-research-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-10",
-    "researchDate": "2026-09-10",
+    "requestedDate": "2026-09-11",
+    "researchDate": "2026-09-11",
     "phase": "postclose",
-    "researchAsOf": "2026-09-10T14:28:25.034807+00:00",
-    "generatedAt": "2026-09-10T14:28:25.034807+00:00",
-    "sourceSnapshotDate": "2026-09-10",
+    "researchAsOf": "2026-09-12T02:45:12.785051+00:00",
+    "generatedAt": "2026-09-12T02:45:12.785051+00:00",
+    "sourceSnapshotDate": "2026-09-11",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-09-10 收盘复盘｜宽度和量能继续走弱，定价从资源/光通信切到银行、电力与PCB",
-    "summary": "今天比昨天更能说明问题：指数已经不再替市场遮掩弱势。"
+    "headline": "2026-09-11 收盘复盘｜放量下跌但科技深V：PCB/MLCC拿到定价权，资源与高位情绪继续退潮",
+    "summary": "今天不是简单的“放量下跌”，而是一次明显的风险释放之后，资金又在极少数硬件方向里重新做选择。"
   },
   "market": {
     "state": "AI产业硬证据继续增强，但高油价/高利率与A股昨日成长兑现压制交易信用；资源品凭借真实价格和供给约束争夺短期定价权。",
@@ -39,76 +39,39 @@
   },
   "hypotheses": [],
   "marketStructureChanges": [],
-  "opportunityChanges": [
-    {
-      "id": "opportunity-change-603162-downgraded",
-      "entityType": "company",
-      "entityId": "603162",
-      "label": "海通发展",
-      "transitionType": "downgraded",
-      "from": "trigger",
-      "to": "validation",
-      "reason": "航运方向仍有南京港等强势载体，但海通发展自身高开冲高后明显回落并收跌，昨日触发升级所要求的个股跨日高质量承接没有通过。",
-      "nextCheck": "观察航运容量是否继续保持多核心，以及海通发展分歧后能否重新出现主动承接；若板块尚可但个股继续掉队，则进一步下调信用。",
-      "anchors": []
-    },
-    {
-      "id": "opportunity-change-600869-maintained",
-      "entityType": "company",
-      "entityId": "600869",
-      "label": "远东股份",
-      "transitionType": "maintained",
-      "from": "validation",
-      "to": "validation",
-      "reason": "在市场宽度偏弱、光通信容量不强的背景下仍保持明显正收益，个股信用未被破坏；但当前驱动在通信线缆、智能电网与自身趋势之间仍需进一步区分，不足以越级进入触发池。",
-      "nextCheck": "观察其相对强度能否继续保持，并确认强势究竟与电力/智能电网还是通信硬件形成稳定共振；驱动和板块承接同时清晰后才考虑升级。",
-      "anchors": []
-    },
-    {
-      "id": "opportunity-change-600172-maintained",
-      "entityType": "company",
-      "entityId": "600172",
-      "label": "黄河旋风",
-      "transitionType": "maintained",
-      "from": "research",
-      "to": "research",
-      "reason": "今日回落且没有新的个股级主动选择，现有产业逻辑不足以自动恢复交易信用；但单日下跌尚不足以直接删除研究价值。",
-      "nextCheck": "若继续弱于相关材料方向则考虑移出研究池；只有重新明显强于板块并形成主动价格选择才考虑升级。",
-      "anchors": []
-    }
-  ],
+  "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "check-20260911-breadth-liquidity",
-      "question": "市场宽度和成交能否停止继续恶化？",
-      "confirmIf": "上涨家数明显修复、成交不再继续下降，且至少一组强方向保持容量承接。",
-      "downgradeIf": "多数股票继续下跌、成交进一步缩量，同时今天强方向也快速兑现。",
+      "id": "check-risk-release-followthrough",
+      "question": "周五放量下跌是否属于一次有效风险释放？",
+      "confirmIf": "上涨家数明显修复、指数不再破周五低点、成交保持活跃且强方向不补跌。",
+      "downgradeIf": "继续放量下跌，且PCB、MLCC、通信硬件等周五强方向同步补跌。",
       "anchors": []
     },
     {
-      "id": "check-20260911-power-pcb",
-      "question": "电力/PCB能否从弱市轮动升级为持续结构定价？",
-      "confirmIf": "电力或PCB至少一组跨日维持多核心，且有容量/中军同步参与。",
-      "downgradeIf": "只剩高位小票冲刺，容量股不跟或板块次日直接大面积兑现。",
+      "id": "check-hardware-persistence",
+      "question": "PCB/MLCC/通信硬件能否成为新的结构定价中心？",
+      "confirmIf": "多核心继续存在，容量股保持相对强度并有持续成交承接。",
+      "downgradeIf": "周五强势仅剩少数高弹性小票，容量核心快速兑现。",
       "anchors": []
     },
     {
-      "id": "check-20260911-resource-ai",
-      "question": "资源/航运与AI光通信谁能重新拿回容量信用？",
-      "confirmIf": "资源/航运保留多核心承接，或中际旭创、新易盛、天孚通信等光通信容量重新明显强于市场。",
-      "downgradeIf": "资源仅剩个别弹性股，光通信容量继续弱，且两边都无法形成板块宽度。",
+      "id": "check-resource-shipping-reselection",
+      "question": "资源与航运能否重新获得市场选择？",
+      "confirmIf": "容量核心重新走强、板块宽度修复，并出现个股级主动承接。",
+      "downgradeIf": "宏观利好继续强化但股票仍弱于市场和强势方向。",
       "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260910-postclose",
+      "id": "report-20260911-postclose",
       "type": "postclose",
-      "title": "2026-09-10 收盘复盘｜宽度和量能继续走弱，定价从资源/光通信切到银行、电力与PCB",
-      "researchDate": "2026-09-10",
-      "publishedAt": "2026-09-10T14:28:25.034807+00:00",
+      "title": "2026-09-11 收盘复盘｜放量下跌但科技深V：PCB/MLCC拿到定价权，资源与高位情绪继续退潮",
+      "researchDate": "2026-09-11",
+      "publishedAt": "2026-09-12T02:45:12.785051+00:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260910-postclose"
+      "sourceRef": "data/daily-research-reports.json#report-20260911-postclose"
     }
   ],
   "coverage": {
