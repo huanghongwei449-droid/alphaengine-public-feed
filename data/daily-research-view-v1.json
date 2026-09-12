@@ -39,7 +39,44 @@
   },
   "hypotheses": [],
   "marketStructureChanges": [],
-  "opportunityChanges": [],
+  "opportunityChanges": [
+    {
+      "id": "opportunity-change-603162-downgraded",
+      "entityType": "company",
+      "entityId": "603162",
+      "label": "海通发展",
+      "transitionType": "downgraded",
+      "from": "validation",
+      "to": "research",
+      "reason": "连续两日未通过触发后的跨日承接，9月11日高换手下跌约8.8%，个股级市场重新选择证据明显弱化。",
+      "nextCheck": "航运重新形成容量共振且海通发展自身明显强于板块、出现主动承接。",
+      "anchors": []
+    },
+    {
+      "id": "opportunity-change-600869-upgraded",
+      "entityType": "company",
+      "entityId": "600869",
+      "label": "远东股份",
+      "transitionType": "upgraded",
+      "from": "validation",
+      "to": "trigger",
+      "reason": "全市场大面积下跌背景下仍上涨约5.2%，经历盘中分歧后重新走强，并与通信硬件/电力设备强分支共振，形成新的个股级市场选择。",
+      "nextCheck": "高位分歧后继续有主动承接，且所属强分支保持多核心和容量参与。",
+      "anchors": []
+    },
+    {
+      "id": "opportunity-change-600172-maintained",
+      "entityType": "company",
+      "entityId": "600172",
+      "label": "黄河旋风",
+      "transitionType": "maintained",
+      "from": "research",
+      "to": "research",
+      "reason": "连续回落后未形成新的个股级重新选择，方向逻辑不足以抵消自身价格信用下降。",
+      "nextCheck": "重新明显强于相关材料方向并出现主动资金选择，否则继续考虑降低关注。",
+      "anchors": []
+    }
+  ],
   "nextChecks": [
     {
       "id": "check-risk-release-followthrough",

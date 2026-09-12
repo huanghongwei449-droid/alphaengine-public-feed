@@ -2,7 +2,7 @@
   "sourceBranch": "daily-bus",
   "sourceRef": "origin/daily-bus",
   "sourcePath": "bus/v1/2026-09-11/close/canonical/canonical.json",
-  "sourceCommit": "caabb135f32c4bb0d33b8e87a61908cde1dd7bf5",
+  "sourceCommit": "7382cabcdce6ef49aeb515b8ed1591ed672cf26c",
   "sourceBlob": "7beae9bf2b26fe1a78ec90c54f0ca7d6b0411c77",
   "sourceDecisionPath": "bus/v1/2026-09-11/close/decision/decision.json",
   "sourceInputPath": "bus/v1/2026-09-11/close/input/research-input.json",
@@ -14,6 +14,25 @@
   "publishStatus": "published",
   "imaReupload": false,
   "opportunityBasePath": "data/opportunity-view-v1.json",
-  "opportunityBaseSha256": "b2f7ee65363a92355fb8916f934f60117d7e21901aa3a5ad4e06c67b3c7cee8f",
-  "opportunityAppliedChanges": []
+  "opportunityBaseSha256": "48b956aaf8c737b643ed016d41e33c1d73907040d6a2b07ac56cb2ddc53324b6",
+  "opportunityAppliedChanges": [
+    {
+      "entityId": "603162",
+      "transitionType": "downgraded",
+      "from": "validation",
+      "to": "research"
+    },
+    {
+      "entityId": "600869",
+      "transitionType": "upgraded",
+      "from": "validation",
+      "to": "trigger"
+    },
+    {
+      "entityId": "600172",
+      "transitionType": "maintained",
+      "from": "research",
+      "to": "research"
+    }
+  ]
 }

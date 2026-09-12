@@ -7,11 +7,11 @@
   "publishedAt": "2026-09-12T02:45:12.785051+00:00",
   "dailyView": {
     "path": "data/daily-research-view-v1.json",
-    "sha256": "ad67716229fe23750e32580e6a9a3657424d3bb3f5b673b1cd94127990f6f102"
+    "sha256": "b0c8445b76eacc23af32b0f2d5c43daee1f5c5b81950c865903ff770d86d65cb"
   },
   "opportunity": {
     "path": "data/opportunity-view-v1.json",
-    "sha256": "48b956aaf8c737b643ed016d41e33c1d73907040d6a2b07ac56cb2ddc53324b6"
+    "sha256": "8b125bf987d210071e550caa1751eb5094505fcde484d9054e5f4e505f2076a6"
   },
   "canonical": true
 }
