@@ -11,7 +11,7 @@
   },
   "opportunity": {
     "path": "data/opportunity-view-v1.json",
-    "sha256": "6960630c563179d2a81009a19d5d20e529e96235d75e4ff82f7bcccee38d7761"
+    "sha256": "7b67629d08acf7602f12bb9cc031b2037b63df344301cfdce6c184a338ff6309"
   },
   "canonical": true
 }
