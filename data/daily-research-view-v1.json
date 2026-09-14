@@ -4,17 +4,17 @@
   "meta": {
     "requestedDate": "2026-09-14",
     "researchDate": "2026-09-14",
-    "phase": "premarket",
-    "researchAsOf": "2026-09-14T00:15:09.024291+00:00",
-    "generatedAt": "2026-09-14T00:15:09.024291+00:00",
+    "phase": "postclose",
+    "researchAsOf": "2026-09-14T15:49:06.699073+00:00",
+    "generatedAt": "2026-09-14T15:49:06.699073+00:00",
     "sourceSnapshotDate": "2026-09-14",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-09-14 盘前研究｜油价与加息压估值，今天先看周五逆势硬件能不能扛住真正压力",
-    "summary": "周五A股经历了一次很重的风险释放：指数普跌、全市场大面积下跌，但PCB、MLCC、通信硬件、电力等方向在午后重新聚集资金。这给今天留下了一个很重要的观察起点——市场不是没有结构机会，而是把选择范围压得很窄。"
+    "headline": "2026-09-14 收盘复盘｜宽度修了、量却缩了：PCB/MLCC通过压力测试，CPO掉队，电力与网安拿到分支定价权",
+    "summary": "今天最重要的变化，不是指数最终只跌了一点，而是**周五极差的市场宽度明显修复了，但成交量没有跟着回来**。"
   },
   "market": {
     "state": "周五逆势走强的PCB、通信硬件与电力/储能，能否在高油价、加息预期和AI安全叙事同时压制下继续获得容量承接；若能则结构信用提升，若不能则周五更接近局部回流。",
@@ -39,55 +39,85 @@
   },
   "hypotheses": [],
   "marketStructureChanges": [],
-  "opportunityChanges": [],
+  "opportunityChanges": [
+    {
+      "id": "opportunity-change-603162-maintained",
+      "entityType": "company",
+      "entityId": "603162",
+      "label": "海通发展",
+      "transitionType": "maintained",
+      "from": "research",
+      "to": "research",
+      "reason": "周末油运催化虽强化，但9月14日航运没有成为收盘主导方向，当前缺少新的个股级重新选择证据，行业逻辑不能替代个股信用。",
+      "nextCheck": "航运重新形成容量共振，同时海通发展自身明显强于板块并出现主动承接。",
+      "anchors": []
+    },
+    {
+      "id": "opportunity-change-600869-maintained",
+      "entityType": "company",
+      "entityId": "600869",
+      "label": "远东股份",
+      "transitionType": "maintained",
+      "from": "trigger",
+      "to": "trigger",
+      "reason": "电力/绿电仍保持强分支，公司对液冷热管理资产收购的监管回复进一步强化供电—互联—散热产业闭环，但当前可靠收盘数据缺少完整个股级量价证据，因此不追加升级，也不因数据缺口机械降级。",
+      "nextCheck": "下一交易日个股继续明显强于电力/通信硬件方向；若板块强而个股掉队，则降回validation。",
+      "anchors": []
+    },
+    {
+      "id": "opportunity-change-600172-upgraded",
+      "entityType": "company",
+      "entityId": "600172",
+      "label": "黄河旋风",
+      "transitionType": "upgraded",
+      "from": "research",
+      "to": "validation",
+      "reason": "培育钻石/金刚石方向9月14日形成明显板块强度，黄河旋风涨停，出现相较此前连续回落后的新个股级市场重新选择证据。",
+      "nextCheck": "下一交易日分歧后仍强于相关材料方向并有主动承接，才考虑进一步升级；若板块单日脉冲则降回research。",
+      "anchors": []
+    }
+  ],
   "nextChecks": [
     {
-      "id": "check-breadth-risk-release",
-      "question": "周五的放量大跌是否是一次有效风险释放？",
-      "confirmIf": "上涨家数明显修复、指数不再破周五低点，成交保持活跃，同时至少一个周五逆势方向继续有容量承接。",
-      "downgradeIf": "继续放量下跌、宽度不修复，且周五逆势强方向同步补跌。",
+      "id": "check-breadth-volume-followthrough",
+      "question": "9月14日的宽度修复是否能形成有效延续？",
+      "confirmIf": "下一交易日上涨家数保持中性以上、成交不再继续明显萎缩，且指数不破9月14日低点。",
+      "downgradeIf": "宽度重新明显恶化、成交继续收缩，同时主要强分支同步转弱。",
       "anchors": []
     },
     {
-      "id": "check-ai-infra-stress-test",
-      "question": "AI安全放缓叙事是否只压模型情绪，而不破坏基础设施资本开支交易？",
-      "confirmIf": "PCB、通信硬件、服务器/网络/电力等容量资产低开后重新获得承接，并保持多核心。",
-      "downgradeIf": "AI基础设施容量资产普遍弱于市场且无法形成修复。",
+      "id": "check-pcb-mlcc-pricing-center",
+      "question": "PCB/MLCC能否在CPO偏弱的情况下成为新的结构定价中心？",
+      "confirmIf": "容量核心和多核心继续保持相对强度，板块宽度稳定，分歧后仍有持续承接。",
+      "downgradeIf": "只剩少数小票冲高，容量核心和板块宽度同步走弱。",
       "anchors": []
     },
     {
-      "id": "check-power-storage-pricing",
-      "question": "阳光电源涨价是否会扩散为光储行业定价改善？",
-      "confirmIf": "逆变器、储能、电源、电力设备出现板块扩散且容量股参与，市场开始交易成本传导和竞争改善。",
-      "downgradeIf": "仅阳光电源个股反应，产业链其他方向没有持续跟随。",
-      "anchors": []
-    },
-    {
-      "id": "check-oil-shipping-reaction",
-      "question": "油价和运输风险进一步上升后，A股资源与油运能否重新获得市场选择？",
-      "confirmIf": "中国海油、中国石油或中远海能、招商轮船等容量资产高开后仍有持续承接，并带动板块宽度恢复。",
-      "downgradeIf": "油价继续强而相关容量资产再次高开低走或弱于市场。",
+      "id": "check-security-power-persistence",
+      "question": "网络安全与电力能否从事件强分支升级为持续分支？",
+      "confirmIf": "第二天仍有容量参与、板块宽度保持、换手后继续有主动承接。",
+      "downgradeIf": "高开后快速兑现，只剩少数高标维持。",
       "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260914-premarket",
-      "type": "premarket",
-      "title": "2026-09-14 盘前研究｜油价与加息压估值，今天先看周五逆势硬件能不能扛住真正压力",
+      "id": "report-20260914-postclose",
+      "type": "postclose",
+      "title": "2026-09-14 收盘复盘｜宽度修了、量却缩了：PCB/MLCC通过压力测试，CPO掉队，电力与网安拿到分支定价权",
       "researchDate": "2026-09-14",
-      "publishedAt": "2026-09-14T00:15:09.024291+00:00",
+      "publishedAt": "2026-09-14T15:49:06.699073+00:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260914-premarket"
+      "sourceRef": "data/daily-research-reports.json#report-20260914-postclose"
     }
   ],
   "coverage": {
     "currentView": "available",
-    "market": "available",
-    "riskBudget": "available",
+    "market": "notUpdated",
+    "riskBudget": "notUpdated",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
-    "opportunityChanges": "notUpdated",
+    "opportunityChanges": "available",
     "nextChecks": "available",
     "reports": "available"
   }

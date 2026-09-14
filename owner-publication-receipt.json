@@ -1,26 +1,38 @@
 {
   "sourceBranch": "daily-bus",
   "sourceRef": "origin/daily-bus",
-  "sourcePath": "bus/v1/2026-09-14/premarket/canonical/canonical.json",
-  "sourceCommit": "a5619e3247ef14c955a102816f40b0480d847320",
-  "sourceBlob": "fcfdd3e62a5c2e38e490a3836635a1f34cd101ff",
-  "sourceDecisionPath": "bus/v1/2026-09-14/premarket/decision/decision.json",
-  "sourceInputPath": "bus/v1/2026-09-14/premarket/input/research-input.json",
-  "canonicalHash": "8a99d25d8dcdc08061d6249b0979e9691836fcc0c231302e5abba95461acb0e8",
-  "canonicalJsonSha256": "a8126b25cca77ed9fe15570899a044375fdfb38bb217f91ab9ffc0314df5ea2a",
-  "phase": "premarket",
-  "busSession": "premarket",
+  "sourcePath": "bus/v1/2026-09-14/close/canonical/canonical.json",
+  "sourceCommit": "c8c75136a5db1c7d451c08fb2c979ea29dc7b742",
+  "sourceBlob": "05b65f5c5eeb0cc5f973ea2c5dc88314a28100f6",
+  "sourceDecisionPath": "bus/v1/2026-09-14/close/decision/decision.json",
+  "sourceInputPath": "bus/v1/2026-09-14/close/input/research-input.json",
+  "canonicalHash": "9a61cdade505734249bae843fbb72985f5be9083200c42ec0796144ebade5a32",
+  "canonicalJsonSha256": "66ed5aa46dbc1fffa5c1010c47e8d7c1306391113d054ad86b19415e8aa8c95f",
+  "phase": "postclose",
+  "busSession": "close",
   "researchDate": "2026-09-14",
   "publishStatus": "published",
   "imaReupload": false,
-  "opportunitySourcePath": "daily-bus/2026-09-11/opportunity-owner.json",
-  "opportunitySourceRef": "origin/daily-bus",
-  "opportunitySourceCommit": "a5619e3247ef14c955a102816f40b0480d847320",
-  "opportunitySourceBlob": "52341502025a280d848a549523e0a765ce0f6c3b",
-  "opportunitySourceRawSha256": "aabf5d6bdccbc1e46569018abd5d37c7bb891de90a97c01e7ac2626308be8d66",
-  "opportunityResearchDate": "2026-09-11",
-  "opportunityPhase": "postclose",
-  "opportunityViewStatus": "stale",
-  "opportunityFreshness": "stale",
-  "opportunityViewSha256": "7b67629d08acf7602f12bb9cc031b2037b63df344301cfdce6c184a338ff6309"
+  "opportunityBasePath": "data/opportunity-view-v1.json",
+  "opportunityBaseSha256": "7b67629d08acf7602f12bb9cc031b2037b63df344301cfdce6c184a338ff6309",
+  "opportunityAppliedChanges": [
+    {
+      "entityId": "603162",
+      "transitionType": "maintained",
+      "from": "research",
+      "to": "research"
+    },
+    {
+      "entityId": "600869",
+      "transitionType": "maintained",
+      "from": "trigger",
+      "to": "trigger"
+    },
+    {
+      "entityId": "600172",
+      "transitionType": "upgraded",
+      "from": "research",
+      "to": "validation"
+    }
+  ]
 }
