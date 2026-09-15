@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-09-15T05:12:40.777Z",
+  "fetchedAt": "2026-09-15T10:08:10.726Z",
   "asOfDate": "2026-09-15",
   "sourceStatus": {
     "399001": {
@@ -29,28 +29,38 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4938,
-        "rawRows": 1300,
-        "uniqueRows": 1299,
-        "usableRows": 1145,
-        "missingRows": 3793,
-        "missingFieldRows": 154,
-        "coverageRatio": 0.2319,
+        "rawRows": 300,
+        "uniqueRows": 300,
+        "usableRows": 300,
+        "missingRows": 4638,
+        "missingFieldRows": 0,
+        "coverageRatio": 0.0608,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 13,
+          "fetchedPages": 3,
           "pagesWithErrors": [
+            2,
+            3,
+            4,
             5,
             6,
+            7,
+            8,
             10,
             11,
             12,
+            13,
+            14,
+            15,
             16,
             17,
             18,
+            19,
             20,
             21,
+            23,
             24,
             25
           ],
@@ -58,11 +68,31 @@
         },
         "pageErrors": [
           {
+            "page": 2,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 3,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 4,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 5,
             "error": "Error: eastmoney HTTP 502"
           },
           {
             "page": 6,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 7,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 8,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -78,6 +108,18 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
+            "page": 13,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 14,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 15,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 16,
             "error": "Error: eastmoney HTTP 502"
           },
@@ -90,11 +132,19 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
+            "page": 19,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 20,
             "error": "Error: eastmoney HTTP 502"
           },
           {
             "page": 21,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 23,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -121,42 +171,42 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3877.64,
+      "close": 3864.28,
       "previousClose": 3885.33,
-      "dailyPct": -0.2,
+      "dailyPct": -0.54,
       "high": 3891.62,
-      "low": 3870.42,
+      "low": 3858.15,
       "asOfDate": "2026-09-15",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 13364.54,
+      "close": 13287.97,
       "previousClose": 13384.57,
-      "dailyPct": -0.15,
+      "dailyPct": -0.72,
       "high": 13484,
-      "low": 13335.93,
+      "low": 13273.31,
       "asOfDate": "2026-09-15",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3272.12,
+      "close": 3247.92,
       "previousClose": 3285.58,
-      "dailyPct": -0.41,
+      "dailyPct": -1.15,
       "high": 3315.33,
-      "low": 3260.8,
+      "low": 3245.06,
       "asOfDate": "2026-09-15",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1553.01,
+      "close": 1551.96,
       "previousClose": 1528.27,
-      "dailyPct": 1.62,
+      "dailyPct": 1.55,
       "high": 1578.43,
       "low": 1524.27,
       "asOfDate": "2026-09-15",
@@ -165,49 +215,59 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4472.89,
+      "close": 4450.04,
       "previousClose": 4480.08,
-      "dailyPct": -0.16,
+      "dailyPct": -0.67,
       "high": 4496.96,
-      "low": 4465.67,
+      "low": 4444.63,
       "asOfDate": "2026-09-15",
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
   "market": {
-    "turnoverBillion": 3752.67,
-    "mainFundBillion": 301.36,
-    "risingCount": 523,
-    "fallingCount": 600,
-    "limitUpCount": 32,
-    "limitDownCount": 2,
-    "rows": 1145,
+    "turnoverBillion": 2679.96,
+    "mainFundBillion": 217.05,
+    "risingCount": 130,
+    "fallingCount": 170,
+    "limitUpCount": 19,
+    "limitDownCount": 0,
+    "rows": 300,
     "total": 4938,
     "complete": false,
     "coverage": {
       "total": 4938,
-      "rawRows": 1300,
-      "uniqueRows": 1299,
-      "usableRows": 1145,
-      "missingRows": 3793,
-      "missingFieldRows": 154,
-      "coverageRatio": 0.2319,
+      "rawRows": 300,
+      "uniqueRows": 300,
+      "usableRows": 300,
+      "missingRows": 4638,
+      "missingFieldRows": 0,
+      "coverageRatio": 0.0608,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 13,
+        "fetchedPages": 3,
         "pagesWithErrors": [
+          2,
+          3,
+          4,
           5,
           6,
+          7,
+          8,
           10,
           11,
           12,
+          13,
+          14,
+          15,
           16,
           17,
           18,
+          19,
           20,
           21,
+          23,
           24,
           25
         ],
@@ -215,11 +275,31 @@
       },
       "pageErrors": [
         {
+          "page": 2,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 3,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 4,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 5,
           "error": "Error: eastmoney HTTP 502"
         },
         {
           "page": 6,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 7,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 8,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -235,6 +315,18 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
+          "page": 13,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 14,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 15,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 16,
           "error": "Error: eastmoney HTTP 502"
         },
@@ -247,11 +339,19 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
+          "page": 19,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 20,
           "error": "Error: eastmoney HTTP 502"
         },
         {
           "page": 21,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 23,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -272,184 +372,184 @@
       {
         "code": "BK1036",
         "name": "半导体",
-        "pctChange": 1.29,
-        "mainNetBillion": 55.86,
-        "mainPct": 3.98,
-        "advanceCount": 127,
-        "declineCount": 57
-      },
-      {
-        "code": "BK1201",
-        "name": "电子",
-        "pctChange": 0.46,
-        "mainNetBillion": 49.75,
-        "mainPct": 1.53,
-        "advanceCount": 263,
-        "declineCount": 252
+        "pctChange": 1.34,
+        "mainNetBillion": 44.61,
+        "mainPct": 2.33,
+        "advanceCount": 121,
+        "declineCount": 64
       },
       {
         "code": "BK1592",
         "name": "通信线缆及配套",
-        "pctChange": -0.53,
-        "mainNetBillion": 21.72,
-        "mainPct": 7.88,
-        "advanceCount": 4,
-        "declineCount": 9
+        "pctChange": -0.66,
+        "mainNetBillion": 22.74,
+        "mainPct": 6.05,
+        "advanceCount": 5,
+        "declineCount": 8
+      },
+      {
+        "code": "BK1326",
+        "name": "半导体设备",
+        "pctChange": 2.86,
+        "mainNetBillion": 16.81,
+        "mainPct": 4.61,
+        "advanceCount": 23,
+        "declineCount": 2
       },
       {
         "code": "BK1462",
         "name": "玻纤制造",
-        "pctChange": 1.29,
-        "mainNetBillion": 18.51,
-        "mainPct": 7.51,
+        "pctChange": 0.59,
+        "mainNetBillion": 16.08,
+        "mainPct": 4.9,
         "advanceCount": 5,
         "declineCount": 3
       },
       {
         "code": "BK0546",
         "name": "玻璃玻纤",
-        "pctChange": -0.52,
-        "mainNetBillion": 18.49,
-        "mainPct": 7.29,
-        "advanceCount": 5,
+        "pctChange": -0.95,
+        "mainNetBillion": 15.88,
+        "mainPct": 4.7,
+        "advanceCount": 6,
         "declineCount": 11
-      },
-      {
-        "code": "BK1331",
-        "name": "数字芯片设计",
-        "pctChange": 1.09,
-        "mainNetBillion": 17.86,
-        "mainPct": 3.16,
-        "advanceCount": 34,
-        "declineCount": 19
       },
       {
         "code": "BK1208",
         "name": "建筑材料",
-        "pctChange": -1.24,
-        "mainNetBillion": 17.82,
-        "mainPct": 6.3,
-        "advanceCount": 10,
-        "declineCount": 65
-      },
-      {
-        "code": "BK1326",
-        "name": "半导体设备",
-        "pctChange": 2.76,
-        "mainNetBillion": 14.37,
-        "mainPct": 5.41,
-        "advanceCount": 23,
-        "declineCount": 2
-      },
-      {
-        "code": "BK1027",
-        "name": "小金属",
-        "pctChange": 0.83,
-        "mainNetBillion": 11.69,
-        "mainPct": 6.27,
-        "advanceCount": 15,
-        "declineCount": 10
+        "pctChange": -1.89,
+        "mainNetBillion": 14.19,
+        "mainPct": 3.68,
+        "advanceCount": 9,
+        "declineCount": 68
       },
       {
         "code": "BK0454",
         "name": "塑料",
-        "pctChange": 0.15,
-        "mainNetBillion": 11.44,
-        "mainPct": 7.4,
-        "advanceCount": 33,
-        "declineCount": 44
+        "pctChange": -0.03,
+        "mainNetBillion": 13.35,
+        "mainPct": 6.01,
+        "advanceCount": 28,
+        "declineCount": 49
+      },
+      {
+        "code": "BK1027",
+        "name": "小金属",
+        "pctChange": 0.74,
+        "mainNetBillion": 13.33,
+        "mainPct": 5.12,
+        "advanceCount": 13,
+        "declineCount": 13
+      },
+      {
+        "code": "BK1625",
+        "name": "钨",
+        "pctChange": 5.88,
+        "mainNetBillion": 12.41,
+        "mainPct": 9.59,
+        "advanceCount": 4,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1325",
+        "name": "半导体材料",
+        "pctChange": 1.81,
+        "mainNetBillion": 12.09,
+        "mainPct": 4.3,
+        "advanceCount": 23,
+        "declineCount": 8
       }
     ],
     "concept": [
       {
         "code": "BK0917",
         "name": "半导体概念",
-        "pctChange": 0.51,
-        "mainNetBillion": 73.81,
-        "mainPct": 2.7,
-        "advanceCount": 292,
-        "declineCount": 240
+        "pctChange": 0.3,
+        "mainNetBillion": 40.75,
+        "mainPct": 1.08,
+        "advanceCount": 261,
+        "declineCount": 272
       },
       {
         "code": "BK0877",
         "name": "PCB",
-        "pctChange": 1.17,
-        "mainNetBillion": 66.92,
-        "mainPct": 3.51,
-        "advanceCount": 121,
-        "declineCount": 75
-      },
-      {
-        "code": "BK0891",
-        "name": "国产芯片",
-        "pctChange": 0.14,
-        "mainNetBillion": 46.06,
-        "mainPct": 2.13,
-        "advanceCount": 201,
-        "declineCount": 235
-      },
-      {
-        "code": "BK0536",
-        "name": "基金重仓",
-        "pctChange": 0.22,
-        "mainNetBillion": 44.39,
-        "mainPct": 1.59,
-        "advanceCount": 153,
-        "declineCount": 184
+        "pctChange": 0.79,
+        "mainNetBillion": 39.18,
+        "mainPct": 1.54,
+        "advanceCount": 106,
+        "declineCount": 93
       },
       {
         "code": "BK1137",
         "name": "存储芯片",
-        "pctChange": 1.12,
-        "mainNetBillion": 44.28,
-        "mainPct": 3.23,
-        "advanceCount": 95,
-        "declineCount": 45
-      },
-      {
-        "code": "BK1749",
-        "name": "2026中报预增",
-        "pctChange": -0.3,
-        "mainNetBillion": 37.11,
-        "mainPct": 1.14,
-        "advanceCount": 200,
-        "declineCount": 361
-      },
-      {
-        "code": "BK0523",
-        "name": "新材料",
-        "pctChange": -0.1,
-        "mainNetBillion": 29.96,
-        "mainPct": 2.16,
-        "advanceCount": 154,
-        "declineCount": 235
-      },
-      {
-        "code": "BK1750",
-        "name": "2026中报扭亏",
-        "pctChange": -0.99,
-        "mainNetBillion": 27.71,
-        "mainPct": 5,
-        "advanceCount": 50,
-        "declineCount": 150
-      },
-      {
-        "code": "BK0701",
-        "name": "中证500",
-        "pctChange": -0.18,
-        "mainNetBillion": 26.32,
-        "mainPct": 1.42,
-        "advanceCount": 168,
-        "declineCount": 324
+        "pctChange": 1.01,
+        "mainNetBillion": 28.81,
+        "mainPct": 1.54,
+        "advanceCount": 85,
+        "declineCount": 55
       },
       {
         "code": "BK0935",
         "name": "中芯概念",
-        "pctChange": 1.23,
-        "mainNetBillion": 22.68,
-        "mainPct": 4.24,
-        "advanceCount": 51,
-        "declineCount": 15
+        "pctChange": 1.24,
+        "mainNetBillion": 22.76,
+        "mainPct": 3.08,
+        "advanceCount": 47,
+        "declineCount": 18
+      },
+      {
+        "code": "BK1750",
+        "name": "2026中报扭亏",
+        "pctChange": -1.52,
+        "mainNetBillion": 20.63,
+        "mainPct": 2.72,
+        "advanceCount": 40,
+        "declineCount": 162
+      },
+      {
+        "code": "BK0925",
+        "name": "北交所概念",
+        "pctChange": -1.2,
+        "mainNetBillion": 18.75,
+        "mainPct": 15.43,
+        "advanceCount": 4,
+        "declineCount": 21
+      },
+      {
+        "code": "BK0523",
+        "name": "新材料",
+        "pctChange": -0.45,
+        "mainNetBillion": 17.8,
+        "mainPct": 0.9,
+        "advanceCount": 129,
+        "declineCount": 266
+      },
+      {
+        "code": "BK0655",
+        "name": "网络安全",
+        "pctChange": -0.91,
+        "mainNetBillion": 14.1,
+        "mainPct": 2.05,
+        "advanceCount": 36,
+        "declineCount": 96
+      },
+      {
+        "code": "BK1753",
+        "name": "光刻胶",
+        "pctChange": 1.09,
+        "mainNetBillion": 13.24,
+        "mainPct": 5.04,
+        "advanceCount": 38,
+        "declineCount": 24
+      },
+      {
+        "code": "BK0891",
+        "name": "国产芯片",
+        "pctChange": -0.1,
+        "mainNetBillion": 12.6,
+        "mainPct": 0.42,
+        "advanceCount": 178,
+        "declineCount": 255
       }
     ],
     "source": "东方财富公开板块资金"
