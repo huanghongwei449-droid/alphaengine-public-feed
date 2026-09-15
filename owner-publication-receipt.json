@@ -1,38 +1,26 @@
 {
   "sourceBranch": "daily-bus",
   "sourceRef": "origin/daily-bus",
-  "sourcePath": "bus/v1/2026-09-14/close/canonical/canonical.json",
-  "sourceCommit": "c8c75136a5db1c7d451c08fb2c979ea29dc7b742",
-  "sourceBlob": "05b65f5c5eeb0cc5f973ea2c5dc88314a28100f6",
-  "sourceDecisionPath": "bus/v1/2026-09-14/close/decision/decision.json",
-  "sourceInputPath": "bus/v1/2026-09-14/close/input/research-input.json",
-  "canonicalHash": "9a61cdade505734249bae843fbb72985f5be9083200c42ec0796144ebade5a32",
-  "canonicalJsonSha256": "66ed5aa46dbc1fffa5c1010c47e8d7c1306391113d054ad86b19415e8aa8c95f",
-  "phase": "postclose",
-  "busSession": "close",
-  "researchDate": "2026-09-14",
+  "sourcePath": "bus/v1/2026-09-15/premarket/canonical/canonical.json",
+  "sourceCommit": "2375c5a57e573b2f13e8430c279581e10c54f056",
+  "sourceBlob": "34cb92126c227308ad771b2845876e611f7fea92",
+  "sourceDecisionPath": "bus/v1/2026-09-15/premarket/decision/decision.json",
+  "sourceInputPath": "bus/v1/2026-09-15/premarket/input/research-input.json",
+  "canonicalHash": "4531387d1eddf94b27dce2ac64f0a9535aa97cf2f526b58b88aa15917652eff4",
+  "canonicalJsonSha256": "14564a262f6f017f40a03ba96bc37a6cf07cd0fcffa78efe210c05ab287b68db",
+  "phase": "premarket",
+  "busSession": "premarket",
+  "researchDate": "2026-09-15",
   "publishStatus": "published",
   "imaReupload": false,
-  "opportunityBasePath": "data/opportunity-view-v1.json",
-  "opportunityBaseSha256": "7b67629d08acf7602f12bb9cc031b2037b63df344301cfdce6c184a338ff6309",
-  "opportunityAppliedChanges": [
-    {
-      "entityId": "603162",
-      "transitionType": "maintained",
-      "from": "research",
-      "to": "research"
-    },
-    {
-      "entityId": "600869",
-      "transitionType": "maintained",
-      "from": "trigger",
-      "to": "trigger"
-    },
-    {
-      "entityId": "600172",
-      "transitionType": "upgraded",
-      "from": "research",
-      "to": "validation"
-    }
-  ]
+  "opportunitySourcePath": "daily-bus/2026-09-11/opportunity-owner.json",
+  "opportunitySourceRef": "origin/daily-bus",
+  "opportunitySourceCommit": "2375c5a57e573b2f13e8430c279581e10c54f056",
+  "opportunitySourceBlob": "52341502025a280d848a549523e0a765ce0f6c3b",
+  "opportunitySourceRawSha256": "aabf5d6bdccbc1e46569018abd5d37c7bb891de90a97c01e7ac2626308be8d66",
+  "opportunityResearchDate": "2026-09-11",
+  "opportunityPhase": "postclose",
+  "opportunityViewStatus": "stale",
+  "opportunityFreshness": "stale",
+  "opportunityViewSha256": "552f50df3f4b060737d06a650e6a894250df409ef8c4432d8d56b64d3b7f607e"
 }
