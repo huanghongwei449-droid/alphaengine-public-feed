@@ -2,7 +2,7 @@
   "sourceBranch": "daily-bus",
   "sourceRef": "origin/daily-bus",
   "sourcePath": "bus/v1/2026-09-17/premarket/canonical/canonical.json",
-  "sourceCommit": "e11d2c1548595479b8cc96ea1cc471483450c539",
+  "sourceCommit": "b81bac534132c9a074e684d69cc43da3337f70c1",
   "sourceBlob": "d989a43d0aa19b5de62aa1654ed86b0644db3065",
   "sourceDecisionPath": "bus/v1/2026-09-17/premarket/decision/decision.json",
   "sourceInputPath": "bus/v1/2026-09-17/premarket/input/research-input.json",
