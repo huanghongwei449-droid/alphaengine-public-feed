@@ -2,72 +2,82 @@
   "schemaVersion": "yanshu-daily-research-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-16",
-    "researchDate": "2026-09-16",
-    "phase": "postclose",
-    "researchAsOf": "2026-09-16T11:26:45.667051+00:00",
-    "generatedAt": "2026-09-16T11:26:45.667051+00:00",
-    "sourceSnapshotDate": "2026-09-16",
+    "requestedDate": "2026-09-17",
+    "researchDate": "2026-09-17",
+    "phase": "premarket",
+    "researchAsOf": "2026-09-16T23:29:15.369396+00:00",
+    "generatedAt": "2026-09-16T23:29:15.369396+00:00",
+    "sourceSnapshotDate": "2026-09-17",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-09-16 收盘复盘｜今天不是普通反弹，市场把定价权重新交给了半导体和光通信",
-    "summary": "今天最大的变化不是指数上涨，而是**市场宽度、成交和科技容量同时修复**。"
+    "headline": "2026-09-17 盘前｜美联储重启加息，今天真正要看的是A股科技硬件能不能扛住外部压力",
+    "summary": "2026-09-17 盘前｜美联储重启加息，今天真正要看的是A股科技硬件能不能扛住外部压力"
   },
   "market": {
-    "state": "canonical structured market data unavailable",
-    "temperature": "notUpdated",
-    "summary": "请以冻结 canonical 正文为准。",
     "riskBudget": {
-      "asOfPhase": "postclose"
-    }
+      "asOfPhase": "premarket",
+      "change": "unchanged",
+      "current": 2,
+      "previous": 2,
+      "reason": "结构进攻但不追高，外部加息冲击下先看承接再决定是否继续扩张",
+      "scale": 2
+    },
+    "state": "notUpdated",
+    "summary": "美联储重启加息、美元和利率约束重新增强之际，A股昨日刚取得高信用的半导体/CPO/PCB能否完成跨日承接并保持独立定价。",
+    "temperature": "neutral"
   },
   "riskBudget": {
-    "asOfPhase": "postclose"
+    "asOfPhase": "premarket",
+    "change": "unchanged",
+    "current": 2,
+    "previous": 2,
+    "reason": "结构进攻但不追高，外部加息冲击下先看承接再决定是否继续扩张",
+    "scale": 2
   },
   "hypotheses": [],
   "marketStructureChanges": [],
   "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "check-tech-crossday",
-      "question": "半导体/光通信能否完成第二天跨日承接，确认成为持续主线而非单日风险偏好修复？",
-      "confirmIf": "容量核心分歧后仍有主动承接，半导体/CPO维持多核心和板块宽度，成交不明显萎缩。",
-      "downgradeIf": "高开后集体兑现，容量核心明显弱于指数，板块宽度快速消失。",
+      "id": "check-tech-crossday-after-fed",
+      "question": "半导体/CPO能否在美联储加息后的外部压力下完成第二天承接？",
+      "confirmIf": "容量核心分歧后仍有主动承接，半导体/CPO保持多核心和板块宽度，成交不明显萎缩。",
+      "downgradeIf": "容量核心高开或低开后持续兑现，明显弱于指数，板块宽度快速消失。",
       "anchors": []
     },
     {
-      "id": "check-breadth-volume-hold",
-      "question": "9月16日的宽度和放量修复能否保持？",
-      "confirmIf": "成交继续维持高位，上涨家数保持中性以上，跌停和炸板不明显回升。",
-      "downgradeIf": "成交快速缩回、上涨家数重新恶化，指数和热点同步回落。",
+      "id": "check-a-share-independence",
+      "question": "A股昨日形成的科技硬件独立定价能否抵消美元与利率重新上行的压力？",
+      "confirmIf": "科技容量核心低开能修复或平开后保持强势，科创方向相对全市场继续占优。",
+      "downgradeIf": "科技核心同步补跌且资金明显切向防御，昨日扩散被快速逆转。",
       "anchors": []
     },
     {
-      "id": "check-hardware-vs-software",
-      "question": "市场是否继续明确奖励硬件制造，而非泛科技叙事？",
-      "confirmIf": "半导体/CPO/PCB继续强于网络安全等软件事件方向，资金集中在容量和产业抓手。",
-      "downgradeIf": "硬件快速退潮而软件/事件题材全面补涨，说明今天的产业偏好解释需要修正。",
+      "id": "check-pcb-material-spread",
+      "question": "PCB/电子材料能否从昨日强结构继续获得产业与价格共振？",
+      "confirmIf": "沪电股份、深南电路、生益科技等容量承接稳定，材料涨价线索向板块宽度扩散。",
+      "downgradeIf": "只剩树脂等小票情绪加速，容量PCB掉队。",
       "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260916-postclose",
-      "type": "postclose",
-      "title": "2026-09-16 收盘复盘｜今天不是普通反弹，市场把定价权重新交给了半导体和光通信",
-      "researchDate": "2026-09-16",
-      "publishedAt": "2026-09-16T11:26:45.667051+00:00",
+      "id": "report-20260917-premarket",
+      "type": "premarket",
+      "title": "2026-09-17 盘前｜美联储重启加息，今天真正要看的是A股科技硬件能不能扛住外部压力",
+      "researchDate": "2026-09-17",
+      "publishedAt": "2026-09-16T23:29:15.369396+00:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260916-postclose"
+      "sourceRef": "data/daily-research-reports.json#report-20260917-premarket"
     }
   ],
   "coverage": {
     "currentView": "available",
-    "market": "notUpdated",
-    "riskBudget": "notUpdated",
+    "market": "available",
+    "riskBudget": "available",
     "hypotheses": "notUpdated",
     "marketStructureChanges": "notUpdated",
     "opportunityChanges": "notUpdated",

@@ -1,13 +1,13 @@
 {
   "schemaVersion": "yanshu-current-research-v1",
-  "researchDate": "2026-09-16",
-  "phase": "postclose",
-  "researchAsOf": "2026-09-16T11:26:45.667051+00:00",
+  "researchDate": "2026-09-17",
+  "phase": "premarket",
+  "researchAsOf": "2026-09-16T23:29:15.369396+00:00",
   "marketDataAsOf": "2026-09-16",
-  "publishedAt": "2026-09-16T11:26:45.667051+00:00",
+  "publishedAt": "2026-09-16T23:29:15.369396+00:00",
   "dailyView": {
     "path": "data/daily-research-view-v1.json",
-    "sha256": "eaf90fa065ac14ec4884685a1c547d0c82b9fb5c1b14d785a1fb17d346c8e694"
+    "sha256": "9cf44e67e8e4cd805367a1e16ace10725e61cf5ef2b6d50b21c63fb9e07301d7"
   },
   "opportunity": {
     "path": "data/opportunity-view-v1.json",
