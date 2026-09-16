@@ -2,14 +2,14 @@
   "schemaVersion": "yanshu-opportunity-view-v1",
   "publicSafe": true,
   "meta": {
-    "requestedDate": "2026-09-15",
-    "researchDate": "2026-09-11",
-    "researchAsOf": "2026-09-12T02:45:12.785051+00:00",
-    "generatedAt": "2026-09-12T02:45:12.785051+00:00",
+    "requestedDate": "2026-09-16",
+    "researchDate": "2026-09-16",
+    "researchAsOf": "2026-09-16T11:26:45.667051+00:00",
+    "generatedAt": "2026-09-16T11:26:45.667051+00:00",
     "phase": "postclose",
     "canonical": true,
-    "viewStatus": "stale",
-    "freshness": "stale"
+    "viewStatus": "partial",
+    "freshness": "fresh"
   },
   "marketSummary": {
     "dynamicPool": "当前验证层包括海通发展、新炬网络、楚天龙；远东股份、杭电股份、北特科技、鸣志电器、黄河旋风继续留在研究层。联特科技、裕太微、芯源微退出本轮，金盘科技维持此前剔除。",
@@ -395,5 +395,11 @@
       "sourceRef": "daily-bus/2026-09-04/second-wave-report.md@daily-bus",
       "title": "2026-09-04 统一机会更新"
     }
-  ]
+  ],
+  "lineage": {
+    "baseOpportunityViewSha256": "552f50df3f4b060737d06a650e6a894250df409ef8c4432d8d56b64d3b7f607e",
+    "sourceCanonicalHash": "e7c97e15e307ed22c024ac6e853dff00a08b8ebc8b46d85030a86cef81f9a859",
+    "sourceCanonicalJsonSha256": "e4ac913a0f8e8e918c06530ab0975e0f534819dccd034027dff36aae5878ce5c",
+    "sourceDecisionSha256": "830768bbcee25d6654b079ccb19bb112b1b9cf205edccbb3fa2b6bd1464473a2"
+  }
 }

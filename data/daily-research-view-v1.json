@@ -4,64 +4,64 @@
   "meta": {
     "requestedDate": "2026-09-16",
     "researchDate": "2026-09-16",
-    "phase": "premarket",
-    "researchAsOf": "2026-09-16T12:10:18.273671+00:00",
-    "generatedAt": "2026-09-16T12:10:18.273671+00:00",
+    "phase": "postclose",
+    "researchAsOf": "2026-09-16T11:26:45.667051+00:00",
+    "generatedAt": "2026-09-16T11:26:45.667051+00:00",
     "sourceSnapshotDate": "2026-09-16",
     "canonical": true,
     "viewStatus": "partial",
     "freshness": "fresh"
   },
   "currentView": {
-    "headline": "2026-09-16 盘前｜弱宽度之后先看硬科技能不能把“局部强”变成真正扩散",
-    "summary": "昨天A股最重要的事实不是指数跌了多少，而是**市场宽度很差，但电子硬件内部仍然有真实强度**。正式盘前输入记录到9月15日涨停32家、跌停27家、炸板24家，说明整体容错率仍低；与此同时，PCB/覆铜板、MLCC、存储、半导体以及风电都出现了逆势价格表达。"
+    "headline": "2026-09-16 收盘复盘｜今天不是普通反弹，市场把定价权重新交给了半导体和光通信",
+    "summary": "今天最大的变化不是指数上涨，而是**市场宽度、成交和科技容量同时修复**。"
   },
   "market": {
     "state": "canonical structured market data unavailable",
     "temperature": "notUpdated",
     "summary": "请以冻结 canonical 正文为准。",
     "riskBudget": {
-      "asOfPhase": "premarket"
+      "asOfPhase": "postclose"
     }
   },
   "riskBudget": {
-    "asOfPhase": "premarket"
+    "asOfPhase": "postclose"
   },
   "hypotheses": [],
   "marketStructureChanges": [],
   "opportunityChanges": [],
   "nextChecks": [
     {
-      "id": "check-tech-breadth-expansion",
-      "question": "半导体/PCB能否从弱市逆势结构升级为容量和宽度共同扩散的定价中心？",
-      "confirmIf": "中芯国际、北方华创、中微公司及沪电股份、深南电路等容量核心保持主动承接，板块涨停/上涨家数扩散。",
-      "downgradeIf": "仅材料或小票高位加速，容量核心掉队，板块宽度不扩散。",
+      "id": "check-tech-crossday",
+      "question": "半导体/光通信能否完成第二天跨日承接，确认成为持续主线而非单日风险偏好修复？",
+      "confirmIf": "容量核心分歧后仍有主动承接，半导体/CPO维持多核心和板块宽度，成交不明显萎缩。",
+      "downgradeIf": "高开后集体兑现，容量核心明显弱于指数，板块宽度快速消失。",
       "anchors": []
     },
     {
-      "id": "check-market-breadth-repair",
-      "question": "9月15日极弱市场宽度能否修复？",
-      "confirmIf": "上涨家数明显改善，跌停/炸板收缩，成交额不再继续萎缩。",
-      "downgradeIf": "多数股票继续下跌，成交继续萎缩，昨天强方向出现补跌。",
+      "id": "check-breadth-volume-hold",
+      "question": "9月16日的宽度和放量修复能否保持？",
+      "confirmIf": "成交继续维持高位，上涨家数保持中性以上，跌停和炸板不明显回升。",
+      "downgradeIf": "成交快速缩回、上涨家数重新恶化，指数和热点同步回落。",
       "anchors": []
     },
     {
-      "id": "check-wind-cpo-followthrough",
-      "question": "风电与CPO谁能拿到第二天更有质量的容量承接？",
-      "confirmIf": "至少一组出现多核心、容量参与和换手后回流，而非仅高标加速。",
-      "downgradeIf": "高开兑现、容量掉队，只剩少数情绪标的。",
+      "id": "check-hardware-vs-software",
+      "question": "市场是否继续明确奖励硬件制造，而非泛科技叙事？",
+      "confirmIf": "半导体/CPO/PCB继续强于网络安全等软件事件方向，资金集中在容量和产业抓手。",
+      "downgradeIf": "硬件快速退潮而软件/事件题材全面补涨，说明今天的产业偏好解释需要修正。",
       "anchors": []
     }
   ],
   "reports": [
     {
-      "id": "report-20260916-premarket",
-      "type": "premarket",
-      "title": "2026-09-16 盘前｜弱宽度之后先看硬科技能不能把“局部强”变成真正扩散",
+      "id": "report-20260916-postclose",
+      "type": "postclose",
+      "title": "2026-09-16 收盘复盘｜今天不是普通反弹，市场把定价权重新交给了半导体和光通信",
       "researchDate": "2026-09-16",
-      "publishedAt": "2026-09-16T12:10:18.273671+00:00",
+      "publishedAt": "2026-09-16T11:26:45.667051+00:00",
       "canonical": true,
-      "sourceRef": "data/daily-research-reports.json#report-20260916-premarket"
+      "sourceRef": "data/daily-research-reports.json#report-20260916-postclose"
     }
   ],
   "coverage": {
