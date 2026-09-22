@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-09-22T19:15:11.037Z",
+  "fetchedAt": "2026-09-22T22:14:41.376Z",
   "asOfDate": "2026-09-22",
   "sourceStatus": {
     "399001": {
@@ -29,29 +29,34 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4939,
-        "rawRows": 700,
-        "uniqueRows": 700,
-        "usableRows": 600,
-        "missingRows": 4339,
-        "missingFieldRows": 100,
-        "coverageRatio": 0.1215,
+        "rawRows": 200,
+        "uniqueRows": 200,
+        "usableRows": 200,
+        "missingRows": 4739,
+        "missingFieldRows": 0,
+        "coverageRatio": 0.0405,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 7,
+          "fetchedPages": 2,
           "pagesWithErrors": [
-            2,
             3,
             4,
             5,
+            6,
             7,
             8,
             9,
+            10,
             11,
+            12,
             13,
+            14,
+            15,
             16,
             17,
+            18,
             19,
             20,
             21,
@@ -64,10 +69,6 @@
         },
         "pageErrors": [
           {
-            "page": 2,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
             "page": 3,
             "error": "Error: eastmoney HTTP 502"
           },
@@ -77,6 +78,10 @@
           },
           {
             "page": 5,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 6,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -92,11 +97,27 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
+            "page": 10,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 11,
             "error": "Error: eastmoney HTTP 502"
           },
           {
+            "page": 12,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 13,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 14,
+            "error": "AbortError: This operation was aborted"
+          },
+          {
+            "page": 15,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -105,6 +126,10 @@
           },
           {
             "page": 17,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 18,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -139,8 +164,8 @@
       }
     },
     "industry": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "concept": {
       "status": "ok",
@@ -205,40 +230,45 @@
     }
   ],
   "market": {
-    "turnoverBillion": 3812.83,
-    "mainFundBillion": 291.69,
-    "risingCount": 389,
-    "fallingCount": 192,
-    "limitUpCount": 30,
+    "turnoverBillion": 3916.62,
+    "mainFundBillion": 334.54,
+    "risingCount": 189,
+    "fallingCount": 11,
+    "limitUpCount": 41,
     "limitDownCount": 0,
-    "rows": 600,
+    "rows": 200,
     "total": 4939,
     "complete": false,
     "coverage": {
       "total": 4939,
-      "rawRows": 700,
-      "uniqueRows": 700,
-      "usableRows": 600,
-      "missingRows": 4339,
-      "missingFieldRows": 100,
-      "coverageRatio": 0.1215,
+      "rawRows": 200,
+      "uniqueRows": 200,
+      "usableRows": 200,
+      "missingRows": 4739,
+      "missingFieldRows": 0,
+      "coverageRatio": 0.0405,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 7,
+        "fetchedPages": 2,
         "pagesWithErrors": [
-          2,
           3,
           4,
           5,
+          6,
           7,
           8,
           9,
+          10,
           11,
+          12,
           13,
+          14,
+          15,
           16,
           17,
+          18,
           19,
           20,
           21,
@@ -251,10 +281,6 @@
       },
       "pageErrors": [
         {
-          "page": 2,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
           "page": 3,
           "error": "Error: eastmoney HTTP 502"
         },
@@ -264,6 +290,10 @@
         },
         {
           "page": 5,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 6,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -279,11 +309,27 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
+          "page": 10,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 11,
           "error": "Error: eastmoney HTTP 502"
         },
         {
+          "page": 12,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 13,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 14,
+          "error": "AbortError: This operation was aborted"
+        },
+        {
+          "page": 15,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -292,6 +338,10 @@
         },
         {
           "page": 17,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 18,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -328,98 +378,7 @@
   },
   "sectorFlows": {
     "date": "2026-09-22",
-    "industry": [
-      {
-        "code": "BK0486",
-        "name": "传媒",
-        "pctChange": 2.48,
-        "mainNetBillion": 28.9,
-        "mainPct": 4.76,
-        "advanceCount": 112,
-        "declineCount": 15
-      },
-      {
-        "code": "BK1331",
-        "name": "数字芯片设计",
-        "pctChange": 2.39,
-        "mainNetBillion": 26.95,
-        "mainPct": 1.73,
-        "advanceCount": 46,
-        "declineCount": 7
-      },
-      {
-        "code": "BK1207",
-        "name": "计算机",
-        "pctChange": 1.57,
-        "mainNetBillion": 24.81,
-        "mainPct": 2.03,
-        "advanceCount": 263,
-        "declineCount": 93
-      },
-      {
-        "code": "BK1293",
-        "name": "营销代理",
-        "pctChange": 3.36,
-        "mainNetBillion": 19.05,
-        "mainPct": 8.87,
-        "advanceCount": 27,
-        "declineCount": 0
-      },
-      {
-        "code": "BK1220",
-        "name": "广告营销",
-        "pctChange": 3.45,
-        "mainNetBillion": 18.76,
-        "mainPct": 8.48,
-        "advanceCount": 29,
-        "declineCount": 1
-      },
-      {
-        "code": "BK1287",
-        "name": "工业金属",
-        "pctChange": 0.51,
-        "mainNetBillion": 15.37,
-        "mainPct": 4.73,
-        "advanceCount": 33,
-        "declineCount": 21
-      },
-      {
-        "code": "BK1444",
-        "name": "IT服务Ⅲ",
-        "pctChange": 1.72,
-        "mainNetBillion": 14.75,
-        "mainPct": 3.18,
-        "advanceCount": 106,
-        "declineCount": 29
-      },
-      {
-        "code": "BK1238",
-        "name": "IT服务Ⅱ",
-        "pctChange": 1.72,
-        "mainNetBillion": 14.75,
-        "mainPct": 3.18,
-        "advanceCount": 106,
-        "declineCount": 29
-      },
-      {
-        "code": "BK1615",
-        "name": "铜",
-        "pctChange": 0.9,
-        "mainNetBillion": 12.81,
-        "mainPct": 6.48,
-        "advanceCount": 12,
-        "declineCount": 5
-      },
-      {
-        "code": "BK0735",
-        "name": "计算机设备",
-        "pctChange": 1.09,
-        "mainNetBillion": 11.59,
-        "mainPct": 3.63,
-        "advanceCount": 56,
-        "declineCount": 33
-      }
-    ],
+    "industry": [],
     "concept": [
       {
         "code": "BK0845",
