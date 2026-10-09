@@ -1,8 +1,8 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-08T22:22:26.799Z",
-  "asOfDate": "2026-10-08",
+  "fetchedAt": "2026-10-09T02:28:45.634Z",
+  "asOfDate": "2026-10-09",
   "sourceStatus": {
     "399001": {
       "status": "ok",
@@ -25,81 +25,310 @@
       "source": "腾讯 qt.gtimg.cn"
     },
     "market": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "partial",
+      "source": "东方财富 push2 clist 全市场公开行情",
+      "coverage": {
+        "total": 4941,
+        "rawRows": 2500,
+        "uniqueRows": 2489,
+        "usableRows": 2142,
+        "missingRows": 2799,
+        "missingFieldRows": 347,
+        "coverageRatio": 0.4335,
+        "pagination": {
+          "pageSize": 200,
+          "expectedPages": 25,
+          "maxPages": 30,
+          "fetchedPages": 25,
+          "pagesWithErrors": [],
+          "capped": false
+        },
+        "pageErrors": []
+      }
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3811.9,
-      "previousClose": 3842.19,
-      "dailyPct": -0.79,
-      "high": 3864.12,
-      "low": 3795.37,
-      "asOfDate": "2026-10-08",
+      "close": 3765.62,
+      "previousClose": 3811.9,
+      "dailyPct": -1.21,
+      "high": 3809.6,
+      "low": 3764.74,
+      "asOfDate": "2026-10-09",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 12620.9,
-      "previousClose": 12887.62,
-      "dailyPct": -2.07,
-      "high": 12984.95,
-      "low": 12540.73,
-      "asOfDate": "2026-10-08",
+      "close": 12305.86,
+      "previousClose": 12620.9,
+      "dailyPct": -2.5,
+      "high": 12560.74,
+      "low": 12305.47,
+      "asOfDate": "2026-10-09",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 3036.66,
-      "previousClose": 3135.28,
+      "close": 2941.03,
+      "previousClose": 3036.66,
       "dailyPct": -3.15,
-      "high": 3168.4,
-      "low": 3012.03,
-      "asOfDate": "2026-10-08",
+      "high": 3022.73,
+      "low": 2940.78,
+      "asOfDate": "2026-10-09",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1456.32,
-      "previousClose": 1530.01,
-      "dailyPct": -4.82,
-      "high": 1521.46,
-      "low": 1446.43,
-      "asOfDate": "2026-10-08",
+      "close": 1400.73,
+      "previousClose": 1456.32,
+      "dailyPct": -3.82,
+      "high": 1443.94,
+      "low": 1400.21,
+      "asOfDate": "2026-10-09",
       "source": "腾讯 qt.gtimg.cn"
     },
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4310.28,
-      "previousClose": 4357.62,
-      "dailyPct": -1.09,
-      "high": 4383.57,
-      "low": 4289.79,
-      "asOfDate": "2026-10-08",
+      "close": 4245.17,
+      "previousClose": 4310.28,
+      "dailyPct": -1.51,
+      "high": 4299,
+      "low": 4244.76,
+      "asOfDate": "2026-10-09",
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
-  "market": null,
+  "market": {
+    "turnoverBillion": 2143.93,
+    "mainFundBillion": 125.74,
+    "risingCount": 528,
+    "fallingCount": 1552,
+    "limitUpCount": 25,
+    "limitDownCount": 3,
+    "rows": 2142,
+    "total": 4941,
+    "complete": false,
+    "coverage": {
+      "total": 4941,
+      "rawRows": 2500,
+      "uniqueRows": 2489,
+      "usableRows": 2142,
+      "missingRows": 2799,
+      "missingFieldRows": 347,
+      "coverageRatio": 0.4335,
+      "pagination": {
+        "pageSize": 200,
+        "expectedPages": 25,
+        "maxPages": 30,
+        "fetchedPages": 25,
+        "pagesWithErrors": [],
+        "capped": false
+      },
+      "pageErrors": []
+    },
+    "source": "东方财富 push2 clist 全市场公开行情"
+  },
   "sectorFlows": {
-    "date": "2026-10-08",
-    "industry": [],
-    "concept": [],
-    "source": ""
+    "date": "2026-10-09",
+    "industry": [
+      {
+        "code": "BK0433",
+        "name": "农林牧渔",
+        "pctChange": 0.33,
+        "mainNetBillion": 8.35,
+        "mainPct": 5.55,
+        "advanceCount": 53,
+        "declineCount": 56
+      },
+      {
+        "code": "BK1302",
+        "name": "电池化学品",
+        "pctChange": 0.09,
+        "mainNetBillion": 7.74,
+        "mainPct": 4.4,
+        "advanceCount": 16,
+        "declineCount": 27
+      },
+      {
+        "code": "BK1431",
+        "name": "有机硅",
+        "pctChange": 5.28,
+        "mainNetBillion": 6.38,
+        "mainPct": 16.78,
+        "advanceCount": 7,
+        "declineCount": 3
+      },
+      {
+        "code": "BK1033",
+        "name": "电池",
+        "pctChange": -0.78,
+        "mainNetBillion": 6.26,
+        "mainPct": 1.41,
+        "advanceCount": 31,
+        "declineCount": 75
+      },
+      {
+        "code": "BK1256",
+        "name": "农产品加工",
+        "pctChange": 0.36,
+        "mainNetBillion": 4.98,
+        "mainPct": 10.4,
+        "advanceCount": 13,
+        "declineCount": 15
+      },
+      {
+        "code": "BK1504",
+        "name": "粮油加工",
+        "pctChange": 1.44,
+        "mainNetBillion": 4.92,
+        "mainPct": 15.24,
+        "advanceCount": 6,
+        "declineCount": 3
+      },
+      {
+        "code": "BK1261",
+        "name": "种植业",
+        "pctChange": 3.19,
+        "mainNetBillion": 4.17,
+        "mainPct": 6.79,
+        "advanceCount": 17,
+        "declineCount": 4
+      },
+      {
+        "code": "BK0732",
+        "name": "贵金属",
+        "pctChange": 0.65,
+        "mainNetBillion": 3.98,
+        "mainPct": 6.13,
+        "advanceCount": 7,
+        "declineCount": 6
+      },
+      {
+        "code": "BK1617",
+        "name": "黄金",
+        "pctChange": 1.23,
+        "mainNetBillion": 3.62,
+        "mainPct": 6.76,
+        "advanceCount": 7,
+        "declineCount": 3
+      },
+      {
+        "code": "BK1518",
+        "name": "种子",
+        "pctChange": 5.41,
+        "mainNetBillion": 3.28,
+        "mainPct": 8.74,
+        "advanceCount": 10,
+        "declineCount": 0
+      }
+    ],
+    "concept": [
+      {
+        "code": "BK0961",
+        "name": "有机硅概念",
+        "pctChange": 0.56,
+        "mainNetBillion": 9.87,
+        "mainPct": 8.92,
+        "advanceCount": 13,
+        "declineCount": 25
+      },
+      {
+        "code": "BK1052",
+        "name": "动力电池回收",
+        "pctChange": -1.59,
+        "mainNetBillion": 9.83,
+        "mainPct": 4.99,
+        "advanceCount": 8,
+        "declineCount": 40
+      },
+      {
+        "code": "BK1173",
+        "name": "锂矿概念",
+        "pctChange": -1.08,
+        "mainNetBillion": 9.75,
+        "mainPct": 5.25,
+        "advanceCount": 9,
+        "declineCount": 29
+      },
+      {
+        "code": "BK1092",
+        "name": "麒麟电池",
+        "pctChange": -2.71,
+        "mainNetBillion": 8.96,
+        "mainPct": 12.7,
+        "advanceCount": 2,
+        "declineCount": 6
+      },
+      {
+        "code": "BK0834",
+        "name": "乡村振兴",
+        "pctChange": -1.2,
+        "mainNetBillion": 8.64,
+        "mainPct": 5.04,
+        "advanceCount": 36,
+        "declineCount": 111
+      },
+      {
+        "code": "BK1086",
+        "name": "粮食概念",
+        "pctChange": 1.76,
+        "mainNetBillion": 8.63,
+        "mainPct": 9.56,
+        "advanceCount": 24,
+        "declineCount": 11
+      },
+      {
+        "code": "BK0988",
+        "name": "钠离子电池",
+        "pctChange": -0.94,
+        "mainNetBillion": 6.17,
+        "mainPct": 2.01,
+        "advanceCount": 23,
+        "declineCount": 49
+      },
+      {
+        "code": "BK0937",
+        "name": "蚂蚁金服概念",
+        "pctChange": -1.09,
+        "mainNetBillion": 6.04,
+        "mainPct": 5.12,
+        "advanceCount": 13,
+        "declineCount": 44
+      },
+      {
+        "code": "BK1025",
+        "name": "预制菜概念",
+        "pctChange": -0.08,
+        "mainNetBillion": 5.44,
+        "mainPct": 8.04,
+        "advanceCount": 25,
+        "declineCount": 38
+      },
+      {
+        "code": "BK0888",
+        "name": "农业种植",
+        "pctChange": 0.51,
+        "mainNetBillion": 4.97,
+        "mainPct": 4.51,
+        "advanceCount": 41,
+        "declineCount": 44
+      }
+    ],
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
