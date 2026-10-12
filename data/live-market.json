@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-12T16:01:45.197Z",
+  "fetchedAt": "2026-10-12T22:51:37.320Z",
   "asOfDate": "2026-10-12",
   "sourceStatus": {
     "399001": {
@@ -29,12 +29,12 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
@@ -97,9 +97,191 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-10-12",
-    "industry": [],
-    "concept": [],
-    "source": ""
+    "industry": [
+      {
+        "code": "BK0486",
+        "name": "传媒",
+        "pctChange": 2.3,
+        "mainNetBillion": 21.32,
+        "mainPct": 3.16,
+        "advanceCount": 87,
+        "declineCount": 38
+      },
+      {
+        "code": "BK1326",
+        "name": "半导体设备",
+        "pctChange": 0.21,
+        "mainNetBillion": 16.26,
+        "mainPct": 5.21,
+        "advanceCount": 12,
+        "declineCount": 13
+      },
+      {
+        "code": "BK1283",
+        "name": "银行",
+        "pctChange": 1.99,
+        "mainNetBillion": 8.68,
+        "mainPct": 2.39,
+        "advanceCount": 42,
+        "declineCount": 0
+      },
+      {
+        "code": "BK0475",
+        "name": "银行Ⅱ",
+        "pctChange": 1.99,
+        "mainNetBillion": 8.68,
+        "mainPct": 2.39,
+        "advanceCount": 42,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1313",
+        "name": "风电零部件",
+        "pctChange": 3.09,
+        "mainNetBillion": 7.77,
+        "mainPct": 5.92,
+        "advanceCount": 22,
+        "declineCount": 4
+      },
+      {
+        "code": "BK1222",
+        "name": "影视院线",
+        "pctChange": 3.89,
+        "mainNetBillion": 6.91,
+        "mainPct": 5.16,
+        "advanceCount": 14,
+        "declineCount": 4
+      },
+      {
+        "code": "BK1032",
+        "name": "风电设备",
+        "pctChange": 2.51,
+        "mainNetBillion": 6.66,
+        "mainPct": 4.38,
+        "advanceCount": 25,
+        "declineCount": 6
+      },
+      {
+        "code": "BK1299",
+        "name": "影视动漫制作",
+        "pctChange": 4.24,
+        "mainNetBillion": 6.6,
+        "mainPct": 5.35,
+        "advanceCount": 10,
+        "declineCount": 4
+      },
+      {
+        "code": "BK1610",
+        "name": "股份制银行Ⅲ",
+        "pctChange": 2.1,
+        "mainNetBillion": 6.15,
+        "mainPct": 5.16,
+        "advanceCount": 9,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1221",
+        "name": "数字媒体",
+        "pctChange": 1.65,
+        "mainNetBillion": 5.59,
+        "mainPct": 3.28,
+        "advanceCount": 8,
+        "declineCount": 7
+      }
+    ],
+    "concept": [
+      {
+        "code": "BK0815",
+        "name": "昨日涨停",
+        "pctChange": 1.44,
+        "mainNetBillion": 13.65,
+        "mainPct": 1.83,
+        "advanceCount": 39,
+        "declineCount": 29
+      },
+      {
+        "code": "BK1050",
+        "name": "昨日涨停_含一字",
+        "pctChange": 1.71,
+        "mainNetBillion": 11.22,
+        "mainPct": 1.45,
+        "advanceCount": 42,
+        "declineCount": 29
+      },
+      {
+        "code": "BK1638",
+        "name": "最近多板",
+        "pctChange": 0.02,
+        "mainNetBillion": 11.16,
+        "mainPct": 1.12,
+        "advanceCount": 49,
+        "declineCount": 60
+      },
+      {
+        "code": "BK1654",
+        "name": "文娱消费",
+        "pctChange": 0.91,
+        "mainNetBillion": 10.4,
+        "mainPct": 2.24,
+        "advanceCount": 49,
+        "declineCount": 43
+      },
+      {
+        "code": "BK0847",
+        "name": "影视概念",
+        "pctChange": 1.85,
+        "mainNetBillion": 10.06,
+        "mainPct": 3.13,
+        "advanceCount": 40,
+        "declineCount": 25
+      },
+      {
+        "code": "BK0839",
+        "name": "知识产权",
+        "pctChange": 1.86,
+        "mainNetBillion": 9.86,
+        "mainPct": 3.78,
+        "advanceCount": 28,
+        "declineCount": 15
+      },
+      {
+        "code": "BK1000",
+        "name": "宁组合",
+        "pctChange": -0.75,
+        "mainNetBillion": 9.77,
+        "mainPct": 2.16,
+        "advanceCount": 6,
+        "declineCount": 18
+      },
+      {
+        "code": "BK1630",
+        "name": "昨日首板",
+        "pctChange": 0.98,
+        "mainNetBillion": 9.55,
+        "mainPct": 1.77,
+        "advanceCount": 26,
+        "declineCount": 24
+      },
+      {
+        "code": "BK1172",
+        "name": "AI语料",
+        "pctChange": 2.56,
+        "mainNetBillion": 8.76,
+        "mainPct": 3.1,
+        "advanceCount": 22,
+        "declineCount": 15
+      },
+      {
+        "code": "BK1071",
+        "name": "跨境支付",
+        "pctChange": 0.29,
+        "mainNetBillion": 7.95,
+        "mainPct": 2.4,
+        "advanceCount": 38,
+        "declineCount": 25
+      }
+    ],
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
