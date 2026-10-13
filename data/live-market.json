@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-13T03:13:52.949Z",
+  "fetchedAt": "2026-10-13T10:42:33.842Z",
   "asOfDate": "2026-10-13",
   "sourceStatus": {
     "399001": {
@@ -30,11 +30,11 @@
       "coverage": {
         "total": 4941,
         "rawRows": 2500,
-        "uniqueRows": 2497,
-        "usableRows": 2152,
-        "missingRows": 2789,
-        "missingFieldRows": 345,
-        "coverageRatio": 0.4355,
+        "uniqueRows": 2500,
+        "usableRows": 2154,
+        "missingRows": 2787,
+        "missingFieldRows": 346,
+        "coverageRatio": 0.4359,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
@@ -59,10 +59,10 @@
     {
       "code": "000001",
       "name": "上证指数",
-      "close": 3757.25,
+      "close": 3800.86,
       "previousClose": 3797.24,
-      "dailyPct": -1.05,
-      "high": 3774.71,
+      "dailyPct": 0.1,
+      "high": 3822.11,
       "low": 3741.53,
       "asOfDate": "2026-10-13",
       "source": "腾讯 qt.gtimg.cn"
@@ -70,10 +70,10 @@
     {
       "code": "399001",
       "name": "深证成指",
-      "close": 12116.8,
+      "close": 12353.7,
       "previousClose": 12384.87,
-      "dailyPct": -2.16,
-      "high": 12250.45,
+      "dailyPct": -0.25,
+      "high": 12486.21,
       "low": 12060.8,
       "asOfDate": "2026-10-13",
       "source": "腾讯 qt.gtimg.cn"
@@ -81,10 +81,10 @@
     {
       "code": "399006",
       "name": "创业板指",
-      "close": 2881.61,
+      "close": 2958.34,
       "previousClose": 2963.82,
-      "dailyPct": -2.77,
-      "high": 2924.92,
+      "dailyPct": -0.18,
+      "high": 2999.76,
       "low": 2860.8,
       "asOfDate": "2026-10-13",
       "source": "腾讯 qt.gtimg.cn"
@@ -92,10 +92,10 @@
     {
       "code": "000688",
       "name": "科创50",
-      "close": 1391.18,
+      "close": 1427.18,
       "previousClose": 1426.72,
-      "dailyPct": -2.49,
-      "high": 1415.49,
+      "dailyPct": 0.03,
+      "high": 1447.19,
       "low": 1375.33,
       "asOfDate": "2026-10-13",
       "source": "腾讯 qt.gtimg.cn"
@@ -103,33 +103,33 @@
     {
       "code": "000300",
       "name": "沪深300",
-      "close": 4224.41,
+      "close": 4275.68,
       "previousClose": 4287.98,
-      "dailyPct": -1.48,
-      "high": 4252.23,
+      "dailyPct": -0.29,
+      "high": 4310.33,
       "low": 4216.86,
       "asOfDate": "2026-10-13",
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
   "market": {
-    "turnoverBillion": 2839.18,
-    "mainFundBillion": 151.49,
-    "risingCount": 469,
-    "fallingCount": 1638,
-    "limitUpCount": 37,
-    "limitDownCount": 3,
-    "rows": 2152,
+    "turnoverBillion": 6612.56,
+    "mainFundBillion": 351.17,
+    "risingCount": 1478,
+    "fallingCount": 608,
+    "limitUpCount": 72,
+    "limitDownCount": 1,
+    "rows": 2154,
     "total": 4941,
     "complete": false,
     "coverage": {
       "total": 4941,
       "rawRows": 2500,
-      "uniqueRows": 2497,
-      "usableRows": 2152,
-      "missingRows": 2789,
-      "missingFieldRows": 345,
-      "coverageRatio": 0.4355,
+      "uniqueRows": 2500,
+      "usableRows": 2154,
+      "missingRows": 2787,
+      "missingFieldRows": 346,
+      "coverageRatio": 0.4359,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
@@ -146,186 +146,186 @@
     "date": "2026-10-13",
     "industry": [
       {
+        "code": "BK1340",
+        "name": "印制电路板",
+        "pctChange": 6.08,
+        "mainNetBillion": 20.88,
+        "mainPct": 2.49,
+        "advanceCount": 47,
+        "declineCount": 1
+      },
+      {
         "code": "BK1329",
         "name": "集成电路制造",
-        "pctChange": -2.74,
-        "mainNetBillion": 12.79,
-        "mainPct": 12.54,
-        "advanceCount": 1,
-        "declineCount": 8
+        "pctChange": -0.57,
+        "mainNetBillion": 20.52,
+        "mainPct": 12.26,
+        "advanceCount": 2,
+        "declineCount": 7
       },
       {
-        "code": "BK1213",
-        "name": "商贸零售",
-        "pctChange": 0.48,
-        "mainNetBillion": 4.68,
-        "mainPct": 3.94,
-        "advanceCount": 47,
-        "declineCount": 50
+        "code": "BK1204",
+        "name": "国防军工",
+        "pctChange": 2.53,
+        "mainNetBillion": 19.33,
+        "mainPct": 4.12,
+        "advanceCount": 123,
+        "declineCount": 18
       },
       {
-        "code": "BK1268",
-        "name": "互联网电商",
-        "pctChange": 1.45,
-        "mainNetBillion": 3.24,
-        "mainPct": 10.93,
-        "advanceCount": 11,
+        "code": "BK0459",
+        "name": "元件",
+        "pctChange": 4.77,
+        "mainNetBillion": 13.67,
+        "mainPct": 1.37,
+        "advanceCount": 61,
         "declineCount": 6
       },
       {
-        "code": "BK1428",
-        "name": "其他化学制品",
-        "pctChange": -1.5,
-        "mainNetBillion": 2.79,
-        "mainPct": 3.71,
-        "advanceCount": 13,
-        "declineCount": 67
+        "code": "BK1201",
+        "name": "电子",
+        "pctChange": 1.01,
+        "mainNetBillion": 12.84,
+        "mainPct": 0.32,
+        "advanceCount": 317,
+        "declineCount": 198
       },
       {
-        "code": "BK0482",
-        "name": "一般零售",
-        "pctChange": 0.73,
-        "mainNetBillion": 2.65,
-        "mainPct": 3.53,
-        "advanceCount": 32,
-        "declineCount": 26
-      },
-      {
-        "code": "BK1423",
-        "name": "纺织化学制品",
-        "pctChange": 3.39,
-        "mainNetBillion": 2.52,
-        "mainPct": 9.73,
-        "advanceCount": 8,
-        "declineCount": 5
-      },
-      {
-        "code": "BK1482",
-        "name": "航运",
-        "pctChange": -0.09,
-        "mainNetBillion": 2.49,
-        "mainPct": 4.44,
+        "code": "BK1383",
+        "name": "航海装备Ⅲ",
+        "pctChange": 4.36,
+        "mainNetBillion": 9.89,
+        "mainPct": 11.56,
         "advanceCount": 10,
-        "declineCount": 8
+        "declineCount": 0
       },
       {
-        "code": "BK1547",
-        "name": "跨境电商",
-        "pctChange": 1.64,
-        "mainNetBillion": 2.48,
-        "mainPct": 14.88,
-        "advanceCount": 6,
-        "declineCount": 2
+        "code": "BK1230",
+        "name": "航海装备Ⅱ",
+        "pctChange": 4.36,
+        "mainNetBillion": 9.89,
+        "mainPct": 11.56,
+        "advanceCount": 10,
+        "declineCount": 0
       },
       {
-        "code": "BK1551",
-        "name": "百货",
-        "pctChange": 1.9,
-        "mainNetBillion": 2.47,
-        "mainPct": 5.62,
-        "advanceCount": 13,
-        "declineCount": 5
+        "code": "BK1293",
+        "name": "营销代理",
+        "pctChange": 1.77,
+        "mainNetBillion": 8.73,
+        "mainPct": 5.58,
+        "advanceCount": 21,
+        "declineCount": 6
       },
       {
-        "code": "BK1627",
-        "name": "综合Ⅲ",
-        "pctChange": -0.41,
-        "mainNetBillion": 2.34,
-        "mainPct": 9.82,
-        "advanceCount": 6,
-        "declineCount": 16
+        "code": "BK0486",
+        "name": "传媒",
+        "pctChange": 1.1,
+        "mainNetBillion": 7.91,
+        "mainPct": 1.2,
+        "advanceCount": 75,
+        "declineCount": 48
+      },
+      {
+        "code": "BK1384",
+        "name": "航空装备Ⅲ",
+        "pctChange": 3.12,
+        "mainNetBillion": 7.91,
+        "mainPct": 4.96,
+        "advanceCount": 48,
+        "declineCount": 1
       }
     ],
     "concept": [
       {
+        "code": "BK1136",
+        "name": "光通信模块",
+        "pctChange": 2.42,
+        "mainNetBillion": 35.32,
+        "mainPct": 1.9,
+        "advanceCount": 97,
+        "declineCount": 23
+      },
+      {
+        "code": "BK1667",
+        "name": "小盘成长",
+        "pctChange": 0.43,
+        "mainNetBillion": 26.49,
+        "mainPct": 1.77,
+        "advanceCount": 186,
+        "declineCount": 175
+      },
+      {
+        "code": "BK1721",
+        "name": "高成长股",
+        "pctChange": 0.33,
+        "mainNetBillion": 23.43,
+        "mainPct": 2.67,
+        "advanceCount": 62,
+        "declineCount": 38
+      },
+      {
+        "code": "BK0877",
+        "name": "PCB",
+        "pctChange": 2.12,
+        "mainNetBillion": 19.05,
+        "mainPct": 1.15,
+        "advanceCount": 148,
+        "declineCount": 53
+      },
+      {
         "code": "BK1048",
         "name": "IGBT概念",
-        "pctChange": -2.61,
-        "mainNetBillion": 9.09,
-        "mainPct": 5.29,
-        "advanceCount": 5,
-        "declineCount": 39
-      },
-      {
-        "code": "BK0852",
-        "name": "冷链物流",
-        "pctChange": -0.8,
-        "mainNetBillion": 4.74,
-        "mainPct": 1.87,
-        "advanceCount": 24,
-        "declineCount": 99
-      },
-      {
-        "code": "BK0888",
-        "name": "农业种植",
-        "pctChange": -1.14,
-        "mainNetBillion": 4.52,
-        "mainPct": 3.49,
-        "advanceCount": 15,
-        "declineCount": 72
-      },
-      {
-        "code": "BK1185",
-        "name": "冰雪经济",
-        "pctChange": 1.21,
-        "mainNetBillion": 3.7,
-        "mainPct": 5.12,
+        "pctChange": -0.31,
+        "mainNetBillion": 17.65,
+        "mainPct": 5.98,
         "advanceCount": 18,
-        "declineCount": 22
+        "declineCount": 24
       },
       {
-        "code": "BK0949",
-        "name": "氦气概念",
-        "pctChange": 0.26,
-        "mainNetBillion": 3.36,
-        "mainPct": 4.8,
-        "advanceCount": 6,
-        "declineCount": 12
+        "code": "BK1128",
+        "name": "CPO概念",
+        "pctChange": 2.47,
+        "mainNetBillion": 17.49,
+        "mainPct": 0.93,
+        "advanceCount": 81,
+        "declineCount": 15
       },
       {
-        "code": "BK1755",
-        "name": "2026三季报预增",
-        "pctChange": 0.09,
-        "mainNetBillion": 2.93,
-        "mainPct": 1.11,
-        "advanceCount": 12,
-        "declineCount": 19
+        "code": "BK0623",
+        "name": "海洋经济",
+        "pctChange": 1.17,
+        "mainNetBillion": 14.75,
+        "mainPct": 3.53,
+        "advanceCount": 76,
+        "declineCount": 36
       },
       {
-        "code": "BK0834",
-        "name": "乡村振兴",
-        "pctChange": -0.92,
-        "mainNetBillion": 2.72,
-        "mainPct": 1.25,
-        "advanceCount": 26,
-        "declineCount": 122
+        "code": "BK0490",
+        "name": "军工",
+        "pctChange": 1.39,
+        "mainNetBillion": 14.58,
+        "mainPct": 1.22,
+        "advanceCount": 304,
+        "declineCount": 121
       },
       {
-        "code": "BK1001",
-        "name": "内贸流通",
-        "pctChange": -0.04,
-        "mainNetBillion": 2.6,
-        "mainPct": 1.48,
-        "advanceCount": 52,
-        "declineCount": 102
+        "code": "BK0715",
+        "name": "航母概念",
+        "pctChange": 2.01,
+        "mainNetBillion": 12.84,
+        "mainPct": 7.76,
+        "advanceCount": 23,
+        "declineCount": 8
       },
       {
-        "code": "BK1142",
-        "name": "裸眼3D",
-        "pctChange": -0.98,
-        "mainNetBillion": 2.42,
-        "mainPct": 3.93,
-        "advanceCount": 4,
-        "declineCount": 20
-      },
-      {
-        "code": "BK0429",
-        "name": "交运设备",
-        "pctChange": -1.26,
-        "mainNetBillion": 2.27,
-        "mainPct": 1.65,
-        "advanceCount": 14,
-        "declineCount": 63
+        "code": "BK0505",
+        "name": "中字头",
+        "pctChange": 0.5,
+        "mainNetBillion": 12.41,
+        "mainPct": 2.14,
+        "advanceCount": 59,
+        "declineCount": 37
       }
     ],
     "source": "东方财富公开板块资金"
