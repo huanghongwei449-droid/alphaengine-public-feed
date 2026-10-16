@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-16T18:26:00.916Z",
+  "fetchedAt": "2026-10-16T21:36:42.832Z",
   "asOfDate": "2026-10-16",
   "sourceStatus": {
     "399001": {
@@ -29,40 +29,57 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4941,
-        "rawRows": 900,
-        "uniqueRows": 900,
-        "usableRows": 701,
-        "missingRows": 4240,
-        "missingFieldRows": 199,
-        "coverageRatio": 0.1419,
+        "rawRows": 400,
+        "uniqueRows": 400,
+        "usableRows": 400,
+        "missingRows": 4541,
+        "missingFieldRows": 0,
+        "coverageRatio": 0.081,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 9,
+          "fetchedPages": 4,
           "pagesWithErrors": [
+            2,
+            3,
             4,
+            5,
             6,
-            7,
+            8,
             9,
             10,
             11,
             12,
-            13,
             14,
             15,
-            17,
+            16,
             18,
+            19,
+            20,
             21,
             22,
             23,
-            24
+            24,
+            25
           ],
           "capped": false
         },
         "pageErrors": [
           {
+            "page": 2,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 3,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 4,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 5,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -70,7 +87,7 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 7,
+            "page": 8,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -90,10 +107,6 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 13,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
             "page": 14,
             "error": "Error: eastmoney HTTP 502"
           },
@@ -102,11 +115,19 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 17,
+            "page": 16,
             "error": "Error: eastmoney HTTP 502"
           },
           {
             "page": 18,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 19,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 20,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -124,6 +145,10 @@
           {
             "page": 24,
             "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 25,
+            "error": "Error: eastmoney HTTP 502"
           }
         ]
       }
@@ -133,8 +158,8 @@
       "source": "东方财富公开板块资金"
     },
     "concept": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     }
   },
   "indices": [
@@ -195,51 +220,68 @@
     }
   ],
   "market": {
-    "turnoverBillion": 3931.09,
-    "mainFundBillion": 294.42,
-    "risingCount": 535,
-    "fallingCount": 147,
-    "limitUpCount": 63,
-    "limitDownCount": 3,
-    "rows": 701,
+    "turnoverBillion": 2323.27,
+    "mainFundBillion": 202.3,
+    "risingCount": 307,
+    "fallingCount": 88,
+    "limitUpCount": 28,
+    "limitDownCount": 0,
+    "rows": 400,
     "total": 4941,
     "complete": false,
     "coverage": {
       "total": 4941,
-      "rawRows": 900,
-      "uniqueRows": 900,
-      "usableRows": 701,
-      "missingRows": 4240,
-      "missingFieldRows": 199,
-      "coverageRatio": 0.1419,
+      "rawRows": 400,
+      "uniqueRows": 400,
+      "usableRows": 400,
+      "missingRows": 4541,
+      "missingFieldRows": 0,
+      "coverageRatio": 0.081,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 9,
+        "fetchedPages": 4,
         "pagesWithErrors": [
+          2,
+          3,
           4,
+          5,
           6,
-          7,
+          8,
           9,
           10,
           11,
           12,
-          13,
           14,
           15,
-          17,
+          16,
           18,
+          19,
+          20,
           21,
           22,
           23,
-          24
+          24,
+          25
         ],
         "capped": false
       },
       "pageErrors": [
         {
+          "page": 2,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 3,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 4,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 5,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -247,7 +289,7 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 7,
+          "page": 8,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -267,10 +309,6 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 13,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
           "page": 14,
           "error": "Error: eastmoney HTTP 502"
         },
@@ -279,11 +317,19 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 17,
+          "page": 16,
           "error": "Error: eastmoney HTTP 502"
         },
         {
           "page": 18,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 19,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 20,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -300,6 +346,10 @@
         },
         {
           "page": 24,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 25,
           "error": "Error: eastmoney HTTP 502"
         }
       ]
@@ -400,98 +450,7 @@
         "declineCount": 10
       }
     ],
-    "concept": [
-      {
-        "code": "BK0917",
-        "name": "半导体概念",
-        "pctChange": -0.18,
-        "mainNetBillion": 39.81,
-        "mainPct": 1.29,
-        "advanceCount": 238,
-        "declineCount": 296
-      },
-      {
-        "code": "BK0490",
-        "name": "军工",
-        "pctChange": 2.5,
-        "mainNetBillion": 37.23,
-        "mainPct": 2.82,
-        "advanceCount": 337,
-        "declineCount": 89
-      },
-      {
-        "code": "BK1137",
-        "name": "存储芯片",
-        "pctChange": -0.16,
-        "mainNetBillion": 36.36,
-        "mainPct": 2.34,
-        "advanceCount": 59,
-        "declineCount": 83
-      },
-      {
-        "code": "BK1166",
-        "name": "低空经济",
-        "pctChange": 2.45,
-        "mainNetBillion": 33.09,
-        "mainPct": 3.99,
-        "advanceCount": 244,
-        "declineCount": 66
-      },
-      {
-        "code": "BK0812",
-        "name": "贬值受益",
-        "pctChange": 0.56,
-        "mainNetBillion": 29.36,
-        "mainPct": 3.51,
-        "advanceCount": 121,
-        "declineCount": 65
-      },
-      {
-        "code": "BK0704",
-        "name": "无人机",
-        "pctChange": 2.28,
-        "mainNetBillion": 28.87,
-        "mainPct": 3.61,
-        "advanceCount": 161,
-        "declineCount": 68
-      },
-      {
-        "code": "BK0891",
-        "name": "国产芯片",
-        "pctChange": 0.21,
-        "mainNetBillion": 28.21,
-        "mainPct": 1,
-        "advanceCount": 214,
-        "declineCount": 220
-      },
-      {
-        "code": "BK0808",
-        "name": "军民融合",
-        "pctChange": 3.14,
-        "mainNetBillion": 24.59,
-        "mainPct": 3.84,
-        "advanceCount": 149,
-        "declineCount": 29
-      },
-      {
-        "code": "BK1722",
-        "name": "高市净率",
-        "pctChange": -0.51,
-        "mainNetBillion": 23.48,
-        "mainPct": 1.19,
-        "advanceCount": 83,
-        "declineCount": 108
-      },
-      {
-        "code": "BK0984",
-        "name": "华为汽车",
-        "pctChange": 2.72,
-        "mainNetBillion": 21.36,
-        "mainPct": 7.71,
-        "advanceCount": 104,
-        "declineCount": 20
-      }
-    ],
+    "concept": [],
     "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
