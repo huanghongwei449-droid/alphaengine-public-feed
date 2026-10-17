@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-17T16:58:39.217Z",
+  "fetchedAt": "2026-10-17T19:11:43.274Z",
   "asOfDate": "2026-10-16",
   "sourceStatus": {
     "399001": {
@@ -41,6 +41,9 @@
           "maxPages": 30,
           "fetchedPages": 4,
           "pagesWithErrors": [
+            2,
+            3,
+            4,
             5,
             6,
             7,
@@ -49,11 +52,8 @@
             10,
             11,
             12,
-            13,
             14,
-            15,
             16,
-            17,
             18,
             19,
             20,
@@ -66,6 +66,18 @@
           "capped": false
         },
         "pageErrors": [
+          {
+            "page": 2,
+            "error": "TypeError: fetch failed"
+          },
+          {
+            "page": 3,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 4,
+            "error": "Error: eastmoney HTTP 502"
+          },
           {
             "page": 5,
             "error": "Error: eastmoney HTTP 502"
@@ -99,23 +111,11 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 13,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
             "page": 14,
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 15,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
             "page": 16,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 17,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -140,7 +140,7 @@
           },
           {
             "page": 23,
-            "error": "TypeError: fetch failed"
+            "error": "Error: eastmoney HTTP 502"
           },
           {
             "page": 24,
@@ -220,12 +220,12 @@
     }
   ],
   "market": {
-    "turnoverBillion": 3802.2,
-    "mainFundBillion": 295.93,
-    "risingCount": 333,
-    "fallingCount": 63,
-    "limitUpCount": 66,
-    "limitDownCount": 3,
+    "turnoverBillion": 2210.36,
+    "mainFundBillion": 196.48,
+    "risingCount": 308,
+    "fallingCount": 85,
+    "limitUpCount": 27,
+    "limitDownCount": 0,
     "rows": 400,
     "total": 4941,
     "complete": false,
@@ -243,6 +243,9 @@
         "maxPages": 30,
         "fetchedPages": 4,
         "pagesWithErrors": [
+          2,
+          3,
+          4,
           5,
           6,
           7,
@@ -251,11 +254,8 @@
           10,
           11,
           12,
-          13,
           14,
-          15,
           16,
-          17,
           18,
           19,
           20,
@@ -268,6 +268,18 @@
         "capped": false
       },
       "pageErrors": [
+        {
+          "page": 2,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "page": 3,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 4,
+          "error": "Error: eastmoney HTTP 502"
+        },
         {
           "page": 5,
           "error": "Error: eastmoney HTTP 502"
@@ -301,23 +313,11 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 13,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
           "page": 14,
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 15,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
           "page": 16,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 17,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -342,7 +342,7 @@
         },
         {
           "page": 23,
-          "error": "TypeError: fetch failed"
+          "error": "Error: eastmoney HTTP 502"
         },
         {
           "page": 24,
