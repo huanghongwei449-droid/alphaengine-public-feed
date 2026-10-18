@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-18T21:47:03.327Z",
+  "fetchedAt": "2026-10-18T23:42:10.256Z",
   "asOfDate": "2026-10-16",
   "sourceStatus": {
     "399001": {
@@ -29,8 +29,8 @@
       "error": "Error: eastmoney HTTP 502"
     },
     "industry": {
-      "status": "ok",
-      "source": "东方财富公开板块资金"
+      "status": "failed",
+      "error": "Error: eastmoney HTTP 502"
     },
     "concept": {
       "status": "failed",
@@ -97,100 +97,9 @@
   "market": null,
   "sectorFlows": {
     "date": "2026-10-16",
-    "industry": [
-      {
-        "code": "BK1036",
-        "name": "半导体",
-        "pctChange": -0.76,
-        "mainNetBillion": 34.22,
-        "mainPct": 1.9,
-        "advanceCount": 61,
-        "declineCount": 126
-      },
-      {
-        "code": "BK1204",
-        "name": "国防军工",
-        "pctChange": 4.46,
-        "mainNetBillion": 29.34,
-        "mainPct": 5.04,
-        "advanceCount": 133,
-        "declineCount": 8
-      },
-      {
-        "code": "BK1211",
-        "name": "汽车",
-        "pctChange": 2.13,
-        "mainNetBillion": 28.07,
-        "mainPct": 5.45,
-        "advanceCount": 282,
-        "declineCount": 49
-      },
-      {
-        "code": "BK1201",
-        "name": "电子",
-        "pctChange": -0.85,
-        "mainNetBillion": 23.4,
-        "mainPct": 0.65,
-        "advanceCount": 190,
-        "declineCount": 324
-      },
-      {
-        "code": "BK0481",
-        "name": "汽车零部件",
-        "pctChange": 2.37,
-        "mainNetBillion": 19.91,
-        "mainPct": 4.98,
-        "advanceCount": 243,
-        "declineCount": 37
-      },
-      {
-        "code": "BK1326",
-        "name": "半导体设备",
-        "pctChange": -1.26,
-        "mainNetBillion": 19.3,
-        "mainPct": 5.56,
-        "advanceCount": 8,
-        "declineCount": 17
-      },
-      {
-        "code": "BK1331",
-        "name": "数字芯片设计",
-        "pctChange": -0.29,
-        "mainNetBillion": 19.19,
-        "mainPct": 2.29,
-        "advanceCount": 23,
-        "declineCount": 33
-      },
-      {
-        "code": "BK1384",
-        "name": "航空装备Ⅲ",
-        "pctChange": 5.98,
-        "mainNetBillion": 17.55,
-        "mainPct": 7.97,
-        "advanceCount": 48,
-        "declineCount": 1
-      },
-      {
-        "code": "BK1231",
-        "name": "航空装备Ⅱ",
-        "pctChange": 5.98,
-        "mainNetBillion": 17.55,
-        "mainPct": 7.97,
-        "advanceCount": 48,
-        "declineCount": 1
-      },
-      {
-        "code": "BK1202",
-        "name": "房地产",
-        "pctChange": 1.76,
-        "mainNetBillion": 8.53,
-        "mainPct": 4.67,
-        "advanceCount": 91,
-        "declineCount": 10
-      }
-    ],
+    "industry": [],
     "concept": [],
-    "source": "东方财富公开板块资金"
+    "source": ""
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
