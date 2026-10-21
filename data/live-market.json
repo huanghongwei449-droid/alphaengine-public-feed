@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-21T09:32:19.770Z",
+  "fetchedAt": "2026-10-21T14:36:05.237Z",
   "asOfDate": "2026-10-21",
   "sourceStatus": {
     "399001": {
@@ -41,8 +41,8 @@
           "maxPages": 30,
           "fetchedPages": 2,
           "pagesWithErrors": [
-            2,
             3,
+            4,
             5,
             6,
             7,
@@ -69,11 +69,11 @@
         },
         "pageErrors": [
           {
-            "page": 2,
+            "page": 3,
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 3,
+            "page": 4,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -230,11 +230,11 @@
     }
   ],
   "market": {
-    "turnoverBillion": 2280.51,
-    "mainFundBillion": 204.52,
-    "risingCount": 170,
-    "fallingCount": 24,
-    "limitUpCount": 26,
+    "turnoverBillion": 2671.45,
+    "mainFundBillion": 233.5,
+    "risingCount": 176,
+    "fallingCount": 21,
+    "limitUpCount": 40,
     "limitDownCount": 0,
     "rows": 200,
     "total": 4941,
@@ -253,8 +253,8 @@
         "maxPages": 30,
         "fetchedPages": 2,
         "pagesWithErrors": [
-          2,
           3,
+          4,
           5,
           6,
           7,
@@ -281,11 +281,11 @@
       },
       "pageErrors": [
         {
-          "page": 2,
+          "page": 3,
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 3,
+          "page": 4,
           "error": "Error: eastmoney HTTP 502"
         },
         {
