@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-22T10:16:03.346Z",
+  "fetchedAt": "2026-10-22T15:20:03.341Z",
   "asOfDate": "2026-10-22",
   "sourceStatus": {
     "399001": {
@@ -29,20 +29,21 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4941,
-        "rawRows": 200,
-        "uniqueRows": 200,
-        "usableRows": 200,
-        "missingRows": 4741,
+        "rawRows": 100,
+        "uniqueRows": 100,
+        "usableRows": 100,
+        "missingRows": 4841,
         "missingFieldRows": 0,
-        "coverageRatio": 0.0405,
+        "coverageRatio": 0.0202,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 2,
+          "fetchedPages": 1,
           "pagesWithErrors": [
             2,
             3,
+            4,
             5,
             6,
             7,
@@ -74,6 +75,10 @@
           },
           {
             "page": 3,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 4,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -230,31 +235,32 @@
     }
   ],
   "market": {
-    "turnoverBillion": 1548.56,
-    "mainFundBillion": 130.26,
-    "risingCount": 95,
-    "fallingCount": 103,
+    "turnoverBillion": 1306.04,
+    "mainFundBillion": 121.96,
+    "risingCount": 69,
+    "fallingCount": 30,
     "limitUpCount": 24,
-    "limitDownCount": 3,
-    "rows": 200,
+    "limitDownCount": 0,
+    "rows": 100,
     "total": 4941,
     "complete": false,
     "coverage": {
       "total": 4941,
-      "rawRows": 200,
-      "uniqueRows": 200,
-      "usableRows": 200,
-      "missingRows": 4741,
+      "rawRows": 100,
+      "uniqueRows": 100,
+      "usableRows": 100,
+      "missingRows": 4841,
       "missingFieldRows": 0,
-      "coverageRatio": 0.0405,
+      "coverageRatio": 0.0202,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 2,
+        "fetchedPages": 1,
         "pagesWithErrors": [
           2,
           3,
+          4,
           5,
           6,
           7,
@@ -286,6 +292,10 @@
         },
         {
           "page": 3,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 4,
           "error": "Error: eastmoney HTTP 502"
         },
         {
