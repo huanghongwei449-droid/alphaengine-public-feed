@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-10-24T19:23:32.270Z",
+  "fetchedAt": "2026-10-24T21:49:19.931Z",
   "asOfDate": "2026-10-23",
   "sourceStatus": {
     "399001": {
@@ -29,26 +29,29 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4941,
-        "rawRows": 900,
-        "uniqueRows": 900,
-        "usableRows": 900,
-        "missingRows": 4041,
+        "rawRows": 600,
+        "uniqueRows": 600,
+        "usableRows": 600,
+        "missingRows": 4341,
         "missingFieldRows": 0,
-        "coverageRatio": 0.1821,
+        "coverageRatio": 0.1214,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 9,
+          "fetchedPages": 6,
           "pagesWithErrors": [
+            4,
             5,
             7,
             8,
-            9,
             10,
+            11,
+            12,
             13,
             14,
             15,
+            16,
             18,
             19,
             20,
@@ -62,6 +65,10 @@
         },
         "pageErrors": [
           {
+            "page": 4,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
             "page": 5,
             "error": "Error: eastmoney HTTP 502"
           },
@@ -74,11 +81,15 @@
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 9,
+            "page": 10,
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 10,
+            "page": 11,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 12,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -91,6 +102,10 @@
           },
           {
             "page": 15,
+            "error": "Error: eastmoney HTTP 502"
+          },
+          {
+            "page": 16,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -195,37 +210,40 @@
     }
   ],
   "market": {
-    "turnoverBillion": 5754.5,
-    "mainFundBillion": 356.6,
-    "risingCount": 764,
-    "fallingCount": 120,
-    "limitUpCount": 94,
+    "turnoverBillion": 5098.12,
+    "mainFundBillion": 337.57,
+    "risingCount": 524,
+    "fallingCount": 68,
+    "limitUpCount": 91,
     "limitDownCount": 1,
-    "rows": 900,
+    "rows": 600,
     "total": 4941,
     "complete": false,
     "coverage": {
       "total": 4941,
-      "rawRows": 900,
-      "uniqueRows": 900,
-      "usableRows": 900,
-      "missingRows": 4041,
+      "rawRows": 600,
+      "uniqueRows": 600,
+      "usableRows": 600,
+      "missingRows": 4341,
       "missingFieldRows": 0,
-      "coverageRatio": 0.1821,
+      "coverageRatio": 0.1214,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 9,
+        "fetchedPages": 6,
         "pagesWithErrors": [
+          4,
           5,
           7,
           8,
-          9,
           10,
+          11,
+          12,
           13,
           14,
           15,
+          16,
           18,
           19,
           20,
@@ -239,6 +257,10 @@
       },
       "pageErrors": [
         {
+          "page": 4,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
           "page": 5,
           "error": "Error: eastmoney HTTP 502"
         },
@@ -251,11 +273,15 @@
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 9,
+          "page": 10,
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 10,
+          "page": 11,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 12,
           "error": "Error: eastmoney HTTP 502"
         },
         {
@@ -268,6 +294,10 @@
         },
         {
           "page": 15,
+          "error": "Error: eastmoney HTTP 502"
+        },
+        {
+          "page": 16,
           "error": "Error: eastmoney HTTP 502"
         },
         {
