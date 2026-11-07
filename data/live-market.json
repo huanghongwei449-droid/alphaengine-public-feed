@@ -1,28 +1,28 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-11-07T15:44:03.766Z",
-  "asOfDate": "",
+  "fetchedAt": "2026-11-07T19:39:36.040Z",
+  "asOfDate": "2026-11-06",
   "sourceStatus": {
-    "sh000001": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+    "399001": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
     },
-    "sz399001": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+    "399006": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
     },
-    "sz399006": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+    "000001": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
     },
-    "sh000688": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+    "000688": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
     },
-    "sh000300": {
-      "status": "failed",
-      "error": "TypeError: fetch failed"
+    "000300": {
+      "status": "ok",
+      "source": "腾讯 qt.gtimg.cn"
     },
     "market": {
       "status": "partial",
@@ -55,7 +55,63 @@
       "source": "东方财富公开板块资金"
     }
   },
-  "indices": [],
+  "indices": [
+    {
+      "code": "000001",
+      "name": "上证指数",
+      "close": 3649.18,
+      "previousClose": 3689.91,
+      "dailyPct": -1.1,
+      "high": 3660.49,
+      "low": 3610.2,
+      "asOfDate": "2026-11-06",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "399001",
+      "name": "深证成指",
+      "close": 11175.78,
+      "previousClose": 11471.09,
+      "dailyPct": -2.57,
+      "high": 11303.22,
+      "low": 11044.56,
+      "asOfDate": "2026-11-06",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "399006",
+      "name": "创业板指",
+      "close": 2465.23,
+      "previousClose": 2566.8,
+      "dailyPct": -3.96,
+      "high": 2506.97,
+      "low": 2438.72,
+      "asOfDate": "2026-11-06",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "000688",
+      "name": "科创50",
+      "close": 1253.2,
+      "previousClose": 1286.68,
+      "dailyPct": -2.6,
+      "high": 1288.38,
+      "low": 1219.53,
+      "asOfDate": "2026-11-06",
+      "source": "腾讯 qt.gtimg.cn"
+    },
+    {
+      "code": "000300",
+      "name": "沪深300",
+      "close": 4054.28,
+      "previousClose": 4113.41,
+      "dailyPct": -1.44,
+      "high": 4069.07,
+      "low": 4013.79,
+      "asOfDate": "2026-11-06",
+      "source": "腾讯 qt.gtimg.cn"
+    }
+  ],
   "market": {
     "turnoverBillion": 3968.74,
     "mainFundBillion": 172.89,
@@ -87,7 +143,7 @@
     "source": "东方财富 push2 clist 全市场公开行情"
   },
   "sectorFlows": {
-    "date": "",
+    "date": "2026-11-06",
     "industry": [
       {
         "code": "BK0427",
