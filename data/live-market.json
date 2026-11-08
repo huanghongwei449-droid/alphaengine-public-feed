@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-11-07T23:05:51.611Z",
+  "fetchedAt": "2026-11-08T02:21:05.288Z",
   "asOfDate": "2026-11-06",
   "sourceStatus": {
     "399001": {
@@ -25,16 +25,34 @@
       "source": "腾讯 qt.gtimg.cn"
     },
     "market": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "partial",
+      "source": "东方财富 push2 clist 全市场公开行情",
+      "coverage": {
+        "total": 4941,
+        "rawRows": 2500,
+        "uniqueRows": 2500,
+        "usableRows": 2161,
+        "missingRows": 2780,
+        "missingFieldRows": 339,
+        "coverageRatio": 0.4374,
+        "pagination": {
+          "pageSize": 200,
+          "expectedPages": 25,
+          "maxPages": 30,
+          "fetchedPages": 25,
+          "pagesWithErrors": [],
+          "capped": false
+        },
+        "pageErrors": []
+      }
     },
     "industry": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     },
     "concept": {
-      "status": "failed",
-      "error": "Error: eastmoney HTTP 502"
+      "status": "ok",
+      "source": "东方财富公开板块资金"
     }
   },
   "indices": [
@@ -94,12 +112,223 @@
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
-  "market": null,
+  "market": {
+    "turnoverBillion": 3968.74,
+    "mainFundBillion": 172.89,
+    "risingCount": 496,
+    "fallingCount": 1620,
+    "limitUpCount": 33,
+    "limitDownCount": 0,
+    "rows": 2161,
+    "total": 4941,
+    "complete": false,
+    "coverage": {
+      "total": 4941,
+      "rawRows": 2500,
+      "uniqueRows": 2500,
+      "usableRows": 2161,
+      "missingRows": 2780,
+      "missingFieldRows": 339,
+      "coverageRatio": 0.4374,
+      "pagination": {
+        "pageSize": 200,
+        "expectedPages": 25,
+        "maxPages": 30,
+        "fetchedPages": 25,
+        "pagesWithErrors": [],
+        "capped": false
+      },
+      "pageErrors": []
+    },
+    "source": "东方财富 push2 clist 全市场公开行情"
+  },
   "sectorFlows": {
     "date": "2026-11-06",
-    "industry": [],
-    "concept": [],
-    "source": ""
+    "industry": [
+      {
+        "code": "BK0427",
+        "name": "公用事业",
+        "pctChange": 0.55,
+        "mainNetBillion": 9.59,
+        "mainPct": 2.54,
+        "advanceCount": 73,
+        "declineCount": 53
+      },
+      {
+        "code": "BK0428",
+        "name": "电力",
+        "pctChange": 0.76,
+        "mainNetBillion": 9.4,
+        "mainPct": 2.69,
+        "advanceCount": 60,
+        "declineCount": 39
+      },
+      {
+        "code": "BK1283",
+        "name": "银行",
+        "pctChange": 0.99,
+        "mainNetBillion": 8.53,
+        "mainPct": 2.41,
+        "advanceCount": 37,
+        "declineCount": 3
+      },
+      {
+        "code": "BK0475",
+        "name": "银行Ⅱ",
+        "pctChange": 0.99,
+        "mainNetBillion": 8.53,
+        "mainPct": 2.41,
+        "advanceCount": 37,
+        "declineCount": 3
+      },
+      {
+        "code": "BK1326",
+        "name": "半导体设备",
+        "pctChange": -2.33,
+        "mainNetBillion": 7.4,
+        "mainPct": 1.54,
+        "advanceCount": 3,
+        "declineCount": 21
+      },
+      {
+        "code": "BK1380",
+        "name": "水力发电",
+        "pctChange": 1.46,
+        "mainNetBillion": 6.33,
+        "mainPct": 6.97,
+        "advanceCount": 9,
+        "declineCount": 2
+      },
+      {
+        "code": "BK1611",
+        "name": "国有大型银行Ⅲ",
+        "pctChange": 1.04,
+        "mainNetBillion": 5.09,
+        "mainPct": 3.77,
+        "advanceCount": 6,
+        "declineCount": 0
+      },
+      {
+        "code": "BK1329",
+        "name": "集成电路制造",
+        "pctChange": -1.87,
+        "mainNetBillion": 4.97,
+        "mainPct": 3.27,
+        "advanceCount": 2,
+        "declineCount": 6
+      },
+      {
+        "code": "BK0421",
+        "name": "铁路公路",
+        "pctChange": 0.7,
+        "mainNetBillion": 4.81,
+        "mainPct": 8.24,
+        "advanceCount": 22,
+        "declineCount": 9
+      },
+      {
+        "code": "BK1587",
+        "name": "电信运营商",
+        "pctChange": 2.87,
+        "mainNetBillion": 4.05,
+        "mainPct": 11.12,
+        "advanceCount": 3,
+        "declineCount": 0
+      }
+    ],
+    "concept": [
+      {
+        "code": "BK1636",
+        "name": "红利破净股",
+        "pctChange": 0.29,
+        "mainNetBillion": 9.86,
+        "mainPct": 3.18,
+        "advanceCount": 27,
+        "declineCount": 17
+      },
+      {
+        "code": "BK1635",
+        "name": "长期破净",
+        "pctChange": -0.27,
+        "mainNetBillion": 8.51,
+        "mainPct": 1.88,
+        "advanceCount": 67,
+        "declineCount": 113
+      },
+      {
+        "code": "BK1641",
+        "name": "红利股",
+        "pctChange": 0.19,
+        "mainNetBillion": 7.91,
+        "mainPct": 1.59,
+        "advanceCount": 53,
+        "declineCount": 45
+      },
+      {
+        "code": "BK1024",
+        "name": "绿色电力",
+        "pctChange": 0.09,
+        "mainNetBillion": 6.91,
+        "mainPct": 1.34,
+        "advanceCount": 75,
+        "declineCount": 93
+      },
+      {
+        "code": "BK1685",
+        "name": "保险重仓",
+        "pctChange": -0.24,
+        "mainNetBillion": 6.88,
+        "mainPct": 1.81,
+        "advanceCount": 30,
+        "declineCount": 38
+      },
+      {
+        "code": "BK1112",
+        "name": "破净股",
+        "pctChange": -0.57,
+        "mainNetBillion": 5.28,
+        "mainPct": 0.55,
+        "advanceCount": 125,
+        "declineCount": 346
+      },
+      {
+        "code": "BK0958",
+        "name": "虚拟电厂",
+        "pctChange": -0.62,
+        "mainNetBillion": 4.57,
+        "mainPct": 2.09,
+        "advanceCount": 21,
+        "declineCount": 57
+      },
+      {
+        "code": "BK1723",
+        "name": "低市净率",
+        "pctChange": -0.66,
+        "mainNetBillion": 3.69,
+        "mainPct": 0.93,
+        "advanceCount": 44,
+        "declineCount": 147
+      },
+      {
+        "code": "BK1640",
+        "name": "价值股",
+        "pctChange": 0.1,
+        "mainNetBillion": 3.35,
+        "mainPct": 1.01,
+        "advanceCount": 55,
+        "declineCount": 42
+      },
+      {
+        "code": "BK1086",
+        "name": "粮食概念",
+        "pctChange": 1.32,
+        "mainNetBillion": 3.17,
+        "mainPct": 2.7,
+        "advanceCount": 19,
+        "declineCount": 17
+      }
+    ],
+    "source": "东方财富公开板块资金"
   },
   "note": "GitHub 公开 Feed 保存公开市场快照；公司查询会在应用运行时按代码在线补抓更新。"
 }
