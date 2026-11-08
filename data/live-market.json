@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-11-08T20:22:21.824Z",
+  "fetchedAt": "2026-11-08T23:49:20.352Z",
   "asOfDate": "2026-11-06",
   "sourceStatus": {
     "399001": {
@@ -29,88 +29,21 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4941,
-        "rawRows": 1200,
-        "uniqueRows": 1200,
-        "usableRows": 1100,
-        "missingRows": 3841,
-        "missingFieldRows": 100,
-        "coverageRatio": 0.2226,
+        "rawRows": 2500,
+        "uniqueRows": 2500,
+        "usableRows": 2161,
+        "missingRows": 2780,
+        "missingFieldRows": 339,
+        "coverageRatio": 0.4374,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 12,
-          "pagesWithErrors": [
-            4,
-            10,
-            12,
-            13,
-            14,
-            16,
-            17,
-            18,
-            19,
-            20,
-            22,
-            23,
-            25
-          ],
+          "fetchedPages": 25,
+          "pagesWithErrors": [],
           "capped": false
         },
-        "pageErrors": [
-          {
-            "page": 4,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 10,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 12,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 13,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 14,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 16,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 17,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 18,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 19,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 20,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 22,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 23,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 25,
-            "error": "Error: eastmoney HTTP 502"
-          }
-        ]
+        "pageErrors": []
       }
     },
     "industry": {
@@ -180,99 +113,32 @@
     }
   ],
   "market": {
-    "turnoverBillion": 3079.84,
-    "mainFundBillion": 167,
-    "risingCount": 366,
-    "fallingCount": 706,
-    "limitUpCount": 31,
+    "turnoverBillion": 3968.74,
+    "mainFundBillion": 172.89,
+    "risingCount": 496,
+    "fallingCount": 1620,
+    "limitUpCount": 33,
     "limitDownCount": 0,
-    "rows": 1100,
+    "rows": 2161,
     "total": 4941,
     "complete": false,
     "coverage": {
       "total": 4941,
-      "rawRows": 1200,
-      "uniqueRows": 1200,
-      "usableRows": 1100,
-      "missingRows": 3841,
-      "missingFieldRows": 100,
-      "coverageRatio": 0.2226,
+      "rawRows": 2500,
+      "uniqueRows": 2500,
+      "usableRows": 2161,
+      "missingRows": 2780,
+      "missingFieldRows": 339,
+      "coverageRatio": 0.4374,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 12,
-        "pagesWithErrors": [
-          4,
-          10,
-          12,
-          13,
-          14,
-          16,
-          17,
-          18,
-          19,
-          20,
-          22,
-          23,
-          25
-        ],
+        "fetchedPages": 25,
+        "pagesWithErrors": [],
         "capped": false
       },
-      "pageErrors": [
-        {
-          "page": 4,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 10,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 12,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 13,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 14,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 16,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 17,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 18,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 19,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 20,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 22,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 23,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 25,
-          "error": "Error: eastmoney HTTP 502"
-        }
-      ]
+      "pageErrors": []
     },
     "source": "东方财富 push2 clist 全市场公开行情"
   },
