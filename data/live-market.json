@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-11-15T09:31:55.902Z",
+  "fetchedAt": "2026-11-15T16:31:09.882Z",
   "asOfDate": "2026-11-13",
   "sourceStatus": {
     "399001": {
@@ -25,58 +25,8 @@
       "source": "腾讯 qt.gtimg.cn"
     },
     "market": {
-      "status": "partial",
-      "source": "东方财富 push2 clist 全市场公开行情",
-      "coverage": {
-        "total": 4941,
-        "rawRows": 1900,
-        "uniqueRows": 1900,
-        "usableRows": 1759,
-        "missingRows": 3182,
-        "missingFieldRows": 141,
-        "coverageRatio": 0.356,
-        "pagination": {
-          "pageSize": 200,
-          "expectedPages": 25,
-          "maxPages": 30,
-          "fetchedPages": 19,
-          "pagesWithErrors": [
-            9,
-            12,
-            18,
-            20,
-            22,
-            25
-          ],
-          "capped": false
-        },
-        "pageErrors": [
-          {
-            "page": 9,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 12,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 18,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 20,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 22,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 25,
-            "error": "Error: eastmoney HTTP 502"
-          }
-        ]
-      }
+      "status": "failed",
+      "error": "TypeError: fetch failed"
     },
     "industry": {
       "status": "ok",
@@ -144,68 +94,7 @@
       "source": "腾讯 qt.gtimg.cn"
     }
   ],
-  "market": {
-    "turnoverBillion": 4148.93,
-    "mainFundBillion": 283.05,
-    "risingCount": 499,
-    "fallingCount": 1224,
-    "limitUpCount": 41,
-    "limitDownCount": 1,
-    "rows": 1759,
-    "total": 4941,
-    "complete": false,
-    "coverage": {
-      "total": 4941,
-      "rawRows": 1900,
-      "uniqueRows": 1900,
-      "usableRows": 1759,
-      "missingRows": 3182,
-      "missingFieldRows": 141,
-      "coverageRatio": 0.356,
-      "pagination": {
-        "pageSize": 200,
-        "expectedPages": 25,
-        "maxPages": 30,
-        "fetchedPages": 19,
-        "pagesWithErrors": [
-          9,
-          12,
-          18,
-          20,
-          22,
-          25
-        ],
-        "capped": false
-      },
-      "pageErrors": [
-        {
-          "page": 9,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 12,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 18,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 20,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 22,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 25,
-          "error": "Error: eastmoney HTTP 502"
-        }
-      ]
-    },
-    "source": "东方财富 push2 clist 全市场公开行情"
-  },
+  "market": null,
   "sectorFlows": {
     "date": "2026-11-13",
     "industry": [
