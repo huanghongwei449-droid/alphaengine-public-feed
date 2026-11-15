@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-11-14T22:46:10.738Z",
+  "fetchedAt": "2026-11-15T02:10:21.115Z",
   "asOfDate": "2026-11-13",
   "sourceStatus": {
     "399001": {
@@ -29,23 +29,19 @@
       "source": "东方财富 push2 clist 全市场公开行情",
       "coverage": {
         "total": 4941,
-        "rawRows": 1600,
-        "uniqueRows": 1600,
-        "usableRows": 1559,
-        "missingRows": 3382,
-        "missingFieldRows": 41,
-        "coverageRatio": 0.3155,
+        "rawRows": 2000,
+        "uniqueRows": 2000,
+        "usableRows": 1659,
+        "missingRows": 3282,
+        "missingFieldRows": 341,
+        "coverageRatio": 0.3358,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
-          "fetchedPages": 16,
+          "fetchedPages": 20,
           "pagesWithErrors": [
             12,
-            14,
-            18,
-            19,
-            20,
             22,
             23,
             24,
@@ -56,22 +52,6 @@
         "pageErrors": [
           {
             "page": 12,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 14,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 18,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 19,
-            "error": "Error: eastmoney HTTP 502"
-          },
-          {
-            "page": 20,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -160,34 +140,30 @@
     }
   ],
   "market": {
-    "turnoverBillion": 4094.77,
-    "mainFundBillion": 286.62,
-    "risingCount": 507,
-    "fallingCount": 1020,
+    "turnoverBillion": 4155.22,
+    "mainFundBillion": 287.34,
+    "risingCount": 518,
+    "fallingCount": 1106,
     "limitUpCount": 42,
     "limitDownCount": 1,
-    "rows": 1559,
+    "rows": 1659,
     "total": 4941,
     "complete": false,
     "coverage": {
       "total": 4941,
-      "rawRows": 1600,
-      "uniqueRows": 1600,
-      "usableRows": 1559,
-      "missingRows": 3382,
-      "missingFieldRows": 41,
-      "coverageRatio": 0.3155,
+      "rawRows": 2000,
+      "uniqueRows": 2000,
+      "usableRows": 1659,
+      "missingRows": 3282,
+      "missingFieldRows": 341,
+      "coverageRatio": 0.3358,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
-        "fetchedPages": 16,
+        "fetchedPages": 20,
         "pagesWithErrors": [
           12,
-          14,
-          18,
-          19,
-          20,
           22,
           23,
           24,
@@ -198,22 +174,6 @@
       "pageErrors": [
         {
           "page": 12,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 14,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 18,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 19,
-          "error": "Error: eastmoney HTTP 502"
-        },
-        {
-          "page": 20,
           "error": "Error: eastmoney HTTP 502"
         },
         {
