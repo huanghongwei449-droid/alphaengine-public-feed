@@ -1,7 +1,7 @@
 {
   "schemaVersion": "alphaengine-public-market-live-v2",
   "publicSafe": true,
-  "fetchedAt": "2026-11-22T17:02:40.684Z",
+  "fetchedAt": "2026-11-22T22:23:32.350Z",
   "asOfDate": "2026-11-20",
   "sourceStatus": {
     "399001": {
@@ -31,19 +31,19 @@
         "total": 4942,
         "rawRows": 1700,
         "uniqueRows": 1700,
-        "usableRows": 1371,
-        "missingRows": 3571,
-        "missingFieldRows": 329,
-        "coverageRatio": 0.2774,
+        "usableRows": 1358,
+        "missingRows": 3584,
+        "missingFieldRows": 342,
+        "coverageRatio": 0.2748,
         "pagination": {
           "pageSize": 200,
           "expectedPages": 25,
           "maxPages": 30,
           "fetchedPages": 17,
           "pagesWithErrors": [
-            9,
-            16,
-            20,
+            7,
+            8,
+            11,
             21,
             22,
             23,
@@ -54,15 +54,15 @@
         },
         "pageErrors": [
           {
-            "page": 9,
+            "page": 7,
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 16,
+            "page": 8,
             "error": "Error: eastmoney HTTP 502"
           },
           {
-            "page": 20,
+            "page": 11,
             "error": "Error: eastmoney HTTP 502"
           },
           {
@@ -155,32 +155,32 @@
     }
   ],
   "market": {
-    "turnoverBillion": 3554.45,
-    "mainFundBillion": 197.5,
-    "risingCount": 169,
-    "fallingCount": 1188,
-    "limitUpCount": 31,
+    "turnoverBillion": 3537.67,
+    "mainFundBillion": 193.83,
+    "risingCount": 173,
+    "fallingCount": 1173,
+    "limitUpCount": 32,
     "limitDownCount": 11,
-    "rows": 1371,
+    "rows": 1358,
     "total": 4942,
     "complete": false,
     "coverage": {
       "total": 4942,
       "rawRows": 1700,
       "uniqueRows": 1700,
-      "usableRows": 1371,
-      "missingRows": 3571,
-      "missingFieldRows": 329,
-      "coverageRatio": 0.2774,
+      "usableRows": 1358,
+      "missingRows": 3584,
+      "missingFieldRows": 342,
+      "coverageRatio": 0.2748,
       "pagination": {
         "pageSize": 200,
         "expectedPages": 25,
         "maxPages": 30,
         "fetchedPages": 17,
         "pagesWithErrors": [
-          9,
-          16,
-          20,
+          7,
+          8,
+          11,
           21,
           22,
           23,
@@ -191,15 +191,15 @@
       },
       "pageErrors": [
         {
-          "page": 9,
+          "page": 7,
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 16,
+          "page": 8,
           "error": "Error: eastmoney HTTP 502"
         },
         {
-          "page": 20,
+          "page": 11,
           "error": "Error: eastmoney HTTP 502"
         },
         {
